@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args" kind="class" prot="public">
+    <compoundname>Ra::Extensions::Widgets::Calendar::RenderDayEventArgs</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args_1b35bb93cdac327fb1bb5c9ae9027fd43" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime Ra.Extensions.Widgets.Calendar.RenderDayEventArgs._date</definition>
+        <argsstring></argsstring>
+        <name>_date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="66" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args_1e45641aa53d606322820cf081a057015" prot="private" static="no" mutable="no">
+        <type>HTML.HtmlTableCell</type>
+        <definition>HTML.HtmlTableCell Ra.Extensions.Widgets.Calendar.RenderDayEventArgs._cell</definition>
+        <argsstring></argsstring>
+        <name>_cell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="67" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args_1e3097f12e89df0e3fab3714f3b6c4ef9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>HTML.HtmlTableCell</type>
+        <definition>HTML.HtmlTableCell Ra.Extensions.Widgets.Calendar.RenderDayEventArgs.Cell</definition>
+        <argsstring></argsstring>
+        <name>Cell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cell which renders the given Date. This is an HTML table td element which you can inject your own controls within. You can also modify the style or CssClass properties of this control to reflect different visual appearance for different dates. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="77" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args_1d15f8f454b83c30bdd889f915da41792" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>DateTime</type>
+        <definition>DateTime Ra.Extensions.Widgets.Calendar.RenderDayEventArgs.Date</definition>
+        <argsstring></argsstring>
+        <name>Date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Date which are currently rendered. This is the DateTime object for the cell currently being rendered. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="86" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args_14678c4cea519cf8b74c9a3480103df7e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal</type>
+        <definition>internal Ra.Extensions.Widgets.Calendar.RenderDayEventArgs.RenderDayEventArgs</definition>
+        <argsstring>(DateTime date, HTML.HtmlTableCell cell)</argsstring>
+        <name>RenderDayEventArgs</name>
+        <param>
+          <type>DateTime</type>
+          <declname>date</declname>
+        </param>
+        <param>
+          <type>HTML.HtmlTableCell</type>
+          <declname>cell</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="89" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="88" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>EventArgs class for the RenderDay Event. Modify the Cell property to e.g. add up child controls or special styles and CSS classes and such. Useful for creating e.g. &quot;activities&quot; or something similar on specific dates according to your own entity DateTime objects. </para>    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="65" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="64" bodyend="93"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args_1e45641aa53d606322820cf081a057015" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar::RenderDayEventArgs</scope><name>_cell</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args_1b35bb93cdac327fb1bb5c9ae9027fd43" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar::RenderDayEventArgs</scope><name>_date</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args_1e3097f12e89df0e3fab3714f3b6c4ef9" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar::RenderDayEventArgs</scope><name>Cell</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args_1d15f8f454b83c30bdd889f915da41792" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar::RenderDayEventArgs</scope><name>Date</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args_14678c4cea519cf8b74c9a3480103df7e" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar::RenderDayEventArgs</scope><name>RenderDayEventArgs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

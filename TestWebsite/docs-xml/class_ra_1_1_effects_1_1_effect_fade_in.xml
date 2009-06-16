@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_effects_1_1_effect_fade_in" kind="class" prot="public">
+    <compoundname>Ra::Effects::EffectFadeIn</compoundname>
+    <basecompoundref refid="class_ra_1_1_effects_1_1_effect" prot="public" virt="non-virtual">Ra.Effects.Effect</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_fade_in_156c0db3b774f5be93f5da4c6c969e9c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.EffectFadeIn.EffectFadeIn</definition>
+        <argsstring>(Control control, int milliseconds)</argsstring>
+        <name>EffectFadeIn</name>
+        <param>
+          <type>Control</type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>milliseconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CTOR - control to animate and milliseconds to spend executing </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectFadeIn.cs" line="25" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectFadeIn.cs" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_fade_in_1d89e6b13ab01e48946cbe4754fb253d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.EffectFadeIn.EffectFadeIn</definition>
+        <argsstring>()</argsstring>
+        <name>EffectFadeIn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use this CTOR only if your effects are being Joined. Expects the main effect to set the Control and Duration properties. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectFadeIn.cs" line="33" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectFadeIn.cs" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_fade_in_10f3f617aeea8d917e82e16e06661b914" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Ra.Effects.EffectFadeIn.Render</definition>
+        <argsstring>()</argsstring>
+        <name>Render</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_10631d51b0971a52ff4583dc4a4ba3c2a">Render</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectFadeIn.cs" line="36" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectFadeIn.cs" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_fade_in_1b67df9af937b8dff9280b4332a9d99c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectFadeIn.RenderParalledOnStart</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnStart</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1939df83b762b921a2ad749b7e2d0c903">RenderParalledOnStart</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectFadeIn.cs" line="53" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectFadeIn.cs" bodystart="52" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_fade_in_1d991e65c47ba995a33dc2558fa2d3c9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectFadeIn.RenderParalledOnFinished</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnFinished</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1a7b831319350a52da5eab083ddb5e962">RenderParalledOnFinished</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectFadeIn.cs" line="62" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectFadeIn.cs" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_fade_in_123dfaa91f88bab551d213983c0f9838b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectFadeIn.RenderParalledOnRender</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnRender</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1d0c062260770689c6d38605bf7fe51a4">RenderParalledOnRender</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectFadeIn.cs" line="69" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectFadeIn.cs" bodystart="68" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_fade_in_16b2027bb733c5aadf7cefa507075f7d6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Effects.EffectFadeIn.UpdateStyleCollection</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateStyleCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectFadeIn.cs" line="43" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectFadeIn.cs" bodystart="42" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Will fade control&apos;s root DOM element in to visibility </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="201">
+        <label>Ra.Effects.Effect</label>
+        <link refid="class_ra_1_1_effects_1_1_effect"/>
+      </node>
+      <node id="200">
+        <label>Ra.Effects.EffectFadeIn</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_fade_in"/>
+        <childnode refid="201" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="203">
+        <label>Ra.Effects.Effect</label>
+        <link refid="class_ra_1_1_effects_1_1_effect"/>
+      </node>
+      <node id="202">
+        <label>Ra.Effects.EffectFadeIn</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_fade_in"/>
+        <childnode refid="203" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectFadeIn.cs" line="19" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectFadeIn.cs" bodystart="18" bodyend="74"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_effects_1_1_effect_13115c920fdc000e6a1f44f6cd63244bd" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectFadeIn</scope><name>Chained</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1e4df02803f0639f910c73414a58c7adf" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectFadeIn</scope><name>ChainThese</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_10e48bc7f42299256795b06866ea32f4a" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectFadeIn</scope><name>Control</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1c86d32632b11c5452d3453e64e1e50dd" prot="protected" virt="non-virtual"><scope>Ra::Effects::EffectFadeIn</scope><name>Effect</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_fade_in_156c0db3b774f5be93f5da4c6c969e9c5" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectFadeIn</scope><name>EffectFadeIn</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_fade_in_1d89e6b13ab01e48946cbe4754fb253d9" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectFadeIn</scope><name>EffectFadeIn</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_12defc4249bcf05bede3832099b4039c0" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectFadeIn</scope><name>Joined</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_12e6be44aa1a8920c51e4400906839a4e" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectFadeIn</scope><name>JoinThese</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1b413970d24db1a18369915962933e223" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectFadeIn</scope><name>Milliseconds</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_fade_in_10f3f617aeea8d917e82e16e06661b914" prot="public" virt="virtual"><scope>Ra::Effects::EffectFadeIn</scope><name>Render</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_fade_in_1d991e65c47ba995a33dc2558fa2d3c9b" prot="public" virt="virtual"><scope>Ra::Effects::EffectFadeIn</scope><name>RenderParalledOnFinished</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_fade_in_123dfaa91f88bab551d213983c0f9838b" prot="public" virt="virtual"><scope>Ra::Effects::EffectFadeIn</scope><name>RenderParalledOnRender</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_fade_in_1b67df9af937b8dff9280b4332a9d99c8" prot="public" virt="virtual"><scope>Ra::Effects::EffectFadeIn</scope><name>RenderParalledOnStart</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_18672655e14a3ebb99666c9f8f7fa4923" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectFadeIn</scope><name>Transition</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_169619c9eab1b999e313a2559e786c75d" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectFadeIn</scope><name>TransitionType</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_fade_in_16b2027bb733c5aadf7cefa507075f7d6" prot="private" virt="non-virtual"><scope>Ra::Effects::EffectFadeIn</scope><name>UpdateStyleCollection</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1041eba6f6e4a57073b2afb7cbbc65fb4" prot="protected" virt="virtual"><scope>Ra::Effects::EffectFadeIn</scope><name>ValidateEffect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

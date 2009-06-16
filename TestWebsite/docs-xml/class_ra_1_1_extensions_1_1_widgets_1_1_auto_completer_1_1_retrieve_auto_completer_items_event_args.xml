@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args" kind="class" prot="public">
+    <compoundname>Ra::Extensions::Widgets::AutoCompleter::RetrieveAutoCompleterItemsEventArgs</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args_1830e6b787806746af1ceffa8676083b6" prot="private" static="no" mutable="no">
+        <type>ASP.ControlCollection</type>
+        <definition>ASP.ControlCollection Ra.Extensions.Widgets.AutoCompleter.RetrieveAutoCompleterItemsEventArgs._coll</definition>
+        <argsstring></argsstring>
+        <name>_coll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="34" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args_1fbcaddd7a6a8850e5ab61ee00d591a39" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Ra.Extensions.Widgets.AutoCompleter.RetrieveAutoCompleterItemsEventArgs._query</definition>
+        <argsstring></argsstring>
+        <name>_query</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="35" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args_1883d1206db09906f50725cf9e313c220" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ASP.ControlCollection</type>
+        <definition>ASP.ControlCollection Ra.Extensions.Widgets.AutoCompleter.RetrieveAutoCompleterItemsEventArgs.Controls</definition>
+        <argsstring></argsstring>
+        <name>Controls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Control collection which your controls should be added to </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="49" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args_190e5a0ef4a57afafa6eb20df64f63d43" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Ra.Extensions.Widgets.AutoCompleter.RetrieveAutoCompleterItemsEventArgs.Query</definition>
+        <argsstring></argsstring>
+        <name>Query</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Search query the user is searching for </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="57" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args_15f97715b7491414253cba5531e165df1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal</type>
+        <definition>internal Ra.Extensions.Widgets.AutoCompleter.RetrieveAutoCompleterItemsEventArgs.RetrieveAutoCompleterItemsEventArgs</definition>
+        <argsstring>(ASP.ControlCollection coll, string query)</argsstring>
+        <name>RetrieveAutoCompleterItemsEventArgs</name>
+        <param>
+          <type>ASP.ControlCollection</type>
+          <declname>coll</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="38" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="37" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer" kindref="compound">AutoCompleter</ref> retrieve items EventArgs </para>    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="33" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="32" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args_1830e6b787806746af1ceffa8676083b6" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter::RetrieveAutoCompleterItemsEventArgs</scope><name>_coll</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args_1fbcaddd7a6a8850e5ab61ee00d591a39" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter::RetrieveAutoCompleterItemsEventArgs</scope><name>_query</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args_1883d1206db09906f50725cf9e313c220" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter::RetrieveAutoCompleterItemsEventArgs</scope><name>Controls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args_190e5a0ef4a57afafa6eb20df64f63d43" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter::RetrieveAutoCompleterItemsEventArgs</scope><name>Query</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args_15f97715b7491414253cba5531e165df1" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter::RetrieveAutoCompleterItemsEventArgs</scope><name>RetrieveAutoCompleterItemsEventArgs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

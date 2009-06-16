@@ -1,0 +1,468 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_widgets_1_1_list_item_collection" kind="class" prot="public">
+    <compoundname>Ra::Widgets::ListItemCollection</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_list_item_collection_11989a8c629b3d4748c08564f54491083" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_ra_1_1_widgets_1_1_list_item" kindref="compound">ListItem</ref> &gt;</type>
+        <definition>List&lt;ListItem&gt; Ra.Widgets.ListItemCollection._list</definition>
+        <argsstring></argsstring>
+        <name>_list</name>
+        <initializer> new List&lt;<ref refid="class_ra_1_1_widgets_1_1_list_item" kindref="compound">ListItem</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="18" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_list_item_collection_16cc71845140507287ff48b720dbdfb49" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_select_list" kindref="compound">SelectList</ref></type>
+        <definition>SelectList Ra.Widgets.ListItemCollection._control</definition>
+        <argsstring></argsstring>
+        <name>_control</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="19" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_list_item_collection_19ee5af52763900e8aa199e83109db759" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.ListItemCollection._trackingViewState</definition>
+        <argsstring></argsstring>
+        <name>_trackingViewState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="154" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_list_item_collection_1786eac8a32719d54b042d2433d3e4cf4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Ra.Widgets.ListItemCollection.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="46" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_list_item_collection_155df5c13ebacdeee56e1ff73f4e6213c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.ListItemCollection.IsSynchronized</definition>
+        <argsstring></argsstring>
+        <name>IsSynchronized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="51" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_list_item_collection_1314664db142752caabf24b67139d880f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>object</type>
+        <definition>object Ra.Widgets.ListItemCollection.SyncRoot</definition>
+        <argsstring></argsstring>
+        <name>SyncRoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="56" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_list_item_collection_1d4bb878ab24a7ced46156340299567c4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_ra_1_1_widgets_1_1_list_item" kindref="compound">ListItem</ref></type>
+        <definition>ListItem Ra.Widgets.ListItemCollection.this[int index]</definition>
+        <argsstring>[int index]</argsstring>
+        <name>this</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="101" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_list_item_collection_1ed4ff5f7bf3fb72ada03f897b6b9db03" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.ListItemCollection.IsReadOnly</definition>
+        <argsstring></argsstring>
+        <name>IsReadOnly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="133" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_list_item_collection_172cef4024b4ebed15fc1f2ab5a686f09" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.ListItemCollection.IsTrackingViewState</definition>
+        <argsstring></argsstring>
+        <name>IsTrackingViewState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="158" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_collection_14809bc691c70c2a7dba1d1d0a6ee200b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Widgets.ListItemCollection.ListItemCollection</definition>
+        <argsstring>(SelectList control)</argsstring>
+        <name>ListItemCollection</name>
+        <param>
+          <type><ref refid="class_ra_1_1_widgets_1_1_select_list" kindref="compound">SelectList</ref></type>
+          <declname>control</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="22" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_collection_1c1c6b001d6df8ea9be97ac08c5c30941" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ra_1_1_widgets_1_1_list_item" kindref="compound">ListItem</ref></type>
+        <definition>ListItem Ra.Widgets.ListItemCollection.Find</definition>
+        <argsstring>(Predicate&lt; ListItem &gt; functor)</argsstring>
+        <name>Find</name>
+        <param>
+          <type>Predicate&lt; <ref refid="class_ra_1_1_widgets_1_1_list_item" kindref="compound">ListItem</ref> &gt;</type>
+          <declname>functor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="27" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="26" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_collection_1d19a761308a018b43fd63fe85f383cda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.ListItemCollection.CopyTo</definition>
+        <argsstring>(Array array, int index)</argsstring>
+        <name>CopyTo</name>
+        <param>
+          <type>Array</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="39" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_collection_16cec0eda99176282d5724b90813416c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator Ra.Widgets.ListItemCollection.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="63" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_collection_1dcc225898e6aa3021adecba8bba43945" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ra.Widgets.ListItemCollection.IndexOf</definition>
+        <argsstring>(ListItem item)</argsstring>
+        <name>IndexOf</name>
+        <param>
+          <type><ref refid="class_ra_1_1_widgets_1_1_list_item" kindref="compound">ListItem</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="72" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_collection_1710eb4e34ca853008c0bfe19e61ac5e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.ListItemCollection.Insert</definition>
+        <argsstring>(int index, ListItem item)</argsstring>
+        <name>Insert</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ra_1_1_widgets_1_1_list_item" kindref="compound">ListItem</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="77" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="76" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_collection_110ccbca2654f6425458d937090b3c592" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.ListItemCollection.RemoveAt</definition>
+        <argsstring>(int index)</argsstring>
+        <name>RemoveAt</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="84" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="83" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_collection_1fdcdc4e49aaf2c5f413f385696da4f3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.ListItemCollection.Add</definition>
+        <argsstring>(ListItem item)</argsstring>
+        <name>Add</name>
+        <param>
+          <type><ref refid="class_ra_1_1_widgets_1_1_list_item" kindref="compound">ListItem</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="108" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="107" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_collection_1d8f354bc57cda65342f42109011a1b02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.ListItemCollection.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="115" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="114" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_collection_1931a80371e50f4f6d057b446fc7b9b46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.ListItemCollection.Contains</definition>
+        <argsstring>(ListItem item)</argsstring>
+        <name>Contains</name>
+        <param>
+          <type><ref refid="class_ra_1_1_widgets_1_1_list_item" kindref="compound">ListItem</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="121" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="120" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_collection_174bcc2ad973d9fb43a95e94bb5ebbea9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.ListItemCollection.CopyTo</definition>
+        <argsstring>(ListItem[] array, int arrayIndex)</argsstring>
+        <name>CopyTo</name>
+        <param>
+          <type><ref refid="class_ra_1_1_widgets_1_1_list_item" kindref="compound">ListItem</ref>[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arrayIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="126" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_collection_177937d2975aa07409f439befba6f2776" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.ListItemCollection.Remove</definition>
+        <argsstring>(ListItem item)</argsstring>
+        <name>Remove</name>
+        <param>
+          <type><ref refid="class_ra_1_1_widgets_1_1_list_item" kindref="compound">ListItem</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="136" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="135" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_collection_1296b2ede01f3f1f284e9b34bbfe8e786" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.ListItemCollection.LoadViewState</definition>
+        <argsstring>(object state)</argsstring>
+        <name>LoadViewState</name>
+        <param>
+          <type>object</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="161" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="160" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_collection_15f09146ee65050f6602ff44fe54d0580" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object Ra.Widgets.ListItemCollection.SaveViewState</definition>
+        <argsstring>()</argsstring>
+        <name>SaveViewState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="178" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="177" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_collection_15de820c35d727de572ed86c087e999fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.ListItemCollection.TrackViewState</definition>
+        <argsstring>()</argsstring>
+        <name>TrackViewState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="194" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="193" bodyend="196"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_collection_1cd765a403038229a18b20843986b1338" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; <ref refid="class_ra_1_1_widgets_1_1_list_item" kindref="compound">ListItem</ref> &gt; IEnumerable&lt; <ref refid="class_ra_1_1_widgets_1_1_list_item" kindref="compound">ListItem</ref> &gt;.</type>
+        <definition>IEnumerator&lt;ListItem&gt; IEnumerable&lt;ListItem&gt;. Ra.Widgets.ListItemCollection.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="146" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="145" bodyend="148"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="379">
+        <label>Ra.Widgets.StyleCollection</label>
+        <link refid="class_ra_1_1_widgets_1_1_style_collection"/>
+        <childnode refid="376" relation="usage">
+          <edgelabel>_control</edgelabel>
+        </childnode>
+      </node>
+      <node id="375">
+        <label>Ra.Widgets.SelectList</label>
+        <link refid="class_ra_1_1_widgets_1_1_select_list"/>
+        <childnode refid="376" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="377">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="376">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="377" relation="public-inheritance">
+        </childnode>
+        <childnode refid="378" relation="public-inheritance">
+        </childnode>
+        <childnode refid="379" relation="usage">
+          <edgelabel>_styles</edgelabel>
+        </childnode>
+      </node>
+      <node id="378">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+      <node id="374">
+        <label>Ra.Widgets.ListItemCollection</label>
+        <childnode refid="375" relation="usage">
+          <edgelabel>_control</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" line="17" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs" bodystart="16" bodyend="199"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_16cc71845140507287ff48b720dbdfb49" prot="private" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>_control</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_11989a8c629b3d4748c08564f54491083" prot="private" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>_list</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_19ee5af52763900e8aa199e83109db759" prot="private" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>_trackingViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1fdcdc4e49aaf2c5f413f385696da4f3a" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>Add</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1d8f354bc57cda65342f42109011a1b02" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>Clear</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1931a80371e50f4f6d057b446fc7b9b46" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>Contains</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1d19a761308a018b43fd63fe85f383cda" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>CopyTo</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_174bcc2ad973d9fb43a95e94bb5ebbea9" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>CopyTo</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1786eac8a32719d54b042d2433d3e4cf4" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>Count</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1c1c6b001d6df8ea9be97ac08c5c30941" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>Find</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_16cec0eda99176282d5724b90813416c5" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>GetEnumerator</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1cd765a403038229a18b20843986b1338" prot="private" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>GetEnumerator</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1dcc225898e6aa3021adecba8bba43945" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>IndexOf</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1710eb4e34ca853008c0bfe19e61ac5e7" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>Insert</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1ed4ff5f7bf3fb72ada03f897b6b9db03" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>IsReadOnly</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_155df5c13ebacdeee56e1ff73f4e6213c" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>IsSynchronized</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_172cef4024b4ebed15fc1f2ab5a686f09" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>IsTrackingViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_14809bc691c70c2a7dba1d1d0a6ee200b" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>ListItemCollection</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1296b2ede01f3f1f284e9b34bbfe8e786" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>LoadViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_177937d2975aa07409f439befba6f2776" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>Remove</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_110ccbca2654f6425458d937090b3c592" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>RemoveAt</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_15f09146ee65050f6602ff44fe54d0580" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>SaveViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1314664db142752caabf24b67139d880f" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>SyncRoot</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1d4bb878ab24a7ced46156340299567c4" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>this</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_collection_15de820c35d727de572ed86c087e999fe" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItemCollection</scope><name>TrackViewState</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

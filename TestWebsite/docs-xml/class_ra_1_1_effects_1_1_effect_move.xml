@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_effects_1_1_effect_move" kind="class" prot="public">
+    <compoundname>Ra::Effects::EffectMove</compoundname>
+    <basecompoundref refid="class_ra_1_1_effects_1_1_effect" prot="public" virt="non-virtual">Ra.Effects.Effect</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_effects_1_1_effect_move_1db46dc10651725d7d437bb2660ef4c5f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ra.Effects.EffectMove._left</definition>
+        <argsstring></argsstring>
+        <name>_left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" line="20" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_effects_1_1_effect_move_19e95abf54005515ecd6d0cb126c0dadc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ra.Effects.EffectMove._top</definition>
+        <argsstring></argsstring>
+        <name>_top</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" line="21" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_effects_1_1_effect_move_1cf4ecaa75cf1441c11b8b0bdf23c2435" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Ra.Effects.EffectMove.Top</definition>
+        <argsstring></argsstring>
+        <name>Top</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>End top position of Control </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" line="66" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_effects_1_1_effect_move_166d6ed56baa615bac2f25e561326fdd4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Ra.Effects.EffectMove.Left</definition>
+        <argsstring></argsstring>
+        <name>Left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>End left position of Control </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" line="75" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_move_1053baad3f9596134adbc6a33a3878afa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.EffectMove.EffectMove</definition>
+        <argsstring>()</argsstring>
+        <name>EffectMove</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use this CTOR only if your effects are being Joined. Expects the main effect to set the Control and Duration properties. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" line="29" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_move_17f9d5352b46c2127a0ccdfd4e6e50b70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.EffectMove.EffectMove</definition>
+        <argsstring>(Control control, int milliseconds)</argsstring>
+        <name>EffectMove</name>
+        <param>
+          <type>Control</type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>milliseconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CTOR - control to animate and milliseconds to spend executing </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" line="36" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_move_187d1e06da7e009613964fdcca5d586ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.EffectMove.EffectMove</definition>
+        <argsstring>(Control control, int milliseconds, int left, int top)</argsstring>
+        <name>EffectMove</name>
+        <param>
+          <type>Control</type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>milliseconds</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CTOR - control to animate and milliseconds to spend executing in addition to the end top and left properties. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" line="44" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" bodystart="42" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_move_1b90cccb82cdc4a48c742f6310df07535" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.EffectMove.EffectMove</definition>
+        <argsstring>(int left, int top)</argsstring>
+        <name>EffectMove</name>
+        <param>
+          <type>int</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CTOR - the end top and left properties. Use only on Joined effects. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" line="54" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" bodystart="52" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_move_18ccc1fd0025a46fea2e4368eb1bd5a38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectMove.RenderParalledOnStart</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnStart</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1939df83b762b921a2ad749b7e2d0c903">RenderParalledOnStart</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" line="88" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" bodystart="87" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_move_1887a1ce68d504c88176ddf6e0a1e21d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectMove.RenderParalledOnFinished</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnFinished</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1a7b831319350a52da5eab083ddb5e962">RenderParalledOnFinished</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" line="97" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" bodystart="96" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_move_116f1bbaac594d0beb37a2abbbea4243f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectMove.RenderParalledOnRender</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnRender</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1d0c062260770689c6d38605bf7fe51a4">RenderParalledOnRender</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" line="106" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" bodystart="105" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_move_14dc3e4384d85b7a7eb43ab049f1c4329" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Effects.EffectMove.UpdateStyleCollection</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateStyleCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" line="78" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" bodystart="77" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Will move control to specified location from its current position in absolute pixels. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="221">
+        <label>Ra.Effects.Effect</label>
+        <link refid="class_ra_1_1_effects_1_1_effect"/>
+      </node>
+      <node id="220">
+        <label>Ra.Effects.EffectMove</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_move"/>
+        <childnode refid="221" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="223">
+        <label>Ra.Effects.Effect</label>
+        <link refid="class_ra_1_1_effects_1_1_effect"/>
+      </node>
+      <node id="222">
+        <label>Ra.Effects.EffectMove</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_move"/>
+        <childnode refid="223" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" line="19" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectMove.cs" bodystart="18" bodyend="118"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_effects_1_1_effect_move_1db46dc10651725d7d437bb2660ef4c5f" prot="private" virt="non-virtual"><scope>Ra::Effects::EffectMove</scope><name>_left</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_move_19e95abf54005515ecd6d0cb126c0dadc" prot="private" virt="non-virtual"><scope>Ra::Effects::EffectMove</scope><name>_top</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_13115c920fdc000e6a1f44f6cd63244bd" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectMove</scope><name>Chained</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1e4df02803f0639f910c73414a58c7adf" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectMove</scope><name>ChainThese</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_10e48bc7f42299256795b06866ea32f4a" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectMove</scope><name>Control</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1c86d32632b11c5452d3453e64e1e50dd" prot="protected" virt="non-virtual"><scope>Ra::Effects::EffectMove</scope><name>Effect</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_move_1053baad3f9596134adbc6a33a3878afa" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectMove</scope><name>EffectMove</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_move_17f9d5352b46c2127a0ccdfd4e6e50b70" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectMove</scope><name>EffectMove</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_move_187d1e06da7e009613964fdcca5d586ed" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectMove</scope><name>EffectMove</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_move_1b90cccb82cdc4a48c742f6310df07535" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectMove</scope><name>EffectMove</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_12defc4249bcf05bede3832099b4039c0" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectMove</scope><name>Joined</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_12e6be44aa1a8920c51e4400906839a4e" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectMove</scope><name>JoinThese</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_move_166d6ed56baa615bac2f25e561326fdd4" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectMove</scope><name>Left</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1b413970d24db1a18369915962933e223" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectMove</scope><name>Milliseconds</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_10631d51b0971a52ff4583dc4a4ba3c2a" prot="public" virt="virtual"><scope>Ra::Effects::EffectMove</scope><name>Render</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_move_1887a1ce68d504c88176ddf6e0a1e21d6" prot="public" virt="virtual"><scope>Ra::Effects::EffectMove</scope><name>RenderParalledOnFinished</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_move_116f1bbaac594d0beb37a2abbbea4243f" prot="public" virt="virtual"><scope>Ra::Effects::EffectMove</scope><name>RenderParalledOnRender</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_move_18ccc1fd0025a46fea2e4368eb1bd5a38" prot="public" virt="virtual"><scope>Ra::Effects::EffectMove</scope><name>RenderParalledOnStart</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_move_1cf4ecaa75cf1441c11b8b0bdf23c2435" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectMove</scope><name>Top</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_18672655e14a3ebb99666c9f8f7fa4923" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectMove</scope><name>Transition</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_169619c9eab1b999e313a2559e786c75d" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectMove</scope><name>TransitionType</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_move_14dc3e4384d85b7a7eb43ab049f1c4329" prot="private" virt="non-virtual"><scope>Ra::Effects::EffectMove</scope><name>UpdateStyleCollection</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1041eba6f6e4a57073b2afb7cbbc65fb4" prot="protected" virt="virtual"><scope>Ra::Effects::EffectMove</scope><name>ValidateEffect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

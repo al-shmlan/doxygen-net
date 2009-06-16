@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_behaviors_1_1_behavior_unveiler" kind="class" prot="public">
+    <compoundname>Ra::Behaviors::BehaviorUnveiler</compoundname>
+    <basecompoundref refid="class_ra_1_1_behaviors_1_1_behavior" prot="public" virt="non-virtual">Ra.Behaviors.Behavior</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_behaviors_1_1_behavior_unveiler_14493a75a9509fd6fdfeccfedf1920de0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>decimal</type>
+        <definition>decimal Ra.Behaviors.BehaviorUnveiler.MinOpacity</definition>
+        <argsstring></argsstring>
+        <name>MinOpacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The initial opacity of the Control when it is veiled. The default value is 0.3. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUnveiler.cs" line="48" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUnveiler.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_behaviors_1_1_behavior_unveiler_1ed34b0bf5066679ba7c96f4dfc7ea550" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>decimal</type>
+        <definition>decimal Ra.Behaviors.BehaviorUnveiler.MaxOpacity</definition>
+        <argsstring></argsstring>
+        <name>MaxOpacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The maximum opacity of the Control when the mouse hovers over it. The default value is 1.0 which is the maximum possible value. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUnveiler.cs" line="66" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUnveiler.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_behaviors_1_1_behavior_unveiler_1a0ead74c778dd78d90e8ee1ad0bf5977" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Ra.Behaviors.BehaviorUnveiler.Duration</definition>
+        <argsstring></argsstring>
+        <name>Duration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The duration of time in milliseconds that the unveiling effect will take to execute. The default value is 500 milliseconds. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUnveiler.cs" line="82" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUnveiler.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_behaviors_1_1_behavior_unveiler_10aa24cfb77a17eb79fe164b1a52af263" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Behaviors.BehaviorUnveiler.BehaviorUnveiler</definition>
+        <argsstring>()</argsstring>
+        <name>BehaviorUnveiler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUnveiler.cs" line="25" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUnveiler.cs" bodystart="24" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_behaviors_1_1_behavior_unveiler_13c5bb68d12e804b7313355e4184673bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Behaviors.BehaviorUnveiler.BehaviorUnveiler</definition>
+        <argsstring>(decimal minOpacity, decimal maxOpacity)</argsstring>
+        <name>BehaviorUnveiler</name>
+        <param>
+          <type>decimal</type>
+          <declname>minOpacity</declname>
+        </param>
+        <param>
+          <type>decimal</type>
+          <declname>maxOpacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUnveiler.cs" line="28" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUnveiler.cs" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_behaviors_1_1_behavior_unveiler_19056513a96216dda50fc5216557e370e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Behaviors.BehaviorUnveiler.GetRegistrationScript</definition>
+        <argsstring>()</argsstring>
+        <name>GetRegistrationScript</name>
+        <reimplements refid="class_ra_1_1_behaviors_1_1_behavior_1b77dc2b7238d6b7b6fcc34585d08391e">GetRegistrationScript</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUnveiler.cs" line="85" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUnveiler.cs" bodystart="84" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_behaviors_1_1_behavior_unveiler_1a6173784821a770bb5bbbfcd71f658c2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Behaviors.BehaviorUnveiler.GetClientSideScript</definition>
+        <argsstring>()</argsstring>
+        <name>GetClientSideScript</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952">GetClientSideScript</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUnveiler.cs" line="110" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUnveiler.cs" bodystart="109" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Will make the Control veiled by default and will be unveiled only upon mouse hover. Useful for moving &quot;focus&quot; around on the screen according to where the user have his mouse. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="80">
+        <label>Ra.Behaviors.Behavior</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>Ra.Behaviors.BehaviorUnveiler</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_unveiler"/>
+        <childnode refid="80" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="83">
+        <label>Ra.Behaviors.Behavior</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>Ra.Behaviors.BehaviorUnveiler</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_unveiler"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUnveiler.cs" line="23" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUnveiler.cs" bodystart="22" bodyend="113"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_unveiler_10aa24cfb77a17eb79fe164b1a52af263" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>BehaviorUnveiler</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_unveiler_13c5bb68d12e804b7313355e4184673bf" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>BehaviorUnveiler</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_unveiler_1a0ead74c778dd78d90e8ee1ad0bf5977" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>Duration</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_unveiler_1a6173784821a770bb5bbbfcd71f658c2" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_162388804f6511df3221c6a686f286c7f" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ab51177823d8893c51a42ae50df7f37e" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153c660a7d87a3451d11a8b5ee36f2f3a" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_1ffd5dd9f1607d04c87336df350ed6341" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_unveiler_19056513a96216dda50fc5216557e370e" prot="public" virt="virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>GetRegistrationScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_unveiler_1ed34b0bf5066679ba7c96f4dfc7ea550" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>MaxOpacity</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_unveiler_14493a75a9509fd6fdfeccfedf1920de0" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>MinOpacity</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_1ecc6bad150d79cf31bb1f657e2d51c70" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_1bf8823132f1874b37f32fc9faa1d7199" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual" ambiguityscope="Ra::Widgets::RaControl."><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUnveiler</scope><name>Xtra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

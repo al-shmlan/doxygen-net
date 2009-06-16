@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_behaviors_1_1_behavior_droppable_1_1_dropped_event_args" kind="class" prot="public">
+    <compoundname>Ra::Behaviors::BehaviorDroppable::DroppedEventArgs</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_behaviors_1_1_behavior_droppable_1_1_dropped_event_args_18e46f2d9dec9a9cc8a1de86ad59c4c55" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_behaviors_1_1_behavior_draggable" kindref="compound">BehaviorDraggable</ref></type>
+        <definition>BehaviorDraggable Ra.Behaviors.BehaviorDroppable.DroppedEventArgs._dragger</definition>
+        <argsstring></argsstring>
+        <name>_dragger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDroppable.cs" line="32" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDroppable.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_behaviors_1_1_behavior_droppable_1_1_dropped_event_args_1ee172b63c991f3277d9b3b723e642078" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_ra_1_1_behaviors_1_1_behavior_draggable" kindref="compound">BehaviorDraggable</ref></type>
+        <definition>BehaviorDraggable Ra.Behaviors.BehaviorDroppable.DroppedEventArgs.Dragger</definition>
+        <argsstring></argsstring>
+        <name>Dragger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The <ref refid="class_ra_1_1_behaviors_1_1_behavior_draggable" kindref="compound">BehaviorDraggable</ref> which was dragged. You can retrieve the control by getting the &quot;Parent&quot; control from the draggable. This will be the control actually dragged. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDroppable.cs" line="46" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDroppable.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_behaviors_1_1_behavior_droppable_1_1_dropped_event_args_1253816e646a8e5a6f4549870aa5b42ba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal</type>
+        <definition>internal Ra.Behaviors.BehaviorDroppable.DroppedEventArgs.DroppedEventArgs</definition>
+        <argsstring>(BehaviorDraggable dragger)</argsstring>
+        <name>DroppedEventArgs</name>
+        <param>
+          <type><ref refid="class_ra_1_1_behaviors_1_1_behavior_draggable" kindref="compound">BehaviorDraggable</ref></type>
+          <declname>dragger</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDroppable.cs" line="35" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDroppable.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>EventArgs being passed into the Dropped event of the <ref refid="class_ra_1_1_behaviors_1_1_behavior_droppable" kindref="compound">BehaviorDroppable</ref>. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="158">
+        <label>Ra.Behaviors.Behavior</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior"/>
+        <childnode refid="159" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="159">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="156">
+        <label>Ra.Behaviors.BehaviorDroppable.DroppedEventArgs</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_droppable_1_1_dropped_event_args"/>
+        <childnode refid="157" relation="usage">
+          <edgelabel>_dragger</edgelabel>
+        </childnode>
+      </node>
+      <node id="161">
+        <label>Ra.Widgets.IDisableableBehavior</label>
+        <link refid="interface_ra_1_1_widgets_1_1_i_disableable_behavior"/>
+      </node>
+      <node id="157">
+        <label>Ra.Behaviors.BehaviorDraggable</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_draggable"/>
+        <childnode refid="158" relation="public-inheritance">
+        </childnode>
+        <childnode refid="160" relation="public-inheritance">
+        </childnode>
+        <childnode refid="161" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDroppable.cs" line="31" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDroppable.cs" bodystart="30" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_droppable_1_1_dropped_event_args_18e46f2d9dec9a9cc8a1de86ad59c4c55" prot="private" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable::DroppedEventArgs</scope><name>_dragger</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_droppable_1_1_dropped_event_args_1ee172b63c991f3277d9b3b723e642078" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable::DroppedEventArgs</scope><name>Dragger</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_droppable_1_1_dropped_event_args_1253816e646a8e5a6f4549870aa5b42ba" prot="private" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable::DroppedEventArgs</scope><name>DroppedEventArgs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

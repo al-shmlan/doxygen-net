@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_core_1_1_postback_filter" kind="class" prot="public">
+    <compoundname>Ra::Core::PostbackFilter</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_core_1_1_postback_filter_18c52b5f5bdd9f27f81195592a929445e" prot="private" static="no" mutable="no">
+        <type>Stream</type>
+        <definition>Stream Ra.Core.PostbackFilter._next</definition>
+        <argsstring></argsstring>
+        <name>_next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" line="16" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_core_1_1_postback_filter_1ac25aed86cce6f73a44dec7c652bae48" prot="private" static="no" mutable="no">
+        <type>MemoryStream</type>
+        <definition>MemoryStream Ra.Core.PostbackFilter._stream</definition>
+        <argsstring></argsstring>
+        <name>_stream</name>
+        <initializer> new MemoryStream()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" line="17" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_core_1_1_postback_filter_1c47c8ce019e597fa0cfbfeee6444ecde" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override bool</type>
+        <definition>override bool Ra.Core.PostbackFilter.CanRead</definition>
+        <argsstring></argsstring>
+        <name>CanRead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" line="27" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_core_1_1_postback_filter_1ed59bae0bd5ffa097eaf61ee207d3043" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override bool</type>
+        <definition>override bool Ra.Core.PostbackFilter.CanSeek</definition>
+        <argsstring></argsstring>
+        <name>CanSeek</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" line="32" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_core_1_1_postback_filter_124564567ec76e5815700d25416933ef2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override bool</type>
+        <definition>override bool Ra.Core.PostbackFilter.CanWrite</definition>
+        <argsstring></argsstring>
+        <name>CanWrite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" line="37" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_core_1_1_postback_filter_1437235cc531f7a13b63fd8145b21808d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override long</type>
+        <definition>override long Ra.Core.PostbackFilter.Length</definition>
+        <argsstring></argsstring>
+        <name>Length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" line="42" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_core_1_1_postback_filter_14a23598de32d6c10b49fcef4f2627e0a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override long</type>
+        <definition>override long Ra.Core.PostbackFilter.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" line="48" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_core_1_1_postback_filter_1d651e6d3e7103b03800eba3cabf55707" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Core.PostbackFilter.PostbackFilter</definition>
+        <argsstring>(Stream next)</argsstring>
+        <name>PostbackFilter</name>
+        <param>
+          <type>Stream</type>
+          <declname>next</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" line="20" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_core_1_1_postback_filter_1219e455d57d1d0a9cb06108b78a0088e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Core.PostbackFilter.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" line="51" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" bodystart="50" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_core_1_1_postback_filter_1669de29949052f3d397a5146e468a6aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Core.PostbackFilter.Flush</definition>
+        <argsstring>()</argsstring>
+        <name>Flush</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" line="57" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_core_1_1_postback_filter_1729736c30b604a67ac9148c0a4e92b92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override long</type>
+        <definition>override long Ra.Core.PostbackFilter.Seek</definition>
+        <argsstring>(long offset, SeekOrigin origin)</argsstring>
+        <name>Seek</name>
+        <param>
+          <type>long</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>SeekOrigin</type>
+          <declname>origin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" line="61" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_core_1_1_postback_filter_171ab5c22647232a565b6fa2cc562145c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Core.PostbackFilter.SetLength</definition>
+        <argsstring>(long value)</argsstring>
+        <name>SetLength</name>
+        <param>
+          <type>long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" line="66" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_core_1_1_postback_filter_110d55ac5071f5303779673db76fe7a17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Ra.Core.PostbackFilter.Read</definition>
+        <argsstring>(byte[] buffer, int offset, int count)</argsstring>
+        <name>Read</name>
+        <param>
+          <type>byte[]</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" line="70" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_core_1_1_postback_filter_116a75273ae6086142e50c1261477d594" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Core.PostbackFilter.Write</definition>
+        <argsstring>(byte[] buffer, int offset, int count)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>byte[]</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" line="75" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" bodystart="74" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" line="15" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs" bodystart="14" bodyend="78"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_core_1_1_postback_filter_18c52b5f5bdd9f27f81195592a929445e" prot="private" virt="non-virtual"><scope>Ra::Core::PostbackFilter</scope><name>_next</name></member>
+      <member refid="class_ra_1_1_core_1_1_postback_filter_1ac25aed86cce6f73a44dec7c652bae48" prot="private" virt="non-virtual"><scope>Ra::Core::PostbackFilter</scope><name>_stream</name></member>
+      <member refid="class_ra_1_1_core_1_1_postback_filter_1c47c8ce019e597fa0cfbfeee6444ecde" prot="public" virt="non-virtual"><scope>Ra::Core::PostbackFilter</scope><name>CanRead</name></member>
+      <member refid="class_ra_1_1_core_1_1_postback_filter_1ed59bae0bd5ffa097eaf61ee207d3043" prot="public" virt="non-virtual"><scope>Ra::Core::PostbackFilter</scope><name>CanSeek</name></member>
+      <member refid="class_ra_1_1_core_1_1_postback_filter_124564567ec76e5815700d25416933ef2" prot="public" virt="non-virtual"><scope>Ra::Core::PostbackFilter</scope><name>CanWrite</name></member>
+      <member refid="class_ra_1_1_core_1_1_postback_filter_1219e455d57d1d0a9cb06108b78a0088e" prot="public" virt="non-virtual"><scope>Ra::Core::PostbackFilter</scope><name>Close</name></member>
+      <member refid="class_ra_1_1_core_1_1_postback_filter_1669de29949052f3d397a5146e468a6aa" prot="public" virt="non-virtual"><scope>Ra::Core::PostbackFilter</scope><name>Flush</name></member>
+      <member refid="class_ra_1_1_core_1_1_postback_filter_1437235cc531f7a13b63fd8145b21808d" prot="public" virt="non-virtual"><scope>Ra::Core::PostbackFilter</scope><name>Length</name></member>
+      <member refid="class_ra_1_1_core_1_1_postback_filter_14a23598de32d6c10b49fcef4f2627e0a" prot="public" virt="non-virtual"><scope>Ra::Core::PostbackFilter</scope><name>Position</name></member>
+      <member refid="class_ra_1_1_core_1_1_postback_filter_1d651e6d3e7103b03800eba3cabf55707" prot="public" virt="non-virtual"><scope>Ra::Core::PostbackFilter</scope><name>PostbackFilter</name></member>
+      <member refid="class_ra_1_1_core_1_1_postback_filter_110d55ac5071f5303779673db76fe7a17" prot="public" virt="non-virtual"><scope>Ra::Core::PostbackFilter</scope><name>Read</name></member>
+      <member refid="class_ra_1_1_core_1_1_postback_filter_1729736c30b604a67ac9148c0a4e92b92" prot="public" virt="non-virtual"><scope>Ra::Core::PostbackFilter</scope><name>Seek</name></member>
+      <member refid="class_ra_1_1_core_1_1_postback_filter_171ab5c22647232a565b6fa2cc562145c" prot="public" virt="non-virtual"><scope>Ra::Core::PostbackFilter</scope><name>SetLength</name></member>
+      <member refid="class_ra_1_1_core_1_1_postback_filter_116a75273ae6086142e50c1261477d594" prot="public" virt="non-virtual"><scope>Ra::Core::PostbackFilter</scope><name>Write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

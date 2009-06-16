@@ -1,0 +1,756 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_ajax_manager" kind="class" prot="public">
+    <compoundname>Ra::AjaxManager</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_ajax_manager_1e7cab5e826a1a526b772685a933c87f8" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_ra_1_1_widgets_1_1_ra_control" kindref="compound">RaControl</ref> &gt;</type>
+        <definition>List&lt;RaControl&gt; Ra.AjaxManager._raControls</definition>
+        <argsstring></argsstring>
+        <name>_raControls</name>
+        <initializer> new List&lt;<ref refid="class_ra_1_1_widgets_1_1_ra_control" kindref="compound">RaControl</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="38" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_ajax_manager_16c5932a959948d1bdae80fa1f279d424" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ra.AjaxManager._supressFilters</definition>
+        <argsstring></argsstring>
+        <name>_supressFilters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="39" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_ajax_manager_1461e9e90c809ca20145f53359b31bb13" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; Ra.AjaxManager._scriptIncludes</definition>
+        <argsstring></argsstring>
+        <name>_scriptIncludes</name>
+        <initializer> new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="40" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_ajax_manager_1d782734ee09a9dd8a0a691a5e5fc9e75" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; Ra.AjaxManager._dynamicScriptIncludes</definition>
+        <argsstring></argsstring>
+        <name>_dynamicScriptIncludes</name>
+        <initializer> new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="41" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_ajax_manager_100d9f1a14dd7bef80b9260727076151d" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Ra.AjaxManager._redirectUrl</definition>
+        <argsstring></argsstring>
+        <name>_redirectUrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="42" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_ajax_manager_1ac1e9f7060d925ce12151b18eab19f41" prot="private" static="no" mutable="no">
+        <type>MemoryStream</type>
+        <definition>MemoryStream Ra.AjaxManager._memStream</definition>
+        <argsstring></argsstring>
+        <name>_memStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="43" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_ajax_manager_1a98be701f82f71730fc15f922aed13b7" prot="private" static="no" mutable="no">
+        <type>HtmlTextWriter</type>
+        <definition>HtmlTextWriter Ra.AjaxManager._writer</definition>
+        <argsstring></argsstring>
+        <name>_writer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="44" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_ajax_manager_1b0485b956dfd86202d8cc5cd53c577de" prot="private" static="no" mutable="no">
+        <type>MemoryStream</type>
+        <definition>MemoryStream Ra.AjaxManager._memStreamBack</definition>
+        <argsstring></argsstring>
+        <name>_memStreamBack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="45" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_ajax_manager_1eb467f902978900a49fe8fbb521a478b" prot="private" static="no" mutable="no">
+        <type>HtmlTextWriter</type>
+        <definition>HtmlTextWriter Ra.AjaxManager._writerBack</definition>
+        <argsstring></argsstring>
+        <name>_writerBack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="46" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_ajax_manager_195aa1e678350ceccab5b44bdfefede21" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Ra.AjaxManager._requestViewState</definition>
+        <argsstring></argsstring>
+        <name>_requestViewState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="47" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_ajax_manager_1a48a2fd316985d45aec5515b618f7dd0" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_ra_1_1_ajax_manager" kindref="compound">AjaxManager</ref></type>
+        <definition>AjaxManager Ra.AjaxManager.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Public accessor, only way to access instance of <ref refid="class_ra_1_1_ajax_manager" kindref="compound">AjaxManager</ref>. The <ref refid="class_ra_1_1_ajax_manager" kindref="compound">AjaxManager</ref> is the &quot;glue&quot; that ties everything together. Use this property to retrieve the only existing object of type <ref refid="class_ra_1_1_ajax_manager" kindref="compound">AjaxManager</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="62" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_ajax_manager_1809fdc35e764e280eea5c217e043a20b" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="class_ra_1_1_widgets_1_1_ra_control" kindref="compound">RaControl</ref> &gt;</type>
+        <definition>List&lt;RaControl&gt; Ra.AjaxManager.RaControls</definition>
+        <argsstring></argsstring>
+        <name>RaControls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="67" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_ajax_manager_1ebdb478f64974f34f01a07bfaaf8cde3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Ra.AjaxManager.IsCallback</definition>
+        <argsstring></argsstring>
+        <name>IsCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if this is a Ra-Ajax callback. A Ra-Ajax callback is also a &quot;subset&quot; of a normal Postback, which means that if this property is true, then the IsPostBack from ASP.NET&apos;s System.Web.UI.Page will also be true. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="77" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_ajax_manager_109641230fa03d15dc70ceda1d0ef7332" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.AjaxManager.SupressAjaxFilters</definition>
+        <argsstring></argsstring>
+        <name>SupressAjaxFilters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Surpress the rendering filter on the response. WARNING; Unless you completely understand what this property does, then do NOT USE IT! It will shut off all the default Ajax engine since it will make the rendering return to &quot;default&quot; postback rendering. This is only meant for really advanced control developers and also those that wants to handle requests in their own special way. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="90" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_ajax_manager_19879da1d4437b49093da505dd1abe2fc" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>internal HtmlTextWriter</type>
+        <definition>internal HtmlTextWriter Ra.AjaxManager.Writer</definition>
+        <argsstring></argsstring>
+        <name>Writer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="104" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_ajax_manager_130467465fce9da73278a48f24df85d3e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>HtmlTextWriter</type>
+        <definition>HtmlTextWriter Ra.AjaxManager.WriterAtBack</definition>
+        <argsstring></argsstring>
+        <name>WriterAtBack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use this method to append you own script and/or HTML or other output which will be executed on the client when the request returns. Notice though that the JavaScript Ajax engine of Ra-Ajax will expect whatever is being returned to the client to be JavaScript. This means that if you want to return other types of values and objects back to the client you need to wrap this somehow inside of JavaScript by using e.g. JSON or some similar mechanism. Also you should always end your JavaScript statements with semicolon (;) since otherwise other parts of the JavaScript returned probably will fissle. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="128" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_1e0f8949b60d742a19cf08ddfbd69ce4f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal Control</type>
+        <definition>internal Control Ra.AjaxManager.FindControl</definition>
+        <argsstring>(Control current, string id)</argsstring>
+        <name>FindControl</name>
+        <param>
+          <type>Control</type>
+          <declname>current</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="131" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="130" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_17f87b2ab5dcf4f88b6f620fc955923ee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Control</type>
+        <definition>Control Ra.AjaxManager.FindControlClientID</definition>
+        <argsstring>(Control current, string id)</argsstring>
+        <name>FindControlClientID</name>
+        <param>
+          <type>Control</type>
+          <declname>current</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="144" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="143" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_1e341e23acfee955f82955ebfafd2f209" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Control</type>
+        <definition>Control Ra.AjaxManager.FindControl</definition>
+        <argsstring>(string id)</argsstring>
+        <name>FindControl</name>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="157" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="156" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_1cdc888cf6a713acec8a33a3dd270c3ab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Control</type>
+        <definition>Control Ra.AjaxManager.FindControlClientID</definition>
+        <argsstring>(string id)</argsstring>
+        <name>FindControlClientID</name>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="167" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="166" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_1ee71aecabae518c0b60b74da8180f17c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal T</type>
+        <definition>internal T Ra.AjaxManager.FindControlClientID&lt; T &gt;</definition>
+        <argsstring>(string id)</argsstring>
+        <name>FindControlClientID&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_13d9bf49e96b6ae98f95437c48e91896d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal void</type>
+        <definition>internal void Ra.AjaxManager.InitializeControl</definition>
+        <argsstring>(RaControl ctrl)</argsstring>
+        <name>InitializeControl</name>
+        <param>
+          <type><ref refid="class_ra_1_1_widgets_1_1_ra_control" kindref="compound">RaControl</ref></type>
+          <declname>ctrl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="200" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="199" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_1e4b01ae39c69ab4d80f2f29a40c21d35" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.AjaxManager.CurrentPage_LoadComplete_NO_AJAX</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>CurrentPage_LoadComplete_NO_AJAX</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="235" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="234" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_169f291860e1c1731b862a98733e3586f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.AjaxManager.CurrentPage_LoadComplete</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>CurrentPage_LoadComplete</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="246" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="245" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_1269e118240561cc8b228206f9d22fb6a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MethodInfo</type>
+        <definition>MethodInfo Ra.AjaxManager.ExtractMethod</definition>
+        <argsstring>(string functionName, ref Control ctrlToCallFor)</argsstring>
+        <name>ExtractMethod</name>
+        <param>
+          <type>string</type>
+          <declname>functionName</declname>
+        </param>
+        <param>
+          <type>ref Control</type>
+          <declname>ctrlToCallFor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="309" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="308" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_1d8a889a2b1eee6f8fac340ea960f42b8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal void</type>
+        <definition>internal void Ra.AjaxManager.IncludeMainRaScript</definition>
+        <argsstring>()</argsstring>
+        <name>IncludeMainRaScript</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="352" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="351" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_18d39d177df72fc9b80765cbaf24500d4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal void</type>
+        <definition>internal void Ra.AjaxManager.IncludeMainControlScripts</definition>
+        <argsstring>()</argsstring>
+        <name>IncludeMainControlScripts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="357" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="356" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_11f13e838b4b79e83b11dff85a6845574" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal void</type>
+        <definition>internal void Ra.AjaxManager.IncludeScriptFromResource</definition>
+        <argsstring>(string script)</argsstring>
+        <name>IncludeScriptFromResource</name>
+        <param>
+          <type>string</type>
+          <declname>script</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="364" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="363" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_13ec61431e02d4fff05ebe5b843078506" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.AjaxManager.IncludeScript</definition>
+        <argsstring>(string path)</argsstring>
+        <name>IncludeScript</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="423" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="422" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_1e505fcf760d828d456d937e3f85203d4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal void</type>
+        <definition>internal void Ra.AjaxManager.RenderPostback</definition>
+        <argsstring>(Stream next, MemoryStream content)</argsstring>
+        <name>RenderPostback</name>
+        <param>
+          <type>Stream</type>
+          <declname>next</declname>
+        </param>
+        <param>
+          <type>MemoryStream</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="464" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="463" bodyend="484"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_10734e1c890c336fbd6627f01d906d704" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal void</type>
+        <definition>internal void Ra.AjaxManager.RenderCallback</definition>
+        <argsstring>(Stream next, MemoryStream content)</argsstring>
+        <name>RenderCallback</name>
+        <param>
+          <type>Stream</type>
+          <declname>next</declname>
+        </param>
+        <param>
+          <type>MemoryStream</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="491" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="490" bodyend="522"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_1f232c3b7f4040fd72e4d353207e3ab3d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.AjaxManager.GetViewState</definition>
+        <argsstring>(string wholePageContent, string searchString)</argsstring>
+        <name>GetViewState</name>
+        <param>
+          <type>string</type>
+          <declname>wholePageContent</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>searchString</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="525" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="524" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_1a5a5c134d28bcc1e71cf82379ca91f95" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.AjaxManager.GetHiddenInputValue</definition>
+        <argsstring>(string html, string marker)</argsstring>
+        <name>GetHiddenInputValue</name>
+        <param>
+          <type>string</type>
+          <declname>html</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>marker</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="532" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="531" bodyend="541"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_1a5990e8940364f06252da5ae72a4566f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.AjaxManager.UpdateViewState</definition>
+        <argsstring>(MemoryStream content, TextWriter writer)</argsstring>
+        <name>UpdateViewState</name>
+        <param>
+          <type>MemoryStream</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>TextWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="544" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="543" bodyend="569"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_1b9c6a9c609aec33226cdb7a0fc84fa65" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.AjaxManager.AddInitializationScripts</definition>
+        <argsstring>(StringBuilder builder)</argsstring>
+        <name>AddInitializationScripts</name>
+        <param>
+          <type>StringBuilder</type>
+          <declname>builder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="572" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="571" bodyend="609"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_1ef14502d49a785734b03742544a22b21" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.AjaxManager.AddScriptIncludes</definition>
+        <argsstring>(StringBuilder builder)</argsstring>
+        <name>AddScriptIncludes</name>
+        <param>
+          <type>StringBuilder</type>
+          <declname>builder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="612" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="611" bodyend="619"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_12893cdfa32e11de65a8238cdb5201a98" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.AjaxManager.AddDynamicScriptIncludes</definition>
+        <argsstring>(TextWriter writer)</argsstring>
+        <name>AddDynamicScriptIncludes</name>
+        <param>
+          <type>TextWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="622" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="621" bodyend="627"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_10079e234787b9eb097b48c2f5c5c64b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T Ra.AjaxManager.FindControl&lt; T &gt;</definition>
+        <argsstring>(string id)</argsstring>
+        <name>FindControl&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Recursively traverses all controls on Page and MasterPage and returns the first control with the given ID casting it to typeof(T). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_1a42745c0619368c15331fbf36f0dde95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T Ra.AjaxManager.FindControl&lt; T &gt;</definition>
+        <argsstring>(Control childOf, string id)</argsstring>
+        <name>FindControl&lt; T &gt;</name>
+        <param>
+          <type>Control</type>
+          <declname>childOf</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Recursively traverses all controls starting from given Control and returns the first control with the given ID casting it to typeof(T) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_13ffea8d8f00ef9e3186a45e61cdf4bdf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.AjaxManager.IncludeScriptFromResource</definition>
+        <argsstring>(Type type, string id)</argsstring>
+        <name>IncludeScriptFromResource</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Includes a JavaScript file from a resource with the given resource id. This one is mostly for Control developers to make sure your script files are being included. Note that Ra-Ajax can include ANY JavaScrip file even in Ajax Callbacks. But in order for this to work you must use the methods for JavaScript file inclusions in the <ref refid="class_ra_1_1_ajax_manager" kindref="compound">AjaxManager</ref> like for instance this method. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="389" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="388" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_11769448d6e56b5c8e90f44686d338ddb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.AjaxManager.IncludeScriptFromFile</definition>
+        <argsstring>(string path)</argsstring>
+        <name>IncludeScriptFromFile</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Includes a JavaScript file from a file path. Note that Ra-Ajax can include ANY JavaScrip file even in Ajax Callbacks. But in order for this to work you must use the methods for JavaScript file inclusions in the <ref refid="class_ra_1_1_ajax_manager" kindref="compound">AjaxManager</ref> like for instance this method. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="409" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="408" bodyend="420"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_ajax_manager_1838b685e64f371cc2832de21203ad56f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.AjaxManager.Redirect</definition>
+        <argsstring>(string url)</argsstring>
+        <name>Redirect</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use to redirect to another page from a Ra-Ajax Callback. Note the default ASP.NET implementation that redirects on Response.Redirect does NOT work in Ra-Ajax callbacks. This method might be used instead of the default Response.Redirect method though. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="446" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="445" bodyend="459"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Singleton class (acces through Instance property) The &quot;glue&quot; that ties everything together, contains lots of helper metods, though most of them are for extension control developers. Use WriterAtBack to add up e.g. JavaScript in callbacks. </para>    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" line="37" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs" bodystart="36" bodyend="628"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_ajax_manager_1d782734ee09a9dd8a0a691a5e5fc9e75" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>_dynamicScriptIncludes</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1ac1e9f7060d925ce12151b18eab19f41" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>_memStream</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1b0485b956dfd86202d8cc5cd53c577de" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>_memStreamBack</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1e7cab5e826a1a526b772685a933c87f8" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>_raControls</name></member>
+      <member refid="class_ra_1_1_ajax_manager_100d9f1a14dd7bef80b9260727076151d" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>_redirectUrl</name></member>
+      <member refid="class_ra_1_1_ajax_manager_195aa1e678350ceccab5b44bdfefede21" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>_requestViewState</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1461e9e90c809ca20145f53359b31bb13" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>_scriptIncludes</name></member>
+      <member refid="class_ra_1_1_ajax_manager_16c5932a959948d1bdae80fa1f279d424" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>_supressFilters</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1a98be701f82f71730fc15f922aed13b7" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>_writer</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1eb467f902978900a49fe8fbb521a478b" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>_writerBack</name></member>
+      <member refid="class_ra_1_1_ajax_manager_12893cdfa32e11de65a8238cdb5201a98" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>AddDynamicScriptIncludes</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1b9c6a9c609aec33226cdb7a0fc84fa65" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>AddInitializationScripts</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1ef14502d49a785734b03742544a22b21" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>AddScriptIncludes</name></member>
+      <member refid="class_ra_1_1_ajax_manager_169f291860e1c1731b862a98733e3586f" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>CurrentPage_LoadComplete</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1e4b01ae39c69ab4d80f2f29a40c21d35" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>CurrentPage_LoadComplete_NO_AJAX</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1269e118240561cc8b228206f9d22fb6a" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>ExtractMethod</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1e0f8949b60d742a19cf08ddfbd69ce4f" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>FindControl</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1e341e23acfee955f82955ebfafd2f209" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>FindControl</name></member>
+      <member refid="class_ra_1_1_ajax_manager_10079e234787b9eb097b48c2f5c5c64b4" prot="public" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>FindControl&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1a42745c0619368c15331fbf36f0dde95" prot="public" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>FindControl&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_ajax_manager_17f87b2ab5dcf4f88b6f620fc955923ee" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>FindControlClientID</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1cdc888cf6a713acec8a33a3dd270c3ab" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>FindControlClientID</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1ee71aecabae518c0b60b74da8180f17c" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>FindControlClientID&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1a5a5c134d28bcc1e71cf82379ca91f95" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>GetHiddenInputValue</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1f232c3b7f4040fd72e4d353207e3ab3d" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>GetViewState</name></member>
+      <member refid="class_ra_1_1_ajax_manager_18d39d177df72fc9b80765cbaf24500d4" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>IncludeMainControlScripts</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1d8a889a2b1eee6f8fac340ea960f42b8" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>IncludeMainRaScript</name></member>
+      <member refid="class_ra_1_1_ajax_manager_13ec61431e02d4fff05ebe5b843078506" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>IncludeScript</name></member>
+      <member refid="class_ra_1_1_ajax_manager_11769448d6e56b5c8e90f44686d338ddb" prot="public" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>IncludeScriptFromFile</name></member>
+      <member refid="class_ra_1_1_ajax_manager_11f13e838b4b79e83b11dff85a6845574" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>IncludeScriptFromResource</name></member>
+      <member refid="class_ra_1_1_ajax_manager_13ffea8d8f00ef9e3186a45e61cdf4bdf" prot="public" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>IncludeScriptFromResource</name></member>
+      <member refid="class_ra_1_1_ajax_manager_13d9bf49e96b6ae98f95437c48e91896d" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>InitializeControl</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1a48a2fd316985d45aec5515b618f7dd0" prot="public" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>Instance</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1ebdb478f64974f34f01a07bfaaf8cde3" prot="public" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>IsCallback</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1809fdc35e764e280eea5c217e043a20b" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>RaControls</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1838b685e64f371cc2832de21203ad56f" prot="public" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>Redirect</name></member>
+      <member refid="class_ra_1_1_ajax_manager_10734e1c890c336fbd6627f01d906d704" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>RenderCallback</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1e505fcf760d828d456d937e3f85203d4" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>RenderPostback</name></member>
+      <member refid="class_ra_1_1_ajax_manager_109641230fa03d15dc70ceda1d0ef7332" prot="public" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>SupressAjaxFilters</name></member>
+      <member refid="class_ra_1_1_ajax_manager_1a5990e8940364f06252da5ae72a4566f" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>UpdateViewState</name></member>
+      <member refid="class_ra_1_1_ajax_manager_19879da1d4437b49093da505dd1abe2fc" prot="private" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>Writer</name></member>
+      <member refid="class_ra_1_1_ajax_manager_130467465fce9da73278a48f24df85d3e" prot="public" virt="non-virtual"><scope>Ra::AjaxManager</scope><name>WriterAtBack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="dir_c2463841010a249ea297c227265119c6" kind="dir">
+    <compoundname>C:/Work/ra-ajax/trunk/</compoundname>
+    <innerdir refid="dir_5ac1d495a65b8367ff712ca5f0cb7d6e">C:/Work/ra-ajax/trunk/Ra/</innerdir>
+    <innerdir refid="dir_3e1e13c0a2b983410fc2cf8b552c9e60">C:/Work/ra-ajax/trunk/Ra.Extensions/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/"/>
+  </compounddef>
+</doxygen>

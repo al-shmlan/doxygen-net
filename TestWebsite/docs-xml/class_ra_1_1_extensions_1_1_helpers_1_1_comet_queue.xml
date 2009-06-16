@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue" kind="class" prot="public">
+    <compoundname>Ra::Extensions::Helpers::CometQueue</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue_1523890868c27681e2d83bc07a00bc660" prot="private" static="no" mutable="no">
+        <type>ManualResetEvent</type>
+        <definition>ManualResetEvent Ra.Extensions.Helpers.CometQueue._resetEvent</definition>
+        <argsstring></argsstring>
+        <name>_resetEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Helpers/CometQueue.cs" line="23" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Helpers/CometQueue.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue_19bad85c92afb824932459847d7e3c0c0" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; Ra.Extensions.Helpers.CometQueue._events</definition>
+        <argsstring></argsstring>
+        <name>_events</name>
+        <initializer> new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Helpers/CometQueue.cs" line="24" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Helpers/CometQueue.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue_1b151c7728df4497cd6fdea6f2d426e5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Extensions.Helpers.CometQueue.CometQueue</definition>
+        <argsstring>()</argsstring>
+        <name>CometQueue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Helpers/CometQueue.cs" line="27" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Helpers/CometQueue.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue_1dbadd6cabea79f142ec9ed71ec55e02b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.Extensions.Helpers.CometQueue.WaitForNextMessage</definition>
+        <argsstring>(string lastEvent, int timeout)</argsstring>
+        <name>WaitForNextMessage</name>
+        <param>
+          <type>string</type>
+          <declname>lastEvent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Helpers/CometQueue.cs" line="32" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Helpers/CometQueue.cs" bodystart="31" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue_1c2161af1b7f1538f0a25a3b14215bbf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Helpers.CometQueue.SignalizeNewEvent</definition>
+        <argsstring>(string message)</argsstring>
+        <name>SignalizeNewEvent</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Helpers/CometQueue.cs" line="93" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Helpers/CometQueue.cs" bodystart="92" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue_18d2d78cfc658fd2eb41da451382ce81e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.Extensions.Helpers.CometQueue.WaitOne</definition>
+        <argsstring>(int timeout)</argsstring>
+        <name>WaitOne</name>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Helpers/CometQueue.cs" line="75" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Helpers/CometQueue.cs" bodystart="74" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Helpers/CometQueue.cs" line="20" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Helpers/CometQueue.cs" bodystart="19" bodyend="108"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue_19bad85c92afb824932459847d7e3c0c0" prot="private" virt="non-virtual"><scope>Ra::Extensions::Helpers::CometQueue</scope><name>_events</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue_1523890868c27681e2d83bc07a00bc660" prot="private" virt="non-virtual"><scope>Ra::Extensions::Helpers::CometQueue</scope><name>_resetEvent</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue_1b151c7728df4497cd6fdea6f2d426e5e" prot="public" virt="non-virtual"><scope>Ra::Extensions::Helpers::CometQueue</scope><name>CometQueue</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue_1c2161af1b7f1538f0a25a3b14215bbf3" prot="public" virt="non-virtual"><scope>Ra::Extensions::Helpers::CometQueue</scope><name>SignalizeNewEvent</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue_1dbadd6cabea79f142ec9ed71ec55e02b" prot="public" virt="non-virtual"><scope>Ra::Extensions::Helpers::CometQueue</scope><name>WaitForNextMessage</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue_18d2d78cfc658fd2eb41da451382ce81e" prot="private" virt="non-virtual"><scope>Ra::Extensions::Helpers::CometQueue</scope><name>WaitOne</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

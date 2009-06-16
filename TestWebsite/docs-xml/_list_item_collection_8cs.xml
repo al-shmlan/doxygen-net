@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="_list_item_collection_8cs" kind="file">
+    <compoundname>ListItemCollection.cs</compoundname>
+    <innerclass refid="class_ra_1_1_widgets_1_1_list_item_collection" prot="public">Ra::Widgets::ListItemCollection</innerclass>
+    <innernamespace refid="namespace_ra_1_1_widgets">Ra::Widgets</innernamespace>
+    <innernamespace refid="namespace_system_1_1_collections">System::Collections</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItemCollection.cs"/>
+  </compounddef>
+</doxygen>

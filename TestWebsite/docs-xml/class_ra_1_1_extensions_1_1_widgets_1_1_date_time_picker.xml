@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker" kind="class" prot="public">
+    <compoundname>Ra::Extensions::Widgets::DateTimePicker</compoundname>
+    <basecompoundref refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar" prot="public" virt="non-virtual">Ra.Extensions.Widgets.Calendar</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_14db639813f39d99dfd1d0f08a2d82628" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_text_box" kindref="compound">TextBox</ref></type>
+        <definition>TextBox Ra.Extensions.Widgets.DateTimePicker._hour</definition>
+        <argsstring></argsstring>
+        <name>_hour</name>
+        <initializer> new <ref refid="class_ra_1_1_widgets_1_1_text_box" kindref="compound">TextBox</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/DateTimePicker.cs" line="25" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/DateTimePicker.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_17c228969760dba0a652a28f916824474" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_text_box" kindref="compound">TextBox</ref></type>
+        <definition>TextBox Ra.Extensions.Widgets.DateTimePicker._minutes</definition>
+        <argsstring></argsstring>
+        <name>_minutes</name>
+        <initializer> new <ref refid="class_ra_1_1_widgets_1_1_text_box" kindref="compound">TextBox</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/DateTimePicker.cs" line="26" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/DateTimePicker.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_15af221a6f46ce28983f42291d7885fa5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.DateTimePicker.OnInit</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnInit</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_140a558cf9617ef2289be7fc7faf5130c">OnInit</reimplements>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/DateTimePicker.cs" line="29" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/DateTimePicker.cs" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_10e808e1fc5047e7ed46bd521727db1a8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.DateTimePicker.OnPreRender</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnPreRender</name>
+        <reimplements refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_102afdc003d954acb2555f56328f27cdd">OnPreRender</reimplements>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/DateTimePicker.cs" line="35" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/DateTimePicker.cs" bodystart="34" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_1cdb04d5b0d92f14240cf3df7b967d47e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.DateTimePicker.DateTimePicker_CreateFooterControls</definition>
+        <argsstring>(object sender, Calendar.CreateFooterControlsEventArgs e)</argsstring>
+        <name>DateTimePicker_CreateFooterControls</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_create_footer_controls_event_args" kindref="compound">Calendar.CreateFooterControlsEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/DateTimePicker.cs" line="44" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/DateTimePicker.cs" bodystart="43" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_151d757f1bbc6003c19dad99cc720a1c4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.DateTimePicker._minutes_TextChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>_minutes_TextChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/DateTimePicker.cs" line="62" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/DateTimePicker.cs" bodystart="61" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_1f930c630d112b69ab0e0a8213b1b0cbf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.DateTimePicker._hour_TextChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>_hour_TextChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/DateTimePicker.cs" line="70" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/DateTimePicker.cs" bodystart="69" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker" kindref="compound">DateTimePicker</ref> Ajax Control. Inherits from <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar" kindref="compound">Calendar</ref> and handles the CreateFooterControls event to create hour and minute controls. While the calendar can only choose whole days, this control can also choose hours and minutes within those specific dates. In all other ways it is identical to the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar" kindref="compound">Calendar</ref> Widget. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="144">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="142">
+        <label>Ra.Widgets.Panel</label>
+        <link refid="class_ra_1_1_widgets_1_1_panel"/>
+        <childnode refid="143" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="140">
+        <label>Ra.Extensions.Widgets.DateTimePicker</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker"/>
+        <childnode refid="141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="143">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+        <childnode refid="145" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="141">
+        <label>Ra.Extensions.Widgets.Calendar</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar"/>
+        <childnode refid="142" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="145">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="152">
+        <label>Ra.Widgets.StyleCollection</label>
+        <link refid="class_ra_1_1_widgets_1_1_style_collection"/>
+        <childnode refid="149" relation="usage">
+          <edgelabel>_control</edgelabel>
+        </childnode>
+      </node>
+      <node id="154">
+        <label>Ra.Widgets.TextBox</label>
+        <link refid="class_ra_1_1_widgets_1_1_text_box"/>
+        <childnode refid="149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="150">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="148">
+        <label>Ra.Widgets.Panel</label>
+        <link refid="class_ra_1_1_widgets_1_1_panel"/>
+        <childnode refid="149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="146">
+        <label>Ra.Extensions.Widgets.DateTimePicker</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker"/>
+        <childnode refid="147" relation="public-inheritance">
+        </childnode>
+        <childnode refid="154" relation="usage">
+          <edgelabel>_minutes</edgelabel>
+          <edgelabel>_hour</edgelabel>
+        </childnode>
+      </node>
+      <node id="153">
+        <label>Ra.Widgets.Label</label>
+        <link refid="class_ra_1_1_widgets_1_1_label"/>
+        <childnode refid="149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="149">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="150" relation="public-inheritance">
+        </childnode>
+        <childnode refid="151" relation="public-inheritance">
+        </childnode>
+        <childnode refid="152" relation="usage">
+          <edgelabel>_styles</edgelabel>
+        </childnode>
+      </node>
+      <node id="147">
+        <label>Ra.Extensions.Widgets.Calendar</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar"/>
+        <childnode refid="148" relation="public-inheritance">
+        </childnode>
+        <childnode refid="153" relation="usage">
+          <edgelabel>_content</edgelabel>
+          <edgelabel>_ne</edgelabel>
+          <edgelabel>_nw</edgelabel>
+          <edgelabel>_s</edgelabel>
+          <edgelabel>_caption</edgelabel>
+          <edgelabel>_e</edgelabel>
+          <edgelabel>_w</edgelabel>
+          <edgelabel>_body</edgelabel>
+          <edgelabel>_se</edgelabel>
+          <edgelabel>_sw</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="151">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/DateTimePicker.cs" line="24" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/DateTimePicker.cs" bodystart="23" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1819f172ef9ef76a1d4b734abc547ccc2" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>_caption</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_14db639813f39d99dfd1d0f08a2d82628" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>_hour</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_1f930c630d112b69ab0e0a8213b1b0cbf" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>_hour_TextChanged</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_17c228969760dba0a652a28f916824474" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>_minutes</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_151d757f1bbc6003c19dad99cc720a1c4" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>_minutes_TextChanged</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_16423051af8f5f67744ac64b38cf06555" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>Caption</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14dcb41296fe7545bb820a9184c2db962" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>Click</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_11c32ba5b0fbe45ee4c189e5777877db6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>CreateChildControls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_115f2e6cb3a0f0f224e587b411de7d909" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>CreateFooterControls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_182ce82f1f1564b697703b24b7fe4c8a0" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>CssClass</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_102952f21b8ed73d43e3c412d30a0cc92" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>DateClicked</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_1cdb04d5b0d92f14240cf3df7b967d47e" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>DateTimePicker_CreateFooterControls</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_19fa1952b1c6b040d43165f5a11606ead" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>DblClick</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1c6430d3868b755f48e9465a84b1bffbc" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>DefaultWidget</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1de60bed8a2264f876fdfbd7232836f7c" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>DispatchEvent</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_11b9a672cefa64ca768f84857447a8191" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>GetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1ffd2a1e2f6b7e496a21b53e498095251" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1252ed547fb14958b0f4d7bea1ebfc109" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_104c0e8c541fe0b029d0edcd6b99ee718" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1e4e9525d529e8227b3c1a5db86d030b7" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>GetMouseOutEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_18bbe18d42617850745996cb0d672260c" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>GetMouseOverEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1e43aee7c85601ef8aa822dc4740210e6" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d8ae2b4ae6bce092e7d558db25b5c02a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>GetWebControlAttributes</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bc64e6e9488a31df7ae5ef0e3903b236" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>KeyDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_118b31c98087d7a57f49a42eb1bac2528" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>KeyPress</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1247f291546c64e40bddffb08936da867" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>KeyUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bccc3b360a6ddfe4f2aa2cb3e785ac1e" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>LoadViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c6c9ca13ef1e4e436153d6c3cf017a0c" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>MouseDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_103683f2d6d76237d0c501cde2ebae5ef" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>MouseMove</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_15be672aec4d07efc18f5e33cfeca6c7b" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>MouseOut</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d17aaa8103deb9d5037f8c3f334af1e7" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>MouseOver</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_13c51734abc45a09d5df540d48b88c6da" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>MouseUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_142b4a9a49ba0e6e81389627d4ad34aeb" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>OnClickClientSide</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_15af221a6f46ce28983f42291d7885fa5" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1cc66f5fc3004a9b39a5efa2bece9ddcb" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>OnLoad</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_10e808e1fc5047e7ed46bd521727db1a8" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>OnPreRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14cad6b9fb27c8c4c27b7bab4e471c445" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>QueueMultipleRequests</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_17d74fee59a34ea1bd5329082e043c531" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>RaWebControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1c797d72e2072de4711f8498e33d491be" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>RenderDay</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_151ad71b3e5b5708fffbc50d3b0d93e4f" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>SaveViewState</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_143f822e3c520fa51badc08ce2aea5ba4" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>SelectedValueChanged</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_126c54189e89a72cdfecdfa5c62a9b97e" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>SetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_19cf5ee6cfa6f82750e1974d7c6bf9a36" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>StartsOn</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_168ccd06bd09c6e05962f0e8838045c80" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>Style</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1255844bd5511b517d5d292f925f20994" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>TabIndex</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_182f02c963154472792679eae72cae436" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>Tag</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1812b6302ab1f9ddf6e4ce88a5d447f28" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>Tooltip</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c5de8a6390860af479dd41b75bff7584" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>TrackViewState</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_15dc2bc126d803a6c5f2c495bd57d51fe" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>Value</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::DateTimePicker</scope><name>Xtra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

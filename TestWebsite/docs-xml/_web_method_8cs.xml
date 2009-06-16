@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="_web_method_8cs" kind="file">
+    <compoundname>WebMethod.cs</compoundname>
+    <innerclass refid="class_ra_1_1_web_method" prot="public">Ra::WebMethod</innerclass>
+    <innernamespace refid="namespace_ra">Ra</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_web_method_8cs_181a223a02c34d82b47199f08308847f2" prot="public" static="no" mutable="no">
+        <type>﻿using</type>
+        <definition>﻿using System</definition>
+        <argsstring></argsstring>
+        <name>System</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/WebMethod.cs" line="1" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/WebMethod.cs" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/WebMethod.cs"/>
+  </compounddef>
+</doxygen>

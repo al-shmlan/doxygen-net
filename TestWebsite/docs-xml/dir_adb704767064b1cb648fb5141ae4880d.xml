@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="dir_adb704767064b1cb648fb5141ae4880d" kind="dir">
+    <compoundname>C:/Work/ra-ajax/trunk/Ra/Helpers/</compoundname>
+    <innerfile refid="_ajax_manager_8cs">AjaxManager.cs</innerfile>
+    <innerfile refid="_list_item_8cs">ListItem.cs</innerfile>
+    <innerfile refid="_list_item_collection_8cs">ListItemCollection.cs</innerfile>
+    <innerfile refid="_style_collection_8cs">StyleCollection.cs</innerfile>
+    <innerfile refid="_style_collection_styles_8cs">StyleCollectionStyles.cs</innerfile>
+    <innerfile refid="_web_method_8cs">WebMethod.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/"/>
+  </compounddef>
+</doxygen>

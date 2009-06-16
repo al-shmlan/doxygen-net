@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_effects_1_1_effect_border" kind="class" prot="public">
+    <compoundname>Ra::Effects::EffectBorder</compoundname>
+    <basecompoundref refid="class_ra_1_1_effects_1_1_effect" prot="public" virt="non-virtual">Ra.Effects.Effect</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_effects_1_1_effect_border_1da06d6111931b41e009e825799d454ab" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ra.Effects.EffectBorder._borderTo</definition>
+        <argsstring></argsstring>
+        <name>_borderTo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" line="21" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_effects_1_1_effect_border_1f53b77e755d4777fded1fd1fbec16097" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Ra.Effects.EffectBorder.BorderTo</definition>
+        <argsstring></argsstring>
+        <name>BorderTo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>End resulting width of border style </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" line="66" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_border_17a38dd300f45667346bcfcd0c80b57a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.EffectBorder.EffectBorder</definition>
+        <argsstring>()</argsstring>
+        <name>EffectBorder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use this CTOR only if your effects are being Joined. Expects the main effect to set the Control and Duration properties. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" line="29" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_border_1b2cf2c61e4bdc9b266884d40c9e82b35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.EffectBorder.EffectBorder</definition>
+        <argsstring>(Control control, int milliseconds)</argsstring>
+        <name>EffectBorder</name>
+        <param>
+          <type>Control</type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>milliseconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CTOR - control to animate and milliseconds to spend executing </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" line="36" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_border_13337a0796837985012464a53462c76ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.EffectBorder.EffectBorder</definition>
+        <argsstring>(Control control, int milliseconds, int borderTo)</argsstring>
+        <name>EffectBorder</name>
+        <param>
+          <type>Control</type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>milliseconds</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>borderTo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CTOR - control to animate, milliseconds to spend animating and width of border when effect is finished. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" line="44" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" bodystart="42" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_border_1768fead9dcd233e15576f340a3f0794e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.EffectBorder.EffectBorder</definition>
+        <argsstring>(int borderTo)</argsstring>
+        <name>EffectBorder</name>
+        <param>
+          <type>int</type>
+          <declname>borderTo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use this CTOR only if your effects are being Joined. Expects the main effect to set the Control and Duration properties. borderTo is the end width of the border </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" line="55" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" bodystart="53" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_border_1452aae07479b22da60cca9b52594fc71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectBorder.RenderParalledOnStart</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnStart</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1939df83b762b921a2ad749b7e2d0c903">RenderParalledOnStart</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" line="79" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" bodystart="78" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_border_18e023d446fcace2776372e7b4fd892bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectBorder.RenderParalledOnFinished</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnFinished</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1a7b831319350a52da5eab083ddb5e962">RenderParalledOnFinished</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" line="88" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" bodystart="87" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_border_1daabdee3391a9705e7a09d301a2c3413" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectBorder.RenderParalledOnRender</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnRender</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1d0c062260770689c6d38605bf7fe51a4">RenderParalledOnRender</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" line="95" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" bodystart="94" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_border_1878bf24c3f39d777a618b446a0531018" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Effects.EffectBorder.UpdateStyleCollection</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateStyleCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" line="69" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" bodystart="68" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Animates borders of Control element. Will make the borders of the element dashed and change the width of the borders. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="186">
+        <label>Ra.Effects.EffectBorder</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_border"/>
+        <childnode refid="187" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="187">
+        <label>Ra.Effects.Effect</label>
+        <link refid="class_ra_1_1_effects_1_1_effect"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="188">
+        <label>Ra.Effects.EffectBorder</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_border"/>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="189">
+        <label>Ra.Effects.Effect</label>
+        <link refid="class_ra_1_1_effects_1_1_effect"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" line="20" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectBorder.cs" bodystart="19" bodyend="101"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_effects_1_1_effect_border_1da06d6111931b41e009e825799d454ab" prot="private" virt="non-virtual"><scope>Ra::Effects::EffectBorder</scope><name>_borderTo</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_border_1f53b77e755d4777fded1fd1fbec16097" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectBorder</scope><name>BorderTo</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_13115c920fdc000e6a1f44f6cd63244bd" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectBorder</scope><name>Chained</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1e4df02803f0639f910c73414a58c7adf" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectBorder</scope><name>ChainThese</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_10e48bc7f42299256795b06866ea32f4a" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectBorder</scope><name>Control</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1c86d32632b11c5452d3453e64e1e50dd" prot="protected" virt="non-virtual"><scope>Ra::Effects::EffectBorder</scope><name>Effect</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_border_17a38dd300f45667346bcfcd0c80b57a2" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectBorder</scope><name>EffectBorder</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_border_1b2cf2c61e4bdc9b266884d40c9e82b35" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectBorder</scope><name>EffectBorder</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_border_13337a0796837985012464a53462c76ca" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectBorder</scope><name>EffectBorder</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_border_1768fead9dcd233e15576f340a3f0794e" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectBorder</scope><name>EffectBorder</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_12defc4249bcf05bede3832099b4039c0" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectBorder</scope><name>Joined</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_12e6be44aa1a8920c51e4400906839a4e" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectBorder</scope><name>JoinThese</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1b413970d24db1a18369915962933e223" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectBorder</scope><name>Milliseconds</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_10631d51b0971a52ff4583dc4a4ba3c2a" prot="public" virt="virtual"><scope>Ra::Effects::EffectBorder</scope><name>Render</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_border_18e023d446fcace2776372e7b4fd892bc" prot="public" virt="virtual"><scope>Ra::Effects::EffectBorder</scope><name>RenderParalledOnFinished</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_border_1daabdee3391a9705e7a09d301a2c3413" prot="public" virt="virtual"><scope>Ra::Effects::EffectBorder</scope><name>RenderParalledOnRender</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_border_1452aae07479b22da60cca9b52594fc71" prot="public" virt="virtual"><scope>Ra::Effects::EffectBorder</scope><name>RenderParalledOnStart</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_18672655e14a3ebb99666c9f8f7fa4923" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectBorder</scope><name>Transition</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_169619c9eab1b999e313a2559e786c75d" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectBorder</scope><name>TransitionType</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_border_1878bf24c3f39d777a618b446a0531018" prot="private" virt="non-virtual"><scope>Ra::Effects::EffectBorder</scope><name>UpdateStyleCollection</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1041eba6f6e4a57073b2afb7cbbc65fb4" prot="protected" virt="virtual"><scope>Ra::Effects::EffectBorder</scope><name>ValidateEffect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

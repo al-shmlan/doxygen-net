@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_effects_1_1_effect_timeout" kind="class" prot="public">
+    <compoundname>Ra::Effects::EffectTimeout</compoundname>
+    <basecompoundref refid="class_ra_1_1_effects_1_1_effect" prot="public" virt="non-virtual">Ra.Effects.Effect</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_timeout_12df443a19483f619963c5931153a16c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.EffectTimeout.EffectTimeout</definition>
+        <argsstring>(int milliseconds)</argsstring>
+        <name>EffectTimeout</name>
+        <param>
+          <type>int</type>
+          <declname>milliseconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CTOR - taking number of milliseconds for the timeout </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectTimeout.cs" line="28" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectTimeout.cs" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_timeout_14fa3d0e5eb65986e89698e0b9d2abe21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectTimeout.RenderParalledOnStart</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnStart</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1939df83b762b921a2ad749b7e2d0c903">RenderParalledOnStart</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectTimeout.cs" line="35" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectTimeout.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_timeout_17c3f80251259d237957fdade2c5626c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectTimeout.RenderParalledOnFinished</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnFinished</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1a7b831319350a52da5eab083ddb5e962">RenderParalledOnFinished</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectTimeout.cs" line="40" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectTimeout.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_timeout_1515ed188c670cd7bba37fe569960faed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectTimeout.RenderParalledOnRender</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnRender</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1d0c062260770689c6d38605bf7fe51a4">RenderParalledOnRender</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectTimeout.cs" line="45" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectTimeout.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_timeout_191aec529a649d16e139236ddf11215ed" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Ra.Effects.EffectTimeout.ValidateEffect</definition>
+        <argsstring>()</argsstring>
+        <name>ValidateEffect</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1041eba6f6e4a57073b2afb7cbbc65fb4">ValidateEffect</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectTimeout.cs" line="32" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectTimeout.cs" bodystart="31" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Empty effect or a &quot;place holder of time&quot; effect. Only purpose is to make a specified duration of time ellapse. Don&apos;t need a specified Control to animate upon. Useful if you create advanced effect chains and want to have a &quot;pause&quot; between the end of one effect and the starting of anoter effect. Or if you want to have &quot;delayed effects&quot; which doesn&apos;t occur before some n seconds after the Ajax request returns from the server. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="240">
+        <label>Ra.Effects.EffectTimeout</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_timeout"/>
+        <childnode refid="241" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="241">
+        <label>Ra.Effects.Effect</label>
+        <link refid="class_ra_1_1_effects_1_1_effect"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="242">
+        <label>Ra.Effects.EffectTimeout</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_timeout"/>
+        <childnode refid="243" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="243">
+        <label>Ra.Effects.Effect</label>
+        <link refid="class_ra_1_1_effects_1_1_effect"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectTimeout.cs" line="22" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectTimeout.cs" bodystart="21" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_effects_1_1_effect_13115c920fdc000e6a1f44f6cd63244bd" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectTimeout</scope><name>Chained</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1e4df02803f0639f910c73414a58c7adf" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectTimeout</scope><name>ChainThese</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_10e48bc7f42299256795b06866ea32f4a" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectTimeout</scope><name>Control</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1c86d32632b11c5452d3453e64e1e50dd" prot="protected" virt="non-virtual"><scope>Ra::Effects::EffectTimeout</scope><name>Effect</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_timeout_12df443a19483f619963c5931153a16c5" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectTimeout</scope><name>EffectTimeout</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_12defc4249bcf05bede3832099b4039c0" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectTimeout</scope><name>Joined</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_12e6be44aa1a8920c51e4400906839a4e" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectTimeout</scope><name>JoinThese</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1b413970d24db1a18369915962933e223" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectTimeout</scope><name>Milliseconds</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_10631d51b0971a52ff4583dc4a4ba3c2a" prot="public" virt="virtual"><scope>Ra::Effects::EffectTimeout</scope><name>Render</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_timeout_17c3f80251259d237957fdade2c5626c0" prot="public" virt="virtual"><scope>Ra::Effects::EffectTimeout</scope><name>RenderParalledOnFinished</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_timeout_1515ed188c670cd7bba37fe569960faed" prot="public" virt="virtual"><scope>Ra::Effects::EffectTimeout</scope><name>RenderParalledOnRender</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_timeout_14fa3d0e5eb65986e89698e0b9d2abe21" prot="public" virt="virtual"><scope>Ra::Effects::EffectTimeout</scope><name>RenderParalledOnStart</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_18672655e14a3ebb99666c9f8f7fa4923" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectTimeout</scope><name>Transition</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_169619c9eab1b999e313a2559e786c75d" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectTimeout</scope><name>TransitionType</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_timeout_191aec529a649d16e139236ddf11215ed" prot="protected" virt="virtual"><scope>Ra::Effects::EffectTimeout</scope><name>ValidateEffect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

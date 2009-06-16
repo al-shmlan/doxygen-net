@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_effects_1_1_effect_highlight_text" kind="class" prot="public">
+    <compoundname>Ra::Effects::EffectHighlightText</compoundname>
+    <basecompoundref refid="class_ra_1_1_effects_1_1_effect" prot="public" virt="non-virtual">Ra.Effects.Effect</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_highlight_text_1916bc7b989f50be2cfcc89af082fc02b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.EffectHighlightText.EffectHighlightText</definition>
+        <argsstring>()</argsstring>
+        <name>EffectHighlightText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use this CTOR only if your effects are being Joined. Expects the main effect to set the Control and Duration properties. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectHighlightText.cs" line="27" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectHighlightText.cs" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_highlight_text_1f20857fec6d52efac801fe87797c498e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.EffectHighlightText.EffectHighlightText</definition>
+        <argsstring>(Control control, int milliseconds)</argsstring>
+        <name>EffectHighlightText</name>
+        <param>
+          <type>Control</type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>milliseconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CTOR - control to animate and milliseconds to spend executing </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectHighlightText.cs" line="34" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectHighlightText.cs" bodystart="32" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_highlight_text_142fc1a93107ae0458b2a4920695640a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectHighlightText.RenderParalledOnStart</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnStart</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1939df83b762b921a2ad749b7e2d0c903">RenderParalledOnStart</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectHighlightText.cs" line="37" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectHighlightText.cs" bodystart="36" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_highlight_text_18fbc735f97b9b28d5b8603b72c148e51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectHighlightText.RenderParalledOnFinished</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnFinished</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1a7b831319350a52da5eab083ddb5e962">RenderParalledOnFinished</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectHighlightText.cs" line="48" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectHighlightText.cs" bodystart="47" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_highlight_text_1565615db0f5cd376e46299192440207e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectHighlightText.RenderParalledOnRender</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnRender</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1d0c062260770689c6d38605bf7fe51a4">RenderParalledOnRender</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectHighlightText.cs" line="55" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectHighlightText.cs" bodystart="54" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Will flash (highlight with color yellow) control&apos;s root DOM element. Note that the <ref refid="class_ra_1_1_effects_1_1_effect_highlight" kindref="compound">EffectHighlight</ref> will flash the BACKGROUND color of the element while this one will flash the FORE color of the element </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="217">
+        <label>Ra.Effects.Effect</label>
+        <link refid="class_ra_1_1_effects_1_1_effect"/>
+      </node>
+      <node id="216">
+        <label>Ra.Effects.EffectHighlightText</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_highlight_text"/>
+        <childnode refid="217" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="219">
+        <label>Ra.Effects.Effect</label>
+        <link refid="class_ra_1_1_effects_1_1_effect"/>
+      </node>
+      <node id="218">
+        <label>Ra.Effects.EffectHighlightText</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_highlight_text"/>
+        <childnode refid="219" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectHighlightText.cs" line="20" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectHighlightText.cs" bodystart="19" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_effects_1_1_effect_13115c920fdc000e6a1f44f6cd63244bd" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectHighlightText</scope><name>Chained</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1e4df02803f0639f910c73414a58c7adf" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectHighlightText</scope><name>ChainThese</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_10e48bc7f42299256795b06866ea32f4a" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectHighlightText</scope><name>Control</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1c86d32632b11c5452d3453e64e1e50dd" prot="protected" virt="non-virtual"><scope>Ra::Effects::EffectHighlightText</scope><name>Effect</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_highlight_text_1916bc7b989f50be2cfcc89af082fc02b" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectHighlightText</scope><name>EffectHighlightText</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_highlight_text_1f20857fec6d52efac801fe87797c498e" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectHighlightText</scope><name>EffectHighlightText</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_12defc4249bcf05bede3832099b4039c0" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectHighlightText</scope><name>Joined</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_12e6be44aa1a8920c51e4400906839a4e" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectHighlightText</scope><name>JoinThese</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1b413970d24db1a18369915962933e223" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectHighlightText</scope><name>Milliseconds</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_10631d51b0971a52ff4583dc4a4ba3c2a" prot="public" virt="virtual"><scope>Ra::Effects::EffectHighlightText</scope><name>Render</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_highlight_text_18fbc735f97b9b28d5b8603b72c148e51" prot="public" virt="virtual"><scope>Ra::Effects::EffectHighlightText</scope><name>RenderParalledOnFinished</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_highlight_text_1565615db0f5cd376e46299192440207e" prot="public" virt="virtual"><scope>Ra::Effects::EffectHighlightText</scope><name>RenderParalledOnRender</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_highlight_text_142fc1a93107ae0458b2a4920695640a5" prot="public" virt="virtual"><scope>Ra::Effects::EffectHighlightText</scope><name>RenderParalledOnStart</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_18672655e14a3ebb99666c9f8f7fa4923" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectHighlightText</scope><name>Transition</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_169619c9eab1b999e313a2559e786c75d" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectHighlightText</scope><name>TransitionType</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1041eba6f6e4a57073b2afb7cbbc65fb4" prot="protected" virt="virtual"><scope>Ra::Effects::EffectHighlightText</scope><name>ValidateEffect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

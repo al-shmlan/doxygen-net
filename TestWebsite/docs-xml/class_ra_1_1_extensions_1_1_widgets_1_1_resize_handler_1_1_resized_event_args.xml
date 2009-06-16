@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args" kind="class" prot="public">
+    <compoundname>Ra::Extensions::Widgets::ResizeHandler::ResizedEventArgs</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args_1fb01de88cc5c969a2fabd26978343d9a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ra.Extensions.Widgets.ResizeHandler.ResizedEventArgs._width</definition>
+        <argsstring></argsstring>
+        <name>_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" line="35" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args_160963e0c6b9e4b78c56d54be6361214c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ra.Extensions.Widgets.ResizeHandler.ResizedEventArgs._height</definition>
+        <argsstring></argsstring>
+        <name>_height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" line="36" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args_179ce41f8cb654aef3804297031b2ac7b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Ra.Extensions.Widgets.ResizeHandler.ResizedEventArgs.Width</definition>
+        <argsstring></argsstring>
+        <name>Width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" line="47" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args_1408d1980c60a53d18398f3fcb78b2075" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Ra.Extensions.Widgets.ResizeHandler.ResizedEventArgs.Height</definition>
+        <argsstring></argsstring>
+        <name>Height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" line="52" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args_1409d1d233891091bacd67cccd3d81eee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal</type>
+        <definition>internal Ra.Extensions.Widgets.ResizeHandler.ResizedEventArgs.ResizedEventArgs</definition>
+        <argsstring>(int width, int height)</argsstring>
+        <name>ResizedEventArgs</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" line="39" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" bodystart="38" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>EventArgs passed when Viewport is resized. Contains information about the Viewport (browser) width and height. </para>    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" line="34" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" bodystart="33" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args_160963e0c6b9e4b78c56d54be6361214c" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler::ResizedEventArgs</scope><name>_height</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args_1fb01de88cc5c969a2fabd26978343d9a" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler::ResizedEventArgs</scope><name>_width</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args_1408d1980c60a53d18398f3fcb78b2075" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler::ResizedEventArgs</scope><name>Height</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args_1409d1d233891091bacd67cccd3d81eee" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler::ResizedEventArgs</scope><name>ResizedEventArgs</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args_179ce41f8cb654aef3804297031b2ac7b" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler::ResizedEventArgs</scope><name>Width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

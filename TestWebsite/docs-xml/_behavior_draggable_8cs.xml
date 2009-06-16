@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="_behavior_draggable_8cs" kind="file">
+    <compoundname>BehaviorDraggable.cs</compoundname>
+    <innerclass refid="class_ra_1_1_behaviors_1_1_behavior_draggable" prot="public">Ra::Behaviors::BehaviorDraggable</innerclass>
+    <innernamespace refid="namespace_ra_1_1_behaviors">Ra::Behaviors</innernamespace>
+    <innernamespace refid="namespace_system_1_1_drawing">System::Drawing</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs"/>
+  </compounddef>
+</doxygen>

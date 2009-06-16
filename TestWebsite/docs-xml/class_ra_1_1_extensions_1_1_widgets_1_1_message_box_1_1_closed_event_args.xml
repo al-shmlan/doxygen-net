@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args" kind="class" prot="public">
+    <compoundname>Ra::Extensions::Widgets::MessageBox::ClosedEventArgs</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args_114d69b31777afef0f726f40a22ad4b6a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1fd81c70a3adcd44190c9646ab901a9ad" kindref="member">ClosedHow</ref></type>
+        <definition>ClosedHow Ra.Extensions.Widgets.MessageBox.ClosedEventArgs._closedHow</definition>
+        <argsstring></argsstring>
+        <name>_closedHow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="97" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args_12a3e9ed481dd512484b6238f3e86a94f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Ra.Extensions.Widgets.MessageBox.ClosedEventArgs._userInput</definition>
+        <argsstring></argsstring>
+        <name>_userInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="98" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args_1507807a991f349b44e804cc8d77d1200" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1fd81c70a3adcd44190c9646ab901a9ad" kindref="member">ClosedHow</ref></type>
+        <definition>ClosedHow Ra.Extensions.Widgets.MessageBox.ClosedEventArgs.HowClosed</definition>
+        <argsstring></argsstring>
+        <name>HowClosed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="109" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args_1672f5be12e2548a4d6ed3a4464414d2e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Ra.Extensions.Widgets.MessageBox.ClosedEventArgs.UserInput</definition>
+        <argsstring></argsstring>
+        <name>UserInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="114" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args_1b82a6511351b160ecad69ad7249ecf77" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal</type>
+        <definition>internal Ra.Extensions.Widgets.MessageBox.ClosedEventArgs.ClosedEventArgs</definition>
+        <argsstring>(ClosedHow how, string userInput)</argsstring>
+        <name>ClosedEventArgs</name>
+        <param>
+          <type><ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1fd81c70a3adcd44190c9646ab901a9ad" kindref="member">ClosedHow</ref></type>
+          <declname>how</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>userInput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="101" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="100" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>EventArgs object passed into the Closed event of the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box" kindref="compound">MessageBox</ref>. Contains information about how the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box" kindref="compound">MessageBox</ref> was closed and also (if in &quot;input mode&quot;) the text the user typed into the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box" kindref="compound">MessageBox</ref>. </para>    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="96" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="95" bodyend="115"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args_114d69b31777afef0f726f40a22ad4b6a" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox::ClosedEventArgs</scope><name>_closedHow</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args_12a3e9ed481dd512484b6238f3e86a94f" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox::ClosedEventArgs</scope><name>_userInput</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args_1b82a6511351b160ecad69ad7249ecf77" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox::ClosedEventArgs</scope><name>ClosedEventArgs</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args_1507807a991f349b44e804cc8d77d1200" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox::ClosedEventArgs</scope><name>HowClosed</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args_1672f5be12e2548a4d6ed3a4464414d2e" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox::ClosedEventArgs</scope><name>UserInput</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

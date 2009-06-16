@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_effects_1_1_effect_size" kind="class" prot="public">
+    <compoundname>Ra::Effects::EffectSize</compoundname>
+    <basecompoundref refid="class_ra_1_1_effects_1_1_effect" prot="public" virt="non-virtual">Ra.Effects.Effect</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_effects_1_1_effect_size_1ae873b8840e1e58cafa1417fa18b4bc4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ra.Effects.EffectSize._height</definition>
+        <argsstring></argsstring>
+        <name>_height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" line="20" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_effects_1_1_effect_size_16b7633f4d470e3052c9a821e4f2c568a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ra.Effects.EffectSize._width</definition>
+        <argsstring></argsstring>
+        <name>_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" line="21" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_effects_1_1_effect_size_10f747ffcfb3513627d43ed97f11e1e12" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Ra.Effects.EffectSize.Width</definition>
+        <argsstring></argsstring>
+        <name>Width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>New width of Control </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" line="68" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_effects_1_1_effect_size_165e3c67e21912262413be74e47202df2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Ra.Effects.EffectSize.Height</definition>
+        <argsstring></argsstring>
+        <name>Height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>New height of Control </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" line="77" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_size_121da76a9cc4d51963383c9ea6a99044f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.EffectSize.EffectSize</definition>
+        <argsstring>()</argsstring>
+        <name>EffectSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use this CTOR only if your effects are being Joined. Expects the main effect to set the Control and Duration properties. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" line="29" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_size_1214b272ff8c9dc3a69d9ff6ef8ab1ae4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.EffectSize.EffectSize</definition>
+        <argsstring>(Control control, int milliseconds)</argsstring>
+        <name>EffectSize</name>
+        <param>
+          <type>Control</type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>milliseconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CTOR - control to animate and milliseconds to spend executing </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" line="36" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_size_1cb9833bd338ba9591605ed674bd74da4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.EffectSize.EffectSize</definition>
+        <argsstring>(Control control, int milliseconds, int height, int width)</argsstring>
+        <name>EffectSize</name>
+        <param>
+          <type>Control</type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>milliseconds</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CTOR - control to animate and milliseconds to spend executing in addition to end size of Control </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" line="44" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" bodystart="42" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_size_1012ae3571a8b30e940ab58f1320d0976" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.EffectSize.EffectSize</definition>
+        <argsstring>(int height, int width)</argsstring>
+        <name>EffectSize</name>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use this CTOR only if your effects are being Joined. Expects the main effect to set the Control and Duration properties. height and width is new size of Control. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" line="56" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" bodystart="54" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_size_1ae4e97f78efbcc5513b1a054d9327f9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectSize.RenderParalledOnStart</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnStart</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1939df83b762b921a2ad749b7e2d0c903">RenderParalledOnStart</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" line="92" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" bodystart="91" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_size_1ed8a1fc744e1dfb1e6a12cae1210f6f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectSize.RenderParalledOnFinished</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnFinished</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1a7b831319350a52da5eab083ddb5e962">RenderParalledOnFinished</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" line="100" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" bodystart="99" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_size_19ff56063ce961dfce8e2f407d7a499f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectSize.RenderParalledOnRender</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnRender</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1d0c062260770689c6d38605bf7fe51a4">RenderParalledOnRender</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" line="116" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" bodystart="115" bodyend="133"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_size_108d6be4274d6d8618d195de869462e21" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Effects.EffectSize.UpdateStyleCollection</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateStyleCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" line="80" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" bodystart="79" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Animates a Control from its current size to a new specified size. Uses pixel values. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="237">
+        <label>Ra.Effects.Effect</label>
+        <link refid="class_ra_1_1_effects_1_1_effect"/>
+      </node>
+      <node id="236">
+        <label>Ra.Effects.EffectSize</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_size"/>
+        <childnode refid="237" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="239">
+        <label>Ra.Effects.Effect</label>
+        <link refid="class_ra_1_1_effects_1_1_effect"/>
+      </node>
+      <node id="238">
+        <label>Ra.Effects.EffectSize</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_size"/>
+        <childnode refid="239" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" line="19" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectSize.cs" bodystart="18" bodyend="134"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_effects_1_1_effect_size_1ae873b8840e1e58cafa1417fa18b4bc4" prot="private" virt="non-virtual"><scope>Ra::Effects::EffectSize</scope><name>_height</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_size_16b7633f4d470e3052c9a821e4f2c568a" prot="private" virt="non-virtual"><scope>Ra::Effects::EffectSize</scope><name>_width</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_13115c920fdc000e6a1f44f6cd63244bd" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectSize</scope><name>Chained</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1e4df02803f0639f910c73414a58c7adf" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectSize</scope><name>ChainThese</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_10e48bc7f42299256795b06866ea32f4a" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectSize</scope><name>Control</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1c86d32632b11c5452d3453e64e1e50dd" prot="protected" virt="non-virtual"><scope>Ra::Effects::EffectSize</scope><name>Effect</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_size_121da76a9cc4d51963383c9ea6a99044f" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectSize</scope><name>EffectSize</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_size_1214b272ff8c9dc3a69d9ff6ef8ab1ae4" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectSize</scope><name>EffectSize</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_size_1cb9833bd338ba9591605ed674bd74da4" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectSize</scope><name>EffectSize</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_size_1012ae3571a8b30e940ab58f1320d0976" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectSize</scope><name>EffectSize</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_size_165e3c67e21912262413be74e47202df2" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectSize</scope><name>Height</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_12defc4249bcf05bede3832099b4039c0" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectSize</scope><name>Joined</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_12e6be44aa1a8920c51e4400906839a4e" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectSize</scope><name>JoinThese</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1b413970d24db1a18369915962933e223" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectSize</scope><name>Milliseconds</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_10631d51b0971a52ff4583dc4a4ba3c2a" prot="public" virt="virtual"><scope>Ra::Effects::EffectSize</scope><name>Render</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_size_1ed8a1fc744e1dfb1e6a12cae1210f6f4" prot="public" virt="virtual"><scope>Ra::Effects::EffectSize</scope><name>RenderParalledOnFinished</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_size_19ff56063ce961dfce8e2f407d7a499f1" prot="public" virt="virtual"><scope>Ra::Effects::EffectSize</scope><name>RenderParalledOnRender</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_size_1ae4e97f78efbcc5513b1a054d9327f9d" prot="public" virt="virtual"><scope>Ra::Effects::EffectSize</scope><name>RenderParalledOnStart</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_18672655e14a3ebb99666c9f8f7fa4923" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectSize</scope><name>Transition</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_169619c9eab1b999e313a2559e786c75d" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectSize</scope><name>TransitionType</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_size_108d6be4274d6d8618d195de869462e21" prot="private" virt="non-virtual"><scope>Ra::Effects::EffectSize</scope><name>UpdateStyleCollection</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1041eba6f6e4a57073b2afb7cbbc65fb4" prot="protected" virt="virtual"><scope>Ra::Effects::EffectSize</scope><name>ValidateEffect</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_size_10f747ffcfb3513627d43ed97f11e1e12" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectSize</scope><name>Width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

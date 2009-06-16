@@ -1,0 +1,615 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part" kind="class" prot="public">
+    <compoundname>Ra::Extensions::Widgets::WebPart</compoundname>
+    <basecompoundref refid="class_ra_1_1_widgets_1_1_panel" prot="public" virt="non-virtual">Ra.Widgets.Panel</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_150aa294959268cbe50b0a9472b77d3f5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_panel" kindref="compound">Panel</ref></type>
+        <definition>Panel Ra.Extensions.Widgets.WebPart._header</definition>
+        <argsstring></argsstring>
+        <name>_header</name>
+        <initializer> new <ref refid="class_ra_1_1_widgets_1_1_panel" kindref="compound">Panel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="32" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1aed857189b95a8d5ca3eb7b625b7550c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.WebPart._caption</definition>
+        <argsstring></argsstring>
+        <name>_caption</name>
+        <initializer> new <ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="33" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_163f989841abda053758f91fe7df3f225" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_link_button" kindref="compound">LinkButton</ref></type>
+        <definition>LinkButton Ra.Extensions.Widgets.WebPart._toggle</definition>
+        <argsstring></argsstring>
+        <name>_toggle</name>
+        <initializer> new <ref refid="class_ra_1_1_widgets_1_1_link_button" kindref="compound">LinkButton</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="34" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_124f1cf0e96d7acad1754ae5aeeabfcf3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_link_button" kindref="compound">LinkButton</ref></type>
+        <definition>LinkButton Ra.Extensions.Widgets.WebPart._maximize</definition>
+        <argsstring></argsstring>
+        <name>_maximize</name>
+        <initializer> new <ref refid="class_ra_1_1_widgets_1_1_link_button" kindref="compound">LinkButton</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="35" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_10f65124b624882166c1c39b06a17b893" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_link_button" kindref="compound">LinkButton</ref></type>
+        <definition>LinkButton Ra.Extensions.Widgets.WebPart._close</definition>
+        <argsstring></argsstring>
+        <name>_close</name>
+        <initializer> new <ref refid="class_ra_1_1_widgets_1_1_link_button" kindref="compound">LinkButton</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="36" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_110603efbbbf66b303c2f7c7d2fd17848" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_panel" kindref="compound">Panel</ref></type>
+        <definition>Panel Ra.Extensions.Widgets.WebPart._content</definition>
+        <argsstring></argsstring>
+        <name>_content</name>
+        <initializer> new <ref refid="class_ra_1_1_widgets_1_1_panel" kindref="compound">Panel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="37" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_13802025a52f71853790135f8bb696fad" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Extensions.Widgets.WebPart.Expanded</definition>
+        <argsstring></argsstring>
+        <name>Expanded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part" kindref="compound">WebPart</ref> is being expanded </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="42" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_12158b1bcfb00905c3719b5db03819817" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Extensions.Widgets.WebPart.Collapsed</definition>
+        <argsstring></argsstring>
+        <name>Collapsed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part" kindref="compound">WebPart</ref> is being collapsed </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="47" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_101347fdcb2d6932dce5e273d6fdcab0a" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Extensions.Widgets.WebPart.Closed</definition>
+        <argsstring></argsstring>
+        <name>Closed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part" kindref="compound">WebPart</ref> is being closed </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="52" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_12e6535db6fec5b7590a73359fdbd4d15" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Extensions.Widgets.WebPart.Maximized</definition>
+        <argsstring></argsstring>
+        <name>Maximized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part" kindref="compound">WebPart</ref> is being maximized </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="57" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_15e87b70865f8a9b8da53b5d53167bbb4" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Extensions.Widgets.WebPart.Restored</definition>
+        <argsstring></argsstring>
+        <name>Restored</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part" kindref="compound">WebPart</ref> is being restored </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="62" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1e4ccbfd8c11373440cbcbcdfd021157a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override string</type>
+        <definition>override string Ra.Extensions.Widgets.WebPart.CssClass</definition>
+        <argsstring></argsstring>
+        <name>CssClass</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_16138c4d2623d7a9d0e55ca42d8a24667">CssClass</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overridden to provide a sane default value </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="78" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_12683b0c14bfcc12500097beea847a23e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Extensions.Widgets.WebPart.Caption</definition>
+        <argsstring></argsstring>
+        <name>Caption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Header text of <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part" kindref="compound">WebPart</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="88" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1d35cddfb0b5ac6cc56301b5880e94f3d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Extensions.Widgets.WebPart.IsClosable</definition>
+        <argsstring></argsstring>
+        <name>IsClosable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If true (default value) then <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part" kindref="compound">WebPart</ref> will have a &quot;Close&quot; icon which makes it possible to close it by clicking. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="99" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1c5265fa611f5ec6edbc27bedfed842a3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Extensions.Widgets.WebPart.IsMaximizable</definition>
+        <argsstring></argsstring>
+        <name>IsMaximizable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If true (default value) then <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part" kindref="compound">WebPart</ref> will have a &quot;Maximize&quot; icon which makes it possible to maximize and restore. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="110" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_13eb8f8bca32c6f07d26c40e6957daa47" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Extensions.Widgets.WebPart.IsExpandable</definition>
+        <argsstring></argsstring>
+        <name>IsExpandable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If true (default value) then <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part" kindref="compound">WebPart</ref> will have a &quot;Maximize&quot; icon which makes it possible to maximize and restore. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="121" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_16a16957c60057e058dd9dd43bd1e4935" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Extensions.Widgets.WebPart.IsExpanded</definition>
+        <argsstring></argsstring>
+        <name>IsExpanded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If true (default value) then <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part" kindref="compound">WebPart</ref> is expanded </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="136" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1674f068a3ba1c9b0dd530ad10b24e8ee" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Extensions.Widgets.WebPart.IsMaximized</definition>
+        <argsstring></argsstring>
+        <name>IsMaximized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If true then <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part" kindref="compound">WebPart</ref> is maximized. The default value is false. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="156" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_14c0053bc3d813feac3025cd08d173365" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ASP.ControlCollection</type>
+        <definition>ASP.ControlCollection Ra.Extensions.Widgets.WebPart.Content</definition>
+        <argsstring></argsstring>
+        <name>Content</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The actual &quot;content part&quot; of the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" kindref="compound">Window</ref>. This is where your child controls from the markup will be added. If you add up items dynamically to the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" kindref="compound">Window</ref> then this is where you should add them up. So instead of using &quot;myWindow.Controls.Add&quot; you should normally use &quot;myWindow.Content.Add&quot; when adding Controls dynamically to the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" kindref="compound">Window</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="217" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1580797fd6e4e34470ec437034cebc297" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Size</type>
+        <definition>Size Ra.Extensions.Widgets.WebPart.RestoreSize</definition>
+        <argsstring></argsstring>
+        <name>RestoreSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="271" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1da9781cd8ee6b6f675e4de632158a97e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.WebPart.Maximize</definition>
+        <argsstring>()</argsstring>
+        <name>Maximize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="159" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="158" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1b3545582c0f48d67ad26a465a3dfa87e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.WebPart.Restore</definition>
+        <argsstring>()</argsstring>
+        <name>Restore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="180" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="179" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_11270164ea25886f777ce6441c95bb354" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.WebPart.CreateWebPartControls</definition>
+        <argsstring>()</argsstring>
+        <name>CreateWebPartControls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="225" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="224" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1d7ef7a868d3a8ffebcf45025c037e780" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.WebPart._close_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>_close_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="261" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="260" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_12ed2cce3dc61426360301fa1ab35d2de" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.WebPart._maximize_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>_maximize_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="274" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="273" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1c778bfa68d684f66921a988fa25b2f70" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.WebPart._toggle_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>_toggle_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="290" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="289" bodyend="309"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_195a5c9620169b6f3649b58fd121af05c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.WebPart.OnInit</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnInit</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_140a558cf9617ef2289be7fc7faf5130c">OnInit</reimplements>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="201" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="200" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1b8563245980f1ece75a03b3fea6c7a41" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.WebPart.CreateChildControls</definition>
+        <argsstring>()</argsstring>
+        <name>CreateChildControls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="220" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="219" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_15f9a07bb4dec80770cbefd8b774791ed" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.WebPart.OnPreRender</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnPreRender</name>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="312" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="311" bodyend="328"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part" kindref="compound">WebPart</ref> - kind of like a &quot;mini Window&quot; or a &quot;special panel&quot;. Useful for creating among other things portal applications like iGoogle, PageFlakes or NetVibes. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="720">
+        <label>Ra.Extensions.Widgets.WebPart</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part"/>
+        <childnode refid="721" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="723">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="721">
+        <label>Ra.Widgets.Panel</label>
+        <link refid="class_ra_1_1_widgets_1_1_panel"/>
+        <childnode refid="722" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="722">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="723" relation="public-inheritance">
+        </childnode>
+        <childnode refid="724" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="724">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="725">
+        <label>Ra.Extensions.Widgets.WebPart</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part"/>
+        <childnode refid="726" relation="public-inheritance">
+        </childnode>
+        <childnode refid="731" relation="usage">
+          <edgelabel>_toggle</edgelabel>
+          <edgelabel>_close</edgelabel>
+          <edgelabel>_maximize</edgelabel>
+        </childnode>
+        <childnode refid="732" relation="usage">
+          <edgelabel>_caption</edgelabel>
+        </childnode>
+        <childnode refid="726" relation="usage">
+          <edgelabel>_content</edgelabel>
+          <edgelabel>_header</edgelabel>
+        </childnode>
+      </node>
+      <node id="730">
+        <label>Ra.Widgets.StyleCollection</label>
+        <link refid="class_ra_1_1_widgets_1_1_style_collection"/>
+        <childnode refid="727" relation="usage">
+          <edgelabel>_control</edgelabel>
+        </childnode>
+      </node>
+      <node id="728">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="726">
+        <label>Ra.Widgets.Panel</label>
+        <link refid="class_ra_1_1_widgets_1_1_panel"/>
+        <childnode refid="727" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="732">
+        <label>Ra.Widgets.Label</label>
+        <link refid="class_ra_1_1_widgets_1_1_label"/>
+        <childnode refid="727" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="727">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="728" relation="public-inheritance">
+        </childnode>
+        <childnode refid="729" relation="public-inheritance">
+        </childnode>
+        <childnode refid="730" relation="usage">
+          <edgelabel>_styles</edgelabel>
+        </childnode>
+      </node>
+      <node id="729">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+      <node id="731">
+        <label>Ra.Widgets.LinkButton</label>
+        <link refid="class_ra_1_1_widgets_1_1_link_button"/>
+        <childnode refid="727" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" line="31" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/WebPart.cs" bodystart="30" bodyend="329"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1aed857189b95a8d5ca3eb7b625b7550c" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>_caption</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_10f65124b624882166c1c39b06a17b893" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>_close</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1d7ef7a868d3a8ffebcf45025c037e780" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>_close_Click</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_110603efbbbf66b303c2f7c7d2fd17848" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>_content</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_150aa294959268cbe50b0a9472b77d3f5" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>_header</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_124f1cf0e96d7acad1754ae5aeeabfcf3" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>_maximize</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_12ed2cce3dc61426360301fa1ab35d2de" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>_maximize_Click</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_163f989841abda053758f91fe7df3f225" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>_toggle</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1c778bfa68d684f66921a988fa25b2f70" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>_toggle_Click</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_12683b0c14bfcc12500097beea847a23e" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>Caption</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14dcb41296fe7545bb820a9184c2db962" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>Click</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_101347fdcb2d6932dce5e273d6fdcab0a" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>Closed</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_12158b1bcfb00905c3719b5db03819817" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>Collapsed</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_14c0053bc3d813feac3025cd08d173365" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>Content</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1b8563245980f1ece75a03b3fea6c7a41" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>CreateChildControls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_11270164ea25886f777ce6441c95bb354" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>CreateWebPartControls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1e4ccbfd8c11373440cbcbcdfd021157a" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>CssClass</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_19fa1952b1c6b040d43165f5a11606ead" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>DblClick</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1c6430d3868b755f48e9465a84b1bffbc" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>DefaultWidget</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1de60bed8a2264f876fdfbd7232836f7c" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>DispatchEvent</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_13802025a52f71853790135f8bb696fad" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>Expanded</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_11b9a672cefa64ca768f84857447a8191" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>GetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1ffd2a1e2f6b7e496a21b53e498095251" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1252ed547fb14958b0f4d7bea1ebfc109" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_104c0e8c541fe0b029d0edcd6b99ee718" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1e4e9525d529e8227b3c1a5db86d030b7" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>GetMouseOutEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_18bbe18d42617850745996cb0d672260c" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>GetMouseOverEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1e43aee7c85601ef8aa822dc4740210e6" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d8ae2b4ae6bce092e7d558db25b5c02a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>GetWebControlAttributes</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1d35cddfb0b5ac6cc56301b5880e94f3d" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>IsClosable</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_13eb8f8bca32c6f07d26c40e6957daa47" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>IsExpandable</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_16a16957c60057e058dd9dd43bd1e4935" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>IsExpanded</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1c5265fa611f5ec6edbc27bedfed842a3" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>IsMaximizable</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1674f068a3ba1c9b0dd530ad10b24e8ee" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>IsMaximized</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bc64e6e9488a31df7ae5ef0e3903b236" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>KeyDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_118b31c98087d7a57f49a42eb1bac2528" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>KeyPress</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1247f291546c64e40bddffb08936da867" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>KeyUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bccc3b360a6ddfe4f2aa2cb3e785ac1e" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>LoadViewState</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1da9781cd8ee6b6f675e4de632158a97e" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>Maximize</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_12e6535db6fec5b7590a73359fdbd4d15" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>Maximized</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c6c9ca13ef1e4e436153d6c3cf017a0c" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>MouseDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_103683f2d6d76237d0c501cde2ebae5ef" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>MouseMove</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_15be672aec4d07efc18f5e33cfeca6c7b" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>MouseOut</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d17aaa8103deb9d5037f8c3f334af1e7" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>MouseOver</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_13c51734abc45a09d5df540d48b88c6da" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>MouseUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_142b4a9a49ba0e6e81389627d4ad34aeb" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>OnClickClientSide</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_195a5c9620169b6f3649b58fd121af05c" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_15f9a07bb4dec80770cbefd8b774791ed" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>OnPreRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14cad6b9fb27c8c4c27b7bab4e471c445" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>QueueMultipleRequests</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_17d74fee59a34ea1bd5329082e043c531" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>RaWebControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1b3545582c0f48d67ad26a465a3dfa87e" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>Restore</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_15e87b70865f8a9b8da53b5d53167bbb4" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>Restored</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1580797fd6e4e34470ec437034cebc297" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>RestoreSize</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_151ad71b3e5b5708fffbc50d3b0d93e4f" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>SaveViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_126c54189e89a72cdfecdfa5c62a9b97e" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>SetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_168ccd06bd09c6e05962f0e8838045c80" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>Style</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1255844bd5511b517d5d292f925f20994" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>TabIndex</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_182f02c963154472792679eae72cae436" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>Tag</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1812b6302ab1f9ddf6e4ce88a5d447f28" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>Tooltip</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c5de8a6390860af479dd41b75bff7584" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>TrackViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::WebPart</scope><name>Xtra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

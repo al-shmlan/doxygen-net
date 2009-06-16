@@ -1,0 +1,1463 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.5.9">
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion" kind="class"><name>Ra::Extensions::Widgets::Accordion</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_15f9f25da083565b3cda9e85a88f548de" kind="event"><name>ActiveAccordionViewChanged</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_1751767eaf00d0f27df800a08649be332" kind="property"><name>ActiveAccordionViewIndex</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_19649eb488f744f84763762ce6f60f673" kind="property"><name>CssClass</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_159e516480abe2a5433c945d19c704767" kind="property"><name>AnimationDuration</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_17623d5dd72f3fe6878beab7cc7f303d9" kind="property"><name>ClientSideChange</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_1dbbec01b4251c8c03fcb22947f818ec9" kind="property"><name>Views</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_15b2291edd87c842b834b14869ec6a9c4" kind="function"><name>RaiseActiveChanged</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view" kind="class"><name>Ra::Extensions::Widgets::AccordionView</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view_19c81dcc856a0ae03c01439b067d5f9da" kind="property"><name>Caption</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view_1a93da287c72cedcee0c38d007ba38a91" kind="function"><name>LoadViewState</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view_16f5c56c3508a222d3c837cd257753d02" kind="function"><name>CreateChildControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view_1f9989da782028e30b688cf857f591d2c" kind="function"><name>RenderChildren</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view_18249e048e52c731b445cd018046ac795" kind="function"><name>CreateCompositionControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view_1403d196c039212652899cbbff0953a51" kind="function"><name>btn_Click</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view_117d894253621e0cb9ddf8869dca44367" kind="function"><name>SetActive</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view_143ef46582947f0dc83083ce49a41a296" kind="function"><name>IsActive</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_ajax_manager" kind="class"><name>Ra::AjaxManager</name>
+    <member refid="class_ra_1_1_ajax_manager_1e7cab5e826a1a526b772685a933c87f8" kind="variable"><name>_raControls</name></member>
+    <member refid="class_ra_1_1_ajax_manager_16c5932a959948d1bdae80fa1f279d424" kind="variable"><name>_supressFilters</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1461e9e90c809ca20145f53359b31bb13" kind="variable"><name>_scriptIncludes</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1d782734ee09a9dd8a0a691a5e5fc9e75" kind="variable"><name>_dynamicScriptIncludes</name></member>
+    <member refid="class_ra_1_1_ajax_manager_100d9f1a14dd7bef80b9260727076151d" kind="variable"><name>_redirectUrl</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1ac1e9f7060d925ce12151b18eab19f41" kind="variable"><name>_memStream</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1a98be701f82f71730fc15f922aed13b7" kind="variable"><name>_writer</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1b0485b956dfd86202d8cc5cd53c577de" kind="variable"><name>_memStreamBack</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1eb467f902978900a49fe8fbb521a478b" kind="variable"><name>_writerBack</name></member>
+    <member refid="class_ra_1_1_ajax_manager_195aa1e678350ceccab5b44bdfefede21" kind="variable"><name>_requestViewState</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1a48a2fd316985d45aec5515b618f7dd0" kind="property"><name>Instance</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1809fdc35e764e280eea5c217e043a20b" kind="property"><name>RaControls</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1ebdb478f64974f34f01a07bfaaf8cde3" kind="property"><name>IsCallback</name></member>
+    <member refid="class_ra_1_1_ajax_manager_109641230fa03d15dc70ceda1d0ef7332" kind="property"><name>SupressAjaxFilters</name></member>
+    <member refid="class_ra_1_1_ajax_manager_19879da1d4437b49093da505dd1abe2fc" kind="property"><name>Writer</name></member>
+    <member refid="class_ra_1_1_ajax_manager_130467465fce9da73278a48f24df85d3e" kind="property"><name>WriterAtBack</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1e0f8949b60d742a19cf08ddfbd69ce4f" kind="function"><name>FindControl</name></member>
+    <member refid="class_ra_1_1_ajax_manager_17f87b2ab5dcf4f88b6f620fc955923ee" kind="function"><name>FindControlClientID</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1e341e23acfee955f82955ebfafd2f209" kind="function"><name>FindControl</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1cdc888cf6a713acec8a33a3dd270c3ab" kind="function"><name>FindControlClientID</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1ee71aecabae518c0b60b74da8180f17c" kind="function"><name>FindControlClientID&lt; T &gt;</name></member>
+    <member refid="class_ra_1_1_ajax_manager_13d9bf49e96b6ae98f95437c48e91896d" kind="function"><name>InitializeControl</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1e4b01ae39c69ab4d80f2f29a40c21d35" kind="function"><name>CurrentPage_LoadComplete_NO_AJAX</name></member>
+    <member refid="class_ra_1_1_ajax_manager_169f291860e1c1731b862a98733e3586f" kind="function"><name>CurrentPage_LoadComplete</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1269e118240561cc8b228206f9d22fb6a" kind="function"><name>ExtractMethod</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1d8a889a2b1eee6f8fac340ea960f42b8" kind="function"><name>IncludeMainRaScript</name></member>
+    <member refid="class_ra_1_1_ajax_manager_18d39d177df72fc9b80765cbaf24500d4" kind="function"><name>IncludeMainControlScripts</name></member>
+    <member refid="class_ra_1_1_ajax_manager_11f13e838b4b79e83b11dff85a6845574" kind="function"><name>IncludeScriptFromResource</name></member>
+    <member refid="class_ra_1_1_ajax_manager_13ec61431e02d4fff05ebe5b843078506" kind="function"><name>IncludeScript</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1e505fcf760d828d456d937e3f85203d4" kind="function"><name>RenderPostback</name></member>
+    <member refid="class_ra_1_1_ajax_manager_10734e1c890c336fbd6627f01d906d704" kind="function"><name>RenderCallback</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1f232c3b7f4040fd72e4d353207e3ab3d" kind="function"><name>GetViewState</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1a5a5c134d28bcc1e71cf82379ca91f95" kind="function"><name>GetHiddenInputValue</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1a5990e8940364f06252da5ae72a4566f" kind="function"><name>UpdateViewState</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1b9c6a9c609aec33226cdb7a0fc84fa65" kind="function"><name>AddInitializationScripts</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1ef14502d49a785734b03742544a22b21" kind="function"><name>AddScriptIncludes</name></member>
+    <member refid="class_ra_1_1_ajax_manager_12893cdfa32e11de65a8238cdb5201a98" kind="function"><name>AddDynamicScriptIncludes</name></member>
+    <member refid="class_ra_1_1_ajax_manager_10079e234787b9eb097b48c2f5c5c64b4" kind="function"><name>FindControl&lt; T &gt;</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1a42745c0619368c15331fbf36f0dde95" kind="function"><name>FindControl&lt; T &gt;</name></member>
+    <member refid="class_ra_1_1_ajax_manager_13ffea8d8f00ef9e3186a45e61cdf4bdf" kind="function"><name>IncludeScriptFromResource</name></member>
+    <member refid="class_ra_1_1_ajax_manager_11769448d6e56b5c8e90f44686d338ddb" kind="function"><name>IncludeScriptFromFile</name></member>
+    <member refid="class_ra_1_1_ajax_manager_1838b685e64f371cc2832de21203ad56f" kind="function"><name>Redirect</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer" kind="class"><name>Ra::Extensions::Widgets::AutoCompleter</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1d05b938c80425ecc32e79b9a09b65f3c" kind="variable"><name>_txt</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_17c7bb11f04d5b344c9139ccfc6381de3" kind="variable"><name>_items</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_17c11e5488a151ba760de7ab6b39690f2" kind="event"><name>RetrieveAutoCompleterItems</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_11964d9a728b4a8e1c7ea6014aa7ea66b" kind="event"><name>AutoCompleterItemSelected</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1a348f2d56f507f72e56f7793fcdbd64c" kind="property"><name>CssClass</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_163ea5cb91f1d2aaad565bda51e4865c3" kind="property"><name>SelectedItem</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1e7bd0223a36a3f32b6a3d199d5827387" kind="property"><name>AccessKey</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1df2a53c8a117c3069f5abc1276912ea2" kind="property"><name>Text</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1eb5e1b6a1542598d2464a4084977ce57" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1fedb2b2544a18559baa2564c920d7dc6" kind="function"><name>OnLoad</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1b427b26cd78d2797ff392bbfa844aaf2" kind="function"><name>CreateChildControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1d5fbba4718d893981558313e220ad87f" kind="function"><name>OnPreRender</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_15b5703bbea25b5b4efeb55c1225db458" kind="function"><name>CreateAutoCompleterControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_13f4d0088d7abf345d81cfa7c7cb92380" kind="function"><name>WireItemSelectedEvents</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1356f35f1474169c3bc37977446ea09b8" kind="function"><name>idx_Click</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1c7ce3eadae56d221c2c0b4044007a84b" kind="function"><name>_txt_KeyUp</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_174c3338f3588d1a552a6aee00489fe9f" kind="function"><name>RetrieveDynamicallyCreatedItems</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1ea4fb68f01c0cf713b4a765639c2589d" kind="function"><name>Focus</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1591c8fae1c4d4f18b177da720a816461" kind="function"><name>Select</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_item" kind="class"><name>Ra::Extensions::Widgets::AutoCompleterItem</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_item_1b8f9168c212792ca82aa3bd1baa42bad" kind="function"><name>OnInit</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_behaviors_1_1_behavior" kind="class"><name>Ra::Behaviors::Behavior</name>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_1ecc6bad150d79cf31bb1f657e2d51c70" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_1ffd5dd9f1607d04c87336df350ed6341" kind="function"><name>GetOpeningHTML</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_11987e87eaa66eb1c05928616cf1a48c5" kind="function"><name>EnsureViewStateLoads</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_112364b3fa9f7f0e83bd37171ef4303f1" kind="function"><name>RenderOnlyJSON</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_1bf8823132f1874b37f32fc9faa1d7199" kind="function"><name>RenderControl</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_1b77dc2b7238d6b7b6fcc34585d08391e" kind="function"><name>GetRegistrationScript</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_behaviors_1_1_behavior_draggable" kind="class"><name>Ra::Behaviors::BehaviorDraggable</name>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_draggable_133a261690e57ea6176bc0642d24aa5bf" kind="event"><name>Dropped</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_draggable_13ac3ca1f981964921183eac3da96c30d" kind="property"><name>Bounds</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_draggable_1b3ee6df916987d3afbb34e030cc375f6" kind="property"><name>Snap</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_draggable_1c390c7466af8efd360e802071ea3b772" kind="property"><name>Handle</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_draggable_1d60742964917baa562fdcdda38dca0a5" kind="property"><name>Enabled</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_draggable_16e9bb76a4c80d099a03506dd4b5b2f7f" kind="function"><name>GetRegistrationScript</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_draggable_187c5a6c00da93e9be71e12ed768610bd" kind="function"><name>GetClientSideScript</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_draggable_1d5b931f651aa06d856e1090e2964c8df" kind="function"><name>EnsureViewStateLoads</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_draggable_14e15416a4b65cc4b7b2fecd8787272c4" kind="function"><name>DispatchEvent</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_behaviors_1_1_behavior_droppable" kind="class"><name>Ra::Behaviors::BehaviorDroppable</name>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_droppable_1f10af555f7d26f73d1d4d5e16c4d9c20" kind="event"><name>Dropped</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_droppable_1db45b350215928d9f18635b671f4ec49" kind="property"><name>TouchedCssClass</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_droppable_14acf3325c0b97af8a8bb3ee381cf3543" kind="function"><name>GetRegistrationScript</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_droppable_11de3a70fd585f0cb2660de977a6d00c7" kind="function"><name>RaiseDropped</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_behaviors_1_1_behavior_obscurable" kind="class"><name>Ra::Behaviors::BehaviorObscurable</name>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_obscurable_1539b0bdf11279fca9a478ffee9a6a7e4" kind="property"><name>Opacity</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_obscurable_13db9bc6bfa545a4f5bc55e1e120d289f" kind="property"><name>ZIndex</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_obscurable_1e5d589adf944072ba78ae7cc02e42cc9" kind="property"><name>Color</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_obscurable_17cb64c6494e096e1ca3d15f3ac0aaba9" kind="function"><name>GetRegistrationScript</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_obscurable_12c3c48dcf6fede5cd2197b2d2ef6b45c" kind="function"><name>GetClientSideScript</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_behaviors_1_1_behavior_unveiler" kind="class"><name>Ra::Behaviors::BehaviorUnveiler</name>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_unveiler_14493a75a9509fd6fdfeccfedf1920de0" kind="property"><name>MinOpacity</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_unveiler_1ed34b0bf5066679ba7c96f4dfc7ea550" kind="property"><name>MaxOpacity</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_unveiler_1a0ead74c778dd78d90e8ee1ad0bf5977" kind="property"><name>Duration</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_unveiler_10aa24cfb77a17eb79fe164b1a52af263" kind="function"><name>BehaviorUnveiler</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_unveiler_13c5bb68d12e804b7313355e4184673bf" kind="function"><name>BehaviorUnveiler</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_unveiler_19056513a96216dda50fc5216557e370e" kind="function"><name>GetRegistrationScript</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_unveiler_1a6173784821a770bb5bbbfcd71f658c2" kind="function"><name>GetClientSideScript</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_behaviors_1_1_behavior_updater" kind="class"><name>Ra::Behaviors::BehaviorUpdater</name>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_1a6e60c359c0989973a3ab4bc26b9aad9" kind="property"><name>Delay</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_16df7430132f152be64fe1b962718863d" kind="property"><name>Opacity</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_11b8ebccf2c5db958bbf98379846399a9" kind="property"><name>Color</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_18700458569ca495b0bf7e1e635f7590b" kind="property"><name>ZIndex</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_1b6a120ed7b77f9b5c3c82c53d76257ed" kind="property"><name>ImageUrl</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_196b8ab136110c6a7a852304c14ca1095" kind="function"><name>BehaviorUpdater</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_1227ed6abc922e94168c8f630e070290f" kind="function"><name>BehaviorUpdater</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_1b3df2ad0763a0856e3e0cc8168c8bc4e" kind="function"><name>BehaviorUpdater</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_1f2d8971b85d41073d6467f521a63d338" kind="function"><name>BehaviorUpdater</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_1a66807c1d735b03835416e6a07132842" kind="function"><name>GetRegistrationScript</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_1de21936d8beffcf7b36f7ea1903ad9a7" kind="function"><name>GetClientSideScript</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_button" kind="class"><name>Ra::Widgets::Button</name>
+    <member refid="class_ra_1_1_widgets_1_1_button_17a97160a00fc9579c657a86c299484c4" kind="event"><name>Blur</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_button_14d8c1887361f60d4322a4cebbec113a9" kind="event"><name>Focused</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_button_1d0dd3edb22197c8743bdaa9cfce6de93" kind="property"><name>Text</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_button_17862869098465cf2da9e3516b0c16bff" kind="property"><name>AccessKey</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_button_13c46c6a85d76a9e4285b5f6f79efa807" kind="property"><name>Enabled</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_button_1400c02d2e91a1eadbbffff44eeefb792" kind="function"><name>DispatchEvent</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_button_173097aa8f3b2db919dc184d5389d83fc" kind="function"><name>GetEventsRegisterScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_button_14007ba8f017e12d50c20eeb67e35b405" kind="function"><name>GetOpeningHTML</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar" kind="class"><name>Ra::Extensions::Widgets::Calendar</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1139a931b378606cff0d06af7cccd9262" kind="variable"><name>_nw</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_132d3c194aab728bd47633109480b2a9a" kind="variable"><name>_n</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1bb452b3f31861c498bb3523433efac18" kind="variable"><name>_ne</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_19b39e9dfe17ffdeb04c9879a002caf3b" kind="variable"><name>_w</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1182ceaacdb811d4e60f1805f993d31ad" kind="variable"><name>_body</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_101d94d4ccbf2f693ccf19b0df5877e36" kind="variable"><name>_content</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1c7d3937ca8d37275d63b762e61a2af08" kind="variable"><name>_e</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1b81b0cb613479b00c464d684353b8c57" kind="variable"><name>_sw</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_18491f4cab2bb11061760f6cb76c313eb" kind="variable"><name>_s</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_18fec2474c0a9d696fcb88e000ed960e4" kind="variable"><name>_se</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1819f172ef9ef76a1d4b734abc547ccc2" kind="variable"><name>_caption</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_143f822e3c520fa51badc08ce2aea5ba4" kind="event"><name>SelectedValueChanged</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_102952f21b8ed73d43e3c412d30a0cc92" kind="event"><name>DateClicked</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_115f2e6cb3a0f0f224e587b411de7d909" kind="event"><name>CreateFooterControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1c797d72e2072de4711f8498e33d491be" kind="event"><name>RenderDay</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_182ce82f1f1564b697703b24b7fe4c8a0" kind="property"><name>CssClass</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_15dc2bc126d803a6c5f2c495bd57d51fe" kind="property"><name>Value</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_19cf5ee6cfa6f82750e1974d7c6bf9a36" kind="property"><name>StartsOn</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_16423051af8f5f67744ac64b38cf06555" kind="property"><name>Caption</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1cc66f5fc3004a9b39a5efa2bece9ddcb" kind="function"><name>OnLoad</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_11c32ba5b0fbe45ee4c189e5777877db6" kind="function"><name>CreateChildControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_102afdc003d954acb2555f56328f27cdd" kind="function"><name>OnPreRender</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_16370e1a6c7348f272894ad6c0995c478" kind="function"><name>CreateWindowControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_17fc54ecbe52e078db6f2a7ece9938e58" kind="function"><name>CreateCalendarControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_13428bebf3663f220b4aec914821502be" kind="function"><name>SetCssClassesAndMore</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_112f3a300229c1a6b2820057e86b55a53" kind="function"><name>FindStartDate</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1464bada980d0ce94922f52446befd57b" kind="function"><name>CreateTodayButton</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_192fc63117f6f9cef2c5640e230ca3414" kind="function"><name>CreateOneDayCell</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_11d9975a1ee43c2cac00fed2998271f66" kind="function"><name>CreateWeekNumberCell</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_104f9b9b95fdf4168deb8304bd513ec71" kind="function"><name>GetWeekNumber</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_16440dc616d618999c564678c454c17ba" kind="function"><name>GetWeekOneDate</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_19546b581e72cce93926fbe05fff69638" kind="function"><name>CreateYearMonthPicker</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_121acf82e9bad6feacb29674e3b64e163" kind="function"><name>CreateMonthPicker</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1086c1f58d6adbae7c32b845fab8e7c3e" kind="function"><name>CreateYearPicker</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1fc7659086a09eaa73db8669dec194a5a" kind="function"><name>today_Click</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1b774eff7d4696d23470df92cfa2de5ed" kind="function"><name>month_SelectedIndexChanged</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_11181573c6a02322234e0570d4ef0e5fb" kind="function"><name>year_SelectedIndexChanged</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1bb8c78d740083a95681748636375ffdb" kind="function"><name>btn_Click</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1c101f279349baf7f0b3f5a869f249286" kind="function"><name>CreateWeekDaysAtTop</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_core_1_1_callback_filter" kind="class"><name>Ra::Core::CallbackFilter</name>
+    <member refid="class_ra_1_1_core_1_1_callback_filter_14e52a93c1166d0216b96af19bea4cf55" kind="variable"><name>_next</name></member>
+    <member refid="class_ra_1_1_core_1_1_callback_filter_108d5b2367f59e38f6178451722fc8c48" kind="variable"><name>_stream</name></member>
+    <member refid="class_ra_1_1_core_1_1_callback_filter_1060400d202165ad31037eef2f584969a" kind="property"><name>CanRead</name></member>
+    <member refid="class_ra_1_1_core_1_1_callback_filter_195828236bb9efb7f7d8bc8ca95c2b5b1" kind="property"><name>CanSeek</name></member>
+    <member refid="class_ra_1_1_core_1_1_callback_filter_1fd5b25ce6a3137d0dfcfa86cc6cd7977" kind="property"><name>CanWrite</name></member>
+    <member refid="class_ra_1_1_core_1_1_callback_filter_1d23c980c7d28ad0b69450a2faee60dee" kind="property"><name>Length</name></member>
+    <member refid="class_ra_1_1_core_1_1_callback_filter_10912c6d4acd373e437be4fb67dc8ccb0" kind="property"><name>Position</name></member>
+    <member refid="class_ra_1_1_core_1_1_callback_filter_13281bcc9b448c75bef6976bb404c0d4f" kind="function"><name>CallbackFilter</name></member>
+    <member refid="class_ra_1_1_core_1_1_callback_filter_130c328cd48ef0ebab718a9bcdda4ef0e" kind="function"><name>Close</name></member>
+    <member refid="class_ra_1_1_core_1_1_callback_filter_1b4f2403bf4606dd9f3e0658d342e135f" kind="function"><name>Flush</name></member>
+    <member refid="class_ra_1_1_core_1_1_callback_filter_16ecedae94b6e92de7899b9db003afeb4" kind="function"><name>Seek</name></member>
+    <member refid="class_ra_1_1_core_1_1_callback_filter_1e64e33a0fd4d9f539a01e440b742973b" kind="function"><name>SetLength</name></member>
+    <member refid="class_ra_1_1_core_1_1_callback_filter_1a3dcd1d7220b4911c4e026a498a97049" kind="function"><name>Read</name></member>
+    <member refid="class_ra_1_1_core_1_1_callback_filter_13fdb8878d9af0452dbb955d8e80b06c2" kind="function"><name>Write</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_check_box" kind="class"><name>Ra::Widgets::CheckBox</name>
+    <member refid="class_ra_1_1_widgets_1_1_check_box_18e3edf5f1890a0d2d083824b8261ae7b" kind="event"><name>CheckedChanged</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_check_box_17e27b9f38e7f6965c829f223d786427e" kind="event"><name>Blur</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_check_box_157dd7eef0afb95032c7ce331692865ea" kind="event"><name>Focused</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_check_box_1ae7b3313abd9ca5b8fe09ccf5a0a5441" kind="property"><name>Text</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_check_box_17666fb9c0ec337aca86967d81f430613" kind="property"><name>Checked</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_check_box_195784c90f77d0bb3a55c31c21787bae7" kind="property"><name>AccessKey</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_check_box_1f08a127a2405c57949a72133f4ceb066" kind="property"><name>Enabled</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_check_box_1effc6646dd20a3ec3c90271cda81a757" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_check_box_1a7d7c7deae16a4be2ab1e99184557f1d" kind="function"><name>LoadViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_check_box_1a1b58c52382801b835940e63ce672ab4" kind="function"><name>GetClientSideScriptOptions</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_check_box_1d2cc8a0be886421deb31c58ff6a9d94a" kind="function"><name>GetMouseOutEventScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_check_box_11ff525ac5c2d9fbc774e7fae7359cfc0" kind="function"><name>GetMouseOverEventScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_check_box_18f6f5467f498f54a307b950e8ee5768d" kind="function"><name>GetEventsRegisterScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_check_box_1a81ab28415478b0530c4269f842403e9" kind="function"><name>GetOpeningHTML</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_check_box_1e2b3b2291f5c0f03c7dfd860e76af52f" kind="function"><name>DispatchEvent</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args" kind="class"><name>Ra::Extensions::Widgets::MessageBox::ClosedEventArgs</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args_114d69b31777afef0f726f40a22ad4b6a" kind="variable"><name>_closedHow</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args_12a3e9ed481dd512484b6238f3e86a94f" kind="variable"><name>_userInput</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args_1507807a991f349b44e804cc8d77d1200" kind="property"><name>HowClosed</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args_1672f5be12e2548a4d6ed3a4464414d2e" kind="property"><name>UserInput</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args_1b82a6511351b160ecad69ad7249ecf77" kind="function"><name>ClosedEventArgs</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet" kind="class"><name>Ra::Extensions::Widgets::Comet</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_13a15af2686ad21e4653ef826c232dbb5" kind="variable"><name>_enter</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_199052da84f61755d2f63f939447e044d" kind="event"><name>Tick</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_18b87ea8914d91eea7e9627c42a3462e9" kind="property"><name>Enabled</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1b428721b32d7be505a2fb1300ce30686" kind="property"><name>AllowExternalEvents</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_114d5ad7f1d64ae3be651fbf7e8bf017c" kind="property"><name>IsQueueFull</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_12e5a4e4a2ae293ba932e74a2905ceca5" kind="property"><name>MaxClients</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1bcf670a6eed373ea480337b7ecd59b1f" kind="property"><name>Queue</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_11850eefc16be1ba56cdee418b4a6d2fe" kind="property"><name>NumberOfConnections</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_116659f4ea78d9d0d6d762ef1815007c2" kind="function"><name>EnterQueue</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1baa7732ee07fd950d5fc17cf1a9ede7c" kind="function"><name>BeginEnterCometQueue</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1bec4f73c9635685b256f2d6edf4193c4" kind="function"><name>EndEnterCometQueue</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1971b66357ef2a50464bb04aa09699d84" kind="function"><name>TimeoutCometQueue</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_162acd9a811bd2f116cf996681f0952c3" kind="function"><name>DispatchEvent</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_16eba357b0991e273339a560b5f5b4d1d" kind="function"><name>SendMessage</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_11039b9625a641c6b175e3b0ccc1dbbe0" kind="function"><name>OnLoad</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_13d7edaf5a9f9e4fcc7858bcfd75cee42" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_10e1cb60e8e93070a4a2436a6e8c0bb92" kind="function"><name>GetClientSideScriptOptions</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_15ff1a2dd492e1289c0e89e2087b4cc69" kind="function"><name>GetClientSideScriptType</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1ee30b83ff9d46a1ef89c6e9ab9e5cdb0" kind="function"><name>GetOpeningHTML</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1_1_comet_event_args" kind="class"><name>Ra::Extensions::Widgets::Comet::CometEventArgs</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1_1_comet_event_args_11a111d8b8abf3e2c0183e52a23db7653" kind="variable"><name>_id</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1_1_comet_event_args_10fc823610809a7d6b350f7f640db8243" kind="property"><name>Id</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1_1_comet_event_args_14883245b43278ce3280c5dcf58ff78d2" kind="function"><name>CometEventArgs</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue" kind="class"><name>Ra::Extensions::Helpers::CometQueue</name>
+    <member refid="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue_1523890868c27681e2d83bc07a00bc660" kind="variable"><name>_resetEvent</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue_19bad85c92afb824932459847d7e3c0c0" kind="variable"><name>_events</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue_1b151c7728df4497cd6fdea6f2d426e5e" kind="function"><name>CometQueue</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue_1dbadd6cabea79f142ec9ed71ec55e02b" kind="function"><name>WaitForNextMessage</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue_1c2161af1b7f1538f0a25a3b14215bbf3" kind="function"><name>SignalizeNewEvent</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_helpers_1_1_comet_queue_18d2d78cfc658fd2eb41da451382ce81e" kind="function"><name>WaitOne</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_create_footer_controls_event_args" kind="class"><name>Ra::Extensions::Widgets::Calendar::CreateFooterControlsEventArgs</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_create_footer_controls_event_args_125bdc2eb6df572dbd19e3d31e1118233" kind="variable"><name>_ctrls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_create_footer_controls_event_args_1432751f293e11ecd9ea99a2651914170" kind="property"><name>Controls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_create_footer_controls_event_args_17e1d32f592639ce47030acd9c358cc73" kind="function"><name>CreateFooterControlsEventArgs</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1_1_create_title_bar_controls_event_args" kind="class"><name>Ra::Extensions::Widgets::Window::CreateTitleBarControlsEventArgs</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1_1_create_title_bar_controls_event_args_1fb1c44088708de771f91bfc0a5bd5e08" kind="variable"><name>_ctrl</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1_1_create_title_bar_controls_event_args_1026df317c0bf5867b93198f289ec346c" kind="property"><name>Caption</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1_1_create_title_bar_controls_event_args_11e8e43a6e9267aa46a9864ee85974243" kind="function"><name>CreateTitleBarControlsEventArgs</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker" kind="class"><name>Ra::Extensions::Widgets::DateTimePicker</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_14db639813f39d99dfd1d0f08a2d82628" kind="variable"><name>_hour</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_17c228969760dba0a652a28f916824474" kind="variable"><name>_minutes</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_15af221a6f46ce28983f42291d7885fa5" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_10e808e1fc5047e7ed46bd521727db1a8" kind="function"><name>OnPreRender</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_1cdb04d5b0d92f14240cf3df7b967d47e" kind="function"><name>DateTimePicker_CreateFooterControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_151d757f1bbc6003c19dad99cc720a1c4" kind="function"><name>_minutes_TextChanged</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_1f930c630d112b69ab0e0a8213b1b0cbf" kind="function"><name>_hour_TextChanged</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_behaviors_1_1_behavior_droppable_1_1_dropped_event_args" kind="class"><name>Ra::Behaviors::BehaviorDroppable::DroppedEventArgs</name>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_droppable_1_1_dropped_event_args_18e46f2d9dec9a9cc8a1de86ad59c4c55" kind="variable"><name>_dragger</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_droppable_1_1_dropped_event_args_1ee172b63c991f3277d9b3b723e642078" kind="property"><name>Dragger</name></member>
+    <member refid="class_ra_1_1_behaviors_1_1_behavior_droppable_1_1_dropped_event_args_1253816e646a8e5a6f4549870aa5b42ba" kind="function"><name>DroppedEventArgs</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_dynamic" kind="class"><name>Ra::Widgets::Dynamic</name>
+    <member refid="class_ra_1_1_widgets_1_1_dynamic_1e07c08760b541a605ae3ebc8f2e3ebea" kind="variable"><name>_key</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_dynamic_1e7a545e4cb1ed2d7c8e60403b77de3d5" kind="variable"><name>_extra</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_dynamic_1effb86640b86952c006e789b78508045" kind="event"><name>Reload</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_dynamic_1c8290a6caa80a7f8268470376e3f990f" kind="function"><name>LoadControlState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_dynamic_101f3fefd2b1a7f1e8c02e8b7a07ea29c" kind="function"><name>SaveControlState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_dynamic_1df2c3d6c9f1adfa53aa292186be43b3e" kind="function"><name>OnLoad</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_dynamic_1317d417a5a1417e287622cccbded551c" kind="function"><name>LoadDynamicControl</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_dynamic_17247a669c0a408a8609e0a272191a431" kind="function"><name>LoadControls</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_dynamic_1acadecc6b2eb6f9de4019370ef208a00" kind="function"><name>LoadControls</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_dynamic_18346051e546e77a5f257406577c15d16" kind="function"><name>LoadControls</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_dynamic_16391128def7e95aacd8d3c9882c237b8" kind="function"><name>ClearControls</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_effects_1_1_effect" kind="class"><name>Ra::Effects::Effect</name>
+    <member refid="class_ra_1_1_effects_1_1_effect_18672655e14a3ebb99666c9f8f7fa4923" kind="enum"><name>Transition</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_18672655e14a3ebb99666c9f8f7fa4923" kind="enumvalue"><name>Linear</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_18672655e14a3ebb99666c9f8f7fa4923" kind="enumvalue"><name>Accelerating</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_18672655e14a3ebb99666c9f8f7fa4923" kind="enumvalue"><name>Explosive</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_10afe71e012b7a7b45d96e1f3ffa367ee" kind="variable"><name>_control</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_1035faf9c50df16319dcb8a459187ca04" kind="variable"><name>_milliseconds</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_1f371a30c7371216ce29de4d05e21c28c" kind="variable"><name>_type</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_15164e3ac5543be4a956c733e714d3977" kind="variable"><name>_joined</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_1b395d98fcd12362fb937733477760388" kind="variable"><name>_chained</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_10e48bc7f42299256795b06866ea32f4a" kind="property"><name>Control</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_1b413970d24db1a18369915962933e223" kind="property"><name>Milliseconds</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_169619c9eab1b999e313a2559e786c75d" kind="property"><name>TransitionType</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_12defc4249bcf05bede3832099b4039c0" kind="property"><name>Joined</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_13115c920fdc000e6a1f44f6cd63244bd" kind="property"><name>Chained</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_1c86d32632b11c5452d3453e64e1e50dd" kind="function"><name>Effect</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_1041eba6f6e4a57073b2afb7cbbc65fb4" kind="function"><name>ValidateEffect</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_1e4df02803f0639f910c73414a58c7adf" kind="function"><name>ChainThese</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_12e6be44aa1a8920c51e4400906839a4e" kind="function"><name>JoinThese</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_1939df83b762b921a2ad749b7e2d0c903" kind="function"><name>RenderParalledOnStart</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_1a7b831319350a52da5eab083ddb5e962" kind="function"><name>RenderParalledOnFinished</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_1d0c062260770689c6d38605bf7fe51a4" kind="function"><name>RenderParalledOnRender</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_10631d51b0971a52ff4583dc4a4ba3c2a" kind="function"><name>Render</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_19e1891d8e5229a86c6774f2e9415334d" kind="function"><name>RenderOnStart</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_16fbfc403f42b458fa1e0f501ff2a53ee" kind="function"><name>RenderOnFinished</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_1d24c1ee01e8b46871ff711b8221feada" kind="function"><name>RenderChained</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_194c8b6b0810741fac2c034152119821f" kind="function"><name>RenderOnRender</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_1dbc76fbb09de235b1925042a727b5933" kind="function"><name>RenderImplementation</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_effects_1_1_effect_border" kind="class"><name>Ra::Effects::EffectBorder</name>
+    <member refid="class_ra_1_1_effects_1_1_effect_border_1da06d6111931b41e009e825799d454ab" kind="variable"><name>_borderTo</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_border_1f53b77e755d4777fded1fd1fbec16097" kind="property"><name>BorderTo</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_border_17a38dd300f45667346bcfcd0c80b57a2" kind="function"><name>EffectBorder</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_border_1b2cf2c61e4bdc9b266884d40c9e82b35" kind="function"><name>EffectBorder</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_border_13337a0796837985012464a53462c76ca" kind="function"><name>EffectBorder</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_border_1768fead9dcd233e15576f340a3f0794e" kind="function"><name>EffectBorder</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_border_1452aae07479b22da60cca9b52594fc71" kind="function"><name>RenderParalledOnStart</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_border_18e023d446fcace2776372e7b4fd892bc" kind="function"><name>RenderParalledOnFinished</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_border_1daabdee3391a9705e7a09d301a2c3413" kind="function"><name>RenderParalledOnRender</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_border_1878bf24c3f39d777a618b446a0531018" kind="function"><name>UpdateStyleCollection</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view_1_1_effect_change" kind="class"><name>Ra::Extensions::Widgets::AccordionView::EffectChange</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view_1_1_effect_change_1f3848969f6ce5504846d685e0321925b" kind="variable"><name>_idRemove</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view_1_1_effect_change_18901c27007ecc7f791e064b959674d91" kind="variable"><name>_idShow</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view_1_1_effect_change_1f7fb8a468fc49684527c2a861f3b68c6" kind="variable"><name>_parent</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view_1_1_effect_change_17a065c39d316dfae4deaf3eb2cbd9472" kind="function"><name>EffectChange</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view_1_1_effect_change_1f3e9fabb32281332c0a360056cccbd8b" kind="function"><name>Render</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view_1_1_effect_change_1c5986cee930f30ddff421109713e55a1" kind="function"><name>RenderParalledOnStart</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view_1_1_effect_change_19471bf5014804ad37a9a1f60963772ab" kind="function"><name>RenderParalledOnFinished</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view_1_1_effect_change_1c39233d76cfc7bfcdeaeff0e001872d4" kind="function"><name>RenderParalledOnRender</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_effects_1_1_effect_fade_in" kind="class"><name>Ra::Effects::EffectFadeIn</name>
+    <member refid="class_ra_1_1_effects_1_1_effect_fade_in_156c0db3b774f5be93f5da4c6c969e9c5" kind="function"><name>EffectFadeIn</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_fade_in_1d89e6b13ab01e48946cbe4754fb253d9" kind="function"><name>EffectFadeIn</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_fade_in_10f3f617aeea8d917e82e16e06661b914" kind="function"><name>Render</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_fade_in_1b67df9af937b8dff9280b4332a9d99c8" kind="function"><name>RenderParalledOnStart</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_fade_in_1d991e65c47ba995a33dc2558fa2d3c9b" kind="function"><name>RenderParalledOnFinished</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_fade_in_123dfaa91f88bab551d213983c0f9838b" kind="function"><name>RenderParalledOnRender</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_fade_in_16b2027bb733c5aadf7cefa507075f7d6" kind="function"><name>UpdateStyleCollection</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_effects_1_1_effect_fade_out" kind="class"><name>Ra::Effects::EffectFadeOut</name>
+    <member refid="class_ra_1_1_effects_1_1_effect_fade_out_14fbf7f7a639999b4f683fce1e9cf49cd" kind="function"><name>EffectFadeOut</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_fade_out_1592e33d755630fc8100c53cb1a2605e1" kind="function"><name>EffectFadeOut</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_fade_out_146a4e5dfb97c33b4b464f08f1e2a31b6" kind="function"><name>RenderParalledOnStart</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_fade_out_10daa70876d578457d626d3542081b0e3" kind="function"><name>RenderParalledOnFinished</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_fade_out_1304781ffa7e3542c442746e4fae02372" kind="function"><name>RenderParalledOnRender</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_fade_out_138d31e587d4b0237802ec852d409e319" kind="function"><name>UpdateStyleCollection</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_effects_1_1_effect_focus_and_select" kind="class"><name>Ra::Effects::EffectFocusAndSelect</name>
+    <member refid="class_ra_1_1_effects_1_1_effect_focus_and_select_10f1124d8f885ed28c9107d4c82ff3c61" kind="function"><name>EffectFocusAndSelect</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_focus_and_select_1b853e23a716cf3feb858f2491c84606c" kind="function"><name>RenderParalledOnStart</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_focus_and_select_14493e99ef52f38e3f7ecf71e63c0fd90" kind="function"><name>RenderParalledOnFinished</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_focus_and_select_18285f99164e813645c71bec455d09cf5" kind="function"><name>RenderParalledOnRender</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_effects_1_1_effect_highlight" kind="class"><name>Ra::Effects::EffectHighlight</name>
+    <member refid="class_ra_1_1_effects_1_1_effect_highlight_16c1ff61c5ad689946ac0671e0b697cb2" kind="function"><name>EffectHighlight</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_highlight_1ab3395b7dfc26da03f4210c9d57667c3" kind="function"><name>EffectHighlight</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_highlight_1954c06b6380dee9207bcaa4cbc48b64c" kind="function"><name>RenderParalledOnStart</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_highlight_1c2a62cc49d6206ae6a2036e5a79ea851" kind="function"><name>RenderParalledOnFinished</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_highlight_15cd6276fac91ca39cc9e9ff480336c2d" kind="function"><name>RenderParalledOnRender</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_effects_1_1_effect_highlight_text" kind="class"><name>Ra::Effects::EffectHighlightText</name>
+    <member refid="class_ra_1_1_effects_1_1_effect_highlight_text_1916bc7b989f50be2cfcc89af082fc02b" kind="function"><name>EffectHighlightText</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_highlight_text_1f20857fec6d52efac801fe87797c498e" kind="function"><name>EffectHighlightText</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_highlight_text_142fc1a93107ae0458b2a4920695640a5" kind="function"><name>RenderParalledOnStart</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_highlight_text_18fbc735f97b9b28d5b8603b72c148e51" kind="function"><name>RenderParalledOnFinished</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_highlight_text_1565615db0f5cd376e46299192440207e" kind="function"><name>RenderParalledOnRender</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_effects_1_1_effect_move" kind="class"><name>Ra::Effects::EffectMove</name>
+    <member refid="class_ra_1_1_effects_1_1_effect_move_1db46dc10651725d7d437bb2660ef4c5f" kind="variable"><name>_left</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_move_19e95abf54005515ecd6d0cb126c0dadc" kind="variable"><name>_top</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_move_1cf4ecaa75cf1441c11b8b0bdf23c2435" kind="property"><name>Top</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_move_166d6ed56baa615bac2f25e561326fdd4" kind="property"><name>Left</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_move_1053baad3f9596134adbc6a33a3878afa" kind="function"><name>EffectMove</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_move_17f9d5352b46c2127a0ccdfd4e6e50b70" kind="function"><name>EffectMove</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_move_187d1e06da7e009613964fdcca5d586ed" kind="function"><name>EffectMove</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_move_1b90cccb82cdc4a48c742f6310df07535" kind="function"><name>EffectMove</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_move_18ccc1fd0025a46fea2e4368eb1bd5a38" kind="function"><name>RenderParalledOnStart</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_move_1887a1ce68d504c88176ddf6e0a1e21d6" kind="function"><name>RenderParalledOnFinished</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_move_116f1bbaac594d0beb37a2abbbea4243f" kind="function"><name>RenderParalledOnRender</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_move_14dc3e4384d85b7a7eb43ab049f1c4329" kind="function"><name>UpdateStyleCollection</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_effects_1_1_effect_roll_down" kind="class"><name>Ra::Effects::EffectRollDown</name>
+    <member refid="class_ra_1_1_effects_1_1_effect_roll_down_1da28e14b1244fc201320dc4b2e5b0472" kind="function"><name>EffectRollDown</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_roll_down_185b977496e51e4a09d3b4a575d6c4eaf" kind="function"><name>EffectRollDown</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_roll_down_105d1233a3c715e1c478f23a75353068e" kind="function"><name>RenderParalledOnStart</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_roll_down_1549ab57f90c851a184cee6d9b82d9b7b" kind="function"><name>RenderParalledOnFinished</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_roll_down_12eb7e6bec8f8da66bd20d2b873380e2d" kind="function"><name>RenderParalledOnRender</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_roll_down_1f16ae12467148f2cc001271391555779" kind="function"><name>UpdateStyleCollection</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out" kind="class"><name>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_12020c49e09bb0ebd3dd68c940741b46c" kind="variable"><name>_reversed</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_147821ad2c2826b2c765e3cb046446981" kind="variable"><name>_noLevels</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_1df89f96229f5fa2109877eeedd3dd1a1" kind="variable"><name>_bread</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_125374e1aa69633982a16891d7adbcb60" kind="variable"><name>_allTheWay</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_125bf20ba5badd402a29a23604e928739" kind="function"><name>EffectRollOut</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_1ca3a206bf335608d7badee2ad881f005" kind="function"><name>EffectRollOut</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_19f130d29d969e6bf37c68603f3934458" kind="function"><name>EffectRollOut</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_187dbc8958b30a8a1682a9f07b670b5bd" kind="function"><name>EffectRollOut</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_14f8f797718de3aeb6bf67afb3c3c4bd5" kind="function"><name>RenderParalledOnStart</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_1d940bb9896dff2243add40f0179c17bb" kind="function"><name>RenderParalledOnFinished</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_1f26dfe13e851ab40d791650fd042f7f0" kind="function"><name>RenderParalledOnRender</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_1df05ffa0e6459d098cc31ede946bcd15" kind="function"><name>UpdateStyleCollection</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_effects_1_1_effect_roll_up" kind="class"><name>Ra::Effects::EffectRollUp</name>
+    <member refid="class_ra_1_1_effects_1_1_effect_roll_up_167de54e8041bdc19c90e074b0159b4ba" kind="function"><name>EffectRollUp</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_roll_up_1ae3c2119c09dabaa6738feb15b416fb2" kind="function"><name>EffectRollUp</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_roll_up_1114e694ef104410f3e856c923cfdeabf" kind="function"><name>RenderParalledOnStart</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_roll_up_1f4741bda947417ca00ab69fcbd66d559" kind="function"><name>RenderParalledOnFinished</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_roll_up_1aff63cf95bef0fbb06587eab2e1eba05" kind="function"><name>RenderParalledOnRender</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_roll_up_1d03c9ab0d54c2013349c6d4a1564a959" kind="function"><name>UpdateStyleCollection</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_effects_1_1_effect_size" kind="class"><name>Ra::Effects::EffectSize</name>
+    <member refid="class_ra_1_1_effects_1_1_effect_size_1ae873b8840e1e58cafa1417fa18b4bc4" kind="variable"><name>_height</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_size_16b7633f4d470e3052c9a821e4f2c568a" kind="variable"><name>_width</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_size_10f747ffcfb3513627d43ed97f11e1e12" kind="property"><name>Width</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_size_165e3c67e21912262413be74e47202df2" kind="property"><name>Height</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_size_121da76a9cc4d51963383c9ea6a99044f" kind="function"><name>EffectSize</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_size_1214b272ff8c9dc3a69d9ff6ef8ab1ae4" kind="function"><name>EffectSize</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_size_1cb9833bd338ba9591605ed674bd74da4" kind="function"><name>EffectSize</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_size_1012ae3571a8b30e940ab58f1320d0976" kind="function"><name>EffectSize</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_size_1ae4e97f78efbcc5513b1a054d9327f9d" kind="function"><name>RenderParalledOnStart</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_size_1ed8a1fc744e1dfb1e6a12cae1210f6f4" kind="function"><name>RenderParalledOnFinished</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_size_19ff56063ce961dfce8e2f407d7a499f1" kind="function"><name>RenderParalledOnRender</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_size_108d6be4274d6d8618d195de869462e21" kind="function"><name>UpdateStyleCollection</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_effects_1_1_effect_timeout" kind="class"><name>Ra::Effects::EffectTimeout</name>
+    <member refid="class_ra_1_1_effects_1_1_effect_timeout_12df443a19483f619963c5931153a16c5" kind="function"><name>EffectTimeout</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_timeout_14fa3d0e5eb65986e89698e0b9d2abe21" kind="function"><name>RenderParalledOnStart</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_timeout_17c3f80251259d237957fdade2c5626c0" kind="function"><name>RenderParalledOnFinished</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_timeout_1515ed188c670cd7bba37fe569960faed" kind="function"><name>RenderParalledOnRender</name></member>
+    <member refid="class_ra_1_1_effects_1_1_effect_timeout_191aec529a649d16e139236ddf11215ed" kind="function"><name>ValidateEffect</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_ext_button" kind="class"><name>Ra::Extensions::Widgets::ExtButton</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_ext_button_1a12c2d27af4279528628629fca7bb6ee" kind="property"><name>Text</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_ext_button_17d5633049097aad19f75e51ee62026c2" kind="property"><name>AccessKey</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_ext_button_1eafd99724f8305216772cf49b25c84c2" kind="property"><name>Enabled</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_ext_button_1bde2ffde6bdd410f515411f79a1cfd42" kind="property"><name>CssClass</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_ext_button_16da585bf963be27c6ec8648e0e72c804" kind="function"><name>GetClientSideScriptOptions</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_ext_button_1542b8007ce2f085e28cd6389190438ec" kind="function"><name>GetOpeningHTML</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_global_updater" kind="class"><name>Ra::Extensions::Widgets::GlobalUpdater</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_global_updater_1fd92c7d8c4dc27a5a1f2cf083d54968d" kind="property"><name>Delay</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_global_updater_105d92bbc7ee194449c2ef5e8131aa776" kind="property"><name>MaxOpacity</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_global_updater_1b73e85cdf4a1e2f1a100e08433a995bb" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_global_updater_1718fd37a6ba622b0829fa75b7b5ab1b1" kind="function"><name>OnPreRender</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_global_updater_1d243b5259f901b7e00468d21973adc25" kind="function"><name>GetClientSideScriptOptions</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_global_updater_11f773c7ec1d366f2d81e4adbd4c9ae32" kind="function"><name>GetClientSideScriptType</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_hidden_field" kind="class"><name>Ra::Widgets::HiddenField</name>
+    <member refid="class_ra_1_1_widgets_1_1_hidden_field_195b56b7825bc5118e3ad044a8c1ea33d" kind="property"><name>Value</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_hidden_field_1cbb7ff6385d8c8c60c050144fcf69b3f" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_hidden_field_197d9ffc391e84b9d15f7ae022dc50e80" kind="function"><name>LoadViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_hidden_field_1927aabddadd80c6101ed21dba6b2298c" kind="function"><name>GetOpeningHTML</name></member>
+  </compound>
+  <compound refid="interface_ra_1_1_widgets_1_1_i_disableable_behavior" kind="interface"><name>Ra::Widgets::IDisableableBehavior</name>
+    <member refid="interface_ra_1_1_widgets_1_1_i_disableable_behavior_1f964082d0222fd2c0be209e728e19881" kind="property"><name>Enabled</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_image" kind="class"><name>Ra::Widgets::Image</name>
+    <member refid="class_ra_1_1_widgets_1_1_image_1f9c4e6dbc46b6e2730c6819c1eea2f9f" kind="property"><name>ImageUrl</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_image_18aea8998a71bef94f0bbc5cde5ae80f9" kind="property"><name>AlternateText</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_image_1dc127b4a4e55f74047f7156ec99278b0" kind="function"><name>GetOpeningHTML</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_image_button" kind="class"><name>Ra::Widgets::ImageButton</name>
+    <member refid="class_ra_1_1_widgets_1_1_image_button_17de2451997681de4cf97f8923c477ba7" kind="event"><name>Blur</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_image_button_1b51d8e2c4d6e6bf600ceba525f34aaf2" kind="event"><name>Focused</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_image_button_100cdd3eddd8458b0c76963bbb075aa0c" kind="property"><name>ImageUrl</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_image_button_17e8c8dbfbf5dad7cb2c9a2b566485326" kind="property"><name>AlternateText</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_image_button_1edf158dd3306d46833d674ab6a0e9e8a" kind="property"><name>AccessKey</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_image_button_14e2c7fd039d7a45629d18339eae560c3" kind="property"><name>Enabled</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_image_button_14ab05a34b97143d476bc89f8aac4d9e3" kind="function"><name>DispatchEvent</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_image_button_1b6f35e1c5043d2dca21d6d765e2c0af5" kind="function"><name>GetEventsRegisterScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_image_button_13d8b5aaa4247e9ec88ecb845fc612f0b" kind="function"><name>GetOpeningHTML</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_in_place_edit" kind="class"><name>Ra::Extensions::Widgets::InPlaceEdit</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_in_place_edit_1610680a1e057be1454d586958952524e" kind="variable"><name>_link</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_in_place_edit_1e3802af48bd964661747d9925e35e0d9" kind="variable"><name>_text</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_in_place_edit_1f55ea7754339ba94fe694d698aec458b" kind="event"><name>TextChanged</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_in_place_edit_119510c4eec734affd3d78d535323f9ef" kind="property"><name>Text</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_in_place_edit_1f98619915ce48ae34981a8c2e033ce41" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_in_place_edit_108afbf6e31d9fe3d58483fed598be5b3" kind="function"><name>CreateChildControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_in_place_edit_15fa7646a9a50ec8a4deecf5b6a5b34f0" kind="function"><name>OnPreRender</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_in_place_edit_1616a39c414776d052546404ed5f82d63" kind="function"><name>CreateEditControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_in_place_edit_1453feca18ada201785ddc633aeff5102" kind="function"><name>_text_EscPressed</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_in_place_edit_1bc8e5ff3767bd5ed68fa539e0f85e37b" kind="function"><name>_text_Updated</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_in_place_edit_13e6aeabb76fb0f587028ef59ae51a728" kind="function"><name>_link_Click</name></member>
+  </compound>
+  <compound refid="interface_ra_1_1_i_ra_control" kind="interface"><name>Ra::IRaControl</name>
+    <member refid="interface_ra_1_1_i_ra_control_1f12273f2bf248d8964b6deac4192cd5a" kind="function"><name>DispatchEvent</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_label" kind="class"><name>Ra::Widgets::Label</name>
+    <member refid="class_ra_1_1_widgets_1_1_label_1cf7e60c7bc193f5740e660d1fc8e8434" kind="property"><name>Text</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_label_1a70fd8578ea806dc9e97a7985851ba4d" kind="property"><name>Tag</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_label_11aefaf0557f329815768aa4f40574a97" kind="function"><name>GetOpeningHTML</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_label_1c1716b1ae5a368fe2c997f913a464c58" kind="function"><name>GetClosingHTML</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_link_button" kind="class"><name>Ra::Widgets::LinkButton</name>
+    <member refid="class_ra_1_1_widgets_1_1_link_button_15578a500280ef7f8f2a7526b4315fb24" kind="event"><name>Blur</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_link_button_18da43370cfaed297249adb9fb9c582c8" kind="event"><name>Focused</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_link_button_1c2d26c4c025b91b6f71f08efafb33e4d" kind="property"><name>Text</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_link_button_128b825322f0ef59244f2bd50faf344d4" kind="property"><name>AccessKey</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_link_button_11bc9b8ca0c95775270ce5af8ba09ef22" kind="function"><name>DispatchEvent</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_link_button_145a9ea7280ea8b0508bce33e10c25560" kind="function"><name>GetEventsRegisterScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_link_button_1d90a896f5bd2e7988a46ee4f2d751a46" kind="function"><name>GetOpeningHTML</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_link_button_1eaf09e6a1311a655a6a11b9dd54a9983" kind="function"><name>GetClosingHTML</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_list_item" kind="class"><name>Ra::Widgets::ListItem</name>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_1757f11ae6e74034435e9d1b43b5592e3" kind="variable"><name>_value</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_1d27cff5738ad32c098fa2d1e5dccb4a8" kind="variable"><name>_text</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_1e0a8a2c33e11f8c80679d1493ce33985" kind="variable"><name>_enabled</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_191f70a6dba23d30e1b61d8549387ce24" kind="variable"><name>_selectList</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_198d91dff8086009b5dbbca4cad34a3e9" kind="variable"><name>_hasSetSelectedTrue</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_109b95190a185bdf1179a25282cfd596b" kind="property"><name>Selected</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_130f8234e826d312bd416ab43c31fce5c" kind="property"><name>SelectList</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_176dc026f8ad85b62e52d2738af417bfc" kind="property"><name>Enabled</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_1dfa9ceedbc39701d6fed3dbe6540f864" kind="property"><name>Text</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_1888a008ddb0e272036fffdff356e5922" kind="property"><name>Value</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_107b542bcd13058a3f8ec747af661c511" kind="function"><name>ListItem</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_1c5723ced6527160766297ad152b73d0f" kind="function"><name>ListItem</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_1c3154d3c082091a406e96c01a3c5be9e" kind="function"><name>Equals</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_14d1e46c153b08b095b3f74c179691e14" kind="function"><name>GetHashCode</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_list_item_collection" kind="class"><name>Ra::Widgets::ListItemCollection</name>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_11989a8c629b3d4748c08564f54491083" kind="variable"><name>_list</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_16cc71845140507287ff48b720dbdfb49" kind="variable"><name>_control</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_19ee5af52763900e8aa199e83109db759" kind="variable"><name>_trackingViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1786eac8a32719d54b042d2433d3e4cf4" kind="property"><name>Count</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_155df5c13ebacdeee56e1ff73f4e6213c" kind="property"><name>IsSynchronized</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1314664db142752caabf24b67139d880f" kind="property"><name>SyncRoot</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1d4bb878ab24a7ced46156340299567c4" kind="property"><name>this</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1ed4ff5f7bf3fb72ada03f897b6b9db03" kind="property"><name>IsReadOnly</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_172cef4024b4ebed15fc1f2ab5a686f09" kind="property"><name>IsTrackingViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_14809bc691c70c2a7dba1d1d0a6ee200b" kind="function"><name>ListItemCollection</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1c1c6b001d6df8ea9be97ac08c5c30941" kind="function"><name>Find</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1d19a761308a018b43fd63fe85f383cda" kind="function"><name>CopyTo</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_16cec0eda99176282d5724b90813416c5" kind="function"><name>GetEnumerator</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1dcc225898e6aa3021adecba8bba43945" kind="function"><name>IndexOf</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1710eb4e34ca853008c0bfe19e61ac5e7" kind="function"><name>Insert</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_110ccbca2654f6425458d937090b3c592" kind="function"><name>RemoveAt</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1fdcdc4e49aaf2c5f413f385696da4f3a" kind="function"><name>Add</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1d8f354bc57cda65342f42109011a1b02" kind="function"><name>Clear</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1931a80371e50f4f6d057b446fc7b9b46" kind="function"><name>Contains</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_174bcc2ad973d9fb43a95e94bb5ebbea9" kind="function"><name>CopyTo</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_177937d2975aa07409f439befba6f2776" kind="function"><name>Remove</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1296b2ede01f3f1f284e9b34bbfe8e786" kind="function"><name>LoadViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_15f09146ee65050f6602ff44fe54d0580" kind="function"><name>SaveViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_15de820c35d727de572ed86c087e999fe" kind="function"><name>TrackViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_list_item_collection_1cd765a403038229a18b20843986b1338" kind="function"><name>GetEnumerator</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu" kind="class"><name>Ra::Extensions::Widgets::Menu</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_1513dee0efa03b4acda4c2b3b1f995994" kind="event"><name>MenuItemSelected</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_117f2043d91c203e8199178d154694289" kind="property"><name>CssClass</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_1930c2119b553c4cc87270bb67aa4d7a0" kind="function"><name>RaiseMenuItemSelected</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_1ed6578037b3853e7224c9dcfb4a5e174" kind="function"><name>RollUpAllExceptThis</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_161a8f91406e0d6263221d9085ca83e4f" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_1dd56a319aca58b307e75f6ba37033e16" kind="function"><name>OnPreRender</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_1926bef43d3270b2a9a593d0bf74056fc" kind="function"><name>GetOpeningHTML</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_16c7d2773aac26afb0fd5d92064cc2b73" kind="function"><name>GetClosingHTML</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_item" kind="class"><name>Ra::Extensions::Widgets::MenuItem</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_item_1c884b928238fb2291488e0c4b68bcd81" kind="property"><name>ParentMenu</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_item_1313c630d43cefbaeb740fd5946f56d73" kind="property"><name>ChildMenuItems</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_item_1da13dbb41e21161c62e1f749451acff8" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_item_138ac84138ae81b0c031480b93282e487" kind="function"><name>OnPreRender</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_item_19f845475f0870fd6e1feb9d1f39556ad" kind="function"><name>MenuItem_Click</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_item_111f61b8e8c62c516f460a213ce127955" kind="function"><name>BuildCss</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_item_10698dd7e4c7f82b056224fb1cf972116" kind="function"><name>BuildCssForRootElement</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_item_12f7728726bc22e7871b34e0d2c69c1de" kind="function"><name>SetPropertiesForChildren</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_items" kind="class"><name>Ra::Extensions::Widgets::MenuItems</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_items_12174272a1027da824aaf12dcc44e3a9a" kind="property"><name>Expanded</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_items_1373600a79ee848866c9d863eda83af24" kind="property"><name>Level</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_items_1d0d30ff986c26c8d55059c2a1cc69668" kind="property"><name>ParentMenu</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_items_1be49bd22d02c2a550b07b1747b1a4624" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_items_15f88838e8532aaf064886b0a3b5a49f2" kind="function"><name>OnPreRender</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_items_17a49f6513fcbf42c3b59e6ffe8a1dbd6" kind="function"><name>RollDown</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_items_13aa46898abbc21b5138ceae627746cff" kind="function"><name>RollUp</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box" kind="class"><name>Ra::Extensions::Widgets::MessageBox</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_18f4a355603246f40f1e40851baf52f4b" kind="enum"><name>TypeOfMessageBox</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_18f4a355603246f40f1e40851baf52f4b" kind="enumvalue"><name>OK</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_18f4a355603246f40f1e40851baf52f4b" kind="enumvalue"><name>OK_Cancel</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_18f4a355603246f40f1e40851baf52f4b" kind="enumvalue"><name>Yes_No</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_18f4a355603246f40f1e40851baf52f4b" kind="enumvalue"><name>Yes_No_Cancel</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_18f4a355603246f40f1e40851baf52f4b" kind="enumvalue"><name>Get_Text</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_18f4a355603246f40f1e40851baf52f4b" kind="enumvalue"><name>Get_Text_Multiple_Lines</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1fd81c70a3adcd44190c9646ab901a9ad" kind="enum"><name>ClosedHow</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1fd81c70a3adcd44190c9646ab901a9ad" kind="enumvalue"><name>OK</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1fd81c70a3adcd44190c9646ab901a9ad" kind="enumvalue"><name>Cancel</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1fd81c70a3adcd44190c9646ab901a9ad" kind="enumvalue"><name>Yes</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1fd81c70a3adcd44190c9646ab901a9ad" kind="enumvalue"><name>No</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_13fcc8f663d1fe2a709ec7001e4be95b1" kind="event"><name>Closed</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1f689d9b9727f25828377d424481d76ed" kind="variable"><name>_body</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_112f616b21d2c7f9d3e860a7c9b9bdc1b" kind="variable"><name>_ok</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1e7c4b246edb961fdf7623007f3b7763d" kind="variable"><name>_cancel</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_18bfeaeeb79c4ec9bf990d803479d5bf6" kind="variable"><name>_yes</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1db7afd64ce8ea99b179a5aa2be0222dd" kind="variable"><name>_no</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1726c780ec13d8e7872d2d4d7b537b918" kind="variable"><name>_userInput</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_145031894884f173381a776b7c592bac2" kind="variable"><name>_userInputMultipleLines</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1eafbeea459f68ee0a2be3ff6dec0b325" kind="variable"><name>_obscurer</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1d32d9e9aecb25187f3782489ca3b6514" kind="variable"><name>tmp</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_188286ef413ad16f77e7d398b82ba91c4" kind="property"><name>Body</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_10ec4a792b21db068e1014cadfe0f34a7" kind="property"><name>MessageBoxType</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1502f7ee5259e00a3dcc1f2072d68b278" kind="property"><name>Visible</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1b3564d4038f46ed254b0f978c9784ba4" kind="function"><name>MessageBox</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_19a564774a7e9e5af0a901dc498be3364" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1877bbad8688e3b388933ea368749cc2a" kind="function"><name>CreateChildControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_152911fbb040d78c0cb1dde7818f5ae23" kind="function"><name>CreateMsgBoxControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1b2391983f588dafcf861b541060ee6b0" kind="function"><name>CreateUserInputMultipleLines</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_158a9cfdc608ec5fb4acb04619a034843" kind="function"><name>CreateUserInput</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_104602699a6650fbb878b65439b992ed0" kind="function"><name>CreateNoButton</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_149d3e9045b58ec4bb35cbcb9bb5fd409" kind="function"><name>CreateYesButton</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1324521a23e0311dbc4cfb55271b84bbc" kind="function"><name>CreateCancelButton</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_114ba0cdb2afed16c8268cbe1914b3e18" kind="function"><name>CreateOKButton</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_panel" kind="class"><name>Ra::Widgets::Panel</name>
+    <member refid="class_ra_1_1_widgets_1_1_panel_182f02c963154472792679eae72cae436" kind="property"><name>Tag</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_panel_1c6430d3868b755f48e9465a84b1bffbc" kind="property"><name>DefaultWidget</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_panel_1e43aee7c85601ef8aa822dc4740210e6" kind="function"><name>GetOpeningHTML</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_panel_1ffd2a1e2f6b7e496a21b53e498095251" kind="function"><name>GetClientSideScriptOptions</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_panel_1252ed547fb14958b0f4d7bea1ebfc109" kind="function"><name>GetClosingHTML</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_core_1_1_postback_filter" kind="class"><name>Ra::Core::PostbackFilter</name>
+    <member refid="class_ra_1_1_core_1_1_postback_filter_18c52b5f5bdd9f27f81195592a929445e" kind="variable"><name>_next</name></member>
+    <member refid="class_ra_1_1_core_1_1_postback_filter_1ac25aed86cce6f73a44dec7c652bae48" kind="variable"><name>_stream</name></member>
+    <member refid="class_ra_1_1_core_1_1_postback_filter_1c47c8ce019e597fa0cfbfeee6444ecde" kind="property"><name>CanRead</name></member>
+    <member refid="class_ra_1_1_core_1_1_postback_filter_1ed59bae0bd5ffa097eaf61ee207d3043" kind="property"><name>CanSeek</name></member>
+    <member refid="class_ra_1_1_core_1_1_postback_filter_124564567ec76e5815700d25416933ef2" kind="property"><name>CanWrite</name></member>
+    <member refid="class_ra_1_1_core_1_1_postback_filter_1437235cc531f7a13b63fd8145b21808d" kind="property"><name>Length</name></member>
+    <member refid="class_ra_1_1_core_1_1_postback_filter_14a23598de32d6c10b49fcef4f2627e0a" kind="property"><name>Position</name></member>
+    <member refid="class_ra_1_1_core_1_1_postback_filter_1d651e6d3e7103b03800eba3cabf55707" kind="function"><name>PostbackFilter</name></member>
+    <member refid="class_ra_1_1_core_1_1_postback_filter_1219e455d57d1d0a9cb06108b78a0088e" kind="function"><name>Close</name></member>
+    <member refid="class_ra_1_1_core_1_1_postback_filter_1669de29949052f3d397a5146e468a6aa" kind="function"><name>Flush</name></member>
+    <member refid="class_ra_1_1_core_1_1_postback_filter_1729736c30b604a67ac9148c0a4e92b92" kind="function"><name>Seek</name></member>
+    <member refid="class_ra_1_1_core_1_1_postback_filter_171ab5c22647232a565b6fa2cc562145c" kind="function"><name>SetLength</name></member>
+    <member refid="class_ra_1_1_core_1_1_postback_filter_110d55ac5071f5303779673db76fe7a17" kind="function"><name>Read</name></member>
+    <member refid="class_ra_1_1_core_1_1_postback_filter_116a75273ae6086142e50c1261477d594" kind="function"><name>Write</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_ra_control" kind="class"><name>Ra::Widgets::RaControl</name>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_160aff1a1d28ae500b2435bc5f53faadd" kind="variable"><name>_hasRendered</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_18e80061032203ed83b39402ae74316e6" kind="variable"><name>_reRender</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1fee196b1f583eec0f5e6a2227ad36102" kind="variable"><name>_JSONValues</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_124429a4bb422260ff85e448ff5baee67" kind="variable"><name>_extraInitFunctions</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" kind="variable"><name>_hasSetFocus</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" kind="property"><name>Xtra</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_160fd813c5ac545bb0fd8e7e7b6fe1970" kind="property"><name>HasRendered</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_123b5eae703a65685106009f112580cbe" kind="property"><name>IsAnyAncestorRenderingHtml</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" kind="property"><name>Behaviors</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" kind="function"><name>LoadControlState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" kind="function"><name>SaveControlState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" kind="function"><name>SetJSONValueString</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" kind="function"><name>SetJSONValueObject</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" kind="function"><name>SetJSONValueBool</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" kind="function"><name>SetJSONGenericValue</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" kind="function"><name>SerializeJSON</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" kind="function"><name>SerializeJSONValue</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_140a558cf9617ef2289be7fc7faf5130c" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" kind="function"><name>GetChildrenClientSideScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" kind="function"><name>GetClientSideScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" kind="function"><name>GetClientSideScriptType</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_153c660a7d87a3451d11a8b5ee36f2f3a" kind="function"><name>GetEventsRegisterScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_162388804f6511df3221c6a686f286c7f" kind="function"><name>GetClientSideScriptOptions</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" kind="function"><name>GetBehaviorRegisterScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_151e6f8bdb0af1a7a12654bfb329f280c" kind="function"><name>GetOpeningHTML</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1ab51177823d8893c51a42ae50df7f37e" kind="function"><name>GetClosingHTML</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" kind="function"><name>ReRender</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" kind="function"><name>RenderControl</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" kind="function"><name>FirstBehavior&lt; T &gt;</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" kind="function"><name>Focus</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" kind="function"><name>GetInvisibleHTML</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1198f8385521314fae1778a2d4a027acd" kind="function"><name>RenderOnlyJSON</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_17365d814cb2e213e1c1200f2b0d06a8a" kind="function"><name>RenderAllChildrenToAjaxManager</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1f8aaa698df9ac6c516d8885ec2e37529" kind="function"><name>ReRenderControlAndAllChildren</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1221fd2bbda1b0d28a33d40cfdaacde89" kind="function"><name>ReRenderDueToParentReRendering</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1d49caa1510d8bd26fb56d1a05e34b71d" kind="function"><name>RenderControlVisibleForFirstTime</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1b99e099cbb7d0dcabb312ad952d1def2" kind="function"><name>GetJSONValueDictionary</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1219b7ad8121ff80d1f4818315bbb0ad5" kind="function"><name>HasJSONValueDictionary</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1d70442ea77a6a752ccf66e74503d7c72" kind="function"><name>GetChildrenClientSideScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_15a2b8a7c3953739972b58462b59a7948" kind="function"><name>GetScriptOptions</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1e18d9c9cc8d226bd8cfc4d64a4a8a219" kind="function"><name>GetScriptBehaviors</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_161a98e97dad14aff463ca2d6256af717" kind="function"><name>GetScriptEvents</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_1c136f0e57a93a0ba19bc69ab89658a6a" kind="function"><name>AddInitCall</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_control_118e0f666ece76c84c7619f65e36bdd3c" kind="function"><name>GetDefaultInvisibleHTML</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_radio_button" kind="class"><name>Ra::Widgets::RadioButton</name>
+    <member refid="class_ra_1_1_widgets_1_1_radio_button_1236b4746dc3d710d11797295514c9f09" kind="event"><name>CheckedChanged</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_radio_button_10375a7805a93ef18ff70fcb56e80e337" kind="event"><name>Blur</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_radio_button_1c4589c623437b605d2fed1befb513a0e" kind="event"><name>Focused</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_radio_button_1145b6fb665eb9ed4dfebdc6dd8151eec" kind="property"><name>Text</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_radio_button_1813606bb9f9e24a00deecf77c08e946a" kind="property"><name>GroupName</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_radio_button_1a5544712b553d34ac636d06d9cf308ce" kind="property"><name>Checked</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_radio_button_19556e281d51098e7212ab7250c8d67bd" kind="property"><name>AccessKey</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_radio_button_1e340cf7cfbebeec74bdd9a211a0cdefa" kind="property"><name>Enabled</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_radio_button_12031d228b86e38486d04119bc92e7189" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_radio_button_1369ed3ec534c8596eb21a12c89523aaa" kind="function"><name>LoadViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_radio_button_140d004173b7d583316e8336fb0cdeb96" kind="function"><name>GetClientSideScriptOptions</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_radio_button_1cfd37436aa2407ece7347618499d7cd0" kind="function"><name>GetMouseOutEventScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_radio_button_1ffb53d052b62f2c8984c609a92255a0d" kind="function"><name>GetMouseOverEventScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_radio_button_15e917df25e7b88c4c15033fec6f86495" kind="function"><name>GetEventsRegisterScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_radio_button_1f597b180c38024ef1d40afc364bfac09" kind="function"><name>GetOpeningHTML</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_radio_button_1ac4b3cecae70d6bc2dcf4fc15e11d04c" kind="function"><name>DispatchEvent</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_ra_web_control" kind="class"><name>Ra::Widgets::RaWebControl</name>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14cdd9e611a0074d378cf8fba9d19d6e4" kind="variable"><name>_styles</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14dcb41296fe7545bb820a9184c2db962" kind="event"><name>Click</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_19fa1952b1c6b040d43165f5a11606ead" kind="event"><name>DblClick</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c6c9ca13ef1e4e436153d6c3cf017a0c" kind="event"><name>MouseDown</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_13c51734abc45a09d5df540d48b88c6da" kind="event"><name>MouseUp</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d17aaa8103deb9d5037f8c3f334af1e7" kind="event"><name>MouseOver</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_103683f2d6d76237d0c501cde2ebae5ef" kind="event"><name>MouseMove</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_15be672aec4d07efc18f5e33cfeca6c7b" kind="event"><name>MouseOut</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_118b31c98087d7a57f49a42eb1bac2528" kind="event"><name>KeyPress</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bc64e6e9488a31df7ae5ef0e3903b236" kind="event"><name>KeyDown</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1247f291546c64e40bddffb08936da867" kind="event"><name>KeyUp</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_16138c4d2623d7a9d0e55ca42d8a24667" kind="property"><name>CssClass</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14cad6b9fb27c8c4c27b7bab4e471c445" kind="property"><name>QueueMultipleRequests</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1812b6302ab1f9ddf6e4ce88a5d447f28" kind="property"><name>Tooltip</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1255844bd5511b517d5d292f925f20994" kind="property"><name>TabIndex</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_142b4a9a49ba0e6e81389627d4ad34aeb" kind="property"><name>OnClickClientSide</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_168ccd06bd09c6e05962f0e8838045c80" kind="property"><name>Style</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_17d74fee59a34ea1bd5329082e043c531" kind="function"><name>RaWebControl</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1de60bed8a2264f876fdfbd7232836f7c" kind="function"><name>DispatchEvent</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_11b9a672cefa64ca768f84857447a8191" kind="function"><name>GetAttribute</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_126c54189e89a72cdfecdfa5c62a9b97e" kind="function"><name>SetAttribute</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d8ae2b4ae6bce092e7d558db25b5c02a" kind="function"><name>GetWebControlAttributes</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_104c0e8c541fe0b029d0edcd6b99ee718" kind="function"><name>GetEventsRegisterScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1e4e9525d529e8227b3c1a5db86d030b7" kind="function"><name>GetMouseOutEventScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_18bbe18d42617850745996cb0d672260c" kind="function"><name>GetMouseOverEventScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c5de8a6390860af479dd41b75bff7584" kind="function"><name>TrackViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_151ad71b3e5b5708fffbc50d3b0d93e4f" kind="function"><name>SaveViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bccc3b360a6ddfe4f2aa2cb3e785ac1e" kind="function"><name>LoadViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1fe73a543a7b273e5c1f0ad2e433f90b5" kind="function"><name>GetClientSideScriptOptions</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1f351d5680f158113d03e63eb151ea397" kind="function"><name>GetTooltipAttribute</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1df08a8965679f34cc59fe51e2a98a3f7" kind="function"><name>GetStyleHTMLFormatedAttribute</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_ra_web_control_13c842146b314ccec7476ccce45ff86fa" kind="function"><name>GetCssClassHTMLFormatedAttribute</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args" kind="class"><name>Ra::Widgets::Dynamic::ReloadEventArgs</name>
+    <member refid="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_1f4560b814e1aa76e0d4bb9632dd33074" kind="variable"><name>_key</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_1aca416c6680445465934d772393cb1fd" kind="variable"><name>_extra</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_170ff9fddb23bbd0e8be0fe99ce5a1825" kind="variable"><name>_firstReload</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_1a97e5680d5644cbc6e6aa81dfcb7b38f" kind="property"><name>Key</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_108afc4e257381feda98c3c6846520c4a" kind="property"><name>Extra</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_10b923b73c22258b723a420a36746084c" kind="property"><name>FirstReload</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_1aa189920aff8b3dba6e6dc50e2a26a8e" kind="function"><name>ReloadEventArgs</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args" kind="class"><name>Ra::Extensions::Widgets::Calendar::RenderDayEventArgs</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args_1b35bb93cdac327fb1bb5c9ae9027fd43" kind="variable"><name>_date</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args_1e45641aa53d606322820cf081a057015" kind="variable"><name>_cell</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args_1e3097f12e89df0e3fab3714f3b6c4ef9" kind="property"><name>Cell</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args_1d15f8f454b83c30bdd889f915da41792" kind="property"><name>Date</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args_14678c4cea519cf8b74c9a3480103df7e" kind="function"><name>RenderDayEventArgs</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args" kind="class"><name>Ra::Extensions::Widgets::ResizeHandler::ResizedEventArgs</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args_1fb01de88cc5c969a2fabd26978343d9a" kind="variable"><name>_width</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args_160963e0c6b9e4b78c56d54be6361214c" kind="variable"><name>_height</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args_179ce41f8cb654aef3804297031b2ac7b" kind="property"><name>Width</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args_1408d1980c60a53d18398f3fcb78b2075" kind="property"><name>Height</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args_1409d1d233891091bacd67cccd3d81eee" kind="function"><name>ResizedEventArgs</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler" kind="class"><name>Ra::Extensions::Widgets::ResizeHandler</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_184f4e1f6a1630ce2f78b77fa7a04d0d2" kind="event"><name>Resized</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1ca2021b7b7f37ec71f4604d20d59467f" kind="property"><name>Width</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1654f7806897010ee5f43f912a3106a74" kind="property"><name>Height</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_137da849ca1bb85c288b5eab23c28a063" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_10fb190307bf2a3ab62ccf9a37c4c0f08" kind="function"><name>GetClientSideScriptType</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_17c509ce71ca92eff7a953a1ef2d6a545" kind="function"><name>GetOpeningHTML</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1602e01311c3448f66a80798554dedff3" kind="function"><name>DispatchEvent</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args" kind="class"><name>Ra::Extensions::Widgets::AutoCompleter::RetrieveAutoCompleterItemsEventArgs</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args_1830e6b787806746af1ceffa8676083b6" kind="variable"><name>_coll</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args_1fbcaddd7a6a8850e5ab61ee00d591a39" kind="variable"><name>_query</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args_1883d1206db09906f50725cf9e313c220" kind="property"><name>Controls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args_190e5a0ef4a57afafa6eb20df64f63d43" kind="property"><name>Query</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args_15f97715b7491414253cba5531e165df1" kind="function"><name>RetrieveAutoCompleterItemsEventArgs</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit" kind="class"><name>Ra::Extensions::Widgets::RichEdit</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit_19efe3687e0f840cdfe390d0be58e23fb" kind="variable"><name>_selection</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit_1f80422f781b71c08a7daa2a22ead967d" kind="event"><name>KeyUp</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit_1783eb2095628437ddaa7c03b44cd8d34" kind="property"><name>Text</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit_1a2708968d57a771b2d22940d868080c7" kind="property"><name>Selection</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit_1e6b58b7f59e269c1dee37db4f8cfc765" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit_1173259fde0553512280080e73c29b8d4" kind="function"><name>LoadViewState</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit_14d605bcab8b3ffc9368d405520ea8329" kind="function"><name>GetClientSideScriptType</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit_1c53a00069ed9da2a74eb45f7796c6160" kind="function"><name>GetEventsRegisterScript</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit_17db877768ace2a49d71d22cfa91d3eec" kind="function"><name>GetOpeningHTML</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit_1f6a7e84b2d9ba877e02fa351ced1dfbd" kind="function"><name>DispatchEvent</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_select_list" kind="class"><name>Ra::Widgets::SelectList</name>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_1b505f927709bcf562f26755d566f121a" kind="event"><name>SelectedIndexChanged</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_1e99b2cde33d1b103491153da1fe3c65b" kind="event"><name>Blur</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_140dc44fe0c30dc921b531fe87e750767" kind="event"><name>Focused</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_1dd0e40ed89e42bae2a3c11c539fd326e" kind="variable"><name>_listItems</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_1adc816bae6e0336749698d0ea35368d9" kind="variable"><name>_selectedItemValue</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_156577fb89e9b3d4be3da80556e5935ad" kind="property"><name>AccessKey</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_107a89d9882cd0ed21acf7d2f16c5a983" kind="property"><name>Enabled</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_12e1083112156198b200bdbf30c9c9f16" kind="property"><name>Size</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_1932eecba2f8ba4e08acd1f784d763656" kind="property"><name>Items</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_1dd91fddc6c6eabccfd381fd89f05102b" kind="property"><name>SelectedItem</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_1c70ca9473f88e112a5a3acf62ad51e23" kind="property"><name>SelectedIndex</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_1f036fa1acb55a6d4e34535ab588c4647" kind="function"><name>SelectList</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_18cb5c3bbf9b1a81ba94f0181c4f5f111" kind="function"><name>DispatchEvent</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_1c04ac147a75b68afb740325270e129fc" kind="function"><name>TrackViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_1afb1c22ba1f511a5e8a3847b34ec9ec1" kind="function"><name>SaveViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_13c2e8ed59caf27ec69a282946ca6c02a" kind="function"><name>LoadViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_161908127b948f875461c010ec5854c65" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_10dda5a040ba03296293c36780a8d0b68" kind="function"><name>GetEventsRegisterScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_14eef481e404ea7a959e66fc062ba9ebf" kind="function"><name>GetOpeningHTML</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_13398fcd4dbb5c6eda61d866907bae659" kind="function"><name>SetSelectedItem</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_select_list_1d4b7ba7405170b723416d7996473b228" kind="function"><name>GetHTMLForOptions</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu" kind="class"><name>Ra::Extensions::Widgets::SlidingMenu</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_1de2d64b1e2ee9daa8b082779686fd724" kind="variable"><name>_breadParent</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_15ffc800f22aef831518cde654eba8528" kind="variable"><name>_bread</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_12683c023bc0c13eb795920f379d11ed6" kind="variable"><name>_breadCrumbControl</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_1fdc4dfd47cf0ded7bedaf1b8e4e87dea" kind="event"><name>ItemClicked</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_12b600957542da69ada2a200a5d1aa306" kind="event"><name>Navigate</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_1719633c3d86ba3240b82ecbd6c8ef90c" kind="property"><name>CssClass</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_147314f815cabfe3e36d792825998a482" kind="property"><name>BreadCrumbControl</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_12a87265f6cece01ae99678fba72fdd4c" kind="property"><name>AnimationDuration</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_12d3000255934923ff447a2e7f7838214" kind="property"><name>ActiveLevel</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_14223850a0c35c508dc02b09e5b9b025c" kind="property"><name>BreadCrumb</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_1db1aad627f5865adf83b795990d51fdb" kind="function"><name>OnLoad</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_1db262a56a486e2d20092df11159adf7c" kind="function"><name>CreateChildControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_154af1336df2b27e4b0c6cb7c136d87b6" kind="function"><name>OnPreRender</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_1cfe1964e1767a9302308a4fe0088c49c" kind="function"><name>EnsureBreadCrumbCreated</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_192df5350c19f6bc717a6b70489d566a8" kind="function"><name>CreateBreadCrumbWrapper</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_1e07a398d422d7454b120fc9302e19139" kind="function"><name>SetAllChildrenNonVisible</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_124d5c72a24fddc10606a460ded63f1e6" kind="function"><name>RaiseItemClicked</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_10d845d3c6928fa7897f3ab8a18b6fb1d" kind="function"><name>SetActiveLevel</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_1588df404a4da0cf0a659cf86c8a4e023" kind="function"><name>UpdateBreadCrumb</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_15540f6a6ac75a7aafc6cb68c0eb04deb" kind="function"><name>btn_Click</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_15377fa7fd32bea66546ab4532b1b7506" kind="function"><name>btnHome_Click</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_1647dc172c69513dfeb041fda4a6d4f58" kind="function"><name>SlideBackwards</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item" kind="class"><name>Ra::Extensions::Widgets::SlidingMenuItem</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1a3f7e8e64d0d35aea4a1e98fea079f49" kind="variable"><name>_button</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1d92fbcee396d339b6a7f27af1607f5e9" kind="variable"><name>_childLbl</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_15edb5ba6c0afb3305b299d63200bfbe5" kind="variable"><name>_root</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1a77e1aaf882e929dfe380e7e3f13a82a" kind="property"><name>Text</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1d9dc27aafc349fed42295c9ed101c423" kind="property"><name>NoClick</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_14952e16a3bfd0fa05ec5cc9c69850f68" kind="property"><name>CssClass</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_12fcc3d74fea3e3ba213c9c0975ebf873" kind="property"><name>IsLeaf</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_127061d2c6663533590d1d891f2f0988f" kind="property"><name>Content</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_196e87f373ecb18031a3e9531f397d2bc" kind="property"><name>Root</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1983ca816f7230f8a8a37a094f0baaa80" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_137dfc6d3ca92e0f181ec2cd2f15737c1" kind="function"><name>OnLoad</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1f2cb545da9ab54ef8c551b5259f63e99" kind="function"><name>CreateChildControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_10dd3b3d458ad877eb5a31b69b9818137" kind="function"><name>OnPreRender</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_15297abaf9f57866ae98d42d49778bdee" kind="function"><name>CreateMenuControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1e9b32425a2df48af18a2688672ffa117" kind="function"><name>_button_Click</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level" kind="class"><name>Ra::Extensions::Widgets::SlidingMenuLevel</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1d653c3129ec01bec6ec047ebdc7d478f" kind="variable"><name>_hasLoadedDynamicControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_19e674c1051885e303ef8eec36d2d2bcf" kind="event"><name>GetChildNodes</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_10b2b29fbe88886b4d852db3c8df0ce5d" kind="property"><name>CssClass</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_12acee52b081fe4573fb6ef01d9335b2c" kind="property"><name>Caption</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_194d616266d53be0f050ca5582f6513ca" kind="property"><name>Root</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1e1a70f5f7b3eac9bded3b1d05cbddf51" kind="property"><name>HasChildren</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1638eeb485628dd1d89d5dfe2e22f8408" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_11e328944990c21f57dffdf78d8d28f17" kind="function"><name>OnLoad</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_158ec88b93b7155897910be2d62dfea5b" kind="function"><name>CreateChildControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1ad233c442112526b831d8afc8f79f99f" kind="function"><name>LoadControlState</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1e7b87e13c2a1788b3bb53bf457091535" kind="function"><name>SaveControlState</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_14efdcf3bff11fea656e1876237b9df7b" kind="function"><name>EnsureChildNodes</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1f08cf11c441b119cf8c7ca808ae02d0e" kind="function"><name>GetDynamicNodes</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_18f40672f5a04d56ca94b3dfc464ca121" kind="function"><name>SetForReRendering</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_style_collection" kind="class"><name>Ra::Widgets::StyleCollection</name>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_102922a63d44690b4547e7dd3280fa064" kind="variable"><name>_control</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_12ca985489d5767924e2e8c068343921d" kind="variable"><name>_trackingViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_1357ced7d010e093d7921defe6e36ebef" kind="variable"><name>_styleValues</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_13287d5934c06fb9ab4dd57dafdd5fe77" kind="property"><name>this</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_1348d365975cd7c1bac5b27d32c5bf3bd" kind="property"><name>IsTrackingViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_19e0e22cd6a5500c7c78dffa913bd431f" kind="function"><name>StyleCollection</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_17baa109cc5bca809cfd0d43cc2a6f542" kind="function"><name>_control_PreRender</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_1e28477e71a386fefeeba75a83085dc5a" kind="function"><name>SetStyleValue</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_112526b16ecfba62147a39b2094065de4" kind="function"><name>AddStyleToCollection</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_196bed519544a06d99ace308347af54e4" kind="function"><name>LoadViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_1e7f6c39905bf946312e8406277bc2c44" kind="function"><name>TransformFromViewStateShorthand</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_100ca8bc6012c2734653104f88850dbcb" kind="function"><name>TransformToViewStateShorthand</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_148909f2937cd5f32fc96cc427b55e1ac" kind="function"><name>SaveViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_1e52249d5050b4ef68bf03722621993ff" kind="function"><name>TrackViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_18643f3aa758b96f69d4065c0884e08d8" kind="function"><name>SetStyleValueViewStateOnly</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_147bc1543eb6be5490218c5be35aa4b1e" kind="function"><name>GetViewStateOnlyStyles</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_19adfd71d55a1203f326275087cbd053d" kind="function"><name>GetStylesForResponse</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_1b4e6c124b3bc40f35be933afef27718a" kind="function"><name>TransformStyleToString</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value" kind="class"><name>Ra::Widgets::StyleCollection::StyleValue</name>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_1ca2ac4cdc9a5447a4c96d8e580095c9a" kind="variable"><name>_beforeViewStateTrackingValue</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_1c30c6671b6f5e02443449fe94a3f12f0" kind="variable"><name>_viewStateValue</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_109c3af5d8cecbb37a1d79c60560ac7ad" kind="variable"><name>_afterViewStateTrackingValue</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_143171bfd54629c3eac976addcf8d8452" kind="variable"><name>_onlyViewStateValue</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_1d18105c61a11f5200b9738ec4c02ae83" kind="property"><name>BeforeViewStateTrackingValue</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_1a2fdd2019f8f94cfd07c0864acdf5814" kind="property"><name>ViewStateValue</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_1510a5f2c6541453c0446f45c5c1b0136" kind="property"><name>AfterViewStateTrackingValue</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_139379120f13c10c76194380610b3748a" kind="property"><name>OnlyViewStateValue</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_1f135c4dbbd72ac7a1ec1868aa413fd07" kind="function"><name>StyleValue</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control" kind="class"><name>Ra::Extensions::Widgets::TabControl</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_123245eff435577a5d8dc4753dae23fcc" kind="variable"><name>_topPanel</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_1bfbbc9ba2e64e51aed10f822e1a59c17" kind="event"><name>ActiveTabViewChanged</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_1d300d734ae969730f872293e2526e3d4" kind="property"><name>CssClass</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_17510f70c5a204c5bc9d531790f63cd73" kind="property"><name>ActiveTabViewIndex</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_16f6882dc44cdebd1cb8e3400ab3df67f" kind="property"><name>Views</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_11a412ee99591747e1b5fba980cb4426a" kind="property"><name>ActiveTabView</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_102e86879ff4949fd22fd83547014b21a" kind="property"><name>ClientSideChange</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_1237f5874d87d58b5bf4c8469e58dc15e" kind="property"><name>Count</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_13ef666f89d44d0ffbc27a7b919248e8d" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_1f6e7ac987e50453f6fd40c5624ea7186" kind="function"><name>CreateChildControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_15d81a823d6f1e58f87a56b5ec0c48509" kind="function"><name>OnPreRender</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_18b155dbf1c4bceb2d5eaeef276be86dc" kind="function"><name>CreateChildTabViews</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_1b789ee43ece0685a75d8b5737d26b387" kind="function"><name>btn_Click</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_1eea5bc9be59d511b7ce399a128e7fb8d" kind="function"><name>SetActiveTabViewIndex</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_view" kind="class"><name>Ra::Extensions::Widgets::TabView</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_view_1350f3c598ddd9191d9aef124b9135b02" kind="variable"><name>_btnInParent</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_view_1968a7632474cc561863ebedc95789a87" kind="variable"><name>_listElementInParent</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_view_17691f716229a19cd3fc752a987b12e26" kind="property"><name>Button</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_view_182b22f110606e7b2f45d5a64c9b32597" kind="property"><name>ListElement</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_view_1e8caeb9cfc2da1d4a9eb6ae1a0df36c2" kind="property"><name>Caption</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_view_1cf672c6ad61bcfb285115bed33addd2f" kind="property"><name>Enabled</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_view_13c24d1ae346aad207dd70b9b817cf4d6" kind="property"><name>CssClass</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_view_1dabd539e134824952274375c0042705e" kind="function"><name>OnPreRender</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_text_area" kind="class"><name>Ra::Widgets::TextArea</name>
+    <member refid="class_ra_1_1_widgets_1_1_text_area_1f0c62a0cd0546b549fda572bff0e1401" kind="variable"><name>_hasSetSelect</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_area_135ea1e0ce923106d30228eb10da67e32" kind="event"><name>TextChanged</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_area_1cfe9518b80785ded01bd5b00a4a46318" kind="event"><name>Blur</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_area_14e8dd06cadbaf38d94ddd58d06965e00" kind="event"><name>EscPressed</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_area_190056ead21ca3c63c47b9a2d9ada5ed5" kind="event"><name>Focused</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_area_1d5d41fab31214f919af04b2a09ebce41" kind="property"><name>Text</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_area_1f371027dcfa0af76fcdebc1efe3b6ab1" kind="property"><name>AccessKey</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_area_1804dfae34fe30d5f06cb1a0a6bf6b2f1" kind="property"><name>Enabled</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_area_1c048261d1a6d89a26423bc6bafffdd7f" kind="property"><name>Columns</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_area_11e6a24e91c151c33bd914665b099651d" kind="property"><name>Rows</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_area_1f34f5f4bf968f9e418e2a6daa88022b9" kind="function"><name>Select</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_area_1b2e039f9a6fcc34d47bc1693cb2fcfe2" kind="function"><name>DispatchEvent</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_area_18a9b481ecb44fb9ad5a1167d699f09b7" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_area_1467f462c1b0aac846f124f4a93faf912" kind="function"><name>LoadViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_area_196664d6ddeab9bfdd771570bb8dc1fa3" kind="function"><name>GetClientSideScriptOptions</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_area_1e5a43c150c7351ede8a76633754833dc" kind="function"><name>GetEventsRegisterScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_area_1454e7a3185ef235d5b52f9bebfe91c66" kind="function"><name>GetOpeningHTML</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_widgets_1_1_text_box" kind="class"><name>Ra::Widgets::TextBox</name>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_15157cf1050cf4205dc0147bd9ad22fa1" kind="enum"><name>TextBoxMode</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_15157cf1050cf4205dc0147bd9ad22fa1" kind="enumvalue"><name>SingleLine</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_15157cf1050cf4205dc0147bd9ad22fa1" kind="enumvalue"><name>Password</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_17e3fa84a9b0e5f557a363cbaf1b9e3ac" kind="variable"><name>_hasSetSelect</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_1e64dd6cfaddfff82723efb27a36839b6" kind="event"><name>TextChanged</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_1858cda8dd65635337dba2fc5f50a6073" kind="event"><name>Blur</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_1388cb328e636aa656d58351880e58328" kind="event"><name>EnterPressed</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_1df2159aa82d134e6491e8debb0ff9630" kind="event"><name>EscPressed</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_1c0c43e3daa8621dcfba28bbe179e0357" kind="event"><name>Focused</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_19ae9e8d4fa78b8be4e36f57470cca5b7" kind="property"><name>Text</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_1a4b40300b813eec31aea0d584d85b5f4" kind="property"><name>AccessKey</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_180f8d389c18ff95891e1a537b431535d" kind="property"><name>Enabled</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_1f56ea9e126f521b584ad963ef5e8d1fd" kind="property"><name>TextMode</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_14301e125f18a8c9adc2fdf748b252f0e" kind="property"><name>MaxLength</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_1baf676b18c7114c6e5d8239887604873" kind="function"><name>Select</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_105f47b800b2a02781cb188b7468f8091" kind="function"><name>DispatchEvent</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_1010f963514f3a7519dd72f6a5e09c186" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_1172dd41030f58ad7cbd8c43b804ae0cd" kind="function"><name>LoadViewState</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_15c0236e0906f1e1c628544500d5b8f00" kind="function"><name>GetClientSideScriptOptions</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_179bae2322509fcefd25508e0b2a7b6a0" kind="function"><name>GetEventsRegisterScript</name></member>
+    <member refid="class_ra_1_1_widgets_1_1_text_box_114259746621af82e6a613a9bdf589cbd" kind="function"><name>GetOpeningHTML</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer" kind="class"><name>Ra::Extensions::Widgets::Timer</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1fa07164fb43571cd0473c621f9fcc40b" kind="event"><name>Tick</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1c33880bb4c96b7322544b5d6cf26485e" kind="property"><name>Enabled</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_133046b143fc5b064f5a564b119bdd22f" kind="property"><name>Duration</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1a04f5cac6b06949becddd4d13f048a1d" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_18e4ee6157da4c880f1cf26c605908174" kind="function"><name>OnPreRender</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1f81779d2a1f9d29329ecd135c989d06e" kind="function"><name>GetClientSideScriptOptions</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1c11e8be518d6af117293bdb2bac085a2" kind="function"><name>GetClientSideScriptType</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1b09b44397c170ef22f52b28dde955a6e" kind="function"><name>GetOpeningHTML</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_12812a11c9e1be02a13e781acd4e7f08b" kind="function"><name>DispatchEvent</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree" kind="class"><name>Ra::Extensions::Widgets::Tree</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_1f0ef4e74cafedf8fc8aeec808f3a72cd" kind="enum"><name>SelectionModeType</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_1f0ef4e74cafedf8fc8aeec808f3a72cd" kind="enumvalue"><name>SingleSelection</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_1f0ef4e74cafedf8fc8aeec808f3a72cd" kind="enumvalue"><name>MultipleSelection</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_1f0ef4e74cafedf8fc8aeec808f3a72cd" kind="enumvalue"><name>NoSelection</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_19f3128977f72ea77af4f90a66896c5d4" kind="enum"><name>ExpansionType</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_19f3128977f72ea77af4f90a66896c5d4" kind="enumvalue"><name>SingleClickEntireRow</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_19f3128977f72ea77af4f90a66896c5d4" kind="enumvalue"><name>SingleClickPlusSign</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_19f3128977f72ea77af4f90a66896c5d4" kind="enumvalue"><name>None</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_192cb0d2983166cb6f9a8a76a72f00ac3" kind="event"><name>SelectedNodeChanged</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_19407d3f9d8b2644c2d295f9d33407107" kind="property"><name>CssClass</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_1b800c3bd2355036548367d9098d4bc3f" kind="property"><name>ClientSideExpansion</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_15ae3ee74eef11e0ecd9f376abd98fc81" kind="property"><name>SelectedNodes</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_102c3962a012877250bfc4bcd5a90f253" kind="property"><name>Expansion</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_1c5543d650560b073d4903c7c452ef0f4" kind="property"><name>AllowMultipleSelectedItems</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_1dd84f1c86b7d8a44dc4dd2415a31770d" kind="property"><name>SelectionMode</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_1545dc2b217e14f174d2290feccd5cff4" kind="function"><name>OnPreRender</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_1371a880b2898f4b873466eb36901ace4" kind="function"><name>RaiseSelectedNodeChanged</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node" kind="class"><name>Ra::Extensions::Widgets::TreeNode</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_196768f1c19ad472f5272aedb7f7acd34" kind="variable"><name>_spacers</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1164244e746197193553de16f3ec789d0" kind="variable"><name>_expander</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1f0d1f2b2b136beba3c2c3712929c141f" kind="variable"><name>_icon</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_16967399916d5aa7e8abf2d5d711fc6ba" kind="property"><name>ExpanderControl</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_19e924d8354adca14b4560291b2229937" kind="property"><name>IsLeafNode</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1cc7ca89b245383ddb20929e30a36cabe" kind="property"><name>ParentTree</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1e8a8ed36af4cda830d3acb69e4f26906" kind="property"><name>ChildTreeNodes</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1c970e8cfa56ddfec8f6a100beda1b6fd" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_14721b96b4e1df7fff498e5a31d940278" kind="function"><name>RenderChildren</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1806e8ed0aa4adea5641d2752fb5b3f5e" kind="function"><name>GetOpeningHTML</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_117eec85984707618af5eb2825692b798" kind="function"><name>CreateChildControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_16606dbce5a3ef9d1c0a3861778d80fdd" kind="function"><name>GetClientSideScriptType</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1d7da17fc0f75bf68d5eb94c86f3bf527" kind="function"><name>GetClientSideScriptOptions</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_141de732e2f421193a65f0eea52f7d592" kind="function"><name>OnPreRender</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1c79769d8bd165eac4b8cf3a01b1d9a19" kind="function"><name>CreateCompositionControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1b52bc508f48b5e79339d15a18d516488" kind="function"><name>CreateSpacers</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1abf0839757b2cb9afc29a37fa4ab39ca" kind="function"><name>ExpandNode</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1559393e9be86a70a7fde7fea52dc1d8b" kind="function"><name>TreeNode_Selected</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1ad4f080383f0bfec59844f2076558d74" kind="function"><name>BuildCss</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1b632b85a43f8013ecda0d5989cbad4da" kind="function"><name>BuildCssForRootElement</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_152dca01d833a33fae946abd3cf1769c5" kind="function"><name>BuildCssForIcon</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1846809037fcd73ba64557c08239b0e6d" kind="function"><name>BuildCssForExpander</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1011d2e0840661508c79a0bb54450461c" kind="function"><name>BuildCssForSpacers</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_122e4c7577e4a9dc22c93bf40afbc244c" kind="function"><name>SetPropertiesForChildren</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1182f94c712f0d26b61c5b1864e9a9595" kind="function"><name>DispatchEvent</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes" kind="class"><name>Ra::Extensions::Widgets::TreeNodes</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes_16f8819589e0c72787b825df918561725" kind="variable"><name>_hasLoadedDynamicControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes_12adec9460e3f6ff2f7695fb477408584" kind="variable"><name>_expanded</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes_18724a825105d9e2b45e413446ab079b2" kind="event"><name>GetChildNodes</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes_14acade7cce68c57a334f8a9978cb7aac" kind="property"><name>Expanded</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes_14c3e86cdca45375db4e178371d4b30bb" kind="property"><name>HasChildren</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes_1cada5e1fc79ae3cb64bec2d211d64c84" kind="property"><name>HasChildrenMaybe</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes_127b318ea69b186c88dafc3913a63dbf7" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes_1a7ceac35e10eb3d35825c58a30c2cbfe" kind="function"><name>OnLoad</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes_149a1b8cef65afbdc66ebcade3dd5f150" kind="function"><name>OnPreRender</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes_19e80720fcf8d78eea01772f145c049bb" kind="function"><name>CreateChildControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes_161eafd9f938e8957cb04a3a4a514b2ac" kind="function"><name>LoadControlState</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes_125ded928ac9ec34adf89764f072f2feb" kind="function"><name>SaveControlState</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes_150114654d77eb0cb65c5654845b03768" kind="function"><name>GetDynamicNodes</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes_1108c82242edc2f7445430ad5b98487a3" kind="function"><name>RaiseGetChildNodes</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes_14d998a53dfd04939b133f8cdac5a2465" kind="function"><name>RollDown</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes_18d08467f8b1a93dcc11e006c57322261" kind="function"><name>RollUp</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_web_method" kind="class"><name>Ra::WebMethod</name>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part" kind="class"><name>Ra::Extensions::Widgets::WebPart</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_150aa294959268cbe50b0a9472b77d3f5" kind="variable"><name>_header</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1aed857189b95a8d5ca3eb7b625b7550c" kind="variable"><name>_caption</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_163f989841abda053758f91fe7df3f225" kind="variable"><name>_toggle</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_124f1cf0e96d7acad1754ae5aeeabfcf3" kind="variable"><name>_maximize</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_10f65124b624882166c1c39b06a17b893" kind="variable"><name>_close</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_110603efbbbf66b303c2f7c7d2fd17848" kind="variable"><name>_content</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_13802025a52f71853790135f8bb696fad" kind="event"><name>Expanded</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_12158b1bcfb00905c3719b5db03819817" kind="event"><name>Collapsed</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_101347fdcb2d6932dce5e273d6fdcab0a" kind="event"><name>Closed</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_12e6535db6fec5b7590a73359fdbd4d15" kind="event"><name>Maximized</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_15e87b70865f8a9b8da53b5d53167bbb4" kind="event"><name>Restored</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1e4ccbfd8c11373440cbcbcdfd021157a" kind="property"><name>CssClass</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_12683b0c14bfcc12500097beea847a23e" kind="property"><name>Caption</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1d35cddfb0b5ac6cc56301b5880e94f3d" kind="property"><name>IsClosable</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1c5265fa611f5ec6edbc27bedfed842a3" kind="property"><name>IsMaximizable</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_13eb8f8bca32c6f07d26c40e6957daa47" kind="property"><name>IsExpandable</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_16a16957c60057e058dd9dd43bd1e4935" kind="property"><name>IsExpanded</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1674f068a3ba1c9b0dd530ad10b24e8ee" kind="property"><name>IsMaximized</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_14c0053bc3d813feac3025cd08d173365" kind="property"><name>Content</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1580797fd6e4e34470ec437034cebc297" kind="property"><name>RestoreSize</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1da9781cd8ee6b6f675e4de632158a97e" kind="function"><name>Maximize</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1b3545582c0f48d67ad26a465a3dfa87e" kind="function"><name>Restore</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_11270164ea25886f777ce6441c95bb354" kind="function"><name>CreateWebPartControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1d7ef7a868d3a8ffebcf45025c037e780" kind="function"><name>_close_Click</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_12ed2cce3dc61426360301fa1ab35d2de" kind="function"><name>_maximize_Click</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1c778bfa68d684f66921a988fa25b2f70" kind="function"><name>_toggle_Click</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_195a5c9620169b6f3649b58fd121af05c" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_1b8563245980f1ece75a03b3fea6c7a41" kind="function"><name>CreateChildControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_15f9a07bb4dec80770cbefd8b774791ed" kind="function"><name>OnPreRender</name></member>
+  </compound>
+  <compound refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" kind="class"><name>Ra::Extensions::Widgets::Window</name>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_154d505d2275d2ad8ca28de1d1804c84c" kind="variable"><name>_nw</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1b7f6b480364c7d02283aea52c1ddb293" kind="variable"><name>_n</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1cadf8474bc390b6eb64993e907eff64f" kind="variable"><name>_ne</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_12a038acebe7c66da88e45d95feb582b4" kind="variable"><name>_w</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1f850ce6f9bd6e0f57042daaa4b15b4c1" kind="variable"><name>_body</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1b118fd4a42b4c10df69c3d2918e83228" kind="variable"><name>_content</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1101a3e906d62b621760196024d68d13d" kind="variable"><name>_e</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1b3f8324f323aa0e7351c2ff842099120" kind="variable"><name>_sw</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_13e3020749cb48f73f4d71b6a230cb8bf" kind="variable"><name>_s</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1480aadb6134605345fa7ef1a98b8888d" kind="variable"><name>_se</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_12a06f1fb16b02abe4730f7fe0d0a14d4" kind="variable"><name>_caption</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1073e7628eff7e8c28cc546733d332791" kind="variable"><name>_close</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_185bf57109819ad1a60364e0bb43b5d6e" kind="variable"><name>_dragger</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_17561cb1619e7c4b03207337c21d22765" kind="event"><name>Closed</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_16b7174377e765fbef5857d210b6e592e" kind="event"><name>Moved</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1d916da5bf00726d348f05ad72db94391" kind="event"><name>CreateTitleBarControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1176ba4c5297e4434dc59f94209ecc400" kind="property"><name>CssClass</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_14746342c5cb5869d7d3e29f086827b8c" kind="property"><name>Caption</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1ab6724506c2558d13ff958e1154af4cd" kind="property"><name>Closable</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_14f0cfa5588584d65679c4877a5a807e8" kind="property"><name>Movable</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1654e9a76edf035f3621ac2032414f1f6" kind="property"><name>SurfaceControl</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1d229f967250ced133c07a948870ed253" kind="property"><name>Content</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_19d9ff9f93e70ee415298b99c1a246725" kind="function"><name>OnInit</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1adb3ce743c2a513a6bb9524c61ec058d" kind="function"><name>CreateChildControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1f0782b08fcbeb4d48938915fa6157618" kind="function"><name>OnPreRender</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_16e5546dc6888b5c029e4078dba33107c" kind="function"><name>CreateWindowControls</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_17d2b918e6adb30a1abb4899a3456296d" kind="function"><name>_dragger_Dropped</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1dfba614cd8b275b3a129f62f68f2fcf3" kind="function"><name>_close_Click</name></member>
+    <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1a0425dda525d3561aefe1cf1b0fc4515" kind="function"><name>SetCssClassesAndMore</name></member>
+  </compound>
+  <compound refid="namespace_a_s_p_01" kind="namespace"><name>ASP </name>
+  </compound>
+  <compound refid="namespace_h_t_m_l_01" kind="namespace"><name>HTML </name>
+  </compound>
+  <compound refid="namespace_ra" kind="namespace"><name>Ra</name>
+  </compound>
+  <compound refid="namespace_ra_1_1_behaviors" kind="namespace"><name>Ra::Behaviors</name>
+  </compound>
+  <compound refid="namespace_ra_1_1_core" kind="namespace"><name>Ra::Core</name>
+  </compound>
+  <compound refid="namespace_ra_1_1_effects" kind="namespace"><name>Ra::Effects</name>
+  </compound>
+  <compound refid="namespace_ra_1_1_extensions" kind="namespace"><name>Ra::Extensions</name>
+  </compound>
+  <compound refid="namespace_ra_1_1_extensions_1_1_helpers" kind="namespace"><name>Ra::Extensions::Helpers</name>
+  </compound>
+  <compound refid="namespace_ra_1_1_extensions_1_1_widgets" kind="namespace"><name>Ra::Extensions::Widgets</name>
+  </compound>
+  <compound refid="namespace_ra_1_1_widgets" kind="namespace"><name>Ra::Widgets</name>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enum"><name>Styles</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>background</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>backgroundAttachment</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>backgroundColor</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>backgroundImage</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>backgroundPosition</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>backgroundRepeat</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>border</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderBottom</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderBottomColor</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderBottomStyle</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderBottomWidth</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderColor</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderLeft</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderLeftColor</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderLeftStyle</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderLeftWidth</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderRight</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderRightColor</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderRightStyle</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderRightWidth</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderStyle</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderTop</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderTopColor</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderTopStyle</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderTopWidth</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderWidth</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>clear</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>cursor</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>display</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>floating</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>position</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>visibility</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>height</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>lineHeight</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>maxHeight</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>maxWidth</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>minHeight</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>minWidth</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>width</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>font</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>fontFamily</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>fontSize</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>fontSizeAdjust</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>fontStretch</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>fontStyle</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>fontVariant</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>fontWeight</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>content</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>counterIncrement</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>counterReset</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>quotes</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>listStyle</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>listStyleImage</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>listStylePosition</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>listStyleType</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>markerOffset</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>margin</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>marginBottom</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>marginLeft</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>marginRight</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>marginTop</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>outline</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>outlineColor</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>outlineStyle</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>outlineWidth</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>padding</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>paddingBottom</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>paddingLeft</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>paddingRight</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>paddingTop</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>bottom</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>clip</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>left</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>overflow</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>right</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>top</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>verticalAlign</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>zIndex</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderCollapse</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>borderSpacing</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>captionSize</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>emptyCells</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>tableLayout</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>color</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>direction</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>letterSpacing</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>textAlign</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>textDecoration</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>textIndent</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>textShadow</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>textTransform</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>unicodeBidi</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>whiteSpace</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>wordSpacing</name></member>
+    <member refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kind="enumvalue"><name>opacity</name></member>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model_1_1_design_1_1_serialization" kind="namespace"><name>System::ComponentModel::Design::Serialization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing" kind="namespace"><name>System::Drawing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_globalization" kind="namespace"><name>System::Globalization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text_1_1_regular_expressions" kind="namespace"><name>System::Text::RegularExpressions</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web" kind="namespace"><name>System::Web</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_u_i" kind="namespace"><name>System::Web::UI</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_u_i_1_1_html_controls" kind="namespace"><name>System::Web::UI::HtmlControls</name>
+  </compound>
+  <compound refid="namespace_system_1_1_web_1_1_u_i_1_1_web_controls" kind="namespace"><name>System::Web::UI::WebControls</name>
+  </compound>
+  <compound refid="namespace_w_e_b_c_t_r_l_s_01" kind="namespace"><name>WEBCTRLS </name>
+  </compound>
+  <compound refid="_comet_queue_8cs" kind="file"><name>CometQueue.cs</name>
+  </compound>
+  <compound refid="_accordion_8cs" kind="file"><name>Accordion.cs</name>
+  </compound>
+  <compound refid="_accordion_view_8cs" kind="file"><name>AccordionView.cs</name>
+  </compound>
+  <compound refid="_auto_completer_8cs" kind="file"><name>AutoCompleter.cs</name>
+  </compound>
+  <compound refid="_auto_completer_item_8cs" kind="file"><name>AutoCompleterItem.cs</name>
+  </compound>
+  <compound refid="_calendar_8cs" kind="file"><name>Calendar.cs</name>
+  </compound>
+  <compound refid="_comet_8cs" kind="file"><name>Comet.cs</name>
+  </compound>
+  <compound refid="_date_time_picker_8cs" kind="file"><name>DateTimePicker.cs</name>
+  </compound>
+  <compound refid="_ext_button_8cs" kind="file"><name>ExtButton.cs</name>
+  </compound>
+  <compound refid="_global_updater_8cs" kind="file"><name>GlobalUpdater.cs</name>
+  </compound>
+  <compound refid="_in_place_edit_8cs" kind="file"><name>InPlaceEdit.cs</name>
+  </compound>
+  <compound refid="_menu_8cs" kind="file"><name>Menu.cs</name>
+  </compound>
+  <compound refid="_menu_item_8cs" kind="file"><name>MenuItem.cs</name>
+  </compound>
+  <compound refid="_menu_items_8cs" kind="file"><name>MenuItems.cs</name>
+  </compound>
+  <compound refid="_message_box_8cs" kind="file"><name>MessageBox.cs</name>
+  </compound>
+  <compound refid="_resize_handler_8cs" kind="file"><name>ResizeHandler.cs</name>
+  </compound>
+  <compound refid="_rich_edit_8cs" kind="file"><name>RichEdit.cs</name>
+  </compound>
+  <compound refid="_sliding_menu_8cs" kind="file"><name>SlidingMenu.cs</name>
+  </compound>
+  <compound refid="_sliding_menu_item_8cs" kind="file"><name>SlidingMenuItem.cs</name>
+  </compound>
+  <compound refid="_sliding_menu_level_8cs" kind="file"><name>SlidingMenuLevel.cs</name>
+  </compound>
+  <compound refid="_tab_control_8cs" kind="file"><name>TabControl.cs</name>
+  </compound>
+  <compound refid="_tab_view_8cs" kind="file"><name>TabView.cs</name>
+  </compound>
+  <compound refid="_timer_8cs" kind="file"><name>Timer.cs</name>
+  </compound>
+  <compound refid="_tree_8cs" kind="file"><name>Tree.cs</name>
+  </compound>
+  <compound refid="_tree_node_8cs" kind="file"><name>TreeNode.cs</name>
+  </compound>
+  <compound refid="_tree_nodes_8cs" kind="file"><name>TreeNodes.cs</name>
+  </compound>
+  <compound refid="_web_part_8cs" kind="file"><name>WebPart.cs</name>
+  </compound>
+  <compound refid="_window_8cs" kind="file"><name>Window.cs</name>
+  </compound>
+  <compound refid="_behavior_8cs" kind="file"><name>Behavior.cs</name>
+  </compound>
+  <compound refid="_behavior_draggable_8cs" kind="file"><name>BehaviorDraggable.cs</name>
+  </compound>
+  <compound refid="_behavior_droppable_8cs" kind="file"><name>BehaviorDroppable.cs</name>
+  </compound>
+  <compound refid="_behavior_obscurable_8cs" kind="file"><name>BehaviorObscurable.cs</name>
+  </compound>
+  <compound refid="_behavior_unveiler_8cs" kind="file"><name>BehaviorUnveiler.cs</name>
+  </compound>
+  <compound refid="_behavior_updater_8cs" kind="file"><name>BehaviorUpdater.cs</name>
+  </compound>
+  <compound refid="_effect_8cs" kind="file"><name>Effect.cs</name>
+  </compound>
+  <compound refid="_effect_border_8cs" kind="file"><name>EffectBorder.cs</name>
+  </compound>
+  <compound refid="_effect_fade_in_8cs" kind="file"><name>EffectFadeIn.cs</name>
+  </compound>
+  <compound refid="_effect_fade_out_8cs" kind="file"><name>EffectFadeOut.cs</name>
+  </compound>
+  <compound refid="_effect_focus_and_select_8cs" kind="file"><name>EffectFocusAndSelect.cs</name>
+  </compound>
+  <compound refid="_effect_highlight_8cs" kind="file"><name>EffectHighlight.cs</name>
+  </compound>
+  <compound refid="_effect_highlight_text_8cs" kind="file"><name>EffectHighlightText.cs</name>
+  </compound>
+  <compound refid="_effect_move_8cs" kind="file"><name>EffectMove.cs</name>
+  </compound>
+  <compound refid="_effect_roll_down_8cs" kind="file"><name>EffectRollDown.cs</name>
+  </compound>
+  <compound refid="_effect_roll_up_8cs" kind="file"><name>EffectRollUp.cs</name>
+  </compound>
+  <compound refid="_effect_size_8cs" kind="file"><name>EffectSize.cs</name>
+  </compound>
+  <compound refid="_effect_timeout_8cs" kind="file"><name>EffectTimeout.cs</name>
+  </compound>
+  <compound refid="_callback_filter_8cs" kind="file"><name>CallbackFilter.cs</name>
+  </compound>
+  <compound refid="_postback_filter_8cs" kind="file"><name>PostbackFilter.cs</name>
+  </compound>
+  <compound refid="_ajax_manager_8cs" kind="file"><name>AjaxManager.cs</name>
+  </compound>
+  <compound refid="_list_item_8cs" kind="file"><name>ListItem.cs</name>
+  </compound>
+  <compound refid="_list_item_collection_8cs" kind="file"><name>ListItemCollection.cs</name>
+  </compound>
+  <compound refid="_style_collection_8cs" kind="file"><name>StyleCollection.cs</name>
+  </compound>
+  <compound refid="_style_collection_styles_8cs" kind="file"><name>StyleCollectionStyles.cs</name>
+  </compound>
+  <compound refid="_web_method_8cs" kind="file"><name>WebMethod.cs</name>
+    <member refid="_web_method_8cs_181a223a02c34d82b47199f08308847f2" kind="variable"><name>System</name></member>
+  </compound>
+  <compound refid="_i_disableable_behavior_8cs" kind="file"><name>IDisableableBehavior.cs</name>
+  </compound>
+  <compound refid="_i_ra_control_8cs" kind="file"><name>IRaControl.cs</name>
+  </compound>
+  <compound refid="_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_extensions_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+    <member refid="_extensions_2_properties_2_assembly_info_8cs_18974f59db973551affdb297a3c5ab53a" kind="variable"><name>Reflection</name></member>
+  </compound>
+  <compound refid="_button_8cs" kind="file"><name>Button.cs</name>
+  </compound>
+  <compound refid="_check_box_8cs" kind="file"><name>CheckBox.cs</name>
+  </compound>
+  <compound refid="_dynamic_8cs" kind="file"><name>Dynamic.cs</name>
+  </compound>
+  <compound refid="_hidden_field_8cs" kind="file"><name>HiddenField.cs</name>
+  </compound>
+  <compound refid="_image_8cs" kind="file"><name>Image.cs</name>
+  </compound>
+  <compound refid="_image_button_8cs" kind="file"><name>ImageButton.cs</name>
+  </compound>
+  <compound refid="_label_8cs" kind="file"><name>Label.cs</name>
+  </compound>
+  <compound refid="_link_button_8cs" kind="file"><name>LinkButton.cs</name>
+  </compound>
+  <compound refid="_panel_8cs" kind="file"><name>Panel.cs</name>
+  </compound>
+  <compound refid="_ra_control_8cs" kind="file"><name>RaControl.cs</name>
+  </compound>
+  <compound refid="_radio_button_8cs" kind="file"><name>RadioButton.cs</name>
+  </compound>
+  <compound refid="_ra_web_control_8cs" kind="file"><name>RaWebControl.cs</name>
+  </compound>
+  <compound refid="_select_list_8cs" kind="file"><name>SelectList.cs</name>
+  </compound>
+  <compound refid="_text_area_8cs" kind="file"><name>TextArea.cs</name>
+  </compound>
+  <compound refid="_text_box_8cs" kind="file"><name>TextBox.cs</name>
+  </compound>
+  <compound refid="dir_fe38bd105158a6573fe717ba080300db" kind="dir"><name>C:/Work/ra-ajax/trunk/Ra/Behaviors/</name>
+  </compound>
+  <compound refid="dir_71ce51406ec7c7af46c1c2ff8dc197d6" kind="dir"><name>C:/Work/ra-ajax/trunk/Ra/Effects/</name>
+  </compound>
+  <compound refid="dir_c844284bd3d21c80dd6bf586ee3a7955" kind="dir"><name>C:/Work/ra-ajax/trunk/Ra/Filters/</name>
+  </compound>
+  <compound refid="dir_adb704767064b1cb648fb5141ae4880d" kind="dir"><name>C:/Work/ra-ajax/trunk/Ra/Helpers/</name>
+  </compound>
+  <compound refid="dir_fc9a4ae6e28300af60b6364440d73c41" kind="dir"><name>C:/Work/ra-ajax/trunk/Ra.Extensions/Helpers/</name>
+  </compound>
+  <compound refid="dir_ba3f8606c863d882ea463b4c7ca321c9" kind="dir"><name>C:/Work/ra-ajax/trunk/Ra/Interfaces/</name>
+  </compound>
+  <compound refid="dir_3cf989ee0c9a44c5c895ab1b03ae75db" kind="dir"><name>C:/Work/ra-ajax/trunk/Ra.Extensions/Properties/</name>
+  </compound>
+  <compound refid="dir_00a706e343530cb547a694f7c2316e05" kind="dir"><name>C:/Work/ra-ajax/trunk/Ra/Properties/</name>
+  </compound>
+  <compound refid="dir_5ac1d495a65b8367ff712ca5f0cb7d6e" kind="dir"><name>C:/Work/ra-ajax/trunk/Ra/</name>
+  </compound>
+  <compound refid="dir_c3996838499e5047b4b93cc4c41f4f19" kind="dir"><name>C:/Work/ra-ajax/</name>
+  </compound>
+  <compound refid="dir_3e1e13c0a2b983410fc2cf8b552c9e60" kind="dir"><name>C:/Work/ra-ajax/trunk/Ra.Extensions/</name>
+  </compound>
+  <compound refid="dir_c2463841010a249ea297c227265119c6" kind="dir"><name>C:/Work/ra-ajax/trunk/</name>
+  </compound>
+  <compound refid="dir_945af208f34cbe494fbca334ac21e2fd" kind="dir"><name>C:/Work/ra-ajax/trunk/Ra/Widgets/</name>
+  </compound>
+  <compound refid="dir_88cc9f452227568e2b02f4cf008e85e0" kind="dir"><name>C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/</name>
+  </compound>
+  <compound refid="dir_f338aeb1e6508ecd24dcbdb45b12f7a0" kind="dir"><name>C:/Work/</name>
+  </compound>
+</doxygenindex>

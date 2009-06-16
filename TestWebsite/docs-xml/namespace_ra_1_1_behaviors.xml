@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="namespace_ra_1_1_behaviors" kind="namespace">
+    <compoundname>Ra::Behaviors</compoundname>
+    <innerclass refid="class_ra_1_1_behaviors_1_1_behavior" prot="public">Ra::Behaviors::Behavior</innerclass>
+    <innerclass refid="class_ra_1_1_behaviors_1_1_behavior_draggable" prot="public">Ra::Behaviors::BehaviorDraggable</innerclass>
+    <innerclass refid="class_ra_1_1_behaviors_1_1_behavior_droppable" prot="public">Ra::Behaviors::BehaviorDroppable</innerclass>
+    <innerclass refid="class_ra_1_1_behaviors_1_1_behavior_obscurable" prot="public">Ra::Behaviors::BehaviorObscurable</innerclass>
+    <innerclass refid="class_ra_1_1_behaviors_1_1_behavior_unveiler" prot="public">Ra::Behaviors::BehaviorUnveiler</innerclass>
+    <innerclass refid="class_ra_1_1_behaviors_1_1_behavior_updater" prot="public">Ra::Behaviors::BehaviorUpdater</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/Behavior.cs" line="16"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_create_footer_controls_event_args" kind="class" prot="public">
+    <compoundname>Ra::Extensions::Widgets::Calendar::CreateFooterControlsEventArgs</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_create_footer_controls_event_args_125bdc2eb6df572dbd19e3d31e1118233" prot="private" static="no" mutable="no">
+        <type>List&lt; ASP.Control &gt;</type>
+        <definition>List&lt;ASP.Control&gt; Ra.Extensions.Widgets.Calendar.CreateFooterControlsEventArgs._ctrls</definition>
+        <argsstring></argsstring>
+        <name>_ctrls</name>
+        <initializer> new List&lt;ASP.Control&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="39" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_create_footer_controls_event_args_1432751f293e11ecd9ea99a2651914170" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; ASP.Control &gt;</type>
+        <definition>List&lt;ASP.Control&gt; Ra.Extensions.Widgets.Calendar.CreateFooterControlsEventArgs.Controls</definition>
+        <argsstring></argsstring>
+        <name>Controls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Append your controls into this list and they will be automatically appended at the bottom of the control. Note that for every control in this list you will get one new row in the table actually composing the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar" kindref="compound">Calendar</ref>. This means that if you want to have more then one control per row in the table you must append those two controls into a Literal control or something which wraps them both. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="55" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_create_footer_controls_event_args_17e1d32f592639ce47030acd9c358cc73" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal</type>
+        <definition>internal Ra.Extensions.Widgets.Calendar.CreateFooterControlsEventArgs.CreateFooterControlsEventArgs</definition>
+        <argsstring>()</argsstring>
+        <name>CreateFooterControlsEventArgs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="42" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="41" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>EventArgs passed to the CreateFooterControls events. This is the EventArgs passed to the CreateFooterControls event of the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar" kindref="compound">Calendar</ref> Widget. To add your own custom controls at the bottom append these controls into the Controls property of this EventArgs instance. A good example of using this can be seen in the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker" kindref="compound">DateTimePicker</ref> of Ra-Ajax which injects its TextBoxes for choosing the time parts using this logic. </para>    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="38" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="37" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_create_footer_controls_event_args_125bdc2eb6df572dbd19e3d31e1118233" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar::CreateFooterControlsEventArgs</scope><name>_ctrls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_create_footer_controls_event_args_1432751f293e11ecd9ea99a2651914170" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar::CreateFooterControlsEventArgs</scope><name>Controls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_create_footer_controls_event_args_17e1d32f592639ce47030acd9c358cc73" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar::CreateFooterControlsEventArgs</scope><name>CreateFooterControlsEventArgs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

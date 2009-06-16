@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control" kind="class" prot="public">
+    <compoundname>Ra::Extensions::Widgets::TabControl</compoundname>
+    <basecompoundref refid="class_ra_1_1_widgets_1_1_panel" prot="public" virt="non-virtual">Ra.Widgets.Panel</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_123245eff435577a5d8dc4753dae23fcc" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_panel" kindref="compound">Panel</ref></type>
+        <definition>Panel Ra.Extensions.Widgets.TabControl._topPanel</definition>
+        <argsstring></argsstring>
+        <name>_topPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" line="28" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_1bfbbc9ba2e64e51aed10f822e1a59c17" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Extensions.Widgets.TabControl.ActiveTabViewChanged</definition>
+        <argsstring></argsstring>
+        <name>ActiveTabViewChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when ActiveTabViewIndex property is changed </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" line="33" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_1d300d734ae969730f872293e2526e3d4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override string</type>
+        <definition>override string Ra.Extensions.Widgets.TabControl.CssClass</definition>
+        <argsstring></argsstring>
+        <name>CssClass</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_16138c4d2623d7a9d0e55ca42d8a24667">CssClass</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overridden to provide a sane default value </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" line="49" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_17510f70c5a204c5bc9d531790f63cd73" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Ra.Extensions.Widgets.TabControl.ActiveTabViewIndex</definition>
+        <argsstring></argsstring>
+        <name>ActiveTabViewIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets or sets the actively viewed <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_view" kindref="compound">TabView</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" line="62" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_16f6882dc44cdebd1cb8e3400ab3df67f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IEnumerable&lt; <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_view" kindref="compound">TabView</ref> &gt;</type>
+        <definition>IEnumerable&lt;TabView&gt; Ra.Extensions.Widgets.TabControl.Views</definition>
+        <argsstring></argsstring>
+        <name>Views</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the collection of TabViews in the control </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" line="77" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_11a412ee99591747e1b5fba980cb4426a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_view" kindref="compound">TabView</ref></type>
+        <definition>TabView Ra.Extensions.Widgets.TabControl.ActiveTabView</definition>
+        <argsstring></argsstring>
+        <name>ActiveTabView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the active tabview </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" line="95" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_102e86879ff4949fd22fd83547014b21a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Extensions.Widgets.TabControl.ClientSideChange</definition>
+        <argsstring></argsstring>
+        <name>ClientSideChange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If true then the changing of Active view will happen purely on the client and not create an Ajax Request at all. Warning! If you chose to set this property to true, then the control will not raise the ActiveViewChanged event when active view is changed! Also this value must be set when control is created or shown for the first time and cannot be changed after control is created. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" line="118" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_1237f5874d87d58b5bf4c8469e58dc15e" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Ra.Extensions.Widgets.TabControl.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" line="149" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_13ef666f89d44d0ffbc27a7b919248e8d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.TabControl.OnInit</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnInit</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_140a558cf9617ef2289be7fc7faf5130c">OnInit</reimplements>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" line="121" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" bodystart="120" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_1f6e7ac987e50453f6fd40c5624ea7186" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.TabControl.CreateChildControls</definition>
+        <argsstring>()</argsstring>
+        <name>CreateChildControls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" line="127" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" bodystart="126" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_15d81a823d6f1e58f87a56b5ec0c48509" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.TabControl.OnPreRender</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnPreRender</name>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" line="252" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" bodystart="251" bodyend="268"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_18b155dbf1c4bceb2d5eaeef276be86dc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.TabControl.CreateChildTabViews</definition>
+        <argsstring>()</argsstring>
+        <name>CreateChildTabViews</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" line="152" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" bodystart="151" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_1b789ee43ece0685a75d8b5737d26b387" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.TabControl.btn_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btn_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" line="271" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" bodystart="270" bodyend="287"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_1eea5bc9be59d511b7ce399a128e7fb8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.TabControl.SetActiveTabViewIndex</definition>
+        <argsstring>(int idx)</argsstring>
+        <name>SetActiveTabViewIndex</name>
+        <param>
+          <type>int</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Programatically changes the ActiveTabView </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" line="293" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" bodystart="292" bodyend="300"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control" kindref="compound">TabControl</ref> widget. An alternative to <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion" kindref="compound">Accordion</ref>. Contains several sheets in horizontal layout which can be clicked to change the currently &quot;active view&quot;. Useful for grouping information on screen into different categories. A <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control" kindref="compound">TabControl</ref> is a collection of <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_view" kindref="compound">TabView</ref> items. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="641">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="639">
+        <label>Ra.Widgets.Panel</label>
+        <link refid="class_ra_1_1_widgets_1_1_panel"/>
+        <childnode refid="640" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="640">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="641" relation="public-inheritance">
+        </childnode>
+        <childnode refid="642" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="642">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+      <node id="638">
+        <label>Ra.Extensions.Widgets.TabControl</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control"/>
+        <childnode refid="639" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="648">
+        <label>Ra.Widgets.StyleCollection</label>
+        <link refid="class_ra_1_1_widgets_1_1_style_collection"/>
+        <childnode refid="645" relation="usage">
+          <edgelabel>_control</edgelabel>
+        </childnode>
+      </node>
+      <node id="646">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="644">
+        <label>Ra.Widgets.Panel</label>
+        <link refid="class_ra_1_1_widgets_1_1_panel"/>
+        <childnode refid="645" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="645">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="646" relation="public-inheritance">
+        </childnode>
+        <childnode refid="647" relation="public-inheritance">
+        </childnode>
+        <childnode refid="648" relation="usage">
+          <edgelabel>_styles</edgelabel>
+        </childnode>
+      </node>
+      <node id="647">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+      <node id="643">
+        <label>Ra.Extensions.Widgets.TabControl</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control"/>
+        <childnode refid="644" relation="public-inheritance">
+        </childnode>
+        <childnode refid="644" relation="usage">
+          <edgelabel>_topPanel</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" line="27" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/TabControl.cs" bodystart="26" bodyend="301"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_123245eff435577a5d8dc4753dae23fcc" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>_topPanel</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_11a412ee99591747e1b5fba980cb4426a" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>ActiveTabView</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_1bfbbc9ba2e64e51aed10f822e1a59c17" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>ActiveTabViewChanged</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_17510f70c5a204c5bc9d531790f63cd73" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>ActiveTabViewIndex</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_1b789ee43ece0685a75d8b5737d26b387" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>btn_Click</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14dcb41296fe7545bb820a9184c2db962" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>Click</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_102e86879ff4949fd22fd83547014b21a" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>ClientSideChange</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_1237f5874d87d58b5bf4c8469e58dc15e" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>Count</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_1f6e7ac987e50453f6fd40c5624ea7186" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>CreateChildControls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_18b155dbf1c4bceb2d5eaeef276be86dc" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>CreateChildTabViews</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_1d300d734ae969730f872293e2526e3d4" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>CssClass</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_19fa1952b1c6b040d43165f5a11606ead" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>DblClick</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1c6430d3868b755f48e9465a84b1bffbc" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>DefaultWidget</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1de60bed8a2264f876fdfbd7232836f7c" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>DispatchEvent</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_11b9a672cefa64ca768f84857447a8191" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>GetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1ffd2a1e2f6b7e496a21b53e498095251" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1252ed547fb14958b0f4d7bea1ebfc109" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_104c0e8c541fe0b029d0edcd6b99ee718" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1e4e9525d529e8227b3c1a5db86d030b7" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>GetMouseOutEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_18bbe18d42617850745996cb0d672260c" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>GetMouseOverEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1e43aee7c85601ef8aa822dc4740210e6" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d8ae2b4ae6bce092e7d558db25b5c02a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>GetWebControlAttributes</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bc64e6e9488a31df7ae5ef0e3903b236" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>KeyDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_118b31c98087d7a57f49a42eb1bac2528" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>KeyPress</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1247f291546c64e40bddffb08936da867" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>KeyUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bccc3b360a6ddfe4f2aa2cb3e785ac1e" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>LoadViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c6c9ca13ef1e4e436153d6c3cf017a0c" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>MouseDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_103683f2d6d76237d0c501cde2ebae5ef" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>MouseMove</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_15be672aec4d07efc18f5e33cfeca6c7b" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>MouseOut</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d17aaa8103deb9d5037f8c3f334af1e7" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>MouseOver</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_13c51734abc45a09d5df540d48b88c6da" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>MouseUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_142b4a9a49ba0e6e81389627d4ad34aeb" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>OnClickClientSide</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_13ef666f89d44d0ffbc27a7b919248e8d" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_15d81a823d6f1e58f87a56b5ec0c48509" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>OnPreRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14cad6b9fb27c8c4c27b7bab4e471c445" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>QueueMultipleRequests</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_17d74fee59a34ea1bd5329082e043c531" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>RaWebControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_151ad71b3e5b5708fffbc50d3b0d93e4f" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>SaveViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_1eea5bc9be59d511b7ce399a128e7fb8d" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>SetActiveTabViewIndex</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_126c54189e89a72cdfecdfa5c62a9b97e" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>SetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_168ccd06bd09c6e05962f0e8838045c80" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>Style</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1255844bd5511b517d5d292f925f20994" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>TabIndex</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_182f02c963154472792679eae72cae436" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>Tag</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1812b6302ab1f9ddf6e4ce88a5d447f28" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>Tooltip</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c5de8a6390860af479dd41b75bff7584" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>TrackViewState</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_16f6882dc44cdebd1cb8e3400ab3df67f" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>Views</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::TabControl</scope><name>Xtra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

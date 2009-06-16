@@ -1,0 +1,644 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_widgets_1_1_window" kind="class" prot="public">
+    <compoundname>Ra::Extensions::Widgets::Window</compoundname>
+    <basecompoundref refid="class_ra_1_1_widgets_1_1_panel" prot="public" virt="non-virtual">Ra.Widgets.Panel</basecompoundref>
+    <derivedcompoundref refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box" prot="public" virt="non-virtual">Ra.Extensions.Widgets.MessageBox</derivedcompoundref>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1_1_create_title_bar_controls_event_args" prot="public">Ra::Extensions::Widgets::Window::CreateTitleBarControlsEventArgs</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_154d505d2275d2ad8ca28de1d1804c84c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Window._nw</definition>
+        <argsstring></argsstring>
+        <name>_nw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="55" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1b7f6b480364c7d02283aea52c1ddb293" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Window._n</definition>
+        <argsstring></argsstring>
+        <name>_n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="56" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1cadf8474bc390b6eb64993e907eff64f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Window._ne</definition>
+        <argsstring></argsstring>
+        <name>_ne</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="57" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_12a038acebe7c66da88e45d95feb582b4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Window._w</definition>
+        <argsstring></argsstring>
+        <name>_w</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="58" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1f850ce6f9bd6e0f57042daaa4b15b4c1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Window._body</definition>
+        <argsstring></argsstring>
+        <name>_body</name>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1f689d9b9727f25828377d424481d76ed">_body</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="59" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1b118fd4a42b4c10df69c3d2918e83228" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Window._content</definition>
+        <argsstring></argsstring>
+        <name>_content</name>
+        <initializer> new <ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="60" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1101a3e906d62b621760196024d68d13d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Window._e</definition>
+        <argsstring></argsstring>
+        <name>_e</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="61" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1b3f8324f323aa0e7351c2ff842099120" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Window._sw</definition>
+        <argsstring></argsstring>
+        <name>_sw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="62" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_13e3020749cb48f73f4d71b6a230cb8bf" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Window._s</definition>
+        <argsstring></argsstring>
+        <name>_s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="63" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1480aadb6134605345fa7ef1a98b8888d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Window._se</definition>
+        <argsstring></argsstring>
+        <name>_se</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="64" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_12a06f1fb16b02abe4730f7fe0d0a14d4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Window._caption</definition>
+        <argsstring></argsstring>
+        <name>_caption</name>
+        <initializer> new <ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="65" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1073e7628eff7e8c28cc546733d332791" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_link_button" kindref="compound">LinkButton</ref></type>
+        <definition>LinkButton Ra.Extensions.Widgets.Window._close</definition>
+        <argsstring></argsstring>
+        <name>_close</name>
+        <initializer> new <ref refid="class_ra_1_1_widgets_1_1_link_button" kindref="compound">LinkButton</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="66" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_185bf57109819ad1a60364e0bb43b5d6e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_behaviors_1_1_behavior_draggable" kindref="compound">BehaviorDraggable</ref></type>
+        <definition>BehaviorDraggable Ra.Extensions.Widgets.Window._dragger</definition>
+        <argsstring></argsstring>
+        <name>_dragger</name>
+        <initializer> new <ref refid="class_ra_1_1_behaviors_1_1_behavior_draggable" kindref="compound">BehaviorDraggable</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="67" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_17561cb1619e7c4b03207337c21d22765" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Extensions.Widgets.Window.Closed</definition>
+        <argsstring></argsstring>
+        <name>Closed</name>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_13fcc8f663d1fe2a709ec7001e4be95b1">Closed</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when window is closed by clicking the close icon. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="72" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_16b7174377e765fbef5857d210b6e592e" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Extensions.Widgets.Window.Moved</definition>
+        <argsstring></argsstring>
+        <name>Moved</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when window is moved and dropped at new position. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="77" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1d916da5bf00726d348f05ad72db94391" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1_1_create_title_bar_controls_event_args" kindref="compound">CreateTitleBarControlsEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;CreateTitleBarControlsEventArgs&gt; Ra.Extensions.Widgets.Window.CreateTitleBarControls</definition>
+        <argsstring></argsstring>
+        <name>CreateTitleBarControls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handle this event if you need to create extra controls at the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" kindref="compound">Window</ref> TitleBar (next to the close button) for any reasons. Called immediately before Close button is created (if it is created). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="84" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1176ba4c5297e4434dc59f94209ecc400" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override string</type>
+        <definition>override string Ra.Extensions.Widgets.Window.CssClass</definition>
+        <argsstring></argsstring>
+        <name>CssClass</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_16138c4d2623d7a9d0e55ca42d8a24667">CssClass</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overridden to provide a sane default value </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="110" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_14746342c5cb5869d7d3e29f086827b8c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Extensions.Widgets.Window.Caption</definition>
+        <argsstring></argsstring>
+        <name>Caption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Header text of window </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="125" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1ab6724506c2558d13ff958e1154af4cd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Extensions.Widgets.Window.Closable</definition>
+        <argsstring></argsstring>
+        <name>Closable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If true (default value) then <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" kindref="compound">Window</ref> will have a Close icon to close it. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="135" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_14f0cfa5588584d65679c4877a5a807e8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Extensions.Widgets.Window.Movable</definition>
+        <argsstring></argsstring>
+        <name>Movable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If true (default value) then <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" kindref="compound">Window</ref> can be dragged around and moved. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="150" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1654e9a76edf035f3621ac2032414f1f6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Window.SurfaceControl</definition>
+        <argsstring></argsstring>
+        <name>SurfaceControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Actual content parts of <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" kindref="compound">Window</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="158" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1d229f967250ced133c07a948870ed253" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ASP.ControlCollection</type>
+        <definition>ASP.ControlCollection Ra.Extensions.Widgets.Window.Content</definition>
+        <argsstring></argsstring>
+        <name>Content</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The actual &quot;content part&quot; of the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" kindref="compound">Window</ref>. This is where your child controls from the markup will be added. If you add up items dynamically to the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" kindref="compound">Window</ref> then this is where you should add them up. So instead of using &quot;myWindow.Controls.Add&quot; you should normally use &quot;myWindow.Content.Add&quot; when adding Controls dynamically to the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" kindref="compound">Window</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="177" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_19d9ff9f93e70ee415298b99c1a246725" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.Window.OnInit</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnInit</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_140a558cf9617ef2289be7fc7faf5130c">OnInit</reimplements>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_19a564774a7e9e5af0a901dc498be3364">OnInit</reimplementedby>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="161" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="160" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1adb3ce743c2a513a6bb9524c61ec058d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.Window.CreateChildControls</definition>
+        <argsstring>()</argsstring>
+        <name>CreateChildControls</name>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1877bbad8688e3b388933ea368749cc2a">CreateChildControls</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="180" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="179" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1f0782b08fcbeb4d48938915fa6157618" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.Window.OnPreRender</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnPreRender</name>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="287" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="286" bodyend="306"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_16e5546dc6888b5c029e4078dba33107c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.Window.CreateWindowControls</definition>
+        <argsstring>()</argsstring>
+        <name>CreateWindowControls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="185" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="184" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_17d2b918e6adb30a1abb4899a3456296d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.Window._dragger_Dropped</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>_dragger_Dropped</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="274" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="273" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1dfba614cd8b275b3a129f62f68f2fcf3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.Window._close_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>_close_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="280" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="279" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1a0425dda525d3561aefe1cf1b0fc4515" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.Window.SetCssClassesAndMore</definition>
+        <argsstring>()</argsstring>
+        <name>SetCssClassesAndMore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="309" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="308" bodyend="330"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" kindref="compound">Window</ref> control. This is the equivalent of a <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" kindref="compound">Window</ref> on desktop systems. Have lots of &quot;candy features&quot; like the possibility to set the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" kindref="compound">Window</ref> into &quot;Modal&quot; mode. In Modal mode none of the controls behind it on the page can be clicked. Can also be moved around on screen, have support for Caption and a closing icon to close it. You can also easily create your own &quot;icons&quot; by overriding the CreateTitleBarControls event. Note that to make the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" kindref="compound">Window</ref> Modal you need to add up the BehaviorObscurer to the Controls collection of the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" kindref="compound">Window</ref>. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="738">
+        <label>Ra.Extensions.Widgets.MessageBox</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box"/>
+        <childnode refid="733" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="736">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="733">
+        <label>Ra.Extensions.Widgets.Window</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_window"/>
+        <childnode refid="734" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="734">
+        <label>Ra.Widgets.Panel</label>
+        <link refid="class_ra_1_1_widgets_1_1_panel"/>
+        <childnode refid="735" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="735">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="736" relation="public-inheritance">
+        </childnode>
+        <childnode refid="737" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="737">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="744">
+        <label>Ra.Widgets.StyleCollection</label>
+        <link refid="class_ra_1_1_widgets_1_1_style_collection"/>
+        <childnode refid="741" relation="usage">
+          <edgelabel>_control</edgelabel>
+        </childnode>
+      </node>
+      <node id="748">
+        <label>Ra.Behaviors.Behavior</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior"/>
+        <childnode refid="742" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="742">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="739">
+        <label>Ra.Extensions.Widgets.Window</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_window"/>
+        <childnode refid="740" relation="public-inheritance">
+        </childnode>
+        <childnode refid="745" relation="usage">
+          <edgelabel>_close</edgelabel>
+        </childnode>
+        <childnode refid="746" relation="usage">
+          <edgelabel>_content</edgelabel>
+          <edgelabel>_ne</edgelabel>
+          <edgelabel>_nw</edgelabel>
+          <edgelabel>_s</edgelabel>
+          <edgelabel>_caption</edgelabel>
+          <edgelabel>_e</edgelabel>
+          <edgelabel>_w</edgelabel>
+          <edgelabel>_body</edgelabel>
+          <edgelabel>_se</edgelabel>
+          <edgelabel>_sw</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="747" relation="usage">
+          <edgelabel>_dragger</edgelabel>
+        </childnode>
+      </node>
+      <node id="749">
+        <label>Ra.Widgets.IDisableableBehavior</label>
+        <link refid="interface_ra_1_1_widgets_1_1_i_disableable_behavior"/>
+      </node>
+      <node id="740">
+        <label>Ra.Widgets.Panel</label>
+        <link refid="class_ra_1_1_widgets_1_1_panel"/>
+        <childnode refid="741" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="747">
+        <label>Ra.Behaviors.BehaviorDraggable</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_draggable"/>
+        <childnode refid="748" relation="public-inheritance">
+        </childnode>
+        <childnode refid="743" relation="public-inheritance">
+        </childnode>
+        <childnode refid="749" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="746">
+        <label>Ra.Widgets.Label</label>
+        <link refid="class_ra_1_1_widgets_1_1_label"/>
+        <childnode refid="741" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="741">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="742" relation="public-inheritance">
+        </childnode>
+        <childnode refid="743" relation="public-inheritance">
+        </childnode>
+        <childnode refid="744" relation="usage">
+          <edgelabel>_styles</edgelabel>
+        </childnode>
+      </node>
+      <node id="743">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+      <node id="745">
+        <label>Ra.Widgets.LinkButton</label>
+        <link refid="class_ra_1_1_widgets_1_1_link_button"/>
+        <childnode refid="741" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="33" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="32" bodyend="331"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1f850ce6f9bd6e0f57042daaa4b15b4c1" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>_body</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_12a06f1fb16b02abe4730f7fe0d0a14d4" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>_caption</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1073e7628eff7e8c28cc546733d332791" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>_close</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1dfba614cd8b275b3a129f62f68f2fcf3" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>_close_Click</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1b118fd4a42b4c10df69c3d2918e83228" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>_content</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_185bf57109819ad1a60364e0bb43b5d6e" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>_dragger</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_17d2b918e6adb30a1abb4899a3456296d" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>_dragger_Dropped</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1101a3e906d62b621760196024d68d13d" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>_e</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1b7f6b480364c7d02283aea52c1ddb293" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>_n</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1cadf8474bc390b6eb64993e907eff64f" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>_ne</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_154d505d2275d2ad8ca28de1d1804c84c" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>_nw</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_13e3020749cb48f73f4d71b6a230cb8bf" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>_s</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1480aadb6134605345fa7ef1a98b8888d" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>_se</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1b3f8324f323aa0e7351c2ff842099120" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>_sw</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_12a038acebe7c66da88e45d95feb582b4" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>_w</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_14746342c5cb5869d7d3e29f086827b8c" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>Caption</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14dcb41296fe7545bb820a9184c2db962" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>Click</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1ab6724506c2558d13ff958e1154af4cd" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>Closable</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_17561cb1619e7c4b03207337c21d22765" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>Closed</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1d229f967250ced133c07a948870ed253" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>Content</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1adb3ce743c2a513a6bb9524c61ec058d" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>CreateChildControls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1d916da5bf00726d348f05ad72db94391" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>CreateTitleBarControls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_16e5546dc6888b5c029e4078dba33107c" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>CreateWindowControls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1176ba4c5297e4434dc59f94209ecc400" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>CssClass</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_19fa1952b1c6b040d43165f5a11606ead" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>DblClick</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1c6430d3868b755f48e9465a84b1bffbc" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>DefaultWidget</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1de60bed8a2264f876fdfbd7232836f7c" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>DispatchEvent</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_11b9a672cefa64ca768f84857447a8191" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>GetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1ffd2a1e2f6b7e496a21b53e498095251" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1252ed547fb14958b0f4d7bea1ebfc109" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_104c0e8c541fe0b029d0edcd6b99ee718" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1e4e9525d529e8227b3c1a5db86d030b7" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>GetMouseOutEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_18bbe18d42617850745996cb0d672260c" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>GetMouseOverEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1e43aee7c85601ef8aa822dc4740210e6" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d8ae2b4ae6bce092e7d558db25b5c02a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>GetWebControlAttributes</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bc64e6e9488a31df7ae5ef0e3903b236" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>KeyDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_118b31c98087d7a57f49a42eb1bac2528" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>KeyPress</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1247f291546c64e40bddffb08936da867" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>KeyUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bccc3b360a6ddfe4f2aa2cb3e785ac1e" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>LoadViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c6c9ca13ef1e4e436153d6c3cf017a0c" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>MouseDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_103683f2d6d76237d0c501cde2ebae5ef" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>MouseMove</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_15be672aec4d07efc18f5e33cfeca6c7b" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>MouseOut</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d17aaa8103deb9d5037f8c3f334af1e7" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>MouseOver</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_13c51734abc45a09d5df540d48b88c6da" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>MouseUp</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_14f0cfa5588584d65679c4877a5a807e8" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>Movable</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_16b7174377e765fbef5857d210b6e592e" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>Moved</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_142b4a9a49ba0e6e81389627d4ad34aeb" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>OnClickClientSide</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_19d9ff9f93e70ee415298b99c1a246725" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1f0782b08fcbeb4d48938915fa6157618" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>OnPreRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14cad6b9fb27c8c4c27b7bab4e471c445" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>QueueMultipleRequests</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_17d74fee59a34ea1bd5329082e043c531" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>RaWebControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_151ad71b3e5b5708fffbc50d3b0d93e4f" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>SaveViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_126c54189e89a72cdfecdfa5c62a9b97e" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>SetAttribute</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1a0425dda525d3561aefe1cf1b0fc4515" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>SetCssClassesAndMore</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_168ccd06bd09c6e05962f0e8838045c80" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>Style</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1654e9a76edf035f3621ac2032414f1f6" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>SurfaceControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1255844bd5511b517d5d292f925f20994" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>TabIndex</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_182f02c963154472792679eae72cae436" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>Tag</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1812b6302ab1f9ddf6e4ce88a5d447f28" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>Tooltip</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c5de8a6390860af479dd41b75bff7584" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>TrackViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window</scope><name>Xtra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

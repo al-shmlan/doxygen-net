@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="_extensions_2_properties_2_assembly_info_8cs" kind="file">
+    <compoundname>AssemblyInfo.cs</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_extensions_2_properties_2_assembly_info_8cs_18974f59db973551affdb297a3c5ab53a" prot="public" static="no" mutable="no">
+        <type>﻿using System.</type>
+        <definition>﻿using System. Reflection</definition>
+        <argsstring></argsstring>
+        <name>Reflection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Properties/AssemblyInfo.cs" line="1" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Properties/AssemblyInfo.cs" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Properties/AssemblyInfo.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="namespace_ra_1_1_extensions_1_1_widgets" kind="namespace">
+    <compoundname>Ra::Extensions::Widgets</compoundname>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion" prot="public">Ra::Extensions::Widgets::Accordion</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view" prot="public">Ra::Extensions::Widgets::AccordionView</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer" prot="public">Ra::Extensions::Widgets::AutoCompleter</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_item" prot="public">Ra::Extensions::Widgets::AutoCompleterItem</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar" prot="public">Ra::Extensions::Widgets::Calendar</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet" prot="public">Ra::Extensions::Widgets::Comet</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker" prot="public">Ra::Extensions::Widgets::DateTimePicker</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_ext_button" prot="public">Ra::Extensions::Widgets::ExtButton</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_global_updater" prot="public">Ra::Extensions::Widgets::GlobalUpdater</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_in_place_edit" prot="public">Ra::Extensions::Widgets::InPlaceEdit</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu" prot="public">Ra::Extensions::Widgets::Menu</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_item" prot="public">Ra::Extensions::Widgets::MenuItem</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_items" prot="public">Ra::Extensions::Widgets::MenuItems</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box" prot="public">Ra::Extensions::Widgets::MessageBox</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler" prot="public">Ra::Extensions::Widgets::ResizeHandler</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit" prot="public">Ra::Extensions::Widgets::RichEdit</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu" prot="public">Ra::Extensions::Widgets::SlidingMenu</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item" prot="public">Ra::Extensions::Widgets::SlidingMenuItem</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level" prot="public">Ra::Extensions::Widgets::SlidingMenuLevel</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control" prot="public">Ra::Extensions::Widgets::TabControl</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_view" prot="public">Ra::Extensions::Widgets::TabView</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer" prot="public">Ra::Extensions::Widgets::Timer</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree" prot="public">Ra::Extensions::Widgets::Tree</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node" prot="public">Ra::Extensions::Widgets::TreeNode</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes" prot="public">Ra::Extensions::Widgets::TreeNodes</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part" prot="public">Ra::Extensions::Widgets::WebPart</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" prot="public">Ra::Extensions::Widgets::Window</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Extension widgets for Ra-Ajax </para>    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Accordion.cs" line="22"/>
+  </compounddef>
+</doxygen>

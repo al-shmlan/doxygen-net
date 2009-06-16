@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="dir_c844284bd3d21c80dd6bf586ee3a7955" kind="dir">
+    <compoundname>C:/Work/ra-ajax/trunk/Ra/Filters/</compoundname>
+    <innerfile refid="_callback_filter_8cs">CallbackFilter.cs</innerfile>
+    <innerfile refid="_postback_filter_8cs">PostbackFilter.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Filters/"/>
+  </compounddef>
+</doxygen>

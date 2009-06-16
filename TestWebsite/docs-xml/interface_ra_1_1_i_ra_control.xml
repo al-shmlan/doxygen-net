@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="interface_ra_1_1_i_ra_control" kind="interface" prot="public">
+    <compoundname>Ra::IRaControl</compoundname>
+    <derivedcompoundref refid="class_ra_1_1_behaviors_1_1_behavior_draggable" prot="public" virt="non-virtual">Ra.Behaviors.BehaviorDraggable</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet" prot="public" virt="non-virtual">Ra.Extensions.Widgets.Comet</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler" prot="public" virt="non-virtual">Ra.Extensions.Widgets.ResizeHandler</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit" prot="public" virt="non-virtual">Ra.Extensions.Widgets.RichEdit</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer" prot="public" virt="non-virtual">Ra.Extensions.Widgets.Timer</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_widgets_1_1_ra_web_control" prot="public" virt="non-virtual">Ra.Widgets.RaWebControl</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_ra_1_1_i_ra_control_1f12273f2bf248d8964b6deac4192cd5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.IRaControl.DispatchEvent</definition>
+        <argsstring>(string name)</argsstring>
+        <name>DispatchEvent</name>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1182f94c712f0d26b61c5b1864e9a9595">DispatchEvent</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_12812a11c9e1be02a13e781acd4e7f08b">DispatchEvent</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit_1f6a7e84b2d9ba877e02fa351ced1dfbd">DispatchEvent</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1602e01311c3448f66a80798554dedff3">DispatchEvent</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_162acd9a811bd2f116cf996681f0952c3">DispatchEvent</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_text_box_105f47b800b2a02781cb188b7468f8091">DispatchEvent</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_text_area_1b2e039f9a6fcc34d47bc1693cb2fcfe2">DispatchEvent</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_select_list_18cb5c3bbf9b1a81ba94f0181c4f5f111">DispatchEvent</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_ra_web_control_1de60bed8a2264f876fdfbd7232836f7c">DispatchEvent</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_radio_button_1ac4b3cecae70d6bc2dcf4fc15e11d04c">DispatchEvent</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_link_button_11bc9b8ca0c95775270ce5af8ba09ef22">DispatchEvent</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_image_button_14ab05a34b97143d476bc89f8aac4d9e3">DispatchEvent</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_check_box_1e2b3b2291f5c0f03c7dfd860e76af52f">DispatchEvent</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_button_1400c02d2e91a1eadbbffff44eeefb792">DispatchEvent</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_behaviors_1_1_behavior_draggable_14e15416a4b65cc4b7b2fecd8787272c4">DispatchEvent</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called internally by framework (Ra-Ajax) when event occurs from client. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Interfaces/IRaControl.cs" line="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Interface defining Ra-Ajax controls, implement on all of your Ra-Ajax extension controls which have their own JavaScript files. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="322">
+        <label>Ra.Extensions.Widgets.AccordionView</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="336">
+        <label>Ra.Extensions.Widgets.WebPart</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="338">
+        <label>Ra.Extensions.Widgets.MessageBox</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box"/>
+        <childnode refid="337" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="305">
+        <label>Ra.Extensions.Widgets.ResizeHandler</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler"/>
+        <childnode refid="302" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="334">
+        <label>Ra.Extensions.Widgets.Tree</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="310">
+        <label>Ra.Extensions.Widgets.Menu</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu"/>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="343">
+        <label>Ra.Widgets.TextBox</label>
+        <link refid="class_ra_1_1_widgets_1_1_text_box"/>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="317">
+        <label>Ra.Extensions.Widgets.MenuItem</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_item"/>
+        <childnode refid="315" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="313">
+        <label>Ra.Widgets.Image</label>
+        <link refid="class_ra_1_1_widgets_1_1_image"/>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="321">
+        <label>Ra.Extensions.Widgets.Accordion</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="341">
+        <label>Ra.Widgets.SelectList</label>
+        <link refid="class_ra_1_1_widgets_1_1_select_list"/>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="316">
+        <label>Ra.Extensions.Widgets.AutoCompleterItem</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_item"/>
+        <childnode refid="315" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="340">
+        <label>Ra.Widgets.RadioButton</label>
+        <link refid="class_ra_1_1_widgets_1_1_radio_button"/>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="309">
+        <label>Ra.Extensions.Widgets.ExtButton</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_ext_button"/>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="304">
+        <label>Ra.Extensions.Widgets.Comet</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet"/>
+        <childnode refid="302" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="311">
+        <label>Ra.Widgets.Button</label>
+        <link refid="class_ra_1_1_widgets_1_1_button"/>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="337">
+        <label>Ra.Extensions.Widgets.Window</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_window"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="307">
+        <label>Ra.Extensions.Widgets.Timer</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer"/>
+        <childnode refid="302" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="327">
+        <label>Ra.Extensions.Widgets.InPlaceEdit</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_in_place_edit"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="331">
+        <label>Ra.Extensions.Widgets.SlidingMenuLevel</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="330">
+        <label>Ra.Extensions.Widgets.SlidingMenuItem</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="323">
+        <label>Ra.Extensions.Widgets.AutoCompleter</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="314">
+        <label>Ra.Widgets.ImageButton</label>
+        <link refid="class_ra_1_1_widgets_1_1_image_button"/>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="329">
+        <label>Ra.Extensions.Widgets.SlidingMenu</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="320">
+        <label>Ra.Widgets.Panel</label>
+        <link refid="class_ra_1_1_widgets_1_1_panel"/>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="306">
+        <label>Ra.Extensions.Widgets.RichEdit</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit"/>
+        <childnode refid="302" relation="public-inheritance">
+        </childnode>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="303">
+        <label>Ra.Behaviors.BehaviorDraggable</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_draggable"/>
+        <childnode refid="302" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="339">
+        <label>Ra.Widgets.Dynamic</label>
+        <link refid="class_ra_1_1_widgets_1_1_dynamic"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="326">
+        <label>Ra.Extensions.Widgets.GlobalUpdater</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_global_updater"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="312">
+        <label>Ra.Widgets.CheckBox</label>
+        <link refid="class_ra_1_1_widgets_1_1_check_box"/>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="325">
+        <label>Ra.Extensions.Widgets.DateTimePicker</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker"/>
+        <childnode refid="324" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="315">
+        <label>Ra.Widgets.Label</label>
+        <link refid="class_ra_1_1_widgets_1_1_label"/>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="308">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="302" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="335">
+        <label>Ra.Extensions.Widgets.TreeNodes</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="324">
+        <label>Ra.Extensions.Widgets.Calendar</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="332">
+        <label>Ra.Extensions.Widgets.TabControl</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="302">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+      <node id="319">
+        <label>Ra.Widgets.LinkButton</label>
+        <link refid="class_ra_1_1_widgets_1_1_link_button"/>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="318">
+        <label>Ra.Extensions.Widgets.TreeNode</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node"/>
+        <childnode refid="315" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="328">
+        <label>Ra.Extensions.Widgets.MenuItems</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_items"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="333">
+        <label>Ra.Extensions.Widgets.TabView</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_view"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="342">
+        <label>Ra.Widgets.TextArea</label>
+        <link refid="class_ra_1_1_widgets_1_1_text_area"/>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Interfaces/IRaControl.cs" line="21" bodyfile="C:/Work/ra-ajax/trunk/Ra/Interfaces/IRaControl.cs" bodystart="20" bodyend="26"/>
+    <listofallmembers>
+      <member refid="interface_ra_1_1_i_ra_control_1f12273f2bf248d8964b6deac4192cd5a" prot="public" virt="non-virtual"><scope>Ra::IRaControl</scope><name>DispatchEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_behaviors_1_1_behavior_updater" kind="class" prot="public">
+    <compoundname>Ra::Behaviors::BehaviorUpdater</compoundname>
+    <basecompoundref refid="class_ra_1_1_behaviors_1_1_behavior" prot="public" virt="non-virtual">Ra.Behaviors.Behavior</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_behaviors_1_1_behavior_updater_1a6e60c359c0989973a3ab4bc26b9aad9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Ra.Behaviors.BehaviorUpdater.Delay</definition>
+        <argsstring></argsstring>
+        <name>Delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Number of milliseconds which will pass before the obscurer will animate into view and show up. If the request is going fast then by having a sane value for this property you can make sure that only the &quot;long&quot; requests are actually running the updater logic and obscuring the page. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" line="64" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_behaviors_1_1_behavior_updater_16df7430132f152be64fe1b962718863d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>decimal</type>
+        <definition>decimal Ra.Behaviors.BehaviorUpdater.Opacity</definition>
+        <argsstring></argsstring>
+        <name>Opacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Amount of transparency for updater. 0.0 == 100% transparent, 1.0 = 100% non-transparent. Value must be in range [0.0, 1.0]. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" line="82" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_behaviors_1_1_behavior_updater_11b8ebccf2c5db958bbf98379846399a9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Color</type>
+        <definition>Color Ra.Behaviors.BehaviorUpdater.Color</definition>
+        <argsstring></argsstring>
+        <name>Color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The color of the obscurer DOM element </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" line="96" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_behaviors_1_1_behavior_updater_18700458569ca495b0bf7e1e635f7590b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Ra.Behaviors.BehaviorUpdater.ZIndex</definition>
+        <argsstring></argsstring>
+        <name>ZIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Explicitly overridden z-index style value of updater. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" line="111" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_behaviors_1_1_behavior_updater_1b6a120ed7b77f9b5c3c82c53d76257ed" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Behaviors.BehaviorUpdater.ImageUrl</definition>
+        <argsstring></argsstring>
+        <name>ImageUrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The url of an optional image to display with the updater. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" line="125" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_behaviors_1_1_behavior_updater_196b8ab136110c6a7a852304c14ca1095" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Behaviors.BehaviorUpdater.BehaviorUpdater</definition>
+        <argsstring>()</argsstring>
+        <name>BehaviorUpdater</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" line="28" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" bodystart="27" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_behaviors_1_1_behavior_updater_1227ed6abc922e94168c8f630e070290f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Behaviors.BehaviorUpdater.BehaviorUpdater</definition>
+        <argsstring>(int delay)</argsstring>
+        <name>BehaviorUpdater</name>
+        <param>
+          <type>int</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" line="31" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_behaviors_1_1_behavior_updater_1b3df2ad0763a0856e3e0cc8168c8bc4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Behaviors.BehaviorUpdater.BehaviorUpdater</definition>
+        <argsstring>(int delay, decimal opacity)</argsstring>
+        <name>BehaviorUpdater</name>
+        <param>
+          <type>int</type>
+          <declname>delay</declname>
+        </param>
+        <param>
+          <type>decimal</type>
+          <declname>opacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" line="36" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_behaviors_1_1_behavior_updater_1f2d8971b85d41073d6467f521a63d338" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Behaviors.BehaviorUpdater.BehaviorUpdater</definition>
+        <argsstring>(int delay, decimal opacity, Color color)</argsstring>
+        <name>BehaviorUpdater</name>
+        <param>
+          <type>int</type>
+          <declname>delay</declname>
+        </param>
+        <param>
+          <type>decimal</type>
+          <declname>opacity</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" line="42" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" bodystart="41" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_behaviors_1_1_behavior_updater_1a66807c1d735b03835416e6a07132842" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Behaviors.BehaviorUpdater.GetRegistrationScript</definition>
+        <argsstring>()</argsstring>
+        <name>GetRegistrationScript</name>
+        <reimplements refid="class_ra_1_1_behaviors_1_1_behavior_1b77dc2b7238d6b7b6fcc34585d08391e">GetRegistrationScript</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" line="128" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" bodystart="127" bodyend="161"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_behaviors_1_1_behavior_updater_1de21936d8beffcf7b36f7ea1903ad9a7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Behaviors.BehaviorUpdater.GetClientSideScript</definition>
+        <argsstring>()</argsstring>
+        <name>GetClientSideScript</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952">GetClientSideScript</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" line="164" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" bodystart="163" bodyend="166"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Will render an &quot;obscure entire webpage&quot; div with a very high z-index when control attached to raises an Ajax Request. This is kind of like the Ra-Ajax version of the (in)famous Ajax GIF feature. Notice that your GlobalUpdater will NEVER be visible except for when there&apos;s an Ajax Request going on. Which means it will be rendered as in-visible and only made visible when there&apos;s an Ajax Request being initiated. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="86">
+        <label>Ra.Behaviors.Behavior</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="85">
+        <label>Ra.Behaviors.BehaviorUpdater</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_updater"/>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="89">
+        <label>Ra.Behaviors.Behavior</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior"/>
+        <childnode refid="90" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="88">
+        <label>Ra.Behaviors.BehaviorUpdater</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_updater"/>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" line="26" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorUpdater.cs" bodystart="25" bodyend="167"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_196b8ab136110c6a7a852304c14ca1095" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>BehaviorUpdater</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_1227ed6abc922e94168c8f630e070290f" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>BehaviorUpdater</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_1b3df2ad0763a0856e3e0cc8168c8bc4e" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>BehaviorUpdater</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_1f2d8971b85d41073d6467f521a63d338" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>BehaviorUpdater</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_11b8ebccf2c5db958bbf98379846399a9" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>Color</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_1a6e60c359c0989973a3ab4bc26b9aad9" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>Delay</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_1de21936d8beffcf7b36f7ea1903ad9a7" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_162388804f6511df3221c6a686f286c7f" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ab51177823d8893c51a42ae50df7f37e" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153c660a7d87a3451d11a8b5ee36f2f3a" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_1ffd5dd9f1607d04c87336df350ed6341" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_1a66807c1d735b03835416e6a07132842" prot="public" virt="virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>GetRegistrationScript</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_1b6a120ed7b77f9b5c3c82c53d76257ed" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>ImageUrl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_1ecc6bad150d79cf31bb1f657e2d51c70" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_16df7430132f152be64fe1b962718863d" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>Opacity</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_1bf8823132f1874b37f32fc9faa1d7199" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual" ambiguityscope="Ra::Widgets::RaControl."><scope>Ra::Behaviors::BehaviorUpdater</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>Xtra</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_updater_18700458569ca495b0bf7e1e635f7590b" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorUpdater</scope><name>ZIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

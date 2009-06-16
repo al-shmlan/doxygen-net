@@ -1,0 +1,689 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box" kind="class" prot="public">
+    <compoundname>Ra::Extensions::Widgets::MessageBox</compoundname>
+    <basecompoundref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" prot="public" virt="non-virtual">Ra.Extensions.Widgets.Window</basecompoundref>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args" prot="public">Ra::Extensions::Widgets::MessageBox::ClosedEventArgs</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_18f4a355603246f40f1e40851baf52f4b" prot="public" static="no">
+        <name>TypeOfMessageBox</name>
+        <enumvalue id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_18f4a355603246f40f1e40851baf52f4b" prot="public">
+          <name>OK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Ok button only, mostly for just displaying data back to the user </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_18f4a355603246f40f1e40851baf52f4b" prot="public">
+          <name>OK_Cancel</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Only an OK and a Cancel button </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_18f4a355603246f40f1e40851baf52f4b" prot="public">
+          <name>Yes_No</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Yes and No buttons only </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_18f4a355603246f40f1e40851baf52f4b" prot="public">
+          <name>Yes_No_Cancel</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Yes, No and Cancel buttons </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_18f4a355603246f40f1e40851baf52f4b" prot="public">
+          <name>Get_Text</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Single text input given together with an OK button </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_18f4a355603246f40f1e40851baf52f4b" prot="public">
+          <name>Get_Text_Multiple_Lines</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Single text input given together with an OK button </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Which type of <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box" kindref="compound">MessageBox</ref> you wish to create </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="32" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="31" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1fd81c70a3adcd44190c9646ab901a9ad" prot="public" static="no">
+        <name>ClosedHow</name>
+        <enumvalue id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1fd81c70a3adcd44190c9646ab901a9ad" prot="public">
+          <name>OK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Closed with OK button </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1fd81c70a3adcd44190c9646ab901a9ad" prot="public">
+          <name>Cancel</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Closed with Cancel button </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1fd81c70a3adcd44190c9646ab901a9ad" prot="public">
+          <name>Yes</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Closed with Yes button </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1fd81c70a3adcd44190c9646ab901a9ad" prot="public">
+          <name>No</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Closed with No button </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>How the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box" kindref="compound">MessageBox</ref> was closed </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="68" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="67" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_13fcc8f663d1fe2a709ec7001e4be95b1" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>new EventHandler&lt; <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args" kindref="compound">ClosedEventArgs</ref> &gt;</type>
+        <definition>new EventHandler&lt;ClosedEventArgs&gt; Ra.Extensions.Widgets.MessageBox.Closed</definition>
+        <argsstring></argsstring>
+        <name>Closed</name>
+        <reimplements refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_17561cb1619e7c4b03207337c21d22765">Closed</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This event is raised when the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box" kindref="compound">MessageBox</ref> is closed. The EventArgs will contain information about how the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box" kindref="compound">MessageBox</ref> was closed and (if applicable) what input the user submitted. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="122" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1f689d9b9727f25828377d424481d76ed" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.MessageBox._body</definition>
+        <argsstring></argsstring>
+        <name>_body</name>
+        <reimplements refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1f850ce6f9bd6e0f57042daaa4b15b4c1">_body</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="124" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_112f616b21d2c7f9d3e860a7c9b9bdc1b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_button" kindref="compound">Button</ref></type>
+        <definition>Button Ra.Extensions.Widgets.MessageBox._ok</definition>
+        <argsstring></argsstring>
+        <name>_ok</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="125" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1e7c4b246edb961fdf7623007f3b7763d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_button" kindref="compound">Button</ref></type>
+        <definition>Button Ra.Extensions.Widgets.MessageBox._cancel</definition>
+        <argsstring></argsstring>
+        <name>_cancel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="126" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_18bfeaeeb79c4ec9bf990d803479d5bf6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_button" kindref="compound">Button</ref></type>
+        <definition>Button Ra.Extensions.Widgets.MessageBox._yes</definition>
+        <argsstring></argsstring>
+        <name>_yes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="127" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1db7afd64ce8ea99b179a5aa2be0222dd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_button" kindref="compound">Button</ref></type>
+        <definition>Button Ra.Extensions.Widgets.MessageBox._no</definition>
+        <argsstring></argsstring>
+        <name>_no</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="128" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1726c780ec13d8e7872d2d4d7b537b918" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_text_box" kindref="compound">TextBox</ref></type>
+        <definition>TextBox Ra.Extensions.Widgets.MessageBox._userInput</definition>
+        <argsstring></argsstring>
+        <name>_userInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="129" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_145031894884f173381a776b7c592bac2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_text_area" kindref="compound">TextArea</ref></type>
+        <definition>TextArea Ra.Extensions.Widgets.MessageBox._userInputMultipleLines</definition>
+        <argsstring></argsstring>
+        <name>_userInputMultipleLines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="130" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1eafbeea459f68ee0a2be3ff6dec0b325" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_behaviors_1_1_behavior_obscurable" kindref="compound">BehaviorObscurable</ref></type>
+        <definition>BehaviorObscurable Ra.Extensions.Widgets.MessageBox._obscurer</definition>
+        <argsstring></argsstring>
+        <name>_obscurer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="131" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1d32d9e9aecb25187f3782489ca3b6514" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_panel" kindref="compound">Panel</ref></type>
+        <definition>Panel Ra.Extensions.Widgets.MessageBox.tmp</definition>
+        <argsstring></argsstring>
+        <name>tmp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="132" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_188286ef413ad16f77e7d398b82ba91c4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Extensions.Widgets.MessageBox.Body</definition>
+        <argsstring></argsstring>
+        <name>Body</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Body of <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box" kindref="compound">MessageBox</ref>, this is the main text displayed in the center of the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box" kindref="compound">MessageBox</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="163" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_10ec4a792b21db068e1014cadfe0f34a7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_18f4a355603246f40f1e40851baf52f4b" kindref="member">TypeOfMessageBox</ref></type>
+        <definition>TypeOfMessageBox Ra.Extensions.Widgets.MessageBox.MessageBoxType</definition>
+        <argsstring></argsstring>
+        <name>MessageBoxType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This decides which type of <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box" kindref="compound">MessageBox</ref> you want to display. Available options are e.g. to only show an information <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box" kindref="compound">MessageBox</ref> (OK button only), get data from user (Get_Text) and many more. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="183" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1502f7ee5259e00a3dcc1f2072d68b278" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override bool</type>
+        <definition>override bool Ra.Extensions.Widgets.MessageBox.Visible</definition>
+        <argsstring></argsstring>
+        <name>Visible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overridden to make sure control are initialized upon setting the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box" kindref="compound">MessageBox</ref> to visible. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="215" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1b3564d4038f46ed254b0f978c9784ba4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Extensions.Widgets.MessageBox.MessageBox</definition>
+        <argsstring>()</argsstring>
+        <name>MessageBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overridden constructor tomake sure properties from the base class (<ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" kindref="compound">Window</ref>) is being correctly initialized. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="139" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="138" bodyend="144"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_19a564774a7e9e5af0a901dc498be3364" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.MessageBox.OnInit</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnInit</name>
+        <reimplements refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_19d9ff9f93e70ee415298b99c1a246725">OnInit</reimplements>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="218" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="217" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1877bbad8688e3b388933ea368749cc2a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.MessageBox.CreateChildControls</definition>
+        <argsstring>()</argsstring>
+        <name>CreateChildControls</name>
+        <reimplements refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1adb3ce743c2a513a6bb9524c61ec058d">CreateChildControls</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="224" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="223" bodyend="227"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_152911fbb040d78c0cb1dde7818f5ae23" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.MessageBox.CreateMsgBoxControls</definition>
+        <argsstring>()</argsstring>
+        <name>CreateMsgBoxControls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="230" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="229" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1b2391983f588dafcf861b541060ee6b0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.MessageBox.CreateUserInputMultipleLines</definition>
+        <argsstring>()</argsstring>
+        <name>CreateUserInputMultipleLines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="281" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="280" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_158a9cfdc608ec5fb4acb04619a034843" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.MessageBox.CreateUserInput</definition>
+        <argsstring>()</argsstring>
+        <name>CreateUserInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="303" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="302" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_104602699a6650fbb878b65439b992ed0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.MessageBox.CreateNoButton</definition>
+        <argsstring>()</argsstring>
+        <name>CreateNoButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="326" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="325" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_149d3e9045b58ec4bb35cbcb9bb5fd409" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.MessageBox.CreateYesButton</definition>
+        <argsstring>()</argsstring>
+        <name>CreateYesButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="352" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="351" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1324521a23e0311dbc4cfb55271b84bbc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.MessageBox.CreateCancelButton</definition>
+        <argsstring>()</argsstring>
+        <name>CreateCancelButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="372" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="371" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_114ba0cdb2afed16c8268cbe1914b3e18" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.MessageBox.CreateOKButton</definition>
+        <argsstring>()</argsstring>
+        <name>CreateOKButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="394" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="393" bodyend="413"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box" kindref="compound">MessageBox</ref> control for easily getting confirmations, displaying modal data etc. Contains shorthands for most &quot;MessageBox scenarios&quot;. Mostly just a shorthand wrapper around the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" kindref="compound">Window</ref> with some contained controls like labels for body and TextBox for taking input, if the control is set into &quot;input mode&quot;. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="411">
+        <label>Ra.Extensions.Widgets.MessageBox</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box"/>
+        <childnode refid="412" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="415">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="412">
+        <label>Ra.Extensions.Widgets.Window</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_window"/>
+        <childnode refid="413" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="413">
+        <label>Ra.Widgets.Panel</label>
+        <link refid="class_ra_1_1_widgets_1_1_panel"/>
+        <childnode refid="414" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="414">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="415" relation="public-inheritance">
+        </childnode>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="416">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="417">
+        <label>Ra.Extensions.Widgets.MessageBox</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box"/>
+        <childnode refid="418" relation="public-inheritance">
+        </childnode>
+        <childnode refid="429" relation="usage">
+          <edgelabel>_obscurer</edgelabel>
+        </childnode>
+        <childnode refid="430" relation="usage">
+          <edgelabel>_userInputMultipleLines</edgelabel>
+        </childnode>
+        <childnode refid="425" relation="usage">
+          <edgelabel>_body</edgelabel>
+        </childnode>
+        <childnode refid="431" relation="usage">
+          <edgelabel>_yes</edgelabel>
+          <edgelabel>_ok</edgelabel>
+          <edgelabel>_cancel</edgelabel>
+          <edgelabel>_no</edgelabel>
+        </childnode>
+        <childnode refid="432" relation="usage">
+          <edgelabel>_userInput</edgelabel>
+        </childnode>
+        <childnode refid="419" relation="usage">
+          <edgelabel>tmp</edgelabel>
+        </childnode>
+      </node>
+      <node id="423">
+        <label>Ra.Widgets.StyleCollection</label>
+        <link refid="class_ra_1_1_widgets_1_1_style_collection"/>
+        <childnode refid="420" relation="usage">
+          <edgelabel>_control</edgelabel>
+        </childnode>
+      </node>
+      <node id="432">
+        <label>Ra.Widgets.TextBox</label>
+        <link refid="class_ra_1_1_widgets_1_1_text_box"/>
+        <childnode refid="420" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="427">
+        <label>Ra.Behaviors.Behavior</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior"/>
+        <childnode refid="421" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="429">
+        <label>Ra.Behaviors.BehaviorObscurable</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_obscurable"/>
+        <childnode refid="427" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="421">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="431">
+        <label>Ra.Widgets.Button</label>
+        <link refid="class_ra_1_1_widgets_1_1_button"/>
+        <childnode refid="420" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="418">
+        <label>Ra.Extensions.Widgets.Window</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_window"/>
+        <childnode refid="419" relation="public-inheritance">
+        </childnode>
+        <childnode refid="424" relation="usage">
+          <edgelabel>_close</edgelabel>
+        </childnode>
+        <childnode refid="425" relation="usage">
+          <edgelabel>_content</edgelabel>
+          <edgelabel>_ne</edgelabel>
+          <edgelabel>_nw</edgelabel>
+          <edgelabel>_s</edgelabel>
+          <edgelabel>_caption</edgelabel>
+          <edgelabel>_e</edgelabel>
+          <edgelabel>_w</edgelabel>
+          <edgelabel>_body</edgelabel>
+          <edgelabel>_se</edgelabel>
+          <edgelabel>_sw</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="426" relation="usage">
+          <edgelabel>_dragger</edgelabel>
+        </childnode>
+      </node>
+      <node id="428">
+        <label>Ra.Widgets.IDisableableBehavior</label>
+        <link refid="interface_ra_1_1_widgets_1_1_i_disableable_behavior"/>
+      </node>
+      <node id="419">
+        <label>Ra.Widgets.Panel</label>
+        <link refid="class_ra_1_1_widgets_1_1_panel"/>
+        <childnode refid="420" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="426">
+        <label>Ra.Behaviors.BehaviorDraggable</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_draggable"/>
+        <childnode refid="427" relation="public-inheritance">
+        </childnode>
+        <childnode refid="422" relation="public-inheritance">
+        </childnode>
+        <childnode refid="428" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="425">
+        <label>Ra.Widgets.Label</label>
+        <link refid="class_ra_1_1_widgets_1_1_label"/>
+        <childnode refid="420" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="420">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="421" relation="public-inheritance">
+        </childnode>
+        <childnode refid="422" relation="public-inheritance">
+        </childnode>
+        <childnode refid="423" relation="usage">
+          <edgelabel>_styles</edgelabel>
+        </childnode>
+      </node>
+      <node id="422">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+      <node id="424">
+        <label>Ra.Widgets.LinkButton</label>
+        <link refid="class_ra_1_1_widgets_1_1_link_button"/>
+        <childnode refid="420" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="430">
+        <label>Ra.Widgets.TextArea</label>
+        <link refid="class_ra_1_1_widgets_1_1_text_area"/>
+        <childnode refid="420" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" line="27" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs" bodystart="26" bodyend="414"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1f689d9b9727f25828377d424481d76ed" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>_body</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1e7c4b246edb961fdf7623007f3b7763d" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>_cancel</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1db7afd64ce8ea99b179a5aa2be0222dd" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>_no</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1eafbeea459f68ee0a2be3ff6dec0b325" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>_obscurer</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_112f616b21d2c7f9d3e860a7c9b9bdc1b" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>_ok</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1726c780ec13d8e7872d2d4d7b537b918" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>_userInput</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_145031894884f173381a776b7c592bac2" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>_userInputMultipleLines</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_18bfeaeeb79c4ec9bf990d803479d5bf6" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>_yes</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_188286ef413ad16f77e7d398b82ba91c4" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>Body</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_14746342c5cb5869d7d3e29f086827b8c" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>Caption</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14dcb41296fe7545bb820a9184c2db962" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>Click</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1ab6724506c2558d13ff958e1154af4cd" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>Closable</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_13fcc8f663d1fe2a709ec7001e4be95b1" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>Closed</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1fd81c70a3adcd44190c9646ab901a9ad" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>ClosedHow</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1d229f967250ced133c07a948870ed253" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>Content</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1324521a23e0311dbc4cfb55271b84bbc" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>CreateCancelButton</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1877bbad8688e3b388933ea368749cc2a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>CreateChildControls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_152911fbb040d78c0cb1dde7818f5ae23" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>CreateMsgBoxControls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_104602699a6650fbb878b65439b992ed0" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>CreateNoButton</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_114ba0cdb2afed16c8268cbe1914b3e18" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>CreateOKButton</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1d916da5bf00726d348f05ad72db94391" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>CreateTitleBarControls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_158a9cfdc608ec5fb4acb04619a034843" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>CreateUserInput</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1b2391983f588dafcf861b541060ee6b0" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>CreateUserInputMultipleLines</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_149d3e9045b58ec4bb35cbcb9bb5fd409" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>CreateYesButton</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1176ba4c5297e4434dc59f94209ecc400" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>CssClass</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_19fa1952b1c6b040d43165f5a11606ead" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>DblClick</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1c6430d3868b755f48e9465a84b1bffbc" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>DefaultWidget</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1de60bed8a2264f876fdfbd7232836f7c" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>DispatchEvent</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_11b9a672cefa64ca768f84857447a8191" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>GetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1ffd2a1e2f6b7e496a21b53e498095251" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1252ed547fb14958b0f4d7bea1ebfc109" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_104c0e8c541fe0b029d0edcd6b99ee718" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1e4e9525d529e8227b3c1a5db86d030b7" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>GetMouseOutEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_18bbe18d42617850745996cb0d672260c" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>GetMouseOverEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1e43aee7c85601ef8aa822dc4740210e6" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d8ae2b4ae6bce092e7d558db25b5c02a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>GetWebControlAttributes</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bc64e6e9488a31df7ae5ef0e3903b236" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>KeyDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_118b31c98087d7a57f49a42eb1bac2528" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>KeyPress</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1247f291546c64e40bddffb08936da867" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>KeyUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bccc3b360a6ddfe4f2aa2cb3e785ac1e" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>LoadViewState</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1b3564d4038f46ed254b0f978c9784ba4" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>MessageBox</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_10ec4a792b21db068e1014cadfe0f34a7" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>MessageBoxType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c6c9ca13ef1e4e436153d6c3cf017a0c" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>MouseDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_103683f2d6d76237d0c501cde2ebae5ef" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>MouseMove</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_15be672aec4d07efc18f5e33cfeca6c7b" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>MouseOut</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d17aaa8103deb9d5037f8c3f334af1e7" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>MouseOver</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_13c51734abc45a09d5df540d48b88c6da" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>MouseUp</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_14f0cfa5588584d65679c4877a5a807e8" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>Movable</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_16b7174377e765fbef5857d210b6e592e" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>Moved</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_142b4a9a49ba0e6e81389627d4ad34aeb" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>OnClickClientSide</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_19a564774a7e9e5af0a901dc498be3364" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1f0782b08fcbeb4d48938915fa6157618" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>OnPreRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14cad6b9fb27c8c4c27b7bab4e471c445" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>QueueMultipleRequests</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_17d74fee59a34ea1bd5329082e043c531" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>RaWebControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_151ad71b3e5b5708fffbc50d3b0d93e4f" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>SaveViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_126c54189e89a72cdfecdfa5c62a9b97e" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>SetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_168ccd06bd09c6e05962f0e8838045c80" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>Style</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1654e9a76edf035f3621ac2032414f1f6" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>SurfaceControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1255844bd5511b517d5d292f925f20994" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>TabIndex</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_182f02c963154472792679eae72cae436" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>Tag</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1d32d9e9aecb25187f3782489ca3b6514" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>tmp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1812b6302ab1f9ddf6e4ce88a5d447f28" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>Tooltip</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c5de8a6390860af479dd41b75bff7584" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>TrackViewState</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_18f4a355603246f40f1e40851baf52f4b" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>TypeOfMessageBox</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1502f7ee5259e00a3dcc1f2072d68b278" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>Visible</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::MessageBox</scope><name>Xtra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

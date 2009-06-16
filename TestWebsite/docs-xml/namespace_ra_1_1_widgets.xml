@@ -1,0 +1,707 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="namespace_ra_1_1_widgets" kind="namespace">
+    <compoundname>Ra::Widgets</compoundname>
+    <innerclass refid="class_ra_1_1_widgets_1_1_list_item" prot="public">Ra::Widgets::ListItem</innerclass>
+    <innerclass refid="class_ra_1_1_widgets_1_1_list_item_collection" prot="public">Ra::Widgets::ListItemCollection</innerclass>
+    <innerclass refid="class_ra_1_1_widgets_1_1_style_collection" prot="public">Ra::Widgets::StyleCollection</innerclass>
+    <innerclass refid="interface_ra_1_1_widgets_1_1_i_disableable_behavior" prot="public">Ra::Widgets::IDisableableBehavior</innerclass>
+    <innerclass refid="class_ra_1_1_widgets_1_1_button" prot="public">Ra::Widgets::Button</innerclass>
+    <innerclass refid="class_ra_1_1_widgets_1_1_check_box" prot="public">Ra::Widgets::CheckBox</innerclass>
+    <innerclass refid="class_ra_1_1_widgets_1_1_dynamic" prot="public">Ra::Widgets::Dynamic</innerclass>
+    <innerclass refid="class_ra_1_1_widgets_1_1_hidden_field" prot="public">Ra::Widgets::HiddenField</innerclass>
+    <innerclass refid="class_ra_1_1_widgets_1_1_image" prot="public">Ra::Widgets::Image</innerclass>
+    <innerclass refid="class_ra_1_1_widgets_1_1_image_button" prot="public">Ra::Widgets::ImageButton</innerclass>
+    <innerclass refid="class_ra_1_1_widgets_1_1_label" prot="public">Ra::Widgets::Label</innerclass>
+    <innerclass refid="class_ra_1_1_widgets_1_1_link_button" prot="public">Ra::Widgets::LinkButton</innerclass>
+    <innerclass refid="class_ra_1_1_widgets_1_1_panel" prot="public">Ra::Widgets::Panel</innerclass>
+    <innerclass refid="class_ra_1_1_widgets_1_1_ra_control" prot="public">Ra::Widgets::RaControl</innerclass>
+    <innerclass refid="class_ra_1_1_widgets_1_1_radio_button" prot="public">Ra::Widgets::RadioButton</innerclass>
+    <innerclass refid="class_ra_1_1_widgets_1_1_ra_web_control" prot="public">Ra::Widgets::RaWebControl</innerclass>
+    <innerclass refid="class_ra_1_1_widgets_1_1_select_list" prot="public">Ra::Widgets::SelectList</innerclass>
+    <innerclass refid="class_ra_1_1_widgets_1_1_text_area" prot="public">Ra::Widgets::TextArea</innerclass>
+    <innerclass refid="class_ra_1_1_widgets_1_1_text_box" prot="public">Ra::Widgets::TextBox</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public" static="no">
+        <name>Styles</name>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>background</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>background: [color] [image - url(x.gif)] [repeat - no-repeat | repeat-x | repeat-y] [scroll | noscroll] [left - unit] [top - unit]; Background information for element </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>backgroundAttachment</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>backgroundColor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>background-color: [color] Background color of element </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>backgroundImage</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>background-image: [image - url(x.gif)] Background image of element </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>backgroundPosition</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>backgroundRepeat</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>border</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>border: [type - solid | dashed | ...] [width - unit] [color] Border settings for elements </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderBottom</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderBottomColor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderBottomStyle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderBottomWidth</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderColor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderLeft</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderLeftColor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderLeftStyle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderLeftWidth</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderRightColor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderRightStyle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderRightWidth</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderStyle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderTop</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderTopColor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderTopStyle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderTopWidth</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderWidth</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>clear</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>cursor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>cursor: [cursor type - move | default | ...] </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>display</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>display: [display type - block | inline | none | ...] The way the element will be displayed (or not) </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>floating</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>float: [left | right] The way the element floats in the document </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>position</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>position: [absolute | fixed | relative | static] position in flow layout (or not) of element </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>visibility</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>visibility: [hidden | visible | ...] visibility of element </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>height</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>height: [unit] height of element </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>lineHeight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>maxHeight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>maxWidth</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>minHeight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>minWidth</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>width</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>width: [unit] width of element </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>font</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>fontFamily</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>fontSize</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>fontSizeAdjust</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>fontStretch</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>fontStyle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>fontVariant</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>fontWeight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>content</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>counterIncrement</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>counterReset</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>quotes</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>listStyle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>listStyleImage</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>listStylePosition</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>listStyleType</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>markerOffset</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>margin</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>marginBottom</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>marginLeft</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>marginRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>marginTop</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>outline</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>outlineColor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>outlineStyle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>outlineWidth</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>padding</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>paddingBottom</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>paddingLeft</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>paddingRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>paddingTop</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>bottom</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>clip</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>left</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>overflow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>right</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>top</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>verticalAlign</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>zIndex</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderCollapse</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>borderSpacing</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>captionSize</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>emptyCells</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>tableLayout</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>color</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>direction</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>letterSpacing</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>textAlign</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>textDecoration</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>textIndent</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>textShadow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>textTransform</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>unicodeBidi</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>whiteSpace</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>wordSpacing</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" prot="public">
+          <name>opacity</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>opacity: [0.0 - 1.0] transparency of element. Note this is NOT part of CSS standard but will work in Ra-Ajax </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Styles keys for <ref refid="class_ra_1_1_widgets_1_1_style_collection" kindref="compound">StyleCollection</ref> values </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollectionStyles.cs" line="11" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollectionStyles.cs" bodystart="10" bodyend="166"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Namespace where all the <ref refid="namespace_ra_1_1_widgets" kindref="compound">Widgets</ref> from the <ref refid="namespace_ra" kindref="compound">Ra</ref> core can be found together with some of their helper classes. </para>    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" line="15"/>
+  </compounddef>
+</doxygen>

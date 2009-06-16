@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_widgets_1_1_timer" kind="class" prot="public">
+    <compoundname>Ra::Extensions::Widgets::Timer</compoundname>
+    <basecompoundref refid="class_ra_1_1_widgets_1_1_ra_control" prot="public" virt="non-virtual">Ra.Widgets.RaControl</basecompoundref>
+    <basecompoundref refid="interface_ra_1_1_i_ra_control" prot="public" virt="non-virtual">Ra.IRaControl</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1fa07164fb43571cd0473c621f9fcc40b" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Extensions.Widgets.Timer.Tick</definition>
+        <argsstring></argsstring>
+        <name>Tick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised periodically every Duration milliseconds </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" line="32" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1c33880bb4c96b7322544b5d6cf26485e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Extensions.Widgets.Timer.Enabled</definition>
+        <argsstring></argsstring>
+        <name>Enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true control is enabled and will raise the Tick events every Duration milliseconds, otherwise will not raise tick events before enabled again </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" line="48" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_timer_133046b143fc5b064f5a564b119bdd22f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Ra.Extensions.Widgets.Timer.Duration</definition>
+        <argsstring></argsstring>
+        <name>Duration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Milliseconds bewteen Tick events are raised </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" line="61" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1a04f5cac6b06949becddd4d13f048a1d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.Timer.OnInit</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnInit</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_140a558cf9617ef2289be7fc7faf5130c">OnInit</reimplements>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" line="64" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_timer_18e4ee6157da4c880f1cf26c605908174" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.Timer.OnPreRender</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnPreRender</name>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" line="69" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" bodystart="68" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1f81779d2a1f9d29329ecd135c989d06e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Extensions.Widgets.Timer.GetClientSideScriptOptions</definition>
+        <argsstring>()</argsstring>
+        <name>GetClientSideScriptOptions</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_162388804f6511df3221c6a686f286c7f">GetClientSideScriptOptions</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" line="86" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" bodystart="85" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1c11e8be518d6af117293bdb2bac085a2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Extensions.Widgets.Timer.GetClientSideScriptType</definition>
+        <argsstring>()</argsstring>
+        <name>GetClientSideScriptType</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35">GetClientSideScriptType</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" line="100" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" bodystart="99" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1b09b44397c170ef22f52b28dde955a6e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Extensions.Widgets.Timer.GetOpeningHTML</definition>
+        <argsstring>()</argsstring>
+        <name>GetOpeningHTML</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_151e6f8bdb0af1a7a12654bfb329f280c">GetOpeningHTML</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" line="105" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" bodystart="104" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_timer_12812a11c9e1be02a13e781acd4e7f08b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void IRaControl.</type>
+        <definition>void IRaControl. Ra.Extensions.Widgets.Timer.DispatchEvent</definition>
+        <argsstring>(string name)</argsstring>
+        <name>DispatchEvent</name>
+        <reimplements refid="interface_ra_1_1_i_ra_control_1f12273f2bf248d8964b6deac4192cd5a">DispatchEvent</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" line="75" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" bodystart="74" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Ajax timer, raises its Tick event handler back to server periodically. Alternative to <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet" kindref="compound">Comet</ref> component and far &quot;safer&quot; to use than <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet" kindref="compound">Comet</ref>. Think of it as &quot;polling the server to see if updates have arrived&quot;. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="680">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="679">
+        <label>Ra.Extensions.Widgets.Timer</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer"/>
+        <childnode refid="680" relation="public-inheritance">
+        </childnode>
+        <childnode refid="681" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="681">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="683">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="682">
+        <label>Ra.Extensions.Widgets.Timer</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer"/>
+        <childnode refid="683" relation="public-inheritance">
+        </childnode>
+        <childnode refid="684" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="684">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" line="28" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Timer.cs" bodystart="27" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_12812a11c9e1be02a13e781acd4e7f08b" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>DispatchEvent</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_133046b143fc5b064f5a564b119bdd22f" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>Duration</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1c33880bb4c96b7322544b5d6cf26485e" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>Enabled</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1f81779d2a1f9d29329ecd135c989d06e" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1c11e8be518d6af117293bdb2bac085a2" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ab51177823d8893c51a42ae50df7f37e" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153c660a7d87a3451d11a8b5ee36f2f3a" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1b09b44397c170ef22f52b28dde955a6e" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1a04f5cac6b06949becddd4d13f048a1d" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_18e4ee6157da4c880f1cf26c605908174" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>OnPreRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1fa07164fb43571cd0473c621f9fcc40b" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>Tick</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Timer</scope><name>Xtra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="_postback_filter_8cs" kind="file">
+    <compoundname>PostbackFilter.cs</compoundname>
+    <innerclass refid="class_ra_1_1_core_1_1_postback_filter" prot="public">Ra::Core::PostbackFilter</innerclass>
+    <innernamespace refid="namespace_ra_1_1_core">Ra::Core</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Filters/PostbackFilter.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_widgets_1_1_list_item" kind="class" prot="public">
+    <compoundname>Ra::Widgets::ListItem</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_list_item_1757f11ae6e74034435e9d1b43b5592e3" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Ra.Widgets.ListItem._value</definition>
+        <argsstring></argsstring>
+        <name>_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" line="21" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_list_item_1d27cff5738ad32c098fa2d1e5dccb4a8" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Ra.Widgets.ListItem._text</definition>
+        <argsstring></argsstring>
+        <name>_text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" line="22" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_list_item_1e0a8a2c33e11f8c80679d1493ce33985" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.ListItem._enabled</definition>
+        <argsstring></argsstring>
+        <name>_enabled</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" line="23" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_list_item_191f70a6dba23d30e1b61d8549387ce24" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_select_list" kindref="compound">SelectList</ref></type>
+        <definition>SelectList Ra.Widgets.ListItem._selectList</definition>
+        <argsstring></argsstring>
+        <name>_selectList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" line="24" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_list_item_198d91dff8086009b5dbbca4cad34a3e9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.ListItem._hasSetSelectedTrue</definition>
+        <argsstring></argsstring>
+        <name>_hasSetSelectedTrue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" line="41" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_list_item_109b95190a185bdf1179a25282cfd596b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.ListItem.Selected</definition>
+        <argsstring></argsstring>
+        <name>Selected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>True if item is selected </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" line="65" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_list_item_130f8234e826d312bd416ab43c31fce5c" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>internal <ref refid="class_ra_1_1_widgets_1_1_select_list" kindref="compound">SelectList</ref></type>
+        <definition>internal SelectList Ra.Widgets.ListItem.SelectList</definition>
+        <argsstring></argsstring>
+        <name>SelectList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" line="76" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_list_item_176dc026f8ad85b62e52d2738af417bfc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.ListItem.Enabled</definition>
+        <argsstring></argsstring>
+        <name>Enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If false item is disabled </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" line="86" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_list_item_1dfa9ceedbc39701d6fed3dbe6540f864" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Widgets.ListItem.Text</definition>
+        <argsstring></argsstring>
+        <name>Text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Friendly text of item </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" line="95" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_list_item_1888a008ddb0e272036fffdff356e5922" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Widgets.ListItem.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Value of item, should be unique within the control </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" line="104" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_107b542bcd13058a3f8ec747af661c511" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Widgets.ListItem.ListItem</definition>
+        <argsstring>()</argsstring>
+        <name>ListItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a default item </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" line="30" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" bodystart="29" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_1c5723ced6527160766297ad152b73d0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Widgets.ListItem.ListItem</definition>
+        <argsstring>(string text, string value)</argsstring>
+        <name>ListItem</name>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a default item with the given text/value </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" line="36" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_1c3154d3c082091a406e96c01a3c5be9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Ra.Widgets.ListItem.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" line="107" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" bodystart="106" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_list_item_14d1e46c153b08b095b3f74c179691e14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Ra.Widgets.ListItem.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" line="115" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" bodystart="114" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Items for &quot;listible controls&quot; like for instance <ref refid="class_ra_1_1_widgets_1_1_select_list" kindref="compound">SelectList</ref>. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="372">
+        <label>Ra.Widgets.StyleCollection</label>
+        <link refid="class_ra_1_1_widgets_1_1_style_collection"/>
+        <childnode refid="369" relation="usage">
+          <edgelabel>_control</edgelabel>
+        </childnode>
+      </node>
+      <node id="368">
+        <label>Ra.Widgets.SelectList</label>
+        <link refid="class_ra_1_1_widgets_1_1_select_list"/>
+        <childnode refid="369" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="370">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="369">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="370" relation="public-inheritance">
+        </childnode>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+        <childnode refid="372" relation="usage">
+          <edgelabel>_styles</edgelabel>
+        </childnode>
+      </node>
+      <node id="367">
+        <label>Ra.Widgets.ListItem</label>
+        <link refid="class_ra_1_1_widgets_1_1_list_item"/>
+        <childnode refid="368" relation="usage">
+          <edgelabel>_selectList</edgelabel>
+        </childnode>
+      </node>
+      <node id="371">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" line="20" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/ListItem.cs" bodystart="19" bodyend="118"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_1e0a8a2c33e11f8c80679d1493ce33985" prot="private" virt="non-virtual"><scope>Ra::Widgets::ListItem</scope><name>_enabled</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_198d91dff8086009b5dbbca4cad34a3e9" prot="private" virt="non-virtual"><scope>Ra::Widgets::ListItem</scope><name>_hasSetSelectedTrue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_191f70a6dba23d30e1b61d8549387ce24" prot="private" virt="non-virtual"><scope>Ra::Widgets::ListItem</scope><name>_selectList</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_1d27cff5738ad32c098fa2d1e5dccb4a8" prot="private" virt="non-virtual"><scope>Ra::Widgets::ListItem</scope><name>_text</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_1757f11ae6e74034435e9d1b43b5592e3" prot="private" virt="non-virtual"><scope>Ra::Widgets::ListItem</scope><name>_value</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_176dc026f8ad85b62e52d2738af417bfc" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItem</scope><name>Enabled</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_1c3154d3c082091a406e96c01a3c5be9e" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItem</scope><name>Equals</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_14d1e46c153b08b095b3f74c179691e14" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItem</scope><name>GetHashCode</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_107b542bcd13058a3f8ec747af661c511" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItem</scope><name>ListItem</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_1c5723ced6527160766297ad152b73d0f" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItem</scope><name>ListItem</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_109b95190a185bdf1179a25282cfd596b" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItem</scope><name>Selected</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_130f8234e826d312bd416ab43c31fce5c" prot="private" virt="non-virtual"><scope>Ra::Widgets::ListItem</scope><name>SelectList</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_1dfa9ceedbc39701d6fed3dbe6540f864" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItem</scope><name>Text</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_list_item_1888a008ddb0e272036fffdff356e5922" prot="public" virt="non-virtual"><scope>Ra::Widgets::ListItem</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

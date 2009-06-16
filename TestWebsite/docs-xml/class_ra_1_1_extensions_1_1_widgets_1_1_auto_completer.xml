@@ -1,0 +1,463 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer" kind="class" prot="public">
+    <compoundname>Ra::Extensions::Widgets::AutoCompleter</compoundname>
+    <basecompoundref refid="class_ra_1_1_widgets_1_1_panel" prot="public" virt="non-virtual">Ra.Widgets.Panel</basecompoundref>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args" prot="public">Ra::Extensions::Widgets::AutoCompleter::RetrieveAutoCompleterItemsEventArgs</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1d05b938c80425ecc32e79b9a09b65f3c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_text_box" kindref="compound">TextBox</ref></type>
+        <definition>TextBox Ra.Extensions.Widgets.AutoCompleter._txt</definition>
+        <argsstring></argsstring>
+        <name>_txt</name>
+        <initializer> new <ref refid="class_ra_1_1_widgets_1_1_text_box" kindref="compound">TextBox</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="60" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_17c7bb11f04d5b344c9139ccfc6381de3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.AutoCompleter._items</definition>
+        <argsstring></argsstring>
+        <name>_items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="61" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_17c11e5488a151ba760de7ab6b39690f2" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args" kindref="compound">RetrieveAutoCompleterItemsEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;RetrieveAutoCompleterItemsEventArgs&gt; Ra.Extensions.Widgets.AutoCompleter.RetrieveAutoCompleterItems</definition>
+        <argsstring></argsstring>
+        <name>RetrieveAutoCompleterItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>EventHandler fired when <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer" kindref="compound">AutoCompleter</ref> needs new items. The EventArgs passed to this event handler will be of type <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1_1_retrieve_auto_completer_items_event_args" kindref="compound">AutoCompleter.RetrieveAutoCompleterItemsEventArgs</ref>. Use the Controls property of this EventArgs object to populate the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer" kindref="compound">AutoCompleter</ref> with new <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer" kindref="compound">AutoCompleter</ref> items. Note though that ONLY <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_item" kindref="compound">AutoCompleterItem</ref> widgets should be added into this collection of controls. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="70" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_11964d9a728b4a8e1c7ea6014aa7ea66b" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Extensions.Widgets.AutoCompleter.AutoCompleterItemSelected</definition>
+        <argsstring></argsstring>
+        <name>AutoCompleterItemSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fired when the user selects an <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_item" kindref="compound">AutoCompleterItem</ref>. Use SelectedItem property to figure out which item was selected. SelectedItem will contain the ID of the Item which was selected. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="76" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1a348f2d56f507f72e56f7793fcdbd64c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override string</type>
+        <definition>override string Ra.Extensions.Widgets.AutoCompleter.CssClass</definition>
+        <argsstring></argsstring>
+        <name>CssClass</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_16138c4d2623d7a9d0e55ca42d8a24667">CssClass</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overridden to provide a sane default value. The default value of this property is &quot;auto&quot;. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="92" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_163ea5cb91f1d2aaad565bda51e4865c3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Extensions.Widgets.AutoCompleter.SelectedItem</definition>
+        <argsstring></argsstring>
+        <name>SelectedItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This is the item which currently is selected (if any). Will return null if no items are selected. Notice that this will return a STRING which is the ID of the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_item" kindref="compound">AutoCompleterItem</ref> which the user has selected. Use e.g. the RaSelector or something similar to retrieve the actual control (if needed) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="105" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1e7bd0223a36a3f32b6a3d199d5827387" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Extensions.Widgets.AutoCompleter.AccessKey</definition>
+        <argsstring></argsstring>
+        <name>AccessKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Keyboard shortcut to reach the TextBox of the autocompleter. Normally this will be differently implemented with different browsers. For a default English FireFox installation for instance you need to combine the key with pressing ALT and SHIFT. For other browsers this may vary further. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="118" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1df2a53c8a117c3069f5abc1276912ea2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Extensions.Widgets.AutoCompleter.Text</definition>
+        <argsstring></argsstring>
+        <name>Text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Text for control. You can modify through code the Text portions of the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer" kindref="compound">AutoCompleter</ref> TextBox. Often this will be used to give &quot;sane default&quot; values. If used at all. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="129" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1eb5e1b6a1542598d2464a4084977ce57" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.AutoCompleter.OnInit</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnInit</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_140a558cf9617ef2289be7fc7faf5130c">OnInit</reimplements>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="132" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="131" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1fedb2b2544a18559baa2564c920d7dc6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.AutoCompleter.OnLoad</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnLoad</name>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="138" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="137" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1b427b26cd78d2797ff392bbfa844aaf2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.AutoCompleter.CreateChildControls</definition>
+        <argsstring>()</argsstring>
+        <name>CreateChildControls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="149" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="148" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1d5fbba4718d893981558313e220ad87f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.AutoCompleter.OnPreRender</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnPreRender</name>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="176" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="175" bodyend="189"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_15b5703bbea25b5b4efeb55c1225db458" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.AutoCompleter.CreateAutoCompleterControls</definition>
+        <argsstring>()</argsstring>
+        <name>CreateAutoCompleterControls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="155" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="154" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_13f4d0088d7abf345d81cfa7c7cb92380" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.AutoCompleter.WireItemSelectedEvents</definition>
+        <argsstring>()</argsstring>
+        <name>WireItemSelectedEvents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="192" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="191" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1356f35f1474169c3bc37977446ea09b8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.AutoCompleter.idx_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>idx_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="200" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="199" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1c7ce3eadae56d221c2c0b4044007a84b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.AutoCompleter._txt_KeyUp</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>_txt_KeyUp</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="208" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="207" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_174c3338f3588d1a552a6aee00489fe9f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.AutoCompleter.RetrieveDynamicallyCreatedItems</definition>
+        <argsstring>()</argsstring>
+        <name>RetrieveDynamicallyCreatedItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="215" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="214" bodyend="221"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1ea4fb68f01c0cf713b4a765639c2589d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.AutoCompleter.Focus</definition>
+        <argsstring>()</argsstring>
+        <name>Focus</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845">Focus</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overridden to let the Focus method implementation from RaControl give focus to the TextBox portions of this control. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="228" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="227" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1591c8fae1c4d4f18b177da720a816461" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.AutoCompleter.Select</definition>
+        <argsstring>()</argsstring>
+        <name>Select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overridden to let the Select method implementation from RaControl select the TextBox portions text property of this control. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="237" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="236" bodyend="239"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer" kindref="compound">AutoCompleter</ref> for displaying dynamically items searched for through a TextBox. When something is written into the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer" kindref="compound">AutoCompleter</ref> then the RetrieveAutoCompleterItems event will be raised so that your code can populate the AutoCompleterItems collection. Then when a user selects one of those items the AutoCompleterItemSelected event will be raised. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="27">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="24">
+        <label>Ra.Extensions.Widgets.AutoCompleter</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>Ra.Widgets.Panel</label>
+        <link refid="class_ra_1_1_widgets_1_1_panel"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="34">
+        <label>Ra.Widgets.StyleCollection</label>
+        <link refid="class_ra_1_1_widgets_1_1_style_collection"/>
+        <childnode refid="31" relation="usage">
+          <edgelabel>_control</edgelabel>
+        </childnode>
+      </node>
+      <node id="36">
+        <label>Ra.Widgets.TextBox</label>
+        <link refid="class_ra_1_1_widgets_1_1_text_box"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="29">
+        <label>Ra.Extensions.Widgets.AutoCompleter</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+        <childnode refid="35" relation="usage">
+          <edgelabel>_items</edgelabel>
+        </childnode>
+        <childnode refid="36" relation="usage">
+          <edgelabel>_txt</edgelabel>
+        </childnode>
+      </node>
+      <node id="30">
+        <label>Ra.Widgets.Panel</label>
+        <link refid="class_ra_1_1_widgets_1_1_panel"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>Ra.Widgets.Label</label>
+        <link refid="class_ra_1_1_widgets_1_1_label"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+        <childnode refid="34" relation="usage">
+          <edgelabel>_styles</edgelabel>
+        </childnode>
+      </node>
+      <node id="33">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" line="28" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/AutoCompleter.cs" bodystart="27" bodyend="240"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_17c7bb11f04d5b344c9139ccfc6381de3" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>_items</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1d05b938c80425ecc32e79b9a09b65f3c" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>_txt</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1c7ce3eadae56d221c2c0b4044007a84b" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>_txt_KeyUp</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1e7bd0223a36a3f32b6a3d199d5827387" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>AccessKey</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_11964d9a728b4a8e1c7ea6014aa7ea66b" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>AutoCompleterItemSelected</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14dcb41296fe7545bb820a9184c2db962" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>Click</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_15b5703bbea25b5b4efeb55c1225db458" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>CreateAutoCompleterControls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1b427b26cd78d2797ff392bbfa844aaf2" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>CreateChildControls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1a348f2d56f507f72e56f7793fcdbd64c" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>CssClass</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_19fa1952b1c6b040d43165f5a11606ead" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>DblClick</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1c6430d3868b755f48e9465a84b1bffbc" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>DefaultWidget</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1de60bed8a2264f876fdfbd7232836f7c" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>DispatchEvent</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1ea4fb68f01c0cf713b4a765639c2589d" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_11b9a672cefa64ca768f84857447a8191" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>GetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1ffd2a1e2f6b7e496a21b53e498095251" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1252ed547fb14958b0f4d7bea1ebfc109" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_104c0e8c541fe0b029d0edcd6b99ee718" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1e4e9525d529e8227b3c1a5db86d030b7" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>GetMouseOutEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_18bbe18d42617850745996cb0d672260c" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>GetMouseOverEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1e43aee7c85601ef8aa822dc4740210e6" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d8ae2b4ae6bce092e7d558db25b5c02a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>GetWebControlAttributes</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1356f35f1474169c3bc37977446ea09b8" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>idx_Click</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bc64e6e9488a31df7ae5ef0e3903b236" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>KeyDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_118b31c98087d7a57f49a42eb1bac2528" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>KeyPress</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1247f291546c64e40bddffb08936da867" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>KeyUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bccc3b360a6ddfe4f2aa2cb3e785ac1e" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>LoadViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c6c9ca13ef1e4e436153d6c3cf017a0c" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>MouseDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_103683f2d6d76237d0c501cde2ebae5ef" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>MouseMove</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_15be672aec4d07efc18f5e33cfeca6c7b" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>MouseOut</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d17aaa8103deb9d5037f8c3f334af1e7" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>MouseOver</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_13c51734abc45a09d5df540d48b88c6da" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>MouseUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_142b4a9a49ba0e6e81389627d4ad34aeb" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>OnClickClientSide</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1eb5e1b6a1542598d2464a4084977ce57" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1fedb2b2544a18559baa2564c920d7dc6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>OnLoad</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1d5fbba4718d893981558313e220ad87f" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>OnPreRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14cad6b9fb27c8c4c27b7bab4e471c445" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>QueueMultipleRequests</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_17d74fee59a34ea1bd5329082e043c531" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>RaWebControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_17c11e5488a151ba760de7ab6b39690f2" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>RetrieveAutoCompleterItems</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_174c3338f3588d1a552a6aee00489fe9f" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>RetrieveDynamicallyCreatedItems</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_151ad71b3e5b5708fffbc50d3b0d93e4f" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>SaveViewState</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1591c8fae1c4d4f18b177da720a816461" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>Select</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_163ea5cb91f1d2aaad565bda51e4865c3" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>SelectedItem</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_126c54189e89a72cdfecdfa5c62a9b97e" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>SetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_168ccd06bd09c6e05962f0e8838045c80" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>Style</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1255844bd5511b517d5d292f925f20994" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>TabIndex</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_182f02c963154472792679eae72cae436" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>Tag</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1df2a53c8a117c3069f5abc1276912ea2" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>Text</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1812b6302ab1f9ddf6e4ce88a5d447f28" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>Tooltip</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c5de8a6390860af479dd41b75bff7584" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>TrackViewState</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_13f4d0088d7abf345d81cfa7c7cb92380" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>WireItemSelectedEvents</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::AutoCompleter</scope><name>Xtra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

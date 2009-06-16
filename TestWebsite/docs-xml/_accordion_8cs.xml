@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="_accordion_8cs" kind="file">
+    <compoundname>Accordion.cs</compoundname>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion" prot="public">Ra::Extensions::Widgets::Accordion</innerclass>
+    <innernamespace refid="namespace_ra_1_1_extensions_1_1_widgets">Ra::Extensions::Widgets</innernamespace>
+    <innernamespace refid="namespace_h_t_m_l_01">HTML </innernamespace>
+    <innernamespace refid="namespace_system_1_1_web_1_1_u_i_1_1_html_controls">System::Web::UI::HtmlControls</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Accordion.cs"/>
+  </compounddef>
+</doxygen>
