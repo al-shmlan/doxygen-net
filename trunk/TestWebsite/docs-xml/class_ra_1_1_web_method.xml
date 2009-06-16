@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_web_method" kind="class" prot="public">
+    <compoundname>Ra::WebMethod</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Mark your own page methods with this attribute to make it possible to call these methods from your own JavaScript using the Ra-Ajax JavaScript API. This restriction is because of security risks associated with letting JavaScript call any methods on page. To use WebMethods in your own project you must call them from JavaScript with something looking like this; <preformatted>
+ Ra.Control.callServerMethod(&apos;foo&apos;, {
+   onSuccess: function(retVal) {
+     alert(retVal);
+   },
+   onError: function(status, fullTrace) {
+     alert(fullTrace);
+   }
+ }, [&apos;parameter1&apos;, &apos;parameter2&apos;, &apos;etc...&apos;);
+ </preformatted> The above syntax will expect to find a method on your page which is called &quot;foo&quot; and this method must be market with the <ref refid="class_ra_1_1_web_method" kindref="compound">WebMethod</ref> attribute. See below for an example of usage. Notice that unlike ASP.NET AJAX Ra-Ajax can call methods in both your MasterPage and in UserControls. To call methods in MasterPages you don&apos;t need to do anything special. To call methods in UserControls you must prefix the name of the method with the ID of your UserControl. So if your UserControl have an ID of &quot;MyUserControl1&quot; and your method is called &quot;foo&quot; then the fully qualified name to your method in your JavaScript will become &quot;MyUserControl1.foo&quot;. </para>    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/WebMethod.cs" line="34" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/WebMethod.cs" bodystart="33" bodyend="35"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

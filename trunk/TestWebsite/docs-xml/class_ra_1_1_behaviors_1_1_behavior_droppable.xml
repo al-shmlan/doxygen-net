@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_behaviors_1_1_behavior_droppable" kind="class" prot="public">
+    <compoundname>Ra::Behaviors::BehaviorDroppable</compoundname>
+    <basecompoundref refid="class_ra_1_1_behaviors_1_1_behavior" prot="public" virt="non-virtual">Ra.Behaviors.Behavior</basecompoundref>
+    <innerclass refid="class_ra_1_1_behaviors_1_1_behavior_droppable_1_1_dropped_event_args" prot="public">Ra::Behaviors::BehaviorDroppable::DroppedEventArgs</innerclass>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_ra_1_1_behaviors_1_1_behavior_droppable_1f10af555f7d26f73d1d4d5e16c4d9c20" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_ra_1_1_behaviors_1_1_behavior_droppable_1_1_dropped_event_args" kindref="compound">DroppedEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;DroppedEventArgs&gt; Ra.Behaviors.BehaviorDroppable.Dropped</definition>
+        <argsstring></argsstring>
+        <name>Dropped</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fired when a <ref refid="class_ra_1_1_behaviors_1_1_behavior_draggable" kindref="compound">BehaviorDraggable</ref> is dropped onto the <ref refid="class_ra_1_1_behaviors_1_1_behavior_droppable" kindref="compound">BehaviorDroppable</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDroppable.cs" line="52" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDroppable.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_behaviors_1_1_behavior_droppable_1db45b350215928d9f18635b671f4ec49" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Behaviors.BehaviorDroppable.TouchedCssClass</definition>
+        <argsstring></argsstring>
+        <name>TouchedCssClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A name of a CSS class which will be added to the droppable control when a control with <ref refid="class_ra_1_1_behaviors_1_1_behavior_draggable" kindref="compound">BehaviorDraggable</ref> is &quot;on top&quot; of it or hovering it. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDroppable.cs" line="67" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDroppable.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_behaviors_1_1_behavior_droppable_14acf3325c0b97af8a8bb3ee381cf3543" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Behaviors.BehaviorDroppable.GetRegistrationScript</definition>
+        <argsstring>()</argsstring>
+        <name>GetRegistrationScript</name>
+        <reimplements refid="class_ra_1_1_behaviors_1_1_behavior_1b77dc2b7238d6b7b6fcc34585d08391e">GetRegistrationScript</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDroppable.cs" line="70" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDroppable.cs" bodystart="69" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_behaviors_1_1_behavior_droppable_11de3a70fd585f0cb2660de977a6d00c7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal void</type>
+        <definition>internal void Ra.Behaviors.BehaviorDroppable.RaiseDropped</definition>
+        <argsstring>(BehaviorDraggable dragger)</argsstring>
+        <name>RaiseDropped</name>
+        <param>
+          <type><ref refid="class_ra_1_1_behaviors_1_1_behavior_draggable" kindref="compound">BehaviorDraggable</ref></type>
+          <declname>dragger</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDroppable.cs" line="80" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDroppable.cs" bodystart="79" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Adds &quot;dropping&quot; capabilities to a Control. Tighly coupled with <ref refid="class_ra_1_1_behaviors_1_1_behavior_draggable" kindref="compound">BehaviorDraggable</ref>. Basically a draggable can be dropped onto a droppable which then will fire a &quot;dropped onto&quot; event in addition to the draggable&apos;s dropped event. Useful for creating for instance shopping carts and similar functionality which needs to track where widgets which are modified with the <ref refid="class_ra_1_1_behaviors_1_1_behavior_draggable" kindref="compound">BehaviorDraggable</ref> are actually dropped. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="67">
+        <label>Ra.Behaviors.BehaviorDroppable</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_droppable"/>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>Ra.Behaviors.Behavior</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior"/>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="70">
+        <label>Ra.Behaviors.BehaviorDroppable</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_droppable"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>Ra.Behaviors.Behavior</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior"/>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDroppable.cs" line="26" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDroppable.cs" bodystart="25" bodyend="84"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_droppable_1f10af555f7d26f73d1d4d5e16c4d9c20" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>Dropped</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_162388804f6511df3221c6a686f286c7f" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ab51177823d8893c51a42ae50df7f37e" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153c660a7d87a3451d11a8b5ee36f2f3a" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_1ffd5dd9f1607d04c87336df350ed6341" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_droppable_14acf3325c0b97af8a8bb3ee381cf3543" prot="public" virt="virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>GetRegistrationScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_1ecc6bad150d79cf31bb1f657e2d51c70" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_droppable_11de3a70fd585f0cb2660de977a6d00c7" prot="private" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>RaiseDropped</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_1bf8823132f1874b37f32fc9faa1d7199" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual" ambiguityscope="Ra::Widgets::RaControl."><scope>Ra::Behaviors::BehaviorDroppable</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_droppable_1db45b350215928d9f18635b671f4ec49" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>TouchedCssClass</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDroppable</scope><name>Xtra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

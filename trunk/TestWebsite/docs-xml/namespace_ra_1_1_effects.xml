@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="namespace_ra_1_1_effects" kind="namespace">
+    <compoundname>Ra::Effects</compoundname>
+    <innerclass refid="class_ra_1_1_effects_1_1_effect" prot="public">Ra::Effects::Effect</innerclass>
+    <innerclass refid="class_ra_1_1_effects_1_1_effect_border" prot="public">Ra::Effects::EffectBorder</innerclass>
+    <innerclass refid="class_ra_1_1_effects_1_1_effect_fade_in" prot="public">Ra::Effects::EffectFadeIn</innerclass>
+    <innerclass refid="class_ra_1_1_effects_1_1_effect_fade_out" prot="public">Ra::Effects::EffectFadeOut</innerclass>
+    <innerclass refid="class_ra_1_1_effects_1_1_effect_focus_and_select" prot="public">Ra::Effects::EffectFocusAndSelect</innerclass>
+    <innerclass refid="class_ra_1_1_effects_1_1_effect_highlight" prot="public">Ra::Effects::EffectHighlight</innerclass>
+    <innerclass refid="class_ra_1_1_effects_1_1_effect_highlight_text" prot="public">Ra::Effects::EffectHighlightText</innerclass>
+    <innerclass refid="class_ra_1_1_effects_1_1_effect_move" prot="public">Ra::Effects::EffectMove</innerclass>
+    <innerclass refid="class_ra_1_1_effects_1_1_effect_roll_down" prot="public">Ra::Effects::EffectRollDown</innerclass>
+    <innerclass refid="class_ra_1_1_effects_1_1_effect_roll_up" prot="public">Ra::Effects::EffectRollUp</innerclass>
+    <innerclass refid="class_ra_1_1_effects_1_1_effect_size" prot="public">Ra::Effects::EffectSize</innerclass>
+    <innerclass refid="class_ra_1_1_effects_1_1_effect_timeout" prot="public">Ra::Effects::EffectTimeout</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="14"/>
+  </compounddef>
+</doxygen>

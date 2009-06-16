@@ -1,0 +1,1126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_widgets_1_1_ra_control" kind="class" prot="public">
+    <compoundname>Ra::Widgets::RaControl</compoundname>
+    <derivedcompoundref refid="class_ra_1_1_behaviors_1_1_behavior" prot="public" virt="non-virtual">Ra.Behaviors.Behavior</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet" prot="public" virt="non-virtual">Ra.Extensions.Widgets.Comet</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler" prot="public" virt="non-virtual">Ra.Extensions.Widgets.ResizeHandler</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer" prot="public" virt="non-virtual">Ra.Extensions.Widgets.Timer</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_widgets_1_1_hidden_field" prot="public" virt="non-virtual">Ra.Widgets.HiddenField</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_widgets_1_1_ra_web_control" prot="public" virt="non-virtual">Ra.Widgets.RaWebControl</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_ra_control_160aff1a1d28ae500b2435bc5f53faadd" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.RaControl._hasRendered</definition>
+        <argsstring></argsstring>
+        <name>_hasRendered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="31" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_ra_control_18e80061032203ed83b39402ae74316e6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.RaControl._reRender</definition>
+        <argsstring></argsstring>
+        <name>_reRender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="32" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_ra_control_1fee196b1f583eec0f5e6a2227ad36102" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, object &gt;</type>
+        <definition>Dictionary&lt;string, object&gt; Ra.Widgets.RaControl._JSONValues</definition>
+        <argsstring></argsstring>
+        <name>_JSONValues</name>
+        <initializer> new Dictionary&lt;string, object&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="33" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_ra_control_124429a4bb422260ff85e448ff5baee67" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; Ra.Widgets.RaControl._extraInitFunctions</definition>
+        <argsstring></argsstring>
+        <name>_extraInitFunctions</name>
+        <initializer> new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="35" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.RaControl._hasSetFocus</definition>
+        <argsstring></argsstring>
+        <name>_hasSetFocus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="34" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Widgets.RaControl.Xtra</definition>
+        <argsstring></argsstring>
+        <name>Xtra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Extra information you can &quot;tag&quot; control with. BE CAREFUL with this one though since it adds to the ViewState. Don&apos;t add up LARGE things into it... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="46" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_ra_control_160fd813c5ac545bb0fd8e7e7b6fe1970" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>internal bool</type>
+        <definition>internal bool Ra.Widgets.RaControl.HasRendered</definition>
+        <argsstring></argsstring>
+        <name>HasRendered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="75" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_ra_control_123b5eae703a65685106009f112580cbe" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.RaControl.IsAnyAncestorRenderingHtml</definition>
+        <argsstring></argsstring>
+        <name>IsAnyAncestorRenderingHtml</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="106" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IEnumerable&lt; <ref refid="class_ra_1_1_behaviors_1_1_behavior" kindref="compound">Behavior</ref> &gt;</type>
+        <definition>virtual IEnumerable&lt;Behavior&gt; Ra.Widgets.RaControl.Behaviors</definition>
+        <argsstring></argsstring>
+        <name>Behaviors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Collection of behaviors for the control </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="270" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Widgets.RaControl.LoadControlState</definition>
+        <argsstring>(object savedState)</argsstring>
+        <name>LoadControlState</name>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes_161eafd9f938e8957cb04a3a4a514b2ac">LoadControlState</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1ad233c442112526b831d8afc8f79f99f">LoadControlState</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_dynamic_1c8290a6caa80a7f8268470376e3f990f">LoadControlState</reimplementedby>
+        <param>
+          <type>object</type>
+          <declname>savedState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="49" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="48" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override object</type>
+        <definition>override object Ra.Widgets.RaControl.SaveControlState</definition>
+        <argsstring>()</argsstring>
+        <name>SaveControlState</name>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes_125ded928ac9ec34adf89764f072f2feb">SaveControlState</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1e7b87e13c2a1788b3bb53bf457091535">SaveControlState</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_dynamic_101f3fefd2b1a7f1e8c02e8b7a07ea29c">SaveControlState</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="65" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.RaControl.SetJSONValueString</definition>
+        <argsstring>(string key, string value)</argsstring>
+        <name>SetJSONValueString</name>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="317" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="316" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.RaControl.SetJSONValueObject</definition>
+        <argsstring>(string key, object value)</argsstring>
+        <name>SetJSONValueObject</name>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="323" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="322" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.RaControl.SetJSONValueBool</definition>
+        <argsstring>(string key, bool value)</argsstring>
+        <name>SetJSONValueBool</name>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="329" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="328" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.RaControl.SetJSONGenericValue</definition>
+        <argsstring>(string key, string value)</argsstring>
+        <name>SetJSONGenericValue</name>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="335" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="334" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.Widgets.RaControl.SerializeJSON</definition>
+        <argsstring>()</argsstring>
+        <name>SerializeJSON</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="356" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="355" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ra.Widgets.RaControl.SerializeJSONValue</definition>
+        <argsstring>(string key, object value, StringBuilder builder)</argsstring>
+        <name>SerializeJSONValue</name>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>StringBuilder</type>
+          <declname>builder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If you have an Extension Ajax Control which has a property of a type which the default method is not able to serialize then override this method in your Extension control and check for your custom types and if not custom type then return base implementation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="379" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="378" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_140a558cf9617ef2289be7fc7faf5130c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Widgets.RaControl.OnInit</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnInit</name>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_19d9ff9f93e70ee415298b99c1a246725">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part_195a5c9620169b6f3649b58fd121af05c">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes_127b318ea69b186c88dafc3913a63dbf7">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1c970e8cfa56ddfec8f6a100beda1b6fd">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1a04f5cac6b06949becddd4d13f048a1d">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control_13ef666f89d44d0ffbc27a7b919248e8d">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1638eeb485628dd1d89d5dfe2e22f8408">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1983ca816f7230f8a8a37a094f0baaa80">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit_1e6b58b7f59e269c1dee37db4f8cfc765">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_137da849ca1bb85c288b5eab23c28a063">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_19a564774a7e9e5af0a901dc498be3364">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_items_1be49bd22d02c2a550b07b1747b1a4624">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_item_1da13dbb41e21161c62e1f749451acff8">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_161a8f91406e0d6263221d9085ca83e4f">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_in_place_edit_1f98619915ce48ae34981a8c2e033ce41">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_global_updater_1b73e85cdf4a1e2f1a100e08433a995bb">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_15af221a6f46ce28983f42291d7885fa5">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_13d7edaf5a9f9e4fcc7858bcfd75cee42">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_item_1b8f9168c212792ca82aa3bd1baa42bad">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1eb5e1b6a1542598d2464a4084977ce57">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_text_box_1010f963514f3a7519dd72f6a5e09c186">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_text_area_18a9b481ecb44fb9ad5a1167d699f09b7">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_select_list_161908127b948f875461c010ec5854c65">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_radio_button_12031d228b86e38486d04119bc92e7189">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_hidden_field_1cbb7ff6385d8c8c60c050144fcf69b3f">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_check_box_1effc6646dd20a3ec3c90271cda81a757">OnInit</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_behaviors_1_1_behavior_1ecc6bad150d79cf31bb1f657e2d51c70">OnInit</reimplementedby>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="475" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="474" bodyend="490"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string Ra.Widgets.RaControl.GetChildrenClientSideScript</definition>
+        <argsstring>()</argsstring>
+        <name>GetChildrenClientSideScript</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="493" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="492" bodyend="497"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string Ra.Widgets.RaControl.GetClientSideScript</definition>
+        <argsstring>()</argsstring>
+        <name>GetClientSideScript</name>
+        <reimplementedby refid="class_ra_1_1_behaviors_1_1_behavior_updater_1de21936d8beffcf7b36f7ea1903ad9a7">GetClientSideScript</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_behaviors_1_1_behavior_unveiler_1a6173784821a770bb5bbbfcd71f658c2">GetClientSideScript</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_behaviors_1_1_behavior_obscurable_12c3c48dcf6fede5cd2197b2d2ef6b45c">GetClientSideScript</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_behaviors_1_1_behavior_draggable_187c5a6c00da93e9be71e12ed768610bd">GetClientSideScript</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Override this one in your own Ajax Extension controls to get the registration script for your widgets unless you are good with Ra.C as the registration script. Normally you&apos;d do this if you have your own JavaScript file for your widget. Note though that often it is better to override on of the; * GetClientSideScriptType * GetEventsRegisterScript * GetClientSideScriptOptions methods... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="569" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="568" bodyend="591"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string Ra.Widgets.RaControl.GetClientSideScriptType</definition>
+        <argsstring>()</argsstring>
+        <name>GetClientSideScriptType</name>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_16606dbce5a3ef9d1c0a3861778d80fdd">GetClientSideScriptType</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1c11e8be518d6af117293bdb2bac085a2">GetClientSideScriptType</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit_14d605bcab8b3ffc9368d405520ea8329">GetClientSideScriptType</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_10fb190307bf2a3ab62ccf9a37c4c0f08">GetClientSideScriptType</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_global_updater_11f773c7ec1d366f2d81e4adbd4c9ae32">GetClientSideScriptType</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_15ff1a2dd492e1289c0e89e2087b4cc69">GetClientSideScriptType</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Override to return another type only for the client-side registration script, default implementation returns; &quot;Ra.C&quot; which is shorthand for &quot;new Ra.Control&quot; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="598" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="597" bodyend="600"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_153c660a7d87a3451d11a8b5ee36f2f3a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string Ra.Widgets.RaControl.GetEventsRegisterScript</definition>
+        <argsstring>()</argsstring>
+        <name>GetEventsRegisterScript</name>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit_1c53a00069ed9da2a74eb45f7796c6160">GetEventsRegisterScript</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_text_box_179bae2322509fcefd25508e0b2a7b6a0">GetEventsRegisterScript</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_text_area_1e5a43c150c7351ede8a76633754833dc">GetEventsRegisterScript</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_select_list_10dda5a040ba03296293c36780a8d0b68">GetEventsRegisterScript</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_ra_web_control_104c0e8c541fe0b029d0edcd6b99ee718">GetEventsRegisterScript</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_radio_button_15e917df25e7b88c4c15033fec6f86495">GetEventsRegisterScript</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_link_button_145a9ea7280ea8b0508bce33e10c25560">GetEventsRegisterScript</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_image_button_1b6f35e1c5043d2dca21d6d765e2c0af5">GetEventsRegisterScript</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_check_box_18f6f5467f498f54a307b950e8ee5768d">GetEventsRegisterScript</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_button_173097aa8f3b2db919dc184d5389d83fc">GetEventsRegisterScript</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Override to return the explicitly handled events for your widgets. Default implementation is string.Empty </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="607" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="606" bodyend="609"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_162388804f6511df3221c6a686f286c7f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string Ra.Widgets.RaControl.GetClientSideScriptOptions</definition>
+        <argsstring>()</argsstring>
+        <name>GetClientSideScriptOptions</name>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1d7da17fc0f75bf68d5eb94c86f3bf527">GetClientSideScriptOptions</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1f81779d2a1f9d29329ecd135c989d06e">GetClientSideScriptOptions</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_global_updater_1d243b5259f901b7e00468d21973adc25">GetClientSideScriptOptions</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_ext_button_16da585bf963be27c6ec8648e0e72c804">GetClientSideScriptOptions</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_10e1cb60e8e93070a4a2436a6e8c0bb92">GetClientSideScriptOptions</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_text_box_15c0236e0906f1e1c628544500d5b8f00">GetClientSideScriptOptions</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_text_area_196664d6ddeab9bfdd771570bb8dc1fa3">GetClientSideScriptOptions</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_ra_web_control_1fe73a543a7b273e5c1f0ad2e433f90b5">GetClientSideScriptOptions</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_radio_button_140d004173b7d583316e8336fb0cdeb96">GetClientSideScriptOptions</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_panel_1ffd2a1e2f6b7e496a21b53e498095251">GetClientSideScriptOptions</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_check_box_1a1b58c52382801b835940e63ce672ab4">GetClientSideScriptOptions</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Override to return the options for your client-side registration script. Default will return only the &quot;focus&quot; option. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="616" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="615" bodyend="620"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.Widgets.RaControl.GetBehaviorRegisterScript</definition>
+        <argsstring>()</argsstring>
+        <name>GetBehaviorRegisterScript</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Override to return the Behavior registration scripts for your widgets. Default will just loop through the behaviors in your Behaviors list. Very seldom you would want to override this one btw... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="627" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="626" bodyend="644"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_151e6f8bdb0af1a7a12654bfb329f280c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract string</type>
+        <definition>abstract string Ra.Widgets.RaControl.GetOpeningHTML</definition>
+        <argsstring>()</argsstring>
+        <name>GetOpeningHTML</name>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node_1806e8ed0aa4adea5641d2752fb5b3f5e">GetOpeningHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer_1b09b44397c170ef22f52b28dde955a6e">GetOpeningHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit_17db877768ace2a49d71d22cfa91d3eec">GetOpeningHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_17c509ce71ca92eff7a953a1ef2d6a545">GetOpeningHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_1926bef43d3270b2a9a593d0bf74056fc">GetOpeningHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_ext_button_1542b8007ce2f085e28cd6389190438ec">GetOpeningHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1ee30b83ff9d46a1ef89c6e9ab9e5cdb0">GetOpeningHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_text_box_114259746621af82e6a613a9bdf589cbd">GetOpeningHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_text_area_1454e7a3185ef235d5b52f9bebfe91c66">GetOpeningHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_select_list_14eef481e404ea7a959e66fc062ba9ebf">GetOpeningHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_radio_button_1f597b180c38024ef1d40afc364bfac09">GetOpeningHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_panel_1e43aee7c85601ef8aa822dc4740210e6">GetOpeningHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_link_button_1d90a896f5bd2e7988a46ee4f2d751a46">GetOpeningHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_label_11aefaf0557f329815768aa4f40574a97">GetOpeningHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_image_button_13d8b5aaa4247e9ec88ecb845fc612f0b">GetOpeningHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_image_1dc127b4a4e55f74047f7156ec99278b0">GetOpeningHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_hidden_field_1927aabddadd80c6101ed21dba6b2298c">GetOpeningHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_check_box_1a81ab28415478b0530c4269f842403e9">GetOpeningHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_button_14007ba8f017e12d50c20eeb67e35b405">GetOpeningHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_behaviors_1_1_behavior_1ffd5dd9f1607d04c87336df350ed6341">GetOpeningHTML</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Opening HTML for your control. If you control can have child controls in the Controls collection you would probably want to override also the GetClosingHTML method if you override this one. If your widget cannot have child controls then only override this one and drop overriding the GetClosingHTML method. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="652"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1ab51177823d8893c51a42ae50df7f37e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string Ra.Widgets.RaControl.GetClosingHTML</definition>
+        <argsstring>()</argsstring>
+        <name>GetClosingHTML</name>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_16c7d2773aac26afb0fd5d92064cc2b73">GetClosingHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_panel_1252ed547fb14958b0f4d7bea1ebfc109">GetClosingHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_link_button_1eaf09e6a1311a655a6a11b9dd54a9983">GetClosingHTML</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_widgets_1_1_label_1c1716b1ae5a368fe2c997f913a464c58">GetClosingHTML</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If your widget can have child controls in the Controls collection then override this one to return the closing HTML element tag of your widget. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="659" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="658" bodyend="661"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.RaControl.ReRender</definition>
+        <argsstring>()</argsstring>
+        <name>ReRender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call this method to re-render the control. A call to this method will ensure that all child controls in the Controls collection will be re-rendered. Meaning the innerHTML of the control will be sent in its entirety back to the client. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="83" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="82" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Widgets.RaControl.RenderControl</definition>
+        <argsstring>(HtmlTextWriter writer)</argsstring>
+        <name>RenderControl</name>
+        <param>
+          <type>HtmlTextWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="186" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="185" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T Ra.Widgets.RaControl.FirstBehavior&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>FirstBehavior&lt; T &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Helper to get the first Behavior of type T. Will query the Behaviors collection and return the first instance which is of type T in the collection. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="277"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Widgets.RaControl.Focus</definition>
+        <argsstring>()</argsstring>
+        <name>Focus</name>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_1ea4fb68f01c0cf713b4a765639c2589d">Focus</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gives the control focus </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="347" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="346" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string Ra.Widgets.RaControl.GetInvisibleHTML</definition>
+        <argsstring>()</argsstring>
+        <name>GetInvisibleHTML</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Unless your widget can get away with &lt;span style=&quot;display:none;&quot;... as the in-visible HTML of the control, then override this one to return the in-visible HTML of your control. Scenarios where this might be reasonable is where your control is e.g. a &lt;li... type of control and rendering an invisible span will break XHTML compliance. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="671" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="670" bodyend="673"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1198f8385521314fae1778a2d4a027acd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>internal void</type>
+        <definition>virtual internal void Ra.Widgets.RaControl.RenderOnlyJSON</definition>
+        <argsstring>(HtmlTextWriter writer)</argsstring>
+        <name>RenderOnlyJSON</name>
+        <param>
+          <type>HtmlTextWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="110" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="109" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_17365d814cb2e213e1c1200f2b0d06a8a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.RaControl.RenderAllChildrenToAjaxManager</definition>
+        <argsstring>()</argsstring>
+        <name>RenderAllChildrenToAjaxManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="120" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="119" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1f8aaa698df9ac6c516d8885ec2e37529" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.RaControl.ReRenderControlAndAllChildren</definition>
+        <argsstring>(HtmlTextWriter writer)</argsstring>
+        <name>ReRenderControlAndAllChildren</name>
+        <param>
+          <type>HtmlTextWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="143" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="142" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1221fd2bbda1b0d28a33d40cfdaacde89" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.RaControl.ReRenderDueToParentReRendering</definition>
+        <argsstring>(HtmlTextWriter writer)</argsstring>
+        <name>ReRenderDueToParentReRendering</name>
+        <param>
+          <type>HtmlTextWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="164" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="163" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1d49caa1510d8bd26fb56d1a05e34b71d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.RaControl.RenderControlVisibleForFirstTime</definition>
+        <argsstring>(HtmlTextWriter writer)</argsstring>
+        <name>RenderControlVisibleForFirstTime</name>
+        <param>
+          <type>HtmlTextWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="171" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="170" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1b99e099cbb7d0dcabb312ad952d1def2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal Dictionary&lt; string, string &gt;</type>
+        <definition>internal Dictionary&lt;string, string&gt; Ra.Widgets.RaControl.GetJSONValueDictionary</definition>
+        <argsstring>(string key)</argsstring>
+        <name>GetJSONValueDictionary</name>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="287" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="286" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1219b7ad8121ff80d1f4818315bbb0ad5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal bool</type>
+        <definition>internal bool Ra.Widgets.RaControl.HasJSONValueDictionary</definition>
+        <argsstring>(string key)</argsstring>
+        <name>HasJSONValueDictionary</name>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="309" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="308" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1d70442ea77a6a752ccf66e74503d7c72" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.Widgets.RaControl.GetChildrenClientSideScript</definition>
+        <argsstring>(ControlCollection controls)</argsstring>
+        <name>GetChildrenClientSideScript</name>
+        <param>
+          <type>ControlCollection</type>
+          <declname>controls</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="500" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="499" bodyend="514"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_15a2b8a7c3953739972b58462b59a7948" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.Widgets.RaControl.GetScriptOptions</definition>
+        <argsstring>(bool addComma)</argsstring>
+        <name>GetScriptOptions</name>
+        <param>
+          <type>bool</type>
+          <declname>addComma</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="517" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="516" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1e18d9c9cc8d226bd8cfc4d64a4a8a219" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.Widgets.RaControl.GetScriptBehaviors</definition>
+        <argsstring>(bool addComma)</argsstring>
+        <name>GetScriptBehaviors</name>
+        <param>
+          <type>bool</type>
+          <declname>addComma</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="528" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="527" bodyend="538"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_161a98e97dad14aff463ca2d6256af717" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.Widgets.RaControl.GetScriptEvents</definition>
+        <argsstring>(bool addComma)</argsstring>
+        <name>GetScriptEvents</name>
+        <param>
+          <type>bool</type>
+          <declname>addComma</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="541" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="540" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_1c136f0e57a93a0ba19bc69ab89658a6a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal void</type>
+        <definition>internal void Ra.Widgets.RaControl.AddInitCall</definition>
+        <argsstring>(string functionReference)</argsstring>
+        <name>AddInitCall</name>
+        <param>
+          <type>string</type>
+          <declname>functionReference</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="554" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="553" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_ra_control_118e0f666ece76c84c7619f65e36bdd3c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.Widgets.RaControl.GetDefaultInvisibleHTML</definition>
+        <argsstring>()</argsstring>
+        <name>GetDefaultInvisibleHTML</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="676" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="675" bodyend="678"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Base control for all other Ajax Controls in Ra-Ajax. Inherit from this if you want a minimalistic extension Ajax control without the overhead from <ref refid="class_ra_1_1_widgets_1_1_ra_web_control" kindref="compound">RaWebControl</ref>. By inheriting from <ref refid="class_ra_1_1_widgets_1_1_ra_control" kindref="compound">RaControl</ref> you can also create non-visual controls. The Timer for instance is inherited from the <ref refid="class_ra_1_1_widgets_1_1_ra_control" kindref="compound">RaControl</ref>. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="489">
+        <label>Ra.Extensions.Widgets.AccordionView</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="503">
+        <label>Ra.Extensions.Widgets.WebPart</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_web_part"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="505">
+        <label>Ra.Extensions.Widgets.MessageBox</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box"/>
+        <childnode refid="504" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="471">
+        <label>Ra.Extensions.Widgets.ResizeHandler</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler"/>
+        <childnode refid="463" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="501">
+        <label>Ra.Extensions.Widgets.Tree</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="476">
+        <label>Ra.Extensions.Widgets.Menu</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu"/>
+        <childnode refid="474" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="466">
+        <label>Ra.Behaviors.BehaviorDroppable</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_droppable"/>
+        <childnode refid="464" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="510">
+        <label>Ra.Widgets.TextBox</label>
+        <link refid="class_ra_1_1_widgets_1_1_text_box"/>
+        <childnode refid="474" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="484">
+        <label>Ra.Extensions.Widgets.MenuItem</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_item"/>
+        <childnode refid="482" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="464">
+        <label>Ra.Behaviors.Behavior</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior"/>
+        <childnode refid="463" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="480">
+        <label>Ra.Widgets.Image</label>
+        <link refid="class_ra_1_1_widgets_1_1_image"/>
+        <childnode refid="474" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="488">
+        <label>Ra.Extensions.Widgets.Accordion</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="467">
+        <label>Ra.Behaviors.BehaviorObscurable</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_obscurable"/>
+        <childnode refid="464" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="468">
+        <label>Ra.Behaviors.BehaviorUnveiler</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_unveiler"/>
+        <childnode refid="464" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="508">
+        <label>Ra.Widgets.SelectList</label>
+        <link refid="class_ra_1_1_widgets_1_1_select_list"/>
+        <childnode refid="474" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="463">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="473">
+        <label>Ra.Widgets.HiddenField</label>
+        <link refid="class_ra_1_1_widgets_1_1_hidden_field"/>
+        <childnode refid="463" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="483">
+        <label>Ra.Extensions.Widgets.AutoCompleterItem</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer_item"/>
+        <childnode refid="482" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="507">
+        <label>Ra.Widgets.RadioButton</label>
+        <link refid="class_ra_1_1_widgets_1_1_radio_button"/>
+        <childnode refid="474" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="475">
+        <label>Ra.Extensions.Widgets.ExtButton</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_ext_button"/>
+        <childnode refid="474" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="470">
+        <label>Ra.Extensions.Widgets.Comet</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet"/>
+        <childnode refid="463" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="478">
+        <label>Ra.Widgets.Button</label>
+        <link refid="class_ra_1_1_widgets_1_1_button"/>
+        <childnode refid="474" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="504">
+        <label>Ra.Extensions.Widgets.Window</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_window"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="472">
+        <label>Ra.Extensions.Widgets.Timer</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_timer"/>
+        <childnode refid="463" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="494">
+        <label>Ra.Extensions.Widgets.InPlaceEdit</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_in_place_edit"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="498">
+        <label>Ra.Extensions.Widgets.SlidingMenuLevel</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="497">
+        <label>Ra.Extensions.Widgets.SlidingMenuItem</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="490">
+        <label>Ra.Extensions.Widgets.AutoCompleter</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_auto_completer"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="481">
+        <label>Ra.Widgets.ImageButton</label>
+        <link refid="class_ra_1_1_widgets_1_1_image_button"/>
+        <childnode refid="474" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="496">
+        <label>Ra.Extensions.Widgets.SlidingMenu</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="487">
+        <label>Ra.Widgets.Panel</label>
+        <link refid="class_ra_1_1_widgets_1_1_panel"/>
+        <childnode refid="474" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="477">
+        <label>Ra.Extensions.Widgets.RichEdit</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_rich_edit"/>
+        <childnode refid="474" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="465">
+        <label>Ra.Behaviors.BehaviorDraggable</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_draggable"/>
+        <childnode refid="464" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="506">
+        <label>Ra.Widgets.Dynamic</label>
+        <link refid="class_ra_1_1_widgets_1_1_dynamic"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="493">
+        <label>Ra.Extensions.Widgets.GlobalUpdater</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_global_updater"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="469">
+        <label>Ra.Behaviors.BehaviorUpdater</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_updater"/>
+        <childnode refid="464" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="479">
+        <label>Ra.Widgets.CheckBox</label>
+        <link refid="class_ra_1_1_widgets_1_1_check_box"/>
+        <childnode refid="474" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="492">
+        <label>Ra.Extensions.Widgets.DateTimePicker</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker"/>
+        <childnode refid="491" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="482">
+        <label>Ra.Widgets.Label</label>
+        <link refid="class_ra_1_1_widgets_1_1_label"/>
+        <childnode refid="474" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="474">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="463" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="502">
+        <label>Ra.Extensions.Widgets.TreeNodes</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_nodes"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="491">
+        <label>Ra.Extensions.Widgets.Calendar</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="499">
+        <label>Ra.Extensions.Widgets.TabControl</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_control"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="486">
+        <label>Ra.Widgets.LinkButton</label>
+        <link refid="class_ra_1_1_widgets_1_1_link_button"/>
+        <childnode refid="474" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="485">
+        <label>Ra.Extensions.Widgets.TreeNode</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_tree_node"/>
+        <childnode refid="482" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="495">
+        <label>Ra.Extensions.Widgets.MenuItems</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_menu_items"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="500">
+        <label>Ra.Extensions.Widgets.TabView</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_tab_view"/>
+        <childnode refid="487" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="509">
+        <label>Ra.Widgets.TextArea</label>
+        <link refid="class_ra_1_1_widgets_1_1_text_area"/>
+        <childnode refid="474" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" line="30" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RaControl.cs" bodystart="29" bodyend="679"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_124429a4bb422260ff85e448ff5baee67" prot="private" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>_extraInitFunctions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_160aff1a1d28ae500b2435bc5f53faadd" prot="private" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>_hasRendered</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1fee196b1f583eec0f5e6a2227ad36102" prot="private" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>_JSONValues</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_18e80061032203ed83b39402ae74316e6" prot="private" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>_reRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1c136f0e57a93a0ba19bc69ab89658a6a" prot="private" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>AddInitCall</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Widgets::RaControl</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d70442ea77a6a752ccf66e74503d7c72" prot="private" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" prot="protected" virt="virtual"><scope>Ra::Widgets::RaControl</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_162388804f6511df3221c6a686f286c7f" prot="protected" virt="virtual"><scope>Ra::Widgets::RaControl</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" prot="protected" virt="virtual"><scope>Ra::Widgets::RaControl</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ab51177823d8893c51a42ae50df7f37e" prot="protected" virt="virtual"><scope>Ra::Widgets::RaControl</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_118e0f666ece76c84c7619f65e36bdd3c" prot="private" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>GetDefaultInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153c660a7d87a3451d11a8b5ee36f2f3a" prot="protected" virt="virtual"><scope>Ra::Widgets::RaControl</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Widgets::RaControl</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b99e099cbb7d0dcabb312ad952d1def2" prot="private" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>GetJSONValueDictionary</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_151e6f8bdb0af1a7a12654bfb329f280c" prot="protected" virt="pure-virtual"><scope>Ra::Widgets::RaControl</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e18d9c9cc8d226bd8cfc4d64a4a8a219" prot="private" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>GetScriptBehaviors</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_161a98e97dad14aff463ca2d6256af717" prot="private" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>GetScriptEvents</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_15a2b8a7c3953739972b58462b59a7948" prot="private" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>GetScriptOptions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1219b7ad8121ff80d1f4818315bbb0ad5" prot="private" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>HasJSONValueDictionary</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_160fd813c5ac545bb0fd8e7e7b6fe1970" prot="private" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>HasRendered</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_123b5eae703a65685106009f112580cbe" prot="private" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>IsAnyAncestorRenderingHtml</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_140a558cf9617ef2289be7fc7faf5130c" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17365d814cb2e213e1c1200f2b0d06a8a" prot="private" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>RenderAllChildrenToAjaxManager</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d49caa1510d8bd26fb56d1a05e34b71d" prot="private" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>RenderControlVisibleForFirstTime</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1198f8385521314fae1778a2d4a027acd" prot="private" virt="virtual"><scope>Ra::Widgets::RaControl</scope><name>RenderOnlyJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1f8aaa698df9ac6c516d8885ec2e37529" prot="private" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>ReRenderControlAndAllChildren</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1221fd2bbda1b0d28a33d40cfdaacde89" prot="private" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>ReRenderDueToParentReRendering</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Widgets::RaControl</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Widgets::RaControl</scope><name>Xtra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="_resize_handler_8cs" kind="file">
+    <compoundname>ResizeHandler.cs</compoundname>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler" prot="public">Ra::Extensions::Widgets::ResizeHandler</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args" prot="public">Ra::Extensions::Widgets::ResizeHandler::ResizedEventArgs</innerclass>
+    <innernamespace refid="namespace_ra_1_1_extensions_1_1_widgets">Ra::Extensions::Widgets</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs"/>
+  </compounddef>
+</doxygen>

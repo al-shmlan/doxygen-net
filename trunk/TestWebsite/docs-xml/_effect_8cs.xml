@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="_effect_8cs" kind="file">
+    <compoundname>Effect.cs</compoundname>
+    <innerclass refid="class_ra_1_1_effects_1_1_effect" prot="public">Ra::Effects::Effect</innerclass>
+    <innernamespace refid="namespace_ra_1_1_effects">Ra::Effects</innernamespace>
+    <innernamespace refid="namespace_system_1_1_collections_1_1_generic">System::Collections::Generic</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_widgets_1_1_hidden_field" kind="class" prot="public">
+    <compoundname>Ra::Widgets::HiddenField</compoundname>
+    <basecompoundref refid="class_ra_1_1_widgets_1_1_ra_control" prot="public" virt="non-virtual">Ra.Widgets.RaControl</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_hidden_field_195b56b7825bc5118e3ad044a8c1ea33d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Widgets.HiddenField.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Value property of the hiddenfield </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/HiddenField.cs" line="42" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/HiddenField.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_hidden_field_1cbb7ff6385d8c8c60c050144fcf69b3f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Widgets.HiddenField.OnInit</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnInit</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_140a558cf9617ef2289be7fc7faf5130c">OnInit</reimplements>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/HiddenField.cs" line="49" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/HiddenField.cs" bodystart="48" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_hidden_field_197d9ffc391e84b9d15f7ae022dc50e80" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Widgets.HiddenField.LoadViewState</definition>
+        <argsstring>(object savedState)</argsstring>
+        <name>LoadViewState</name>
+        <param>
+          <type>object</type>
+          <declname>savedState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/HiddenField.cs" line="63" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/HiddenField.cs" bodystart="62" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_hidden_field_1927aabddadd80c6101ed21dba6b2298c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Widgets.HiddenField.GetOpeningHTML</definition>
+        <argsstring>()</argsstring>
+        <name>GetOpeningHTML</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_151e6f8bdb0af1a7a12654bfb329f280c">GetOpeningHTML</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/HiddenField.cs" line="79" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/HiddenField.cs" bodystart="78" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_ra_1_1_widgets_1_1_hidden_field" kindref="compound">HiddenField</ref> control. Useful for storing values into your page which you need to access later down the road but don&apos;t need to actually display to the user. Alternatives to this control is to directly us the ViewState. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="265">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="264">
+        <label>Ra.Widgets.HiddenField</label>
+        <link refid="class_ra_1_1_widgets_1_1_hidden_field"/>
+        <childnode refid="265" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="267">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="266">
+        <label>Ra.Widgets.HiddenField</label>
+        <link refid="class_ra_1_1_widgets_1_1_hidden_field"/>
+        <childnode refid="267" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/HiddenField.cs" line="26" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/HiddenField.cs" bodystart="25" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Widgets::HiddenField</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Widgets::HiddenField</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Widgets::HiddenField</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Widgets::HiddenField</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Widgets::HiddenField</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Widgets::HiddenField</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" prot="protected" virt="virtual"><scope>Ra::Widgets::HiddenField</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_162388804f6511df3221c6a686f286c7f" prot="protected" virt="virtual"><scope>Ra::Widgets::HiddenField</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" prot="protected" virt="virtual"><scope>Ra::Widgets::HiddenField</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ab51177823d8893c51a42ae50df7f37e" prot="protected" virt="virtual"><scope>Ra::Widgets::HiddenField</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153c660a7d87a3451d11a8b5ee36f2f3a" prot="protected" virt="virtual"><scope>Ra::Widgets::HiddenField</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Widgets::HiddenField</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_hidden_field_1927aabddadd80c6101ed21dba6b2298c" prot="protected" virt="virtual"><scope>Ra::Widgets::HiddenField</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Widgets::HiddenField</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_hidden_field_197d9ffc391e84b9d15f7ae022dc50e80" prot="protected" virt="non-virtual"><scope>Ra::Widgets::HiddenField</scope><name>LoadViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_hidden_field_1cbb7ff6385d8c8c60c050144fcf69b3f" prot="protected" virt="non-virtual"><scope>Ra::Widgets::HiddenField</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual"><scope>Ra::Widgets::HiddenField</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Widgets::HiddenField</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Widgets::HiddenField</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Widgets::HiddenField</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Widgets::HiddenField</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Widgets::HiddenField</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Widgets::HiddenField</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Widgets::HiddenField</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Widgets::HiddenField</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_hidden_field_195b56b7825bc5118e3ad044a8c1ea33d" prot="public" virt="non-virtual"><scope>Ra::Widgets::HiddenField</scope><name>Value</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Widgets::HiddenField</scope><name>Xtra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

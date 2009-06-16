@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="_calendar_8cs" kind="file">
+    <compoundname>Calendar.cs</compoundname>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar" prot="public">Ra::Extensions::Widgets::Calendar</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_create_footer_controls_event_args" prot="public">Ra::Extensions::Widgets::Calendar::CreateFooterControlsEventArgs</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args" prot="public">Ra::Extensions::Widgets::Calendar::RenderDayEventArgs</innerclass>
+    <innernamespace refid="namespace_ra_1_1_extensions_1_1_widgets">Ra::Extensions::Widgets</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs"/>
+  </compounddef>
+</doxygen>

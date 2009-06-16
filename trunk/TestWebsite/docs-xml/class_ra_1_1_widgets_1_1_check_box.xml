@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_widgets_1_1_check_box" kind="class" prot="public">
+    <compoundname>Ra::Widgets::CheckBox</compoundname>
+    <basecompoundref refid="class_ra_1_1_widgets_1_1_ra_web_control" prot="public" virt="non-virtual">Ra.Widgets.RaWebControl</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_ra_1_1_widgets_1_1_check_box_18e3edf5f1890a0d2d083824b8261ae7b" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Widgets.CheckBox.CheckedChanged</definition>
+        <argsstring></argsstring>
+        <name>CheckedChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when checked state of checkbox is changed </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" line="29" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_ra_1_1_widgets_1_1_check_box_17e27b9f38e7f6965c829f223d786427e" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Widgets.CheckBox.Blur</definition>
+        <argsstring></argsstring>
+        <name>Blur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when checkbox looses focus, opposite of Focused </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" line="34" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_ra_1_1_widgets_1_1_check_box_157dd7eef0afb95032c7ce331692865ea" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Widgets.CheckBox.Focused</definition>
+        <argsstring></argsstring>
+        <name>Focused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when checkbox receives Focus, opposite of Blur </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" line="39" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_check_box_1ae7b3313abd9ca5b8fe09ccf5a0a5441" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Widgets.CheckBox.Text</definition>
+        <argsstring></argsstring>
+        <name>Text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The text that is associated with the checkbox, normally rendered to the right. Default value is string.Empty </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" line="57" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_check_box_17666fb9c0ec337aca86967d81f430613" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.CheckBox.Checked</definition>
+        <argsstring></argsstring>
+        <name>Checked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If true then the checkbox is checked, otherwise it is unchecked </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" line="72" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_check_box_195784c90f77d0bb3a55c31c21787bae7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Widgets.CheckBox.AccessKey</definition>
+        <argsstring></argsstring>
+        <name>AccessKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The keyboard shortcut for changing the checked state. Most browsers implements some type of keyboard shortcut logic like for instance FireFox allows form elements to be triggered by combining the AccessKey value (single character) together with ALT and SHIFT. Meaning if you have e.g. &quot;H&quot; as keyboard shortcut you can change the checked state of this checkbox by clicking ALT+SHIFT+H on your keyboard. The combinations to effectuate the keyboard shortcuts however vary from browsers to browsers. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" line="93" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_check_box_1f08a127a2405c57949a72133f4ceb066" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.CheckBox.Enabled</definition>
+        <argsstring></argsstring>
+        <name>Enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If false then the checkbox is disabled, otherwise it is enabled </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" line="108" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_check_box_1effc6646dd20a3ec3c90271cda81a757" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Widgets.CheckBox.OnInit</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnInit</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_140a558cf9617ef2289be7fc7faf5130c">OnInit</reimplements>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" line="113" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" bodystart="112" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_check_box_1a7d7c7deae16a4be2ab1e99184557f1d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Widgets.CheckBox.LoadViewState</definition>
+        <argsstring>(object savedState)</argsstring>
+        <name>LoadViewState</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_1bccc3b360a6ddfe4f2aa2cb3e785ac1e">LoadViewState</reimplements>
+        <param>
+          <type>object</type>
+          <declname>savedState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" line="132" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" bodystart="131" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_check_box_1a1b58c52382801b835940e63ce672ab4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Widgets.CheckBox.GetClientSideScriptOptions</definition>
+        <argsstring>()</argsstring>
+        <name>GetClientSideScriptOptions</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_1fe73a543a7b273e5c1f0ad2e433f90b5">GetClientSideScriptOptions</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" line="179" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" bodystart="178" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_check_box_1d2cc8a0be886421deb31c58ff6a9d94a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Widgets.CheckBox.GetMouseOutEventScript</definition>
+        <argsstring>()</argsstring>
+        <name>GetMouseOutEventScript</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_1e4e9525d529e8227b3c1a5db86d030b7">GetMouseOutEventScript</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" line="187" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" bodystart="186" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_check_box_11ff525ac5c2d9fbc774e7fae7359cfc0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Widgets.CheckBox.GetMouseOverEventScript</definition>
+        <argsstring>()</argsstring>
+        <name>GetMouseOverEventScript</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_18bbe18d42617850745996cb0d672260c">GetMouseOverEventScript</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" line="192" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" bodystart="191" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_check_box_18f6f5467f498f54a307b950e8ee5768d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Widgets.CheckBox.GetEventsRegisterScript</definition>
+        <argsstring>()</argsstring>
+        <name>GetEventsRegisterScript</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_104c0e8c541fe0b029d0edcd6b99ee718">GetEventsRegisterScript</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" line="197" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" bodystart="196" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_check_box_1a81ab28415478b0530c4269f842403e9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Widgets.CheckBox.GetOpeningHTML</definition>
+        <argsstring>()</argsstring>
+        <name>GetOpeningHTML</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_151e6f8bdb0af1a7a12654bfb329f280c">GetOpeningHTML</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" line="225" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" bodystart="224" bodyend="234"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_check_box_1e2b3b2291f5c0f03c7dfd860e76af52f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Ra.Widgets.CheckBox.DispatchEvent</definition>
+        <argsstring>(string name)</argsstring>
+        <name>DispatchEvent</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_1de60bed8a2264f876fdfbd7232836f7c">DispatchEvent</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" line="154" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" bodystart="153" bodyend="176"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_ra_1_1_widgets_1_1_check_box" kindref="compound">CheckBox</ref> control. The equivalent of the HTML input type=&quot;checkbox&quot; control. Can be either on or off. Useful for &quot;tagging off&quot; things on a list. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="117">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="115">
+        <label>Ra.Widgets.CheckBox</label>
+        <link refid="class_ra_1_1_widgets_1_1_check_box"/>
+        <childnode refid="116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="116">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="117" relation="public-inheritance">
+        </childnode>
+        <childnode refid="118" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="118">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="123">
+        <label>Ra.Widgets.StyleCollection</label>
+        <link refid="class_ra_1_1_widgets_1_1_style_collection"/>
+        <childnode refid="120" relation="usage">
+          <edgelabel>_control</edgelabel>
+        </childnode>
+      </node>
+      <node id="121">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="119">
+        <label>Ra.Widgets.CheckBox</label>
+        <link refid="class_ra_1_1_widgets_1_1_check_box"/>
+        <childnode refid="120" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="120">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+        <childnode refid="122" relation="public-inheritance">
+        </childnode>
+        <childnode refid="123" relation="usage">
+          <edgelabel>_styles</edgelabel>
+        </childnode>
+      </node>
+      <node id="122">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" line="25" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/CheckBox.cs" bodystart="24" bodyend="237"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_check_box_195784c90f77d0bb3a55c31c21787bae7" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>AccessKey</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_check_box_17e27b9f38e7f6965c829f223d786427e" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>Blur</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_check_box_17666fb9c0ec337aca86967d81f430613" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>Checked</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_check_box_18e3edf5f1890a0d2d083824b8261ae7b" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>CheckedChanged</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14dcb41296fe7545bb820a9184c2db962" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>Click</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_16138c4d2623d7a9d0e55ca42d8a24667" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>CssClass</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_19fa1952b1c6b040d43165f5a11606ead" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>DblClick</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_check_box_1e2b3b2291f5c0f03c7dfd860e76af52f" prot="public" virt="virtual"><scope>Ra::Widgets::CheckBox</scope><name>DispatchEvent</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_check_box_1f08a127a2405c57949a72133f4ceb066" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>Enabled</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_check_box_157dd7eef0afb95032c7ce331692865ea" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>Focused</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_11b9a672cefa64ca768f84857447a8191" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>GetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Widgets::CheckBox</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" prot="protected" virt="virtual"><scope>Ra::Widgets::CheckBox</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_check_box_1a1b58c52382801b835940e63ce672ab4" prot="protected" virt="virtual"><scope>Ra::Widgets::CheckBox</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" prot="protected" virt="virtual"><scope>Ra::Widgets::CheckBox</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ab51177823d8893c51a42ae50df7f37e" prot="protected" virt="virtual"><scope>Ra::Widgets::CheckBox</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_check_box_18f6f5467f498f54a307b950e8ee5768d" prot="protected" virt="virtual"><scope>Ra::Widgets::CheckBox</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Widgets::CheckBox</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_check_box_1d2cc8a0be886421deb31c58ff6a9d94a" prot="protected" virt="virtual"><scope>Ra::Widgets::CheckBox</scope><name>GetMouseOutEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_check_box_11ff525ac5c2d9fbc774e7fae7359cfc0" prot="protected" virt="virtual"><scope>Ra::Widgets::CheckBox</scope><name>GetMouseOverEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_check_box_1a81ab28415478b0530c4269f842403e9" prot="protected" virt="virtual"><scope>Ra::Widgets::CheckBox</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d8ae2b4ae6bce092e7d558db25b5c02a" prot="protected" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>GetWebControlAttributes</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bc64e6e9488a31df7ae5ef0e3903b236" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>KeyDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_118b31c98087d7a57f49a42eb1bac2528" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>KeyPress</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1247f291546c64e40bddffb08936da867" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>KeyUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_check_box_1a7d7c7deae16a4be2ab1e99184557f1d" prot="protected" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>LoadViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c6c9ca13ef1e4e436153d6c3cf017a0c" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>MouseDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_103683f2d6d76237d0c501cde2ebae5ef" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>MouseMove</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_15be672aec4d07efc18f5e33cfeca6c7b" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>MouseOut</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d17aaa8103deb9d5037f8c3f334af1e7" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>MouseOver</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_13c51734abc45a09d5df540d48b88c6da" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>MouseUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_142b4a9a49ba0e6e81389627d4ad34aeb" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>OnClickClientSide</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_check_box_1effc6646dd20a3ec3c90271cda81a757" prot="protected" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14cad6b9fb27c8c4c27b7bab4e471c445" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>QueueMultipleRequests</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_17d74fee59a34ea1bd5329082e043c531" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>RaWebControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_151ad71b3e5b5708fffbc50d3b0d93e4f" prot="protected" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>SaveViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Widgets::CheckBox</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_126c54189e89a72cdfecdfa5c62a9b97e" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>SetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_168ccd06bd09c6e05962f0e8838045c80" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>Style</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1255844bd5511b517d5d292f925f20994" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>TabIndex</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_check_box_1ae7b3313abd9ca5b8fe09ccf5a0a5441" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>Text</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1812b6302ab1f9ddf6e4ce88a5d447f28" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>Tooltip</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c5de8a6390860af479dd41b75bff7584" prot="protected" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>TrackViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Widgets::CheckBox</scope><name>Xtra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

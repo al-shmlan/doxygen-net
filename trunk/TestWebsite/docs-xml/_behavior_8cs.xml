@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="_behavior_8cs" kind="file">
+    <compoundname>Behavior.cs</compoundname>
+    <innerclass refid="class_ra_1_1_behaviors_1_1_behavior" prot="public">Ra::Behaviors::Behavior</innerclass>
+    <innernamespace refid="namespace_ra_1_1_behaviors">Ra::Behaviors</innernamespace>
+    <innernamespace refid="namespace_system">System</innernamespace>
+    <innernamespace refid="namespace_system_1_1_component_model">System::ComponentModel</innernamespace>
+    <innernamespace refid="namespace_w_e_b_c_t_r_l_s_01">WEBCTRLS </innernamespace>
+    <innernamespace refid="namespace_system_1_1_web_1_1_u_i_1_1_web_controls">System::Web::UI::WebControls</innernamespace>
+    <innernamespace refid="namespace_a_s_p_01">ASP </innernamespace>
+    <innernamespace refid="namespace_system_1_1_web_1_1_u_i">System::Web::UI</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/Behavior.cs"/>
+  </compounddef>
+</doxygen>

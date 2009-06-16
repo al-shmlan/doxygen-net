@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="interface_ra_1_1_widgets_1_1_i_disableable_behavior" kind="interface" prot="public">
+    <compoundname>Ra::Widgets::IDisableableBehavior</compoundname>
+    <derivedcompoundref refid="class_ra_1_1_behaviors_1_1_behavior_draggable" prot="public" virt="non-virtual">Ra.Behaviors.BehaviorDraggable</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_ra_1_1_widgets_1_1_i_disableable_behavior_1f964082d0222fd2c0be209e728e19881" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.IDisableableBehavior.Enabled</definition>
+        <argsstring></argsstring>
+        <name>Enabled</name>
+        <reimplementedby refid="class_ra_1_1_behaviors_1_1_behavior_draggable_1d60742964917baa562fdcdda38dca0a5">Enabled</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Determines whether a Behviour that implements this interface is enabled or disabled. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Interfaces/IDisableableBehavior.cs" line="20" bodyfile="C:/Work/ra-ajax/trunk/Ra/Interfaces/IDisableableBehavior.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Interface defining a Behavior that can be enabled or disabled through using the Enabled property. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="268">
+        <label>Ra.Widgets.IDisableableBehavior</label>
+        <link refid="interface_ra_1_1_widgets_1_1_i_disableable_behavior"/>
+      </node>
+      <node id="269">
+        <label>Ra.Behaviors.BehaviorDraggable</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_draggable"/>
+        <childnode refid="268" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Interfaces/IDisableableBehavior.cs" line="16" bodyfile="C:/Work/ra-ajax/trunk/Ra/Interfaces/IDisableableBehavior.cs" bodystart="15" bodyend="21"/>
+    <listofallmembers>
+      <member refid="interface_ra_1_1_widgets_1_1_i_disableable_behavior_1f964082d0222fd2c0be209e728e19881" prot="public" virt="non-virtual"><scope>Ra::Widgets::IDisableableBehavior</scope><name>Enabled</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_effects_1_1_effect_roll_up" kind="class" prot="public">
+    <compoundname>Ra::Effects::EffectRollUp</compoundname>
+    <basecompoundref refid="class_ra_1_1_effects_1_1_effect" prot="public" virt="non-virtual">Ra.Effects.Effect</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_roll_up_167de54e8041bdc19c90e074b0159b4ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.EffectRollUp.EffectRollUp</definition>
+        <argsstring>()</argsstring>
+        <name>EffectRollUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use this CTOR only if your effects are being Joined. Expects the main effect to set the Control and Duration properties. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectRollUp.cs" line="32" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectRollUp.cs" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_roll_up_1ae3c2119c09dabaa6738feb15b416fb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.EffectRollUp.EffectRollUp</definition>
+        <argsstring>(Control control, int milliseconds)</argsstring>
+        <name>EffectRollUp</name>
+        <param>
+          <type>Control</type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>milliseconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CTOR - control to animate and milliseconds to spend executing </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectRollUp.cs" line="39" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectRollUp.cs" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_roll_up_1114e694ef104410f3e856c923cfdeabf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectRollUp.RenderParalledOnStart</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnStart</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1939df83b762b921a2ad749b7e2d0c903">RenderParalledOnStart</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectRollUp.cs" line="52" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectRollUp.cs" bodystart="51" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_roll_up_1f4741bda947417ca00ab69fcbd66d559" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectRollUp.RenderParalledOnFinished</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnFinished</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1a7b831319350a52da5eab083ddb5e962">RenderParalledOnFinished</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectRollUp.cs" line="64" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectRollUp.cs" bodystart="63" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_roll_up_1aff63cf95bef0fbb06587eab2e1eba05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Effects.EffectRollUp.RenderParalledOnRender</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnRender</name>
+        <reimplements refid="class_ra_1_1_effects_1_1_effect_1d0c062260770689c6d38605bf7fe51a4">RenderParalledOnRender</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectRollUp.cs" line="74" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectRollUp.cs" bodystart="73" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_roll_up_1d03c9ab0d54c2013349c6d4a1564a959" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Effects.EffectRollUp.UpdateStyleCollection</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateStyleCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectRollUp.cs" line="42" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectRollUp.cs" bodystart="41" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Will roll up control from visibility to in-visibility. Note that this effect does not play nicely together with neither padding nor margin styles or CSS values. If margin is needed on a Widget which you want to animate through the RollDown (or RollUp) effect you must add an extra DOM element within the control which you put the actual margin or padding into. Also the Widget which you run this effect upon should have overflow:hidde as the style value or CSS value) since otherwise it&apos;ll &quot;jump&quot; when running and create visually non-appealing artifacts. This is the opposite of the <ref refid="class_ra_1_1_effects_1_1_effect_roll_down" kindref="compound">EffectRollDown</ref>. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="233">
+        <label>Ra.Effects.Effect</label>
+        <link refid="class_ra_1_1_effects_1_1_effect"/>
+      </node>
+      <node id="232">
+        <label>Ra.Effects.EffectRollUp</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_roll_up"/>
+        <childnode refid="233" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="235">
+        <label>Ra.Effects.Effect</label>
+        <link refid="class_ra_1_1_effects_1_1_effect"/>
+      </node>
+      <node id="234">
+        <label>Ra.Effects.EffectRollUp</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_roll_up"/>
+        <childnode refid="235" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Effects/EffectRollUp.cs" line="25" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/EffectRollUp.cs" bodystart="24" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_effects_1_1_effect_13115c920fdc000e6a1f44f6cd63244bd" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectRollUp</scope><name>Chained</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1e4df02803f0639f910c73414a58c7adf" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectRollUp</scope><name>ChainThese</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_10e48bc7f42299256795b06866ea32f4a" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectRollUp</scope><name>Control</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1c86d32632b11c5452d3453e64e1e50dd" prot="protected" virt="non-virtual"><scope>Ra::Effects::EffectRollUp</scope><name>Effect</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_roll_up_167de54e8041bdc19c90e074b0159b4ba" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectRollUp</scope><name>EffectRollUp</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_roll_up_1ae3c2119c09dabaa6738feb15b416fb2" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectRollUp</scope><name>EffectRollUp</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_12defc4249bcf05bede3832099b4039c0" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectRollUp</scope><name>Joined</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_12e6be44aa1a8920c51e4400906839a4e" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectRollUp</scope><name>JoinThese</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1b413970d24db1a18369915962933e223" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectRollUp</scope><name>Milliseconds</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_10631d51b0971a52ff4583dc4a4ba3c2a" prot="public" virt="virtual"><scope>Ra::Effects::EffectRollUp</scope><name>Render</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_roll_up_1f4741bda947417ca00ab69fcbd66d559" prot="public" virt="virtual"><scope>Ra::Effects::EffectRollUp</scope><name>RenderParalledOnFinished</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_roll_up_1aff63cf95bef0fbb06587eab2e1eba05" prot="public" virt="virtual"><scope>Ra::Effects::EffectRollUp</scope><name>RenderParalledOnRender</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_roll_up_1114e694ef104410f3e856c923cfdeabf" prot="public" virt="virtual"><scope>Ra::Effects::EffectRollUp</scope><name>RenderParalledOnStart</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_18672655e14a3ebb99666c9f8f7fa4923" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectRollUp</scope><name>Transition</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_169619c9eab1b999e313a2559e786c75d" prot="public" virt="non-virtual"><scope>Ra::Effects::EffectRollUp</scope><name>TransitionType</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_roll_up_1d03c9ab0d54c2013349c6d4a1564a959" prot="private" virt="non-virtual"><scope>Ra::Effects::EffectRollUp</scope><name>UpdateStyleCollection</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1041eba6f6e4a57073b2afb7cbbc65fb4" prot="protected" virt="virtual"><scope>Ra::Effects::EffectRollUp</scope><name>ValidateEffect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

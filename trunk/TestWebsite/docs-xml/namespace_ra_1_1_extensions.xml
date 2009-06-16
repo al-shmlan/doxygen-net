@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="namespace_ra_1_1_extensions" kind="namespace">
+    <compoundname>Ra::Extensions</compoundname>
+    <innernamespace refid="namespace_ra_1_1_extensions_1_1_helpers">Ra::Extensions::Helpers</innernamespace>
+    <innernamespace refid="namespace_ra_1_1_extensions_1_1_widgets">Ra::Extensions::Widgets</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1"/>
+  </compounddef>
+</doxygen>

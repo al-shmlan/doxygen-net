@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="_message_box_8cs" kind="file">
+    <compoundname>MessageBox.cs</compoundname>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box" prot="public">Ra::Extensions::Widgets::MessageBox</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_message_box_1_1_closed_event_args" prot="public">Ra::Extensions::Widgets::MessageBox::ClosedEventArgs</innerclass>
+    <innernamespace refid="namespace_ra_1_1_extensions_1_1_widgets">Ra::Extensions::Widgets</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/MessageBox.cs"/>
+  </compounddef>
+</doxygen>

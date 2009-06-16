@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="dir_5ac1d495a65b8367ff712ca5f0cb7d6e" kind="dir">
+    <compoundname>C:/Work/ra-ajax/trunk/Ra/</compoundname>
+    <innerdir refid="dir_fe38bd105158a6573fe717ba080300db">C:/Work/ra-ajax/trunk/Ra/Behaviors/</innerdir>
+    <innerdir refid="dir_71ce51406ec7c7af46c1c2ff8dc197d6">C:/Work/ra-ajax/trunk/Ra/Effects/</innerdir>
+    <innerdir refid="dir_c844284bd3d21c80dd6bf586ee3a7955">C:/Work/ra-ajax/trunk/Ra/Filters/</innerdir>
+    <innerdir refid="dir_adb704767064b1cb648fb5141ae4880d">C:/Work/ra-ajax/trunk/Ra/Helpers/</innerdir>
+    <innerdir refid="dir_ba3f8606c863d882ea463b4c7ca321c9">C:/Work/ra-ajax/trunk/Ra/Interfaces/</innerdir>
+    <innerdir refid="dir_00a706e343530cb547a694f7c2316e05">C:/Work/ra-ajax/trunk/Ra/Properties/</innerdir>
+    <innerdir refid="dir_945af208f34cbe494fbca334ac21e2fd">C:/Work/ra-ajax/trunk/Ra/Widgets/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/"/>
+  </compounddef>
+</doxygen>

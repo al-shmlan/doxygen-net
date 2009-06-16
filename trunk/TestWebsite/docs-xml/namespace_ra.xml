@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="namespace_ra" kind="namespace">
+    <compoundname>Ra</compoundname>
+    <innerclass refid="class_ra_1_1_ajax_manager" prot="public">Ra::AjaxManager</innerclass>
+    <innerclass refid="class_ra_1_1_web_method" prot="public">Ra::WebMethod</innerclass>
+    <innerclass refid="interface_ra_1_1_i_ra_control" prot="public">Ra::IRaControl</innerclass>
+    <innernamespace refid="namespace_ra_1_1_behaviors">Ra::Behaviors</innernamespace>
+    <innernamespace refid="namespace_ra_1_1_core">Ra::Core</innernamespace>
+    <innernamespace refid="namespace_ra_1_1_effects">Ra::Effects</innernamespace>
+    <innernamespace refid="namespace_ra_1_1_extensions">Ra::Extensions</innernamespace>
+    <innernamespace refid="namespace_ra_1_1_widgets">Ra::Widgets</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Main namespace for Ra-Ajax and eveything within </para>    </detaileddescription>
+    <location file="[generated]" line="1"/>
+  </compounddef>
+</doxygen>

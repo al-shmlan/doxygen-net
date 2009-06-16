@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_widgets_1_1_link_button" kind="class" prot="public">
+    <compoundname>Ra::Widgets::LinkButton</compoundname>
+    <basecompoundref refid="class_ra_1_1_widgets_1_1_ra_web_control" prot="public" virt="non-virtual">Ra.Widgets.RaWebControl</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_ra_1_1_widgets_1_1_link_button_15578a500280ef7f8f2a7526b4315fb24" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Widgets.LinkButton.Blur</definition>
+        <argsstring></argsstring>
+        <name>Blur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when button looses focus, opposite of Focused </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/LinkButton.cs" line="29" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/LinkButton.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_ra_1_1_widgets_1_1_link_button_18da43370cfaed297249adb9fb9c582c8" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Widgets.LinkButton.Focused</definition>
+        <argsstring></argsstring>
+        <name>Focused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when button receives Focus, opposite of Blur </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/LinkButton.cs" line="34" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/LinkButton.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_link_button_1c2d26c4c025b91b6f71f08efafb33e4d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Widgets.LinkButton.Text</definition>
+        <argsstring></argsstring>
+        <name>Text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The text that is displayed within the linkbutton, default value is string.Empty. Note that the <ref refid="namespace_ra" kindref="compound">Ra</ref> <ref refid="class_ra_1_1_widgets_1_1_link_button" kindref="compound">LinkButton</ref> can have Child Controls in the Controls Collection. If it does however then the Text property will NOT be rendered but overridden by the rendering of the Child Controls. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/LinkButton.cs" line="54" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/LinkButton.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_link_button_128b825322f0ef59244f2bd50faf344d4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Widgets.LinkButton.AccessKey</definition>
+        <argsstring></argsstring>
+        <name>AccessKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The keyboard shortcut for clicking the button. Most browsers implements some type of keyboard shortcut logic like for instance FireFox allows form elements to be triggered by combining the AccessKey value (single character) together with ALT and SHIFT. Meaning if you have e.g. &quot;H&quot; as keyboard shortcut you can click this button by doing ALT+SHIFT+H on your keyboard. The combinations to effectuate the keyboard shortcuts however vary from browsers to browsers. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/LinkButton.cs" line="74" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/LinkButton.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_link_button_11bc9b8ca0c95775270ce5af8ba09ef22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Ra.Widgets.LinkButton.DispatchEvent</definition>
+        <argsstring>(string name)</argsstring>
+        <name>DispatchEvent</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_1de60bed8a2264f876fdfbd7232836f7c">DispatchEvent</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/LinkButton.cs" line="81" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/LinkButton.cs" bodystart="80" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_link_button_145a9ea7280ea8b0508bce33e10c25560" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Widgets.LinkButton.GetEventsRegisterScript</definition>
+        <argsstring>()</argsstring>
+        <name>GetEventsRegisterScript</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_104c0e8c541fe0b029d0edcd6b99ee718">GetEventsRegisterScript</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/LinkButton.cs" line="99" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/LinkButton.cs" bodystart="98" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_link_button_1d90a896f5bd2e7988a46ee4f2d751a46" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Widgets.LinkButton.GetOpeningHTML</definition>
+        <argsstring>()</argsstring>
+        <name>GetOpeningHTML</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_151e6f8bdb0af1a7a12654bfb329f280c">GetOpeningHTML</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/LinkButton.cs" line="117" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/LinkButton.cs" bodystart="116" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_link_button_1eaf09e6a1311a655a6a11b9dd54a9983" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Widgets.LinkButton.GetClosingHTML</definition>
+        <argsstring>()</argsstring>
+        <name>GetClosingHTML</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_1ab51177823d8893c51a42ae50df7f37e">GetClosingHTML</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/LinkButton.cs" line="127" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/LinkButton.cs" bodystart="126" bodyend="129"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_ra_1_1_widgets_1_1_link_button" kindref="compound">LinkButton</ref> control. Thi sis the equivalent of the HTML anchor element. Note though that this will NOT be a link but overridden through JavaScript to handle click events. DO NOT use this element instead of hyperlinks if you want search engine visibility! Think of it as an alternative to the <ref refid="class_ra_1_1_widgets_1_1_button" kindref="compound">Button</ref> and <ref refid="class_ra_1_1_widgets_1_1_image_button" kindref="compound">ImageButton</ref> controls. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="359">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="358">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="359" relation="public-inheritance">
+        </childnode>
+        <childnode refid="360" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="360">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+      <node id="357">
+        <label>Ra.Widgets.LinkButton</label>
+        <link refid="class_ra_1_1_widgets_1_1_link_button"/>
+        <childnode refid="358" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="365">
+        <label>Ra.Widgets.StyleCollection</label>
+        <link refid="class_ra_1_1_widgets_1_1_style_collection"/>
+        <childnode refid="362" relation="usage">
+          <edgelabel>_control</edgelabel>
+        </childnode>
+      </node>
+      <node id="363">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="362">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="363" relation="public-inheritance">
+        </childnode>
+        <childnode refid="364" relation="public-inheritance">
+        </childnode>
+        <childnode refid="365" relation="usage">
+          <edgelabel>_styles</edgelabel>
+        </childnode>
+      </node>
+      <node id="364">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+      <node id="361">
+        <label>Ra.Widgets.LinkButton</label>
+        <link refid="class_ra_1_1_widgets_1_1_link_button"/>
+        <childnode refid="362" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/LinkButton.cs" line="25" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/LinkButton.cs" bodystart="24" bodyend="132"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_link_button_128b825322f0ef59244f2bd50faf344d4" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>AccessKey</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_link_button_15578a500280ef7f8f2a7526b4315fb24" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>Blur</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14dcb41296fe7545bb820a9184c2db962" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>Click</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_16138c4d2623d7a9d0e55ca42d8a24667" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>CssClass</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_19fa1952b1c6b040d43165f5a11606ead" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>DblClick</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_link_button_11bc9b8ca0c95775270ce5af8ba09ef22" prot="public" virt="virtual"><scope>Ra::Widgets::LinkButton</scope><name>DispatchEvent</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_link_button_18da43370cfaed297249adb9fb9c582c8" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>Focused</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_11b9a672cefa64ca768f84857447a8191" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>GetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Widgets::LinkButton</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" prot="protected" virt="virtual"><scope>Ra::Widgets::LinkButton</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1fe73a543a7b273e5c1f0ad2e433f90b5" prot="protected" virt="virtual"><scope>Ra::Widgets::LinkButton</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" prot="protected" virt="virtual"><scope>Ra::Widgets::LinkButton</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_link_button_1eaf09e6a1311a655a6a11b9dd54a9983" prot="protected" virt="virtual"><scope>Ra::Widgets::LinkButton</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_link_button_145a9ea7280ea8b0508bce33e10c25560" prot="protected" virt="virtual"><scope>Ra::Widgets::LinkButton</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Widgets::LinkButton</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1e4e9525d529e8227b3c1a5db86d030b7" prot="protected" virt="virtual"><scope>Ra::Widgets::LinkButton</scope><name>GetMouseOutEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_18bbe18d42617850745996cb0d672260c" prot="protected" virt="virtual"><scope>Ra::Widgets::LinkButton</scope><name>GetMouseOverEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_link_button_1d90a896f5bd2e7988a46ee4f2d751a46" prot="protected" virt="virtual"><scope>Ra::Widgets::LinkButton</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d8ae2b4ae6bce092e7d558db25b5c02a" prot="protected" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>GetWebControlAttributes</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bc64e6e9488a31df7ae5ef0e3903b236" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>KeyDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_118b31c98087d7a57f49a42eb1bac2528" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>KeyPress</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1247f291546c64e40bddffb08936da867" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>KeyUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bccc3b360a6ddfe4f2aa2cb3e785ac1e" prot="protected" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>LoadViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c6c9ca13ef1e4e436153d6c3cf017a0c" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>MouseDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_103683f2d6d76237d0c501cde2ebae5ef" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>MouseMove</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_15be672aec4d07efc18f5e33cfeca6c7b" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>MouseOut</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d17aaa8103deb9d5037f8c3f334af1e7" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>MouseOver</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_13c51734abc45a09d5df540d48b88c6da" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>MouseUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_142b4a9a49ba0e6e81389627d4ad34aeb" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>OnClickClientSide</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_140a558cf9617ef2289be7fc7faf5130c" prot="protected" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14cad6b9fb27c8c4c27b7bab4e471c445" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>QueueMultipleRequests</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_17d74fee59a34ea1bd5329082e043c531" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>RaWebControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_151ad71b3e5b5708fffbc50d3b0d93e4f" prot="protected" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>SaveViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Widgets::LinkButton</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_126c54189e89a72cdfecdfa5c62a9b97e" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>SetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_168ccd06bd09c6e05962f0e8838045c80" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>Style</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1255844bd5511b517d5d292f925f20994" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>TabIndex</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_link_button_1c2d26c4c025b91b6f71f08efafb33e4d" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>Text</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1812b6302ab1f9ddf6e4ce88a5d447f28" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>Tooltip</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c5de8a6390860af479dd41b75bff7584" prot="protected" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>TrackViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Widgets::LinkButton</scope><name>Xtra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

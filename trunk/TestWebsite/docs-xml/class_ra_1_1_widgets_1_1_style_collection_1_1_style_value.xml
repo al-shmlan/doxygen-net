@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value" kind="class" prot="private">
+    <compoundname>Ra::Widgets::StyleCollection::StyleValue</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_1ca2ac4cdc9a5447a4c96d8e580095c9a" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Ra.Widgets.StyleCollection.StyleValue._beforeViewStateTrackingValue</definition>
+        <argsstring></argsstring>
+        <name>_beforeViewStateTrackingValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="26" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_1c30c6671b6f5e02443449fe94a3f12f0" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Ra.Widgets.StyleCollection.StyleValue._viewStateValue</definition>
+        <argsstring></argsstring>
+        <name>_viewStateValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="27" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_109c3af5d8cecbb37a1d79c60560ac7ad" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Ra.Widgets.StyleCollection.StyleValue._afterViewStateTrackingValue</definition>
+        <argsstring></argsstring>
+        <name>_afterViewStateTrackingValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="28" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_143171bfd54629c3eac976addcf8d8452" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Ra.Widgets.StyleCollection.StyleValue._onlyViewStateValue</definition>
+        <argsstring></argsstring>
+        <name>_onlyViewStateValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="29" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_1d18105c61a11f5200b9738ec4c02ae83" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Widgets.StyleCollection.StyleValue.BeforeViewStateTrackingValue</definition>
+        <argsstring></argsstring>
+        <name>BeforeViewStateTrackingValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="40" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_1a2fdd2019f8f94cfd07c0864acdf5814" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Widgets.StyleCollection.StyleValue.ViewStateValue</definition>
+        <argsstring></argsstring>
+        <name>ViewStateValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="47" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_1510a5f2c6541453c0446f45c5c1b0136" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Widgets.StyleCollection.StyleValue.AfterViewStateTrackingValue</definition>
+        <argsstring></argsstring>
+        <name>AfterViewStateTrackingValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="55" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_139379120f13c10c76194380610b3748a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Widgets.StyleCollection.StyleValue.OnlyViewStateValue</definition>
+        <argsstring></argsstring>
+        <name>OnlyViewStateValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="63" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_1f135c4dbbd72ac7a1ec1868aa413fd07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Widgets.StyleCollection.StyleValue.StyleValue</definition>
+        <argsstring>()</argsstring>
+        <name>StyleValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="32" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="31" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="25" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="24" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_109c3af5d8cecbb37a1d79c60560ac7ad" prot="private" virt="non-virtual"><scope>Ra::Widgets::StyleCollection::StyleValue</scope><name>_afterViewStateTrackingValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_1ca2ac4cdc9a5447a4c96d8e580095c9a" prot="private" virt="non-virtual"><scope>Ra::Widgets::StyleCollection::StyleValue</scope><name>_beforeViewStateTrackingValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_143171bfd54629c3eac976addcf8d8452" prot="private" virt="non-virtual"><scope>Ra::Widgets::StyleCollection::StyleValue</scope><name>_onlyViewStateValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_1c30c6671b6f5e02443449fe94a3f12f0" prot="private" virt="non-virtual"><scope>Ra::Widgets::StyleCollection::StyleValue</scope><name>_viewStateValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_1510a5f2c6541453c0446f45c5c1b0136" prot="public" virt="non-virtual"><scope>Ra::Widgets::StyleCollection::StyleValue</scope><name>AfterViewStateTrackingValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_1d18105c61a11f5200b9738ec4c02ae83" prot="public" virt="non-virtual"><scope>Ra::Widgets::StyleCollection::StyleValue</scope><name>BeforeViewStateTrackingValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_139379120f13c10c76194380610b3748a" prot="public" virt="non-virtual"><scope>Ra::Widgets::StyleCollection::StyleValue</scope><name>OnlyViewStateValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_1f135c4dbbd72ac7a1ec1868aa413fd07" prot="public" virt="non-virtual"><scope>Ra::Widgets::StyleCollection::StyleValue</scope><name>StyleValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value_1a2fdd2019f8f94cfd07c0864acdf5814" prot="public" virt="non-virtual"><scope>Ra::Widgets::StyleCollection::StyleValue</scope><name>ViewStateValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

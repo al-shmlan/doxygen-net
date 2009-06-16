@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="dir_fc9a4ae6e28300af60b6364440d73c41" kind="dir">
+    <compoundname>C:/Work/ra-ajax/trunk/Ra.Extensions/Helpers/</compoundname>
+    <innerfile refid="_comet_queue_8cs">CometQueue.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Helpers/"/>
+  </compounddef>
+</doxygen>

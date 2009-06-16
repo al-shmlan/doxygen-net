@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level" kind="class" prot="public">
+    <compoundname>Ra::Extensions::Widgets::SlidingMenuLevel</compoundname>
+    <basecompoundref refid="class_ra_1_1_widgets_1_1_panel" prot="public" virt="non-virtual">Ra.Widgets.Panel</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1d653c3129ec01bec6ec047ebdc7d478f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ra.Extensions.Widgets.SlidingMenuLevel._hasLoadedDynamicControls</definition>
+        <argsstring></argsstring>
+        <name>_hasLoadedDynamicControls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" line="29" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_19e674c1051885e303ef8eec36d2d2bcf" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Extensions.Widgets.SlidingMenuLevel.GetChildNodes</definition>
+        <argsstring></argsstring>
+        <name>GetChildNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when the SliderMenuLevel needs to get its SliderMenuItem children. Note that this event will be raised on EVERY postback for every SliderMenuLevel controls on your page which have dynamically rendered nodes. This means you should make sure the event handler for this event executes FAST! </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" line="37" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_10b2b29fbe88886b4d852db3c8df0ce5d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override string</type>
+        <definition>override string Ra.Extensions.Widgets.SlidingMenuLevel.CssClass</definition>
+        <argsstring></argsstring>
+        <name>CssClass</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_16138c4d2623d7a9d0e55ca42d8a24667">CssClass</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overridden to provide a sane default value. The default CSS class is &quot;level&quot;. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" line="53" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_12acee52b081fe4573fb6ef01d9335b2c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Extensions.Widgets.SlidingMenuLevel.Caption</definition>
+        <argsstring></argsstring>
+        <name>Caption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" line="60" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_194d616266d53be0f050ca5582f6513ca" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu" kindref="compound">SlidingMenu</ref></type>
+        <definition>SlidingMenu Ra.Extensions.Widgets.SlidingMenuLevel.Root</definition>
+        <argsstring></argsstring>
+        <name>Root</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" line="89" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1e1a70f5f7b3eac9bded3b1d05cbddf51" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>internal bool</type>
+        <definition>internal bool Ra.Extensions.Widgets.SlidingMenuLevel.HasChildren</definition>
+        <argsstring></argsstring>
+        <name>HasChildren</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" line="142" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1638eeb485628dd1d89d5dfe2e22f8408" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.SlidingMenuLevel.OnInit</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnInit</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_140a558cf9617ef2289be7fc7faf5130c">OnInit</reimplements>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" line="63" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" bodystart="62" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_11e328944990c21f57dffdf78d8d28f17" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.SlidingMenuLevel.OnLoad</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnLoad</name>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" line="71" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" bodystart="70" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_158ec88b93b7155897910be2d62dfea5b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.SlidingMenuLevel.CreateChildControls</definition>
+        <argsstring>()</argsstring>
+        <name>CreateChildControls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" line="92" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" bodystart="91" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1ad233c442112526b831d8afc8f79f99f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.SlidingMenuLevel.LoadControlState</definition>
+        <argsstring>(object savedState)</argsstring>
+        <name>LoadControlState</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d">LoadControlState</reimplements>
+        <param>
+          <type>object</type>
+          <declname>savedState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" line="105" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" bodystart="104" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1e7b87e13c2a1788b3bb53bf457091535" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override object</type>
+        <definition>override object Ra.Extensions.Widgets.SlidingMenuLevel.SaveControlState</definition>
+        <argsstring>()</argsstring>
+        <name>SaveControlState</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea">SaveControlState</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" line="124" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" bodystart="123" bodyend="129"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_14efdcf3bff11fea656e1876237b9df7b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal bool</type>
+        <definition>internal bool Ra.Extensions.Widgets.SlidingMenuLevel.EnsureChildNodes</definition>
+        <argsstring>()</argsstring>
+        <name>EnsureChildNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" line="145" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" bodystart="144" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1f08cf11c441b119cf8c7ca808ae02d0e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.SlidingMenuLevel.GetDynamicNodes</definition>
+        <argsstring>()</argsstring>
+        <name>GetDynamicNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" line="158" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" bodystart="157" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_18f40672f5a04d56ca94b3dfc464ca121" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal void</type>
+        <definition>internal void Ra.Extensions.Widgets.SlidingMenuLevel.SetForReRendering</definition>
+        <argsstring>()</argsstring>
+        <name>SetForReRendering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" line="167" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" bodystart="166" bodyend="169"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is a &quot;level&quot; in a SliderMenu. Every level can have SliderMenuItems which in turn can have SliderMenuLevels and so on recursively. Note that the SliderMenuLevel have support for dynamically rendered nodes in addition to statically rendered nodes. Though NOT both types of items at the same time. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="623">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="620">
+        <label>Ra.Extensions.Widgets.SlidingMenuLevel</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level"/>
+        <childnode refid="621" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="621">
+        <label>Ra.Widgets.Panel</label>
+        <link refid="class_ra_1_1_widgets_1_1_panel"/>
+        <childnode refid="622" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="622">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="623" relation="public-inheritance">
+        </childnode>
+        <childnode refid="624" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="624">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="630">
+        <label>Ra.Widgets.StyleCollection</label>
+        <link refid="class_ra_1_1_widgets_1_1_style_collection"/>
+        <childnode refid="627" relation="usage">
+          <edgelabel>_control</edgelabel>
+        </childnode>
+      </node>
+      <node id="628">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="625">
+        <label>Ra.Extensions.Widgets.SlidingMenuLevel</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level"/>
+        <childnode refid="626" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="626">
+        <label>Ra.Widgets.Panel</label>
+        <link refid="class_ra_1_1_widgets_1_1_panel"/>
+        <childnode refid="627" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="627">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="628" relation="public-inheritance">
+        </childnode>
+        <childnode refid="629" relation="public-inheritance">
+        </childnode>
+        <childnode refid="630" relation="usage">
+          <edgelabel>_styles</edgelabel>
+        </childnode>
+      </node>
+      <node id="629">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" line="28" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuLevel.cs" bodystart="27" bodyend="170"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1d653c3129ec01bec6ec047ebdc7d478f" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>_hasLoadedDynamicControls</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_12acee52b081fe4573fb6ef01d9335b2c" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>Caption</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14dcb41296fe7545bb820a9184c2db962" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>Click</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_158ec88b93b7155897910be2d62dfea5b" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>CreateChildControls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_10b2b29fbe88886b4d852db3c8df0ce5d" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>CssClass</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_19fa1952b1c6b040d43165f5a11606ead" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>DblClick</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1c6430d3868b755f48e9465a84b1bffbc" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>DefaultWidget</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1de60bed8a2264f876fdfbd7232836f7c" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>DispatchEvent</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_14efdcf3bff11fea656e1876237b9df7b" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>EnsureChildNodes</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_11b9a672cefa64ca768f84857447a8191" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>GetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_19e674c1051885e303ef8eec36d2d2bcf" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>GetChildNodes</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1ffd2a1e2f6b7e496a21b53e498095251" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1252ed547fb14958b0f4d7bea1ebfc109" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1f08cf11c441b119cf8c7ca808ae02d0e" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>GetDynamicNodes</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_104c0e8c541fe0b029d0edcd6b99ee718" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1e4e9525d529e8227b3c1a5db86d030b7" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>GetMouseOutEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_18bbe18d42617850745996cb0d672260c" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>GetMouseOverEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1e43aee7c85601ef8aa822dc4740210e6" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d8ae2b4ae6bce092e7d558db25b5c02a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>GetWebControlAttributes</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1e1a70f5f7b3eac9bded3b1d05cbddf51" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>HasChildren</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bc64e6e9488a31df7ae5ef0e3903b236" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>KeyDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_118b31c98087d7a57f49a42eb1bac2528" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>KeyPress</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1247f291546c64e40bddffb08936da867" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>KeyUp</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1ad233c442112526b831d8afc8f79f99f" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bccc3b360a6ddfe4f2aa2cb3e785ac1e" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>LoadViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c6c9ca13ef1e4e436153d6c3cf017a0c" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>MouseDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_103683f2d6d76237d0c501cde2ebae5ef" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>MouseMove</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_15be672aec4d07efc18f5e33cfeca6c7b" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>MouseOut</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d17aaa8103deb9d5037f8c3f334af1e7" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>MouseOver</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_13c51734abc45a09d5df540d48b88c6da" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>MouseUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_142b4a9a49ba0e6e81389627d4ad34aeb" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>OnClickClientSide</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1638eeb485628dd1d89d5dfe2e22f8408" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_11e328944990c21f57dffdf78d8d28f17" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>OnLoad</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14cad6b9fb27c8c4c27b7bab4e471c445" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>QueueMultipleRequests</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_17d74fee59a34ea1bd5329082e043c531" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>RaWebControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_194d616266d53be0f050ca5582f6513ca" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>Root</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_1e7b87e13c2a1788b3bb53bf457091535" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_151ad71b3e5b5708fffbc50d3b0d93e4f" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>SaveViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_126c54189e89a72cdfecdfa5c62a9b97e" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>SetAttribute</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_level_18f40672f5a04d56ca94b3dfc464ca121" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>SetForReRendering</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_168ccd06bd09c6e05962f0e8838045c80" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>Style</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1255844bd5511b517d5d292f925f20994" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>TabIndex</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_182f02c963154472792679eae72cae436" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>Tag</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1812b6302ab1f9ddf6e4ce88a5d447f28" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>Tooltip</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c5de8a6390860af479dd41b75bff7584" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>TrackViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuLevel</scope><name>Xtra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

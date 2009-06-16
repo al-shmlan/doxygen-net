@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args" kind="class" prot="public">
+    <compoundname>Ra::Widgets::Dynamic::ReloadEventArgs</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_1f4560b814e1aa76e0d4bb9632dd33074" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Ra.Widgets.Dynamic.ReloadEventArgs._key</definition>
+        <argsstring></argsstring>
+        <name>_key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/Dynamic.cs" line="40" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/Dynamic.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_1aca416c6680445465934d772393cb1fd" prot="private" static="no" mutable="no">
+        <type>object</type>
+        <definition>object Ra.Widgets.Dynamic.ReloadEventArgs._extra</definition>
+        <argsstring></argsstring>
+        <name>_extra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/Dynamic.cs" line="41" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/Dynamic.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_170ff9fddb23bbd0e8be0fe99ce5a1825" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.Dynamic.ReloadEventArgs._firstReload</definition>
+        <argsstring></argsstring>
+        <name>_firstReload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/Dynamic.cs" line="42" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/Dynamic.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_1a97e5680d5644cbc6e6aa81dfcb7b38f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Ra.Widgets.Dynamic.ReloadEventArgs.Key</definition>
+        <argsstring></argsstring>
+        <name>Key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/Dynamic.cs" line="47" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/Dynamic.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_108afc4e257381feda98c3c6846520c4a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>object</type>
+        <definition>object Ra.Widgets.Dynamic.ReloadEventArgs.Extra</definition>
+        <argsstring></argsstring>
+        <name>Extra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/Dynamic.cs" line="52" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/Dynamic.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_10b923b73c22258b723a420a36746084c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.Dynamic.ReloadEventArgs.FirstReload</definition>
+        <argsstring></argsstring>
+        <name>FirstReload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/Dynamic.cs" line="57" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/Dynamic.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_1aa189920aff8b3dba6e6dc50e2a26a8e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal</type>
+        <definition>internal Ra.Widgets.Dynamic.ReloadEventArgs.ReloadEventArgs</definition>
+        <argsstring>(string key, object extra, bool firstReload)</argsstring>
+        <name>ReloadEventArgs</name>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>extra</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>firstReload</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/Dynamic.cs" line="60" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/Dynamic.cs" bodystart="59" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is the EventArgs which will be passed into the Reload event of the <ref refid="class_ra_1_1_widgets_1_1_dynamic" kindref="compound">Dynamic</ref> Control. You must ALWAYS load the EXACT same Controls when the same Key is passed in. </para>    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/Dynamic.cs" line="39" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/Dynamic.cs" bodystart="38" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_1aca416c6680445465934d772393cb1fd" prot="private" virt="non-virtual"><scope>Ra::Widgets::Dynamic::ReloadEventArgs</scope><name>_extra</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_170ff9fddb23bbd0e8be0fe99ce5a1825" prot="private" virt="non-virtual"><scope>Ra::Widgets::Dynamic::ReloadEventArgs</scope><name>_firstReload</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_1f4560b814e1aa76e0d4bb9632dd33074" prot="private" virt="non-virtual"><scope>Ra::Widgets::Dynamic::ReloadEventArgs</scope><name>_key</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_108afc4e257381feda98c3c6846520c4a" prot="public" virt="non-virtual"><scope>Ra::Widgets::Dynamic::ReloadEventArgs</scope><name>Extra</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_10b923b73c22258b723a420a36746084c" prot="public" virt="non-virtual"><scope>Ra::Widgets::Dynamic::ReloadEventArgs</scope><name>FirstReload</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_1a97e5680d5644cbc6e6aa81dfcb7b38f" prot="public" virt="non-virtual"><scope>Ra::Widgets::Dynamic::ReloadEventArgs</scope><name>Key</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_dynamic_1_1_reload_event_args_1aa189920aff8b3dba6e6dc50e2a26a8e" prot="private" virt="non-virtual"><scope>Ra::Widgets::Dynamic::ReloadEventArgs</scope><name>ReloadEventArgs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

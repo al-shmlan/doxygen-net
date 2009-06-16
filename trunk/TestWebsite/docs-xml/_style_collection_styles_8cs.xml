@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="_style_collection_styles_8cs" kind="file">
+    <compoundname>StyleCollectionStyles.cs</compoundname>
+    <innernamespace refid="namespace_ra_1_1_widgets">Ra::Widgets</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollectionStyles.cs"/>
+  </compounddef>
+</doxygen>

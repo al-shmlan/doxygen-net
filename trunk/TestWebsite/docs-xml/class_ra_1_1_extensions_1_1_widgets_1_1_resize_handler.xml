@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler" kind="class" prot="public">
+    <compoundname>Ra::Extensions::Widgets::ResizeHandler</compoundname>
+    <basecompoundref refid="class_ra_1_1_widgets_1_1_ra_control" prot="public" virt="non-virtual">Ra.Widgets.RaControl</basecompoundref>
+    <basecompoundref refid="interface_ra_1_1_i_ra_control" prot="public" virt="non-virtual">Ra.IRaControl</basecompoundref>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args" prot="public">Ra::Extensions::Widgets::ResizeHandler::ResizedEventArgs</innerclass>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_184f4e1f6a1630ce2f78b77fa7a04d0d2" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1_1_resized_event_args" kindref="compound">ResizedEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;ResizedEventArgs&gt; Ra.Extensions.Widgets.ResizeHandler.Resized</definition>
+        <argsstring></argsstring>
+        <name>Resized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised periodically every Duration milliseconds </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" line="58" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1ca2021b7b7f37ec71f4604d20d59467f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Ra.Extensions.Widgets.ResizeHandler.Width</definition>
+        <argsstring></argsstring>
+        <name>Width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" line="70" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1654f7806897010ee5f43f912a3106a74" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Ra.Extensions.Widgets.ResizeHandler.Height</definition>
+        <argsstring></argsstring>
+        <name>Height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" line="76" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_137da849ca1bb85c288b5eab23c28a063" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.ResizeHandler.OnInit</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnInit</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_140a558cf9617ef2289be7fc7faf5130c">OnInit</reimplements>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" line="61" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" bodystart="60" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_10fb190307bf2a3ab62ccf9a37c4c0f08" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Extensions.Widgets.ResizeHandler.GetClientSideScriptType</definition>
+        <argsstring>()</argsstring>
+        <name>GetClientSideScriptType</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35">GetClientSideScriptType</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" line="99" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_17c509ce71ca92eff7a953a1ef2d6a545" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Extensions.Widgets.ResizeHandler.GetOpeningHTML</definition>
+        <argsstring>()</argsstring>
+        <name>GetOpeningHTML</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_151e6f8bdb0af1a7a12654bfb329f280c">GetOpeningHTML</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" line="104" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" bodystart="103" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1602e01311c3448f66a80798554dedff3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void IRaControl.</type>
+        <definition>void IRaControl. Ra.Extensions.Widgets.ResizeHandler.DispatchEvent</definition>
+        <argsstring>(string name)</argsstring>
+        <name>DispatchEvent</name>
+        <reimplements refid="interface_ra_1_1_i_ra_control_1f12273f2bf248d8964b6deac4192cd5a">DispatchEvent</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" line="79" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" bodystart="78" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler" kindref="compound">ResizeHandler</ref> widget is a special (non-visual) control which will raise an event when the browser window is resized. Very useful for creating &quot;portal websites&quot; which needs to know the exact size of the browser window at all times. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="570">
+        <label>Ra.Extensions.Widgets.ResizeHandler</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler"/>
+        <childnode refid="571" relation="public-inheritance">
+        </childnode>
+        <childnode refid="572" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="571">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="572">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="573">
+        <label>Ra.Extensions.Widgets.ResizeHandler</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler"/>
+        <childnode refid="574" relation="public-inheritance">
+        </childnode>
+        <childnode refid="575" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="574">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="575">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" line="28" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/ResizeHandler.cs" bodystart="27" bodyend="108"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1602e01311c3448f66a80798554dedff3" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>DispatchEvent</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_162388804f6511df3221c6a686f286c7f" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_10fb190307bf2a3ab62ccf9a37c4c0f08" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ab51177823d8893c51a42ae50df7f37e" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153c660a7d87a3451d11a8b5ee36f2f3a" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_17c509ce71ca92eff7a953a1ef2d6a545" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1654f7806897010ee5f43f912a3106a74" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>Height</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_137da849ca1bb85c288b5eab23c28a063" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_184f4e1f6a1630ce2f78b77fa7a04d0d2" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>Resized</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_resize_handler_1ca2021b7b7f37ec71f4604d20d59467f" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>Width</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::ResizeHandler</scope><name>Xtra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

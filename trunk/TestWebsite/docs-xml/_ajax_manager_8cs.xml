@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="_ajax_manager_8cs" kind="file">
+    <compoundname>AjaxManager.cs</compoundname>
+    <innerclass refid="class_ra_1_1_ajax_manager" prot="public">Ra::AjaxManager</innerclass>
+    <innernamespace refid="namespace_ra">Ra</innernamespace>
+    <innernamespace refid="namespace_system_1_1_web">System::Web</innernamespace>
+    <innernamespace refid="namespace_system_1_1_text">System::Text</innernamespace>
+    <innernamespace refid="namespace_system_1_1_text_1_1_regular_expressions">System::Text::RegularExpressions</innernamespace>
+    <innernamespace refid="namespace_system_1_1_reflection">System::Reflection</innernamespace>
+    <innernamespace refid="namespace_system_1_1_globalization">System::Globalization</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/AjaxManager.cs"/>
+  </compounddef>
+</doxygen>

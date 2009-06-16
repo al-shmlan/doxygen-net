@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="dir_71ce51406ec7c7af46c1c2ff8dc197d6" kind="dir">
+    <compoundname>C:/Work/ra-ajax/trunk/Ra/Effects/</compoundname>
+    <innerfile refid="_effect_8cs">Effect.cs</innerfile>
+    <innerfile refid="_effect_border_8cs">EffectBorder.cs</innerfile>
+    <innerfile refid="_effect_fade_in_8cs">EffectFadeIn.cs</innerfile>
+    <innerfile refid="_effect_fade_out_8cs">EffectFadeOut.cs</innerfile>
+    <innerfile refid="_effect_focus_and_select_8cs">EffectFocusAndSelect.cs</innerfile>
+    <innerfile refid="_effect_highlight_8cs">EffectHighlight.cs</innerfile>
+    <innerfile refid="_effect_highlight_text_8cs">EffectHighlightText.cs</innerfile>
+    <innerfile refid="_effect_move_8cs">EffectMove.cs</innerfile>
+    <innerfile refid="_effect_roll_down_8cs">EffectRollDown.cs</innerfile>
+    <innerfile refid="_effect_roll_up_8cs">EffectRollUp.cs</innerfile>
+    <innerfile refid="_effect_size_8cs">EffectSize.cs</innerfile>
+    <innerfile refid="_effect_timeout_8cs">EffectTimeout.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Effects/"/>
+  </compounddef>
+</doxygen>

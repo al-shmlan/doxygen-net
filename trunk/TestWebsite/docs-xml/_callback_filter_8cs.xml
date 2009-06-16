@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="_callback_filter_8cs" kind="file">
+    <compoundname>CallbackFilter.cs</compoundname>
+    <innerclass refid="class_ra_1_1_core_1_1_callback_filter" prot="public">Ra::Core::CallbackFilter</innerclass>
+    <innernamespace refid="namespace_ra_1_1_core">Ra::Core</innernamespace>
+    <innernamespace refid="namespace_system_1_1_i_o">System::IO</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs"/>
+  </compounddef>
+</doxygen>

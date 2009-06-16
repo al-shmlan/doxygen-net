@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1_1_create_title_bar_controls_event_args" kind="class" prot="public">
+    <compoundname>Ra::Extensions::Widgets::Window::CreateTitleBarControlsEventArgs</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1_1_create_title_bar_controls_event_args_1fb1c44088708de771f91bfc0a5bd5e08" prot="private" static="no" mutable="no">
+        <type>ASP.Control</type>
+        <definition>ASP.Control Ra.Extensions.Widgets.Window.CreateTitleBarControlsEventArgs._ctrl</definition>
+        <argsstring></argsstring>
+        <name>_ctrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="39" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1_1_create_title_bar_controls_event_args_1026df317c0bf5867b93198f289ec346c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ASP.Control</type>
+        <definition>ASP.Control Ra.Extensions.Widgets.Window.CreateTitleBarControlsEventArgs.Caption</definition>
+        <argsstring></argsstring>
+        <name>Caption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This is the Caption control which you can add child controls onto. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="52" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_window_1_1_create_title_bar_controls_event_args_11e8e43a6e9267aa46a9864ee85974243" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal</type>
+        <definition>internal Ra.Extensions.Widgets.Window.CreateTitleBarControlsEventArgs.CreateTitleBarControlsEventArgs</definition>
+        <argsstring>(ASP.Control ctrl)</argsstring>
+        <name>CreateTitleBarControlsEventArgs</name>
+        <param>
+          <type>ASP.Control</type>
+          <declname>ctrl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="42" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="41" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>EventArgs passed to the CreateTitleBarControls event of the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_window" kindref="compound">Window</ref>. </para>    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" line="38" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Window.cs" bodystart="37" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1_1_create_title_bar_controls_event_args_1fb1c44088708de771f91bfc0a5bd5e08" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window::CreateTitleBarControlsEventArgs</scope><name>_ctrl</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1_1_create_title_bar_controls_event_args_1026df317c0bf5867b93198f289ec346c" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window::CreateTitleBarControlsEventArgs</scope><name>Caption</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_window_1_1_create_title_bar_controls_event_args_11e8e43a6e9267aa46a9864ee85974243" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Window::CreateTitleBarControlsEventArgs</scope><name>CreateTitleBarControlsEventArgs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_widgets_1_1_text_box" kind="class" prot="public">
+    <compoundname>Ra::Widgets::TextBox</compoundname>
+    <basecompoundref refid="class_ra_1_1_widgets_1_1_ra_web_control" prot="public" virt="non-virtual">Ra.Widgets.RaWebControl</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_ra_1_1_widgets_1_1_text_box_15157cf1050cf4205dc0147bd9ad22fa1" prot="public" static="no">
+        <name>TextBoxMode</name>
+        <enumvalue id="class_ra_1_1_widgets_1_1_text_box_15157cf1050cf4205dc0147bd9ad22fa1" prot="public">
+          <name>SingleLine</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Default, will display a normal <ref refid="class_ra_1_1_widgets_1_1_text_box" kindref="compound">TextBox</ref> </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ra_1_1_widgets_1_1_text_box_15157cf1050cf4205dc0147bd9ad22fa1" prot="public">
+          <name>Password</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Will display a password <ref refid="class_ra_1_1_widgets_1_1_text_box" kindref="compound">TextBox</ref> which will obscur the characters typed or pasted into it </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type of <ref refid="class_ra_1_1_widgets_1_1_text_box" kindref="compound">TextBox</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="33" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="32" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_text_box_17e3fa84a9b0e5f557a363cbaf1b9e3ac" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.TextBox._hasSetSelect</definition>
+        <argsstring></argsstring>
+        <name>_hasSetSelect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="45" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_ra_1_1_widgets_1_1_text_box_1e64dd6cfaddfff82723efb27a36839b6" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Widgets.TextBox.TextChanged</definition>
+        <argsstring></argsstring>
+        <name>TextChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when text value of control is changed </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="50" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_ra_1_1_widgets_1_1_text_box_1858cda8dd65635337dba2fc5f50a6073" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Widgets.TextBox.Blur</definition>
+        <argsstring></argsstring>
+        <name>Blur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when control looses focus, opposite of Focused </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="55" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_ra_1_1_widgets_1_1_text_box_1388cb328e636aa656d58351880e58328" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Widgets.TextBox.EnterPressed</definition>
+        <argsstring></argsstring>
+        <name>EnterPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when Carriage Return (Enter) is pressed when textbox has focus </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="60" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_ra_1_1_widgets_1_1_text_box_1df2159aa82d134e6491e8debb0ff9630" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Widgets.TextBox.EscPressed</definition>
+        <argsstring></argsstring>
+        <name>EscPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when Escape (Esc) is pressed when textbox has focus </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="65" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_ra_1_1_widgets_1_1_text_box_1c0c43e3daa8621dcfba28bbe179e0357" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Widgets.TextBox.Focused</definition>
+        <argsstring></argsstring>
+        <name>Focused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when control receives Focus, opposite of Blur </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="70" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_text_box_19ae9e8d4fa78b8be4e36f57470cca5b7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Widgets.TextBox.Text</definition>
+        <argsstring></argsstring>
+        <name>Text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The text that is displayed within the control, default value is string.Empty </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="87" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_text_box_1a4b40300b813eec31aea0d584d85b5f4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Widgets.TextBox.AccessKey</definition>
+        <argsstring></argsstring>
+        <name>AccessKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The keyboard shortcut for clicking the button. Most browsers implements some type of keyboard shortcut logic like for instance FireFox allows form elements to be triggered by combining the AccessKey value (single character) together with ALT and SHIFT. Meaning if you have e.g. &quot;H&quot; as keyboard shortcut you can click this button by doing ALT+SHIFT+H on your keyboard. The combinations to effectuate the keyboard shortcuts however vary from browsers to browsers. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="107" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_text_box_180f8d389c18ff95891e1a537b431535d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.TextBox.Enabled</definition>
+        <argsstring></argsstring>
+        <name>Enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If false then the button is disabled, otherwise it is enabled </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="122" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_text_box_1f56ea9e126f521b584ad963ef5e8d1fd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_ra_1_1_widgets_1_1_text_box_15157cf1050cf4205dc0147bd9ad22fa1" kindref="member">TextBoxMode</ref></type>
+        <definition>TextBoxMode Ra.Widgets.TextBox.TextMode</definition>
+        <argsstring></argsstring>
+        <name>TextMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Kind of textbox to render </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="137" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_text_box_14301e125f18a8c9adc2fdf748b252f0e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Ra.Widgets.TextBox.MaxLength</definition>
+        <argsstring></argsstring>
+        <name>MaxLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets or sets the maximum number of characters allowed in the <ref refid="class_ra_1_1_widgets_1_1_text_box" kindref="compound">TextBox</ref>. Default value is 0 which means that the property is not set. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="155" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_text_box_1baf676b18c7114c6e5d8239887604873" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.TextBox.Select</definition>
+        <argsstring>()</argsstring>
+        <name>Select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Will if called select all text within control </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="163" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="162" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_text_box_105f47b800b2a02781cb188b7468f8091" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Ra.Widgets.TextBox.DispatchEvent</definition>
+        <argsstring>(string name)</argsstring>
+        <name>DispatchEvent</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_1de60bed8a2264f876fdfbd7232836f7c">DispatchEvent</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="213" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="212" bodyend="240"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_text_box_1010f963514f3a7519dd72f6a5e09c186" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Widgets.TextBox.OnInit</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnInit</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_140a558cf9617ef2289be7fc7faf5130c">OnInit</reimplements>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="174" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="173" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_text_box_1172dd41030f58ad7cbd8c43b804ae0cd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Widgets.TextBox.LoadViewState</definition>
+        <argsstring>(object savedState)</argsstring>
+        <name>LoadViewState</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_1bccc3b360a6ddfe4f2aa2cb3e785ac1e">LoadViewState</reimplements>
+        <param>
+          <type>object</type>
+          <declname>savedState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="193" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="192" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_text_box_15c0236e0906f1e1c628544500d5b8f00" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Widgets.TextBox.GetClientSideScriptOptions</definition>
+        <argsstring>()</argsstring>
+        <name>GetClientSideScriptOptions</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_1fe73a543a7b273e5c1f0ad2e433f90b5">GetClientSideScriptOptions</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="243" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="242" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_text_box_179bae2322509fcefd25508e0b2a7b6a0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Widgets.TextBox.GetEventsRegisterScript</definition>
+        <argsstring>()</argsstring>
+        <name>GetEventsRegisterScript</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_104c0e8c541fe0b029d0edcd6b99ee718">GetEventsRegisterScript</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="258" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="257" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_text_box_114259746621af82e6a613a9bdf589cbd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Widgets.TextBox.GetOpeningHTML</definition>
+        <argsstring>()</argsstring>
+        <name>GetOpeningHTML</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_151e6f8bdb0af1a7a12654bfb329f280c">GetOpeningHTML</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="294" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="293" bodyend="304"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Textbox control.The equivalent of the HTML input type=&quot;text&quot; element. If you need a multi column textbox you should rather use the TextAre control. In some few places Ra-Ajax diverts from the ASP.NET (non-Ajax) counterpart controls. This is one of those areas since the <ref refid="class_ra_1_1_widgets_1_1_text_box" kindref="compound">TextBox</ref> does NOT have support for Multiple Line inputs. To retrieve multiple lines of input (textarea) use the <ref refid="class_ra_1_1_widgets_1_1_text_area" kindref="compound">TextArea</ref> control instead. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="670">
+        <label>Ra.Widgets.TextBox</label>
+        <link refid="class_ra_1_1_widgets_1_1_text_box"/>
+        <childnode refid="671" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="672">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="671">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="672" relation="public-inheritance">
+        </childnode>
+        <childnode refid="673" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="673">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="678">
+        <label>Ra.Widgets.StyleCollection</label>
+        <link refid="class_ra_1_1_widgets_1_1_style_collection"/>
+        <childnode refid="675" relation="usage">
+          <edgelabel>_control</edgelabel>
+        </childnode>
+      </node>
+      <node id="674">
+        <label>Ra.Widgets.TextBox</label>
+        <link refid="class_ra_1_1_widgets_1_1_text_box"/>
+        <childnode refid="675" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="676">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="675">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="676" relation="public-inheritance">
+        </childnode>
+        <childnode refid="677" relation="public-inheritance">
+        </childnode>
+        <childnode refid="678" relation="usage">
+          <edgelabel>_styles</edgelabel>
+        </childnode>
+      </node>
+      <node id="677">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" line="28" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/TextBox.cs" bodystart="27" bodyend="307"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_text_box_17e3fa84a9b0e5f557a363cbaf1b9e3ac" prot="private" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>_hasSetSelect</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_text_box_1a4b40300b813eec31aea0d584d85b5f4" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>AccessKey</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_text_box_1858cda8dd65635337dba2fc5f50a6073" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>Blur</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14dcb41296fe7545bb820a9184c2db962" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>Click</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_16138c4d2623d7a9d0e55ca42d8a24667" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>CssClass</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_19fa1952b1c6b040d43165f5a11606ead" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>DblClick</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_text_box_105f47b800b2a02781cb188b7468f8091" prot="public" virt="virtual"><scope>Ra::Widgets::TextBox</scope><name>DispatchEvent</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_text_box_180f8d389c18ff95891e1a537b431535d" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>Enabled</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_text_box_1388cb328e636aa656d58351880e58328" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>EnterPressed</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_text_box_1df2159aa82d134e6491e8debb0ff9630" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>EscPressed</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_text_box_1c0c43e3daa8621dcfba28bbe179e0357" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>Focused</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_11b9a672cefa64ca768f84857447a8191" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>GetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Widgets::TextBox</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" prot="protected" virt="virtual"><scope>Ra::Widgets::TextBox</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_text_box_15c0236e0906f1e1c628544500d5b8f00" prot="protected" virt="virtual"><scope>Ra::Widgets::TextBox</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" prot="protected" virt="virtual"><scope>Ra::Widgets::TextBox</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ab51177823d8893c51a42ae50df7f37e" prot="protected" virt="virtual"><scope>Ra::Widgets::TextBox</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_text_box_179bae2322509fcefd25508e0b2a7b6a0" prot="protected" virt="virtual"><scope>Ra::Widgets::TextBox</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Widgets::TextBox</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1e4e9525d529e8227b3c1a5db86d030b7" prot="protected" virt="virtual"><scope>Ra::Widgets::TextBox</scope><name>GetMouseOutEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_18bbe18d42617850745996cb0d672260c" prot="protected" virt="virtual"><scope>Ra::Widgets::TextBox</scope><name>GetMouseOverEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_text_box_114259746621af82e6a613a9bdf589cbd" prot="protected" virt="virtual"><scope>Ra::Widgets::TextBox</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d8ae2b4ae6bce092e7d558db25b5c02a" prot="protected" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>GetWebControlAttributes</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bc64e6e9488a31df7ae5ef0e3903b236" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>KeyDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_118b31c98087d7a57f49a42eb1bac2528" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>KeyPress</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1247f291546c64e40bddffb08936da867" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>KeyUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_text_box_1172dd41030f58ad7cbd8c43b804ae0cd" prot="protected" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>LoadViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_text_box_14301e125f18a8c9adc2fdf748b252f0e" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>MaxLength</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c6c9ca13ef1e4e436153d6c3cf017a0c" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>MouseDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_103683f2d6d76237d0c501cde2ebae5ef" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>MouseMove</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_15be672aec4d07efc18f5e33cfeca6c7b" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>MouseOut</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d17aaa8103deb9d5037f8c3f334af1e7" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>MouseOver</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_13c51734abc45a09d5df540d48b88c6da" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>MouseUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_142b4a9a49ba0e6e81389627d4ad34aeb" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>OnClickClientSide</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_text_box_1010f963514f3a7519dd72f6a5e09c186" prot="protected" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14cad6b9fb27c8c4c27b7bab4e471c445" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>QueueMultipleRequests</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_17d74fee59a34ea1bd5329082e043c531" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>RaWebControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_151ad71b3e5b5708fffbc50d3b0d93e4f" prot="protected" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>SaveViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_text_box_1baf676b18c7114c6e5d8239887604873" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>Select</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Widgets::TextBox</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_126c54189e89a72cdfecdfa5c62a9b97e" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>SetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_168ccd06bd09c6e05962f0e8838045c80" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>Style</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1255844bd5511b517d5d292f925f20994" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>TabIndex</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_text_box_19ae9e8d4fa78b8be4e36f57470cca5b7" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>Text</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_text_box_15157cf1050cf4205dc0147bd9ad22fa1" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>TextBoxMode</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_text_box_1e64dd6cfaddfff82723efb27a36839b6" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>TextChanged</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_text_box_1f56ea9e126f521b584ad963ef5e8d1fd" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>TextMode</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1812b6302ab1f9ddf6e4ce88a5d447f28" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>Tooltip</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c5de8a6390860af479dd41b75bff7584" prot="protected" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>TrackViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Widgets::TextBox</scope><name>Xtra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

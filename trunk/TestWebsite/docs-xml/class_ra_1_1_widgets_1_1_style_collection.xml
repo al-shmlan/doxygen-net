@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_widgets_1_1_style_collection" kind="class" prot="public">
+    <compoundname>Ra::Widgets::StyleCollection</compoundname>
+    <innerclass refid="class_ra_1_1_widgets_1_1_style_collection_1_1_style_value" prot="private">Ra::Widgets::StyleCollection::StyleValue</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_style_collection_102922a63d44690b4547e7dd3280fa064" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_ra_web_control" kindref="compound">RaWebControl</ref></type>
+        <definition>RaWebControl Ra.Widgets.StyleCollection._control</definition>
+        <argsstring></argsstring>
+        <name>_control</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="67" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_style_collection_12ca985489d5767924e2e8c068343921d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.StyleCollection._trackingViewState</definition>
+        <argsstring></argsstring>
+        <name>_trackingViewState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="70" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_widgets_1_1_style_collection_1357ced7d010e093d7921defe6e36ebef" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, StyleValue &gt;</type>
+        <definition>Dictionary&lt;string, StyleValue&gt; Ra.Widgets.StyleCollection._styleValues</definition>
+        <argsstring></argsstring>
+        <name>_styleValues</name>
+        <initializer> new Dictionary&lt;string, StyleValue&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="73" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_style_collection_13287d5934c06fb9ab4dd57dafdd5fe77" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra::Widgets.StyleCollection::this</definition>
+        <argsstring>[string idx]</argsstring>
+        <name>this</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the value of the key, might return null</para><para>Strongly typed version, prefer this one if you want to get/set style values </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="232" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_style_collection_1348d365975cd7c1bac5b27d32c5bf3bd" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>internal bool</type>
+        <definition>internal bool Ra.Widgets.StyleCollection.IsTrackingViewState</definition>
+        <argsstring></argsstring>
+        <name>IsTrackingViewState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="337" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="335" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_style_collection_19e0e22cd6a5500c7c78dffa913bd431f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal</type>
+        <definition>internal Ra.Widgets.StyleCollection.StyleCollection</definition>
+        <argsstring>(RaWebControl control)</argsstring>
+        <name>StyleCollection</name>
+        <param>
+          <type><ref refid="class_ra_1_1_widgets_1_1_ra_web_control" kindref="compound">RaWebControl</ref></type>
+          <declname>control</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="76" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="75" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_style_collection_17baa109cc5bca809cfd0d43cc2a6f542" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.StyleCollection._control_PreRender</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>_control_PreRender</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="87" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="86" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_style_collection_1e28477e71a386fefeeba75a83085dc5a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.StyleCollection.SetStyleValue</definition>
+        <argsstring>(string idx, string value, bool viewStateOnly)</argsstring>
+        <name>SetStyleValue</name>
+        <param>
+          <type>string</type>
+          <declname>idx</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>viewStateOnly</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="135" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="134" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_style_collection_112526b16ecfba62147a39b2094065de4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.StyleCollection.AddStyleToCollection</definition>
+        <argsstring>(string idx, string value, bool viewStateOnly)</argsstring>
+        <name>AddStyleToCollection</name>
+        <param>
+          <type>string</type>
+          <declname>idx</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>viewStateOnly</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="145" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="144" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_style_collection_196bed519544a06d99ace308347af54e4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal void</type>
+        <definition>internal void Ra.Widgets.StyleCollection.LoadViewState</definition>
+        <argsstring>(string state)</argsstring>
+        <name>LoadViewState</name>
+        <param>
+          <type>string</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Removing whitespaces... </para>        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="340" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="339" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_style_collection_1e7f6c39905bf946312e8406277bc2c44" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.Widgets.StyleCollection.TransformFromViewStateShorthand</definition>
+        <argsstring>(string key)</argsstring>
+        <name>TransformFromViewStateShorthand</name>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="359" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="358" bodyend="419"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_style_collection_100ca8bc6012c2734653104f88850dbcb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.Widgets.StyleCollection.TransformToViewStateShorthand</definition>
+        <argsstring>(string key)</argsstring>
+        <name>TransformToViewStateShorthand</name>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="422" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="421" bodyend="482"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_style_collection_148909f2937cd5f32fc96cc427b55e1ac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal object</type>
+        <definition>internal object Ra.Widgets.StyleCollection.SaveViewState</definition>
+        <argsstring>()</argsstring>
+        <name>SaveViewState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="485" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="484" bodyend="487"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_style_collection_1e52249d5050b4ef68bf03722621993ff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal void</type>
+        <definition>internal void Ra.Widgets.StyleCollection.TrackViewState</definition>
+        <argsstring>()</argsstring>
+        <name>TrackViewState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="490" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="489" bodyend="492"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_style_collection_18643f3aa758b96f69d4065c0884e08d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Widgets.StyleCollection.SetStyleValueViewStateOnly</definition>
+        <argsstring>(string idx, string value)</argsstring>
+        <name>SetStyleValueViewStateOnly</name>
+        <param>
+          <type>string</type>
+          <declname>idx</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use this if you create an extension effect or something else which actually manipulates the style attribute on the element on the client but you don&apos;t want to send the style value back as JSON. Advanced, mostly for extension control developers. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="130" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="129" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_style_collection_147bc1543eb6be5490218c5be35aa4b1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.Widgets.StyleCollection.GetViewStateOnlyStyles</definition>
+        <argsstring>()</argsstring>
+        <name>GetViewStateOnlyStyles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="278" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="277" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_style_collection_19adfd71d55a1203f326275087cbd053d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.Widgets.StyleCollection.GetStylesForResponse</definition>
+        <argsstring>()</argsstring>
+        <name>GetStylesForResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="309" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="308" bodyend="332"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_style_collection_1b4e6c124b3bc40f35be933afef27718a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Ra.Widgets.StyleCollection.TransformStyleToString</definition>
+        <argsstring>(Styles idx)</argsstring>
+        <name>TransformStyleToString</name>
+        <param>
+          <type><ref refid="namespace_ra_1_1_widgets_1dd0d9eac17beb8ddd970c9cd61147fc1" kindref="member">Styles</ref></type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="252" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="251" bodyend="275"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Style collection class. Used in <ref refid="class_ra_1_1_widgets_1_1_ra_web_control" kindref="compound">RaWebControl</ref> to track style properties </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="632">
+        <label>Ra.Widgets.StyleCollection</label>
+        <link refid="class_ra_1_1_widgets_1_1_style_collection"/>
+        <childnode refid="633" relation="usage">
+          <edgelabel>_control</edgelabel>
+        </childnode>
+      </node>
+      <node id="634">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="633">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="634" relation="public-inheritance">
+        </childnode>
+        <childnode refid="635" relation="public-inheritance">
+        </childnode>
+        <childnode refid="632" relation="usage">
+          <edgelabel>_styles</edgelabel>
+        </childnode>
+      </node>
+      <node id="635">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" line="23" bodyfile="C:/Work/ra-ajax/trunk/Ra/Helpers/StyleCollection.cs" bodystart="22" bodyend="493"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_102922a63d44690b4547e7dd3280fa064" prot="private" virt="non-virtual"><scope>Ra::Widgets::StyleCollection</scope><name>_control</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_17baa109cc5bca809cfd0d43cc2a6f542" prot="private" virt="non-virtual"><scope>Ra::Widgets::StyleCollection</scope><name>_control_PreRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_1357ced7d010e093d7921defe6e36ebef" prot="private" virt="non-virtual"><scope>Ra::Widgets::StyleCollection</scope><name>_styleValues</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_12ca985489d5767924e2e8c068343921d" prot="private" virt="non-virtual"><scope>Ra::Widgets::StyleCollection</scope><name>_trackingViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_112526b16ecfba62147a39b2094065de4" prot="private" virt="non-virtual"><scope>Ra::Widgets::StyleCollection</scope><name>AddStyleToCollection</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_19adfd71d55a1203f326275087cbd053d" prot="public" virt="non-virtual"><scope>Ra::Widgets::StyleCollection</scope><name>GetStylesForResponse</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_147bc1543eb6be5490218c5be35aa4b1e" prot="public" virt="non-virtual"><scope>Ra::Widgets::StyleCollection</scope><name>GetViewStateOnlyStyles</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_1348d365975cd7c1bac5b27d32c5bf3bd" prot="private" virt="non-virtual"><scope>Ra::Widgets::StyleCollection</scope><name>IsTrackingViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_196bed519544a06d99ace308347af54e4" prot="private" virt="non-virtual"><scope>Ra::Widgets::StyleCollection</scope><name>LoadViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_148909f2937cd5f32fc96cc427b55e1ac" prot="private" virt="non-virtual"><scope>Ra::Widgets::StyleCollection</scope><name>SaveViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_1e28477e71a386fefeeba75a83085dc5a" prot="private" virt="non-virtual"><scope>Ra::Widgets::StyleCollection</scope><name>SetStyleValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_18643f3aa758b96f69d4065c0884e08d8" prot="public" virt="non-virtual"><scope>Ra::Widgets::StyleCollection</scope><name>SetStyleValueViewStateOnly</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_19e0e22cd6a5500c7c78dffa913bd431f" prot="private" virt="non-virtual"><scope>Ra::Widgets::StyleCollection</scope><name>StyleCollection</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_13287d5934c06fb9ab4dd57dafdd5fe77" prot="public" virt="non-virtual"><scope>Ra::Widgets::StyleCollection</scope><name>this</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_1e52249d5050b4ef68bf03722621993ff" prot="private" virt="non-virtual"><scope>Ra::Widgets::StyleCollection</scope><name>TrackViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_1e7f6c39905bf946312e8406277bc2c44" prot="private" virt="non-virtual"><scope>Ra::Widgets::StyleCollection</scope><name>TransformFromViewStateShorthand</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_1b4e6c124b3bc40f35be933afef27718a" prot="private" virt="non-virtual"><scope>Ra::Widgets::StyleCollection</scope><name>TransformStyleToString</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_style_collection_100ca8bc6012c2734653104f88850dbcb" prot="private" virt="non-virtual"><scope>Ra::Widgets::StyleCollection</scope><name>TransformToViewStateShorthand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

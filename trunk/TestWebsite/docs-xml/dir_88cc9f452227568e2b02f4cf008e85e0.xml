@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="dir_88cc9f452227568e2b02f4cf008e85e0" kind="dir">
+    <compoundname>C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/</compoundname>
+    <innerfile refid="_accordion_8cs">Accordion.cs</innerfile>
+    <innerfile refid="_accordion_view_8cs">AccordionView.cs</innerfile>
+    <innerfile refid="_auto_completer_8cs">AutoCompleter.cs</innerfile>
+    <innerfile refid="_auto_completer_item_8cs">AutoCompleterItem.cs</innerfile>
+    <innerfile refid="_calendar_8cs">Calendar.cs</innerfile>
+    <innerfile refid="_comet_8cs">Comet.cs</innerfile>
+    <innerfile refid="_date_time_picker_8cs">DateTimePicker.cs</innerfile>
+    <innerfile refid="_ext_button_8cs">ExtButton.cs</innerfile>
+    <innerfile refid="_global_updater_8cs">GlobalUpdater.cs</innerfile>
+    <innerfile refid="_in_place_edit_8cs">InPlaceEdit.cs</innerfile>
+    <innerfile refid="_menu_8cs">Menu.cs</innerfile>
+    <innerfile refid="_menu_item_8cs">MenuItem.cs</innerfile>
+    <innerfile refid="_menu_items_8cs">MenuItems.cs</innerfile>
+    <innerfile refid="_message_box_8cs">MessageBox.cs</innerfile>
+    <innerfile refid="_resize_handler_8cs">ResizeHandler.cs</innerfile>
+    <innerfile refid="_rich_edit_8cs">RichEdit.cs</innerfile>
+    <innerfile refid="_sliding_menu_8cs">SlidingMenu.cs</innerfile>
+    <innerfile refid="_sliding_menu_item_8cs">SlidingMenuItem.cs</innerfile>
+    <innerfile refid="_sliding_menu_level_8cs">SlidingMenuLevel.cs</innerfile>
+    <innerfile refid="_tab_control_8cs">TabControl.cs</innerfile>
+    <innerfile refid="_tab_view_8cs">TabView.cs</innerfile>
+    <innerfile refid="_timer_8cs">Timer.cs</innerfile>
+    <innerfile refid="_tree_8cs">Tree.cs</innerfile>
+    <innerfile refid="_tree_node_8cs">TreeNode.cs</innerfile>
+    <innerfile refid="_tree_nodes_8cs">TreeNodes.cs</innerfile>
+    <innerfile refid="_web_part_8cs">WebPart.cs</innerfile>
+    <innerfile refid="_window_8cs">Window.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/"/>
+  </compounddef>
+</doxygen>

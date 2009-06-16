@@ -1,0 +1,530 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_effects_1_1_effect" kind="class" prot="public">
+    <compoundname>Ra::Effects::Effect</compoundname>
+    <derivedcompoundref refid="class_ra_1_1_effects_1_1_effect_border" prot="public" virt="non-virtual">Ra.Effects.EffectBorder</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_effects_1_1_effect_fade_in" prot="public" virt="non-virtual">Ra.Effects.EffectFadeIn</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_effects_1_1_effect_fade_out" prot="public" virt="non-virtual">Ra.Effects.EffectFadeOut</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_effects_1_1_effect_focus_and_select" prot="public" virt="non-virtual">Ra.Effects.EffectFocusAndSelect</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_effects_1_1_effect_highlight" prot="public" virt="non-virtual">Ra.Effects.EffectHighlight</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_effects_1_1_effect_highlight_text" prot="public" virt="non-virtual">Ra.Effects.EffectHighlightText</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_effects_1_1_effect_move" prot="public" virt="non-virtual">Ra.Effects.EffectMove</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_effects_1_1_effect_roll_down" prot="public" virt="non-virtual">Ra.Effects.EffectRollDown</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_effects_1_1_effect_roll_up" prot="public" virt="non-virtual">Ra.Effects.EffectRollUp</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_effects_1_1_effect_size" prot="public" virt="non-virtual">Ra.Effects.EffectSize</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_effects_1_1_effect_timeout" prot="public" virt="non-virtual">Ra.Effects.EffectTimeout</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_extensions_1_1_widgets_1_1_accordion_view_1_1_effect_change" prot="public" virt="non-virtual">Ra.Extensions.Widgets.AccordionView.EffectChange</derivedcompoundref>
+    <derivedcompoundref refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out" prot="public" virt="non-virtual">Ra.Extensions.Widgets.SlidingMenuItem.EffectRollOut</derivedcompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_ra_1_1_effects_1_1_effect_18672655e14a3ebb99666c9f8f7fa4923" prot="public" static="no">
+        <name>Transition</name>
+        <enumvalue id="class_ra_1_1_effects_1_1_effect_18672655e14a3ebb99666c9f8f7fa4923" prot="public">
+          <name>Linear</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para><ref refid="class_ra_1_1_effects_1_1_effect" kindref="compound">Effect</ref> will execute linearly </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ra_1_1_effects_1_1_effect_18672655e14a3ebb99666c9f8f7fa4923" prot="public">
+          <name>Accelerating</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Most of the <ref refid="class_ra_1_1_effects_1_1_effect" kindref="compound">Effect</ref> will be executed in the last. Starting slowly and picking up speed towards the end </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ra_1_1_effects_1_1_effect_18672655e14a3ebb99666c9f8f7fa4923" prot="public">
+          <name>Explosive</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Most of the <ref refid="class_ra_1_1_effects_1_1_effect" kindref="compound">Effect</ref> will be executed in the first parts. Starting at a high speed and loosing speed towards the end. </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Defines how the <ref refid="class_ra_1_1_effects_1_1_effect" kindref="compound">Effect</ref> should handle the duration </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="27" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="26" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_effects_1_1_effect_10afe71e012b7a7b45d96e1f3ffa367ee" prot="private" static="no" mutable="no">
+        <type>Control</type>
+        <definition>Control Ra.Effects.Effect._control</definition>
+        <argsstring></argsstring>
+        <name>_control</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="47" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_effects_1_1_effect_1035faf9c50df16319dcb8a459187ca04" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ra.Effects.Effect._milliseconds</definition>
+        <argsstring></argsstring>
+        <name>_milliseconds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="48" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_effects_1_1_effect_1f371a30c7371216ce29de4d05e21c28c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_effects_1_1_effect_18672655e14a3ebb99666c9f8f7fa4923" kindref="member">Transition</ref></type>
+        <definition>Transition Ra.Effects.Effect._type</definition>
+        <argsstring></argsstring>
+        <name>_type</name>
+        <initializer> Transition.Explosive</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="49" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_effects_1_1_effect_15164e3ac5543be4a956c733e714d3977" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_ra_1_1_effects_1_1_effect" kindref="compound">Effect</ref> &gt;</type>
+        <definition>List&lt;Effect&gt; Ra.Effects.Effect._joined</definition>
+        <argsstring></argsstring>
+        <name>_joined</name>
+        <initializer> new List&lt;<ref refid="class_ra_1_1_effects_1_1_effect" kindref="compound">Effect</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="50" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_effects_1_1_effect_1b395d98fcd12362fb937733477760388" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_ra_1_1_effects_1_1_effect" kindref="compound">Effect</ref> &gt;</type>
+        <definition>List&lt;Effect&gt; Ra.Effects.Effect._chained</definition>
+        <argsstring></argsstring>
+        <name>_chained</name>
+        <initializer> new List&lt;<ref refid="class_ra_1_1_effects_1_1_effect" kindref="compound">Effect</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="51" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_effects_1_1_effect_10e48bc7f42299256795b06866ea32f4a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Control</type>
+        <definition>Control Ra.Effects.Effect.Control</definition>
+        <argsstring></argsstring>
+        <name>Control</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Control to run effect on, doesn&apos;t have to be a Ra-Control </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="64" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_effects_1_1_effect_1b413970d24db1a18369915962933e223" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Ra.Effects.Effect.Milliseconds</definition>
+        <argsstring></argsstring>
+        <name>Milliseconds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Number of milliseconds effect will spend rendering </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="72" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_effects_1_1_effect_169619c9eab1b999e313a2559e786c75d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_ra_1_1_effects_1_1_effect_18672655e14a3ebb99666c9f8f7fa4923" kindref="member">Transition</ref></type>
+        <definition>Transition Ra.Effects.Effect.TransitionType</definition>
+        <argsstring></argsstring>
+        <name>TransitionType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type of transition </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="81" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_effects_1_1_effect_12defc4249bcf05bede3832099b4039c0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="class_ra_1_1_effects_1_1_effect" kindref="compound">Effect</ref> &gt;</type>
+        <definition>List&lt;Effect&gt; Ra.Effects.Effect.Joined</definition>
+        <argsstring></argsstring>
+        <name>Joined</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>List of all the joined effects. A joined effect is an effect which will execute at the same time as the original effect. Requires that the joined effects are being run on the same Control. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="90" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_effects_1_1_effect_13115c920fdc000e6a1f44f6cd63244bd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="class_ra_1_1_effects_1_1_effect" kindref="compound">Effect</ref> &gt;</type>
+        <definition>List&lt;Effect&gt; Ra.Effects.Effect.Chained</definition>
+        <argsstring></argsstring>
+        <name>Chained</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>List of chained effects. A chained effect is an effect which will start immediately afterwards the effect itszelf has finished excution. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="99" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_1c86d32632b11c5452d3453e64e1e50dd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Effects.Effect.Effect</definition>
+        <argsstring>(Control control, int milliseconds)</argsstring>
+        <name>Effect</name>
+        <param>
+          <type>Control</type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>milliseconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>When creating new extension effects use this constructor in your own effect to initialize the base class properties </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="108" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="107" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_1041eba6f6e4a57073b2afb7cbbc65fb4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ra.Effects.Effect.ValidateEffect</definition>
+        <argsstring>()</argsstring>
+        <name>ValidateEffect</name>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_timeout_191aec529a649d16e139236ddf11215ed">ValidateEffect</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Override this one to validate the parameters of your effect. Will be called before rendering occurs and is expected to throw an exception if parameters are illegal or wrong. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="248" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="247" bodyend="254"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_1e4df02803f0639f910c73414a58c7adf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ra_1_1_effects_1_1_effect" kindref="compound">Effect</ref></type>
+        <definition>Effect Ra.Effects.Effect.ChainThese</definition>
+        <argsstring>(params Effect[] chainedEffects)</argsstring>
+        <name>ChainThese</name>
+        <param>
+          <type>params <ref refid="class_ra_1_1_effects_1_1_effect" kindref="compound">Effect</ref>[]</type>
+          <declname>chainedEffects</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Takes a params list of effects which will be Chained </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="117" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="116" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_12e6be44aa1a8920c51e4400906839a4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ra_1_1_effects_1_1_effect" kindref="compound">Effect</ref></type>
+        <definition>Effect Ra.Effects.Effect.JoinThese</definition>
+        <argsstring>(params Effect[] joinedEffects)</argsstring>
+        <name>JoinThese</name>
+        <param>
+          <type>params <ref refid="class_ra_1_1_effects_1_1_effect" kindref="compound">Effect</ref>[]</type>
+          <declname>joinedEffects</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Takes a params list of effects which will be Joined </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="133" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="132" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_1939df83b762b921a2ad749b7e2d0c903" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract string</type>
+        <definition>abstract string Ra.Effects.Effect.RenderParalledOnStart</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnStart</name>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_timeout_14fa3d0e5eb65986e89698e0b9d2abe21">RenderParalledOnStart</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_size_1ae4e97f78efbcc5513b1a054d9327f9d">RenderParalledOnStart</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_roll_up_1114e694ef104410f3e856c923cfdeabf">RenderParalledOnStart</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_roll_down_105d1233a3c715e1c478f23a75353068e">RenderParalledOnStart</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_move_18ccc1fd0025a46fea2e4368eb1bd5a38">RenderParalledOnStart</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_highlight_text_142fc1a93107ae0458b2a4920695640a5">RenderParalledOnStart</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_highlight_1954c06b6380dee9207bcaa4cbc48b64c">RenderParalledOnStart</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_focus_and_select_1b853e23a716cf3feb858f2491c84606c">RenderParalledOnStart</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_fade_out_146a4e5dfb97c33b4b464f08f1e2a31b6">RenderParalledOnStart</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_fade_in_1b67df9af937b8dff9280b4332a9d99c8">RenderParalledOnStart</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_border_1452aae07479b22da60cca9b52594fc71">RenderParalledOnStart</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Implementation of the body rendering of the OnStart logic </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_1a7b831319350a52da5eab083ddb5e962" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract string</type>
+        <definition>abstract string Ra.Effects.Effect.RenderParalledOnFinished</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnFinished</name>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_timeout_17c3f80251259d237957fdade2c5626c0">RenderParalledOnFinished</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_size_1ed8a1fc744e1dfb1e6a12cae1210f6f4">RenderParalledOnFinished</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_roll_up_1f4741bda947417ca00ab69fcbd66d559">RenderParalledOnFinished</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_roll_down_1549ab57f90c851a184cee6d9b82d9b7b">RenderParalledOnFinished</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_move_1887a1ce68d504c88176ddf6e0a1e21d6">RenderParalledOnFinished</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_highlight_text_18fbc735f97b9b28d5b8603b72c148e51">RenderParalledOnFinished</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_highlight_1c2a62cc49d6206ae6a2036e5a79ea851">RenderParalledOnFinished</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_focus_and_select_14493e99ef52f38e3f7ecf71e63c0fd90">RenderParalledOnFinished</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_fade_out_10daa70876d578457d626d3542081b0e3">RenderParalledOnFinished</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_fade_in_1d991e65c47ba995a33dc2558fa2d3c9b">RenderParalledOnFinished</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_border_18e023d446fcace2776372e7b4fd892bc">RenderParalledOnFinished</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Implementation of the body rendering of the OnFinished logic </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_1d0c062260770689c6d38605bf7fe51a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract string</type>
+        <definition>abstract string Ra.Effects.Effect.RenderParalledOnRender</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnRender</name>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_timeout_1515ed188c670cd7bba37fe569960faed">RenderParalledOnRender</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_size_19ff56063ce961dfce8e2f407d7a499f1">RenderParalledOnRender</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_roll_up_1aff63cf95bef0fbb06587eab2e1eba05">RenderParalledOnRender</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_roll_down_12eb7e6bec8f8da66bd20d2b873380e2d">RenderParalledOnRender</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_move_116f1bbaac594d0beb37a2abbbea4243f">RenderParalledOnRender</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_highlight_text_1565615db0f5cd376e46299192440207e">RenderParalledOnRender</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_highlight_15cd6276fac91ca39cc9e9ff480336c2d">RenderParalledOnRender</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_focus_and_select_18285f99164e813645c71bec455d09cf5">RenderParalledOnRender</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_fade_out_1304781ffa7e3542c442746e4fae02372">RenderParalledOnRender</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_fade_in_123dfaa91f88bab551d213983c0f9838b">RenderParalledOnRender</reimplementedby>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_border_1daabdee3391a9705e7a09d301a2c3413">RenderParalledOnRender</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Implementation of the body rendering of the OnRender logic </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_10631d51b0971a52ff4583dc4a4ba3c2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ra.Effects.Effect.Render</definition>
+        <argsstring>()</argsstring>
+        <name>Render</name>
+        <reimplementedby refid="class_ra_1_1_effects_1_1_effect_fade_in_10f3f617aeea8d917e82e16e06661b914">Render</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Renders the effect into the response stream. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="212" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="211" bodyend="214"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_19e1891d8e5229a86c6774f2e9415334d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.Effects.Effect.RenderOnStart</definition>
+        <argsstring>(Effect effect)</argsstring>
+        <name>RenderOnStart</name>
+        <param>
+          <type><ref refid="class_ra_1_1_effects_1_1_effect" kindref="compound">Effect</ref></type>
+          <declname>effect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="160" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="159" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_16fbfc403f42b458fa1e0f501ff2a53ee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.Effects.Effect.RenderOnFinished</definition>
+        <argsstring>(Effect effect)</argsstring>
+        <name>RenderOnFinished</name>
+        <param>
+          <type><ref refid="class_ra_1_1_effects_1_1_effect" kindref="compound">Effect</ref></type>
+          <declname>effect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="170" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="169" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_1d24c1ee01e8b46871ff711b8221feada" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.Effects.Effect.RenderChained</definition>
+        <argsstring>()</argsstring>
+        <name>RenderChained</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="181" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="180" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_194c8b6b0810741fac2c034152119821f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.Effects.Effect.RenderOnRender</definition>
+        <argsstring>(Effect effect)</argsstring>
+        <name>RenderOnRender</name>
+        <param>
+          <type><ref refid="class_ra_1_1_effects_1_1_effect" kindref="compound">Effect</ref></type>
+          <declname>effect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="199" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="198" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_effects_1_1_effect_1dbc76fbb09de235b1925042a727b5933" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Ra.Effects.Effect.RenderImplementation</definition>
+        <argsstring>()</argsstring>
+        <name>RenderImplementation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="217" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="216" bodyend="241"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Base class for all effects. This class is highly plugable and it is very easy to create your own extension effects. Even without having to resort to JavaScript since all effects by default are rendered on the server. By joining effects (simultaneously executed) and chaining (linearly executed one after the other) effects it is very easy to create highly visually appealing effects with Ra-Ajax. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="178">
+        <label>Ra.Effects.EffectHighlight</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_highlight"/>
+        <childnode refid="173" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="174">
+        <label>Ra.Effects.EffectBorder</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_border"/>
+        <childnode refid="173" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="184">
+        <label>Ra.Effects.EffectTimeout</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_timeout"/>
+        <childnode refid="173" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="173">
+        <label>Ra.Effects.Effect</label>
+        <link refid="class_ra_1_1_effects_1_1_effect"/>
+      </node>
+      <node id="180">
+        <label>Ra.Effects.EffectMove</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_move"/>
+        <childnode refid="173" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="175">
+        <label>Ra.Effects.EffectFadeIn</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_fade_in"/>
+        <childnode refid="173" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="181">
+        <label>Ra.Effects.EffectRollDown</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_roll_down"/>
+        <childnode refid="173" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="183">
+        <label>Ra.Effects.EffectSize</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_size"/>
+        <childnode refid="173" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="182">
+        <label>Ra.Effects.EffectRollUp</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_roll_up"/>
+        <childnode refid="173" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="179">
+        <label>Ra.Effects.EffectHighlightText</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_highlight_text"/>
+        <childnode refid="173" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="177">
+        <label>Ra.Effects.EffectFocusAndSelect</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_focus_and_select"/>
+        <childnode refid="173" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="176">
+        <label>Ra.Effects.EffectFadeOut</label>
+        <link refid="class_ra_1_1_effects_1_1_effect_fade_out"/>
+        <childnode refid="173" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" line="22" bodyfile="C:/Work/ra-ajax/trunk/Ra/Effects/Effect.cs" bodystart="21" bodyend="257"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_effects_1_1_effect_1b395d98fcd12362fb937733477760388" prot="private" virt="non-virtual"><scope>Ra::Effects::Effect</scope><name>_chained</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_10afe71e012b7a7b45d96e1f3ffa367ee" prot="private" virt="non-virtual"><scope>Ra::Effects::Effect</scope><name>_control</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_15164e3ac5543be4a956c733e714d3977" prot="private" virt="non-virtual"><scope>Ra::Effects::Effect</scope><name>_joined</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1035faf9c50df16319dcb8a459187ca04" prot="private" virt="non-virtual"><scope>Ra::Effects::Effect</scope><name>_milliseconds</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1f371a30c7371216ce29de4d05e21c28c" prot="private" virt="non-virtual"><scope>Ra::Effects::Effect</scope><name>_type</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_13115c920fdc000e6a1f44f6cd63244bd" prot="public" virt="non-virtual"><scope>Ra::Effects::Effect</scope><name>Chained</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1e4df02803f0639f910c73414a58c7adf" prot="public" virt="non-virtual"><scope>Ra::Effects::Effect</scope><name>ChainThese</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_10e48bc7f42299256795b06866ea32f4a" prot="public" virt="non-virtual"><scope>Ra::Effects::Effect</scope><name>Control</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1c86d32632b11c5452d3453e64e1e50dd" prot="protected" virt="non-virtual"><scope>Ra::Effects::Effect</scope><name>Effect</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_12defc4249bcf05bede3832099b4039c0" prot="public" virt="non-virtual"><scope>Ra::Effects::Effect</scope><name>Joined</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_12e6be44aa1a8920c51e4400906839a4e" prot="public" virt="non-virtual"><scope>Ra::Effects::Effect</scope><name>JoinThese</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1b413970d24db1a18369915962933e223" prot="public" virt="non-virtual"><scope>Ra::Effects::Effect</scope><name>Milliseconds</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_10631d51b0971a52ff4583dc4a4ba3c2a" prot="public" virt="virtual"><scope>Ra::Effects::Effect</scope><name>Render</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1d24c1ee01e8b46871ff711b8221feada" prot="private" virt="non-virtual"><scope>Ra::Effects::Effect</scope><name>RenderChained</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1dbc76fbb09de235b1925042a727b5933" prot="private" virt="non-virtual"><scope>Ra::Effects::Effect</scope><name>RenderImplementation</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_16fbfc403f42b458fa1e0f501ff2a53ee" prot="private" virt="non-virtual"><scope>Ra::Effects::Effect</scope><name>RenderOnFinished</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_194c8b6b0810741fac2c034152119821f" prot="private" virt="non-virtual"><scope>Ra::Effects::Effect</scope><name>RenderOnRender</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_19e1891d8e5229a86c6774f2e9415334d" prot="private" virt="non-virtual"><scope>Ra::Effects::Effect</scope><name>RenderOnStart</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1a7b831319350a52da5eab083ddb5e962" prot="public" virt="pure-virtual"><scope>Ra::Effects::Effect</scope><name>RenderParalledOnFinished</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1d0c062260770689c6d38605bf7fe51a4" prot="public" virt="pure-virtual"><scope>Ra::Effects::Effect</scope><name>RenderParalledOnRender</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1939df83b762b921a2ad749b7e2d0c903" prot="public" virt="pure-virtual"><scope>Ra::Effects::Effect</scope><name>RenderParalledOnStart</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_18672655e14a3ebb99666c9f8f7fa4923" prot="public" virt="non-virtual"><scope>Ra::Effects::Effect</scope><name>Transition</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_169619c9eab1b999e313a2559e786c75d" prot="public" virt="non-virtual"><scope>Ra::Effects::Effect</scope><name>TransitionType</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1041eba6f6e4a57073b2afb7cbbc65fb4" prot="protected" virt="virtual"><scope>Ra::Effects::Effect</scope><name>ValidateEffect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

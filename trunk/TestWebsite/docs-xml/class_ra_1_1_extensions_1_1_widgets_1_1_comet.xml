@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_widgets_1_1_comet" kind="class" prot="public">
+    <compoundname>Ra::Extensions::Widgets::Comet</compoundname>
+    <basecompoundref refid="class_ra_1_1_widgets_1_1_ra_control" prot="public" virt="non-virtual">Ra.Widgets.RaControl</basecompoundref>
+    <basecompoundref refid="interface_ra_1_1_i_ra_control" prot="public" virt="non-virtual">Ra.IRaControl</basecompoundref>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1_1_comet_event_args" prot="public">Ra::Extensions::Widgets::Comet::CometEventArgs</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_13a15af2686ad21e4653ef826c232dbb5" prot="private" static="no" mutable="no">
+        <type>EnterQueue</type>
+        <definition>EnterQueue Ra.Extensions.Widgets.Comet._enter</definition>
+        <argsstring></argsstring>
+        <name>_enter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="58" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_199052da84f61755d2f63f939447e044d" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1_1_comet_event_args" kindref="compound">CometEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;CometEventArgs&gt; Ra.Extensions.Widgets.Comet.Tick</definition>
+        <argsstring></argsstring>
+        <name>Tick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when an event have been raised. The EventArgs for this type will be of type <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1_1_comet_event_args" kindref="compound">CometEventArgs</ref> from which you can retrieve the ID property to see which event this is. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="65" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_18b87ea8914d91eea7e9627c42a3462e9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Extensions.Widgets.Comet.Enabled</definition>
+        <argsstring></argsstring>
+        <name>Enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If true then the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet" kindref="compound">Comet</ref> control is enabled, otherwise it is disabled. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="80" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1b428721b32d7be505a2fb1300ce30686" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Extensions.Widgets.Comet.AllowExternalEvents</definition>
+        <argsstring></argsstring>
+        <name>AllowExternalEvents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If true you can create events on the comet queue by appending &quot;cometEvent=xxx&quot; as GET parameter to the URL and sending a GET request. Which will return true back as the response and not actual HTML.Be careful with this one though since raising a <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet" kindref="compound">Comet</ref> event is pretty expensive and having this publicly exposed might pose a security risk since then all the user needs to do to create a &quot;DDOS attack&quot; is to keep posting events to your pages. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="94" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_114d5ad7f1d64ae3be651fbf7e8bf017c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Ra.Extensions.Widgets.Comet.IsQueueFull</definition>
+        <argsstring></argsstring>
+        <name>IsQueueFull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this property is true then this request can actually NOT connect to comet queue. If MaxClients are reached then the return value will be true and no actual comet request will be enabled for this user since queue is filled up. Note you can actually override this value in e.g. Page_Load by explicitingly setting the Enabled property of the comet object to true, but then you will have no effect of the MaxClients and might as well set it to -1. If the value of the MaxClients is -1 then no user will be denied and your webserver will keep on accepting <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet" kindref="compound">Comet</ref> requests until the sere breaks down or no more users exists. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="108" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_12e5a4e4a2ae293ba932e74a2905ceca5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Ra.Extensions.Widgets.Comet.MaxClients</definition>
+        <argsstring></argsstring>
+        <name>MaxClients</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Maximum number of simultaneous connected <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet" kindref="compound">Comet</ref> connections before users are denied to connect to <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet" kindref="compound">Comet</ref> queue. Default is -1 which means &quot;no limits&quot;. Note that this is a &quot;shared&quot; value and not really on a &quot;per component instance&quot; level... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="120" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1bcf670a6eed373ea480337b7ecd59b1f" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>CometQueue</type>
+        <definition>CometQueue Ra.Extensions.Widgets.Comet.Queue</definition>
+        <argsstring></argsstring>
+        <name>Queue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="137" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_11850eefc16be1ba56cdee418b4a6d2fe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Ra.Extensions.Widgets.Comet.NumberOfConnections</definition>
+        <argsstring></argsstring>
+        <name>NumberOfConnections</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Number of currently active connections. Note when the request is released due to a comet event being raised this value will be significantly reduced, often to 0 due to all the comet requests being released and will not report the accurate value. In other Ajax requests it will mostly report accurate numbers and can be trusted. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="161" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_116659f4ea78d9d0d6d762ef1815007c2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate string</type>
+        <definition>delegate string Ra.Extensions.Widgets.Comet.EnterQueue</definition>
+        <argsstring>(string lastEvent, int timeout)</argsstring>
+        <name>EnterQueue</name>
+        <param>
+          <type>string</type>
+          <declname>lastEvent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1baa7732ee07fd950d5fc17cf1a9ede7c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IAsyncResult</type>
+        <definition>IAsyncResult Ra.Extensions.Widgets.Comet.BeginEnterCometQueue</definition>
+        <argsstring>(object src, EventArgs args, AsyncCallback cb, object state)</argsstring>
+        <name>BeginEnterCometQueue</name>
+        <param>
+          <type>object</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>AsyncCallback</type>
+          <declname>cb</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="231" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="230" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1bec4f73c9635685b256f2d6edf4193c4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.Comet.EndEnterCometQueue</definition>
+        <argsstring>(IAsyncResult ar)</argsstring>
+        <name>EndEnterCometQueue</name>
+        <param>
+          <type>IAsyncResult</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="238" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="237" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1971b66357ef2a50464bb04aa09699d84" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.Comet.TimeoutCometQueue</definition>
+        <argsstring>(IAsyncResult ar)</argsstring>
+        <name>TimeoutCometQueue</name>
+        <param>
+          <type>IAsyncResult</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="267" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="266" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_162acd9a811bd2f116cf996681f0952c3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void IRaControl.</type>
+        <definition>void IRaControl. Ra.Extensions.Widgets.Comet.DispatchEvent</definition>
+        <argsstring>(string name)</argsstring>
+        <name>DispatchEvent</name>
+        <reimplements refid="interface_ra_1_1_i_ra_control_1f12273f2bf248d8964b6deac4192cd5a">DispatchEvent</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="289" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="288" bodyend="298"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_16eba357b0991e273339a560b5f5b4d1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.Comet.SendMessage</definition>
+        <argsstring>(string id)</argsstring>
+        <name>SendMessage</name>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Will raise a Tick event with the given ID which will release all locked requests and fire the Tick event with the given ID. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="168" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="167" bodyend="170"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_11039b9625a641c6b175e3b0ccc1dbbe0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.Comet.OnLoad</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnLoad</name>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="173" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="172" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_13d7edaf5a9f9e4fcc7858bcfd75cee42" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.Comet.OnInit</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnInit</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_140a558cf9617ef2289be7fc7faf5130c">OnInit</reimplements>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="197" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="196" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_10e1cb60e8e93070a4a2436a6e8c0bb92" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Extensions.Widgets.Comet.GetClientSideScriptOptions</definition>
+        <argsstring>()</argsstring>
+        <name>GetClientSideScriptOptions</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_162388804f6511df3221c6a686f286c7f">GetClientSideScriptOptions</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="301" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="300" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_15ff1a2dd492e1289c0e89e2087b4cc69" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Extensions.Widgets.Comet.GetClientSideScriptType</definition>
+        <argsstring>()</argsstring>
+        <name>GetClientSideScriptType</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35">GetClientSideScriptType</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="309" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="308" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1ee30b83ff9d46a1ef89c6e9ab9e5cdb0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Extensions.Widgets.Comet.GetOpeningHTML</definition>
+        <argsstring>()</argsstring>
+        <name>GetOpeningHTML</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_151e6f8bdb0af1a7a12654bfb329f280c">GetOpeningHTML</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="314" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="313" bodyend="318"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet" kindref="compound">Comet</ref> component, also known under the LazyHttp name, StreamingHttp and several other pseudonyms. Basically real-time event capability for the client. You can also send new <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet" kindref="compound">Comet</ref> events to the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet" kindref="compound">Comet</ref> queue by using the URL of your page and append a GET parameter called &quot;cometEvent&quot; with the value of your event ID, but only if the AllowExternalEvents property is set to true. Notice that this control should be considered HIGHLY EXPERIMENTAL and is probably not very stable. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="127">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="126">
+        <label>Ra.Extensions.Widgets.Comet</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet"/>
+        <childnode refid="127" relation="public-inheritance">
+        </childnode>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="128">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="130">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="129">
+        <label>Ra.Extensions.Widgets.Comet</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet"/>
+        <childnode refid="130" relation="public-inheritance">
+        </childnode>
+        <childnode refid="131" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="131">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="35" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="34" bodyend="319"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_13a15af2686ad21e4653ef826c232dbb5" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>_enter</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1b428721b32d7be505a2fb1300ce30686" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>AllowExternalEvents</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1baa7732ee07fd950d5fc17cf1a9ede7c" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>BeginEnterCometQueue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_162acd9a811bd2f116cf996681f0952c3" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>DispatchEvent</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_18b87ea8914d91eea7e9627c42a3462e9" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>Enabled</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1bec4f73c9635685b256f2d6edf4193c4" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>EndEnterCometQueue</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_116659f4ea78d9d0d6d762ef1815007c2" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>EnterQueue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_10e1cb60e8e93070a4a2436a6e8c0bb92" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_15ff1a2dd492e1289c0e89e2087b4cc69" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ab51177823d8893c51a42ae50df7f37e" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153c660a7d87a3451d11a8b5ee36f2f3a" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1ee30b83ff9d46a1ef89c6e9ab9e5cdb0" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_114d5ad7f1d64ae3be651fbf7e8bf017c" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>IsQueueFull</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_12e5a4e4a2ae293ba932e74a2905ceca5" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>MaxClients</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_11850eefc16be1ba56cdee418b4a6d2fe" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>NumberOfConnections</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_13d7edaf5a9f9e4fcc7858bcfd75cee42" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_11039b9625a641c6b175e3b0ccc1dbbe0" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>OnLoad</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1bcf670a6eed373ea480337b7ecd59b1f" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>Queue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_16eba357b0991e273339a560b5f5b4d1d" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>SendMessage</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_199052da84f61755d2f63f939447e044d" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>Tick</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1971b66357ef2a50464bb04aa09699d84" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>TimeoutCometQueue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet</scope><name>Xtra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

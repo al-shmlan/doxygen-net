@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_core_1_1_callback_filter" kind="class" prot="public">
+    <compoundname>Ra::Core::CallbackFilter</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_core_1_1_callback_filter_14e52a93c1166d0216b96af19bea4cf55" prot="private" static="no" mutable="no">
+        <type>Stream</type>
+        <definition>Stream Ra.Core.CallbackFilter._next</definition>
+        <argsstring></argsstring>
+        <name>_next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" line="16" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_core_1_1_callback_filter_108d5b2367f59e38f6178451722fc8c48" prot="private" static="no" mutable="no">
+        <type>MemoryStream</type>
+        <definition>MemoryStream Ra.Core.CallbackFilter._stream</definition>
+        <argsstring></argsstring>
+        <name>_stream</name>
+        <initializer> new MemoryStream()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" line="17" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_core_1_1_callback_filter_1060400d202165ad31037eef2f584969a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override bool</type>
+        <definition>override bool Ra.Core.CallbackFilter.CanRead</definition>
+        <argsstring></argsstring>
+        <name>CanRead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" line="27" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_core_1_1_callback_filter_195828236bb9efb7f7d8bc8ca95c2b5b1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override bool</type>
+        <definition>override bool Ra.Core.CallbackFilter.CanSeek</definition>
+        <argsstring></argsstring>
+        <name>CanSeek</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" line="32" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_core_1_1_callback_filter_1fd5b25ce6a3137d0dfcfa86cc6cd7977" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override bool</type>
+        <definition>override bool Ra.Core.CallbackFilter.CanWrite</definition>
+        <argsstring></argsstring>
+        <name>CanWrite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" line="37" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_core_1_1_callback_filter_1d23c980c7d28ad0b69450a2faee60dee" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override long</type>
+        <definition>override long Ra.Core.CallbackFilter.Length</definition>
+        <argsstring></argsstring>
+        <name>Length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" line="42" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_core_1_1_callback_filter_10912c6d4acd373e437be4fb67dc8ccb0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override long</type>
+        <definition>override long Ra.Core.CallbackFilter.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" line="48" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_core_1_1_callback_filter_13281bcc9b448c75bef6976bb404c0d4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Core.CallbackFilter.CallbackFilter</definition>
+        <argsstring>(Stream next)</argsstring>
+        <name>CallbackFilter</name>
+        <param>
+          <type>Stream</type>
+          <declname>next</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" line="20" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_core_1_1_callback_filter_130c328cd48ef0ebab718a9bcdda4ef0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Core.CallbackFilter.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" line="51" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" bodystart="50" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_core_1_1_callback_filter_1b4f2403bf4606dd9f3e0658d342e135f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Core.CallbackFilter.Flush</definition>
+        <argsstring>()</argsstring>
+        <name>Flush</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" line="57" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_core_1_1_callback_filter_16ecedae94b6e92de7899b9db003afeb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override long</type>
+        <definition>override long Ra.Core.CallbackFilter.Seek</definition>
+        <argsstring>(long offset, SeekOrigin origin)</argsstring>
+        <name>Seek</name>
+        <param>
+          <type>long</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>SeekOrigin</type>
+          <declname>origin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" line="61" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_core_1_1_callback_filter_1e64e33a0fd4d9f539a01e440b742973b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Core.CallbackFilter.SetLength</definition>
+        <argsstring>(long value)</argsstring>
+        <name>SetLength</name>
+        <param>
+          <type>long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" line="66" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_core_1_1_callback_filter_1a3dcd1d7220b4911c4e026a498a97049" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Ra.Core.CallbackFilter.Read</definition>
+        <argsstring>(byte[] buffer, int offset, int count)</argsstring>
+        <name>Read</name>
+        <param>
+          <type>byte[]</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" line="70" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_core_1_1_callback_filter_13fdb8878d9af0452dbb955d8e80b06c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Core.CallbackFilter.Write</definition>
+        <argsstring>(byte[] buffer, int offset, int count)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>byte[]</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" line="75" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" bodystart="74" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" line="15" bodyfile="C:/Work/ra-ajax/trunk/Ra/Filters/CallbackFilter.cs" bodystart="14" bodyend="78"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_core_1_1_callback_filter_14e52a93c1166d0216b96af19bea4cf55" prot="private" virt="non-virtual"><scope>Ra::Core::CallbackFilter</scope><name>_next</name></member>
+      <member refid="class_ra_1_1_core_1_1_callback_filter_108d5b2367f59e38f6178451722fc8c48" prot="private" virt="non-virtual"><scope>Ra::Core::CallbackFilter</scope><name>_stream</name></member>
+      <member refid="class_ra_1_1_core_1_1_callback_filter_13281bcc9b448c75bef6976bb404c0d4f" prot="public" virt="non-virtual"><scope>Ra::Core::CallbackFilter</scope><name>CallbackFilter</name></member>
+      <member refid="class_ra_1_1_core_1_1_callback_filter_1060400d202165ad31037eef2f584969a" prot="public" virt="non-virtual"><scope>Ra::Core::CallbackFilter</scope><name>CanRead</name></member>
+      <member refid="class_ra_1_1_core_1_1_callback_filter_195828236bb9efb7f7d8bc8ca95c2b5b1" prot="public" virt="non-virtual"><scope>Ra::Core::CallbackFilter</scope><name>CanSeek</name></member>
+      <member refid="class_ra_1_1_core_1_1_callback_filter_1fd5b25ce6a3137d0dfcfa86cc6cd7977" prot="public" virt="non-virtual"><scope>Ra::Core::CallbackFilter</scope><name>CanWrite</name></member>
+      <member refid="class_ra_1_1_core_1_1_callback_filter_130c328cd48ef0ebab718a9bcdda4ef0e" prot="public" virt="non-virtual"><scope>Ra::Core::CallbackFilter</scope><name>Close</name></member>
+      <member refid="class_ra_1_1_core_1_1_callback_filter_1b4f2403bf4606dd9f3e0658d342e135f" prot="public" virt="non-virtual"><scope>Ra::Core::CallbackFilter</scope><name>Flush</name></member>
+      <member refid="class_ra_1_1_core_1_1_callback_filter_1d23c980c7d28ad0b69450a2faee60dee" prot="public" virt="non-virtual"><scope>Ra::Core::CallbackFilter</scope><name>Length</name></member>
+      <member refid="class_ra_1_1_core_1_1_callback_filter_10912c6d4acd373e437be4fb67dc8ccb0" prot="public" virt="non-virtual"><scope>Ra::Core::CallbackFilter</scope><name>Position</name></member>
+      <member refid="class_ra_1_1_core_1_1_callback_filter_1a3dcd1d7220b4911c4e026a498a97049" prot="public" virt="non-virtual"><scope>Ra::Core::CallbackFilter</scope><name>Read</name></member>
+      <member refid="class_ra_1_1_core_1_1_callback_filter_16ecedae94b6e92de7899b9db003afeb4" prot="public" virt="non-virtual"><scope>Ra::Core::CallbackFilter</scope><name>Seek</name></member>
+      <member refid="class_ra_1_1_core_1_1_callback_filter_1e64e33a0fd4d9f539a01e440b742973b" prot="public" virt="non-virtual"><scope>Ra::Core::CallbackFilter</scope><name>SetLength</name></member>
+      <member refid="class_ra_1_1_core_1_1_callback_filter_13fdb8878d9af0452dbb955d8e80b06c2" prot="public" virt="non-virtual"><scope>Ra::Core::CallbackFilter</scope><name>Write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

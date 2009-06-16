@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_behaviors_1_1_behavior_draggable" kind="class" prot="public">
+    <compoundname>Ra::Behaviors::BehaviorDraggable</compoundname>
+    <basecompoundref refid="class_ra_1_1_behaviors_1_1_behavior" prot="public" virt="non-virtual">Ra.Behaviors.Behavior</basecompoundref>
+    <basecompoundref refid="interface_ra_1_1_i_ra_control" prot="public" virt="non-virtual">Ra.IRaControl</basecompoundref>
+    <basecompoundref refid="interface_ra_1_1_widgets_1_1_i_disableable_behavior" prot="public" virt="non-virtual">Ra.Widgets.IDisableableBehavior</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_ra_1_1_behaviors_1_1_behavior_draggable_133a261690e57ea6176bc0642d24aa5bf" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Behaviors.BehaviorDraggable.Dropped</definition>
+        <argsstring></argsstring>
+        <name>Dropped</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Event raised when control has been dropped into a new location on form </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" line="29" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_behaviors_1_1_behavior_draggable_13ac3ca1f981964921183eac3da96c30d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Rectangle</type>
+        <definition>Rectangle Ra.Behaviors.BehaviorDraggable.Bounds</definition>
+        <argsstring></argsstring>
+        <name>Bounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>min/max dragging bounds of control </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" line="43" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_behaviors_1_1_behavior_draggable_1b3ee6df916987d3afbb34e030cc375f6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Point</type>
+        <definition>Point Ra.Behaviors.BehaviorDraggable.Snap</definition>
+        <argsstring></argsstring>
+        <name>Snap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&quot;resolution&quot; which the control should snap into. Think of it like a grid. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" line="57" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_behaviors_1_1_behavior_draggable_1c390c7466af8efd360e802071ea3b772" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Behaviors.BehaviorDraggable.Handle</definition>
+        <argsstring></argsstring>
+        <name>Handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If given it is expected to be the id of a DOM element from which the control will be draggable from. Then control can only be dragged by clicking this specific DOM element. Doesn&apos;t have to be the DOM element of a Control. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" line="73" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_behaviors_1_1_behavior_draggable_1d60742964917baa562fdcdda38dca0a5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Behaviors.BehaviorDraggable.Enabled</definition>
+        <argsstring></argsstring>
+        <name>Enabled</name>
+        <reimplements refid="interface_ra_1_1_widgets_1_1_i_disableable_behavior_1f964082d0222fd2c0be209e728e19881">Enabled</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Determines whether a Behviour that implements IDisableableBehvior is enabled or disabled </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" line="166" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_behaviors_1_1_behavior_draggable_16e9bb76a4c80d099a03506dd4b5b2f7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Behaviors.BehaviorDraggable.GetRegistrationScript</definition>
+        <argsstring>()</argsstring>
+        <name>GetRegistrationScript</name>
+        <reimplements refid="class_ra_1_1_behaviors_1_1_behavior_1b77dc2b7238d6b7b6fcc34585d08391e">GetRegistrationScript</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" line="76" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" bodystart="75" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_behaviors_1_1_behavior_draggable_187c5a6c00da93e9be71e12ed768610bd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Behaviors.BehaviorDraggable.GetClientSideScript</definition>
+        <argsstring>()</argsstring>
+        <name>GetClientSideScript</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952">GetClientSideScript</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" line="112" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" bodystart="111" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_behaviors_1_1_behavior_draggable_1d5b931f651aa06d856e1090e2964c8df" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>internal override void</type>
+        <definition>internal override void Ra.Behaviors.BehaviorDraggable.EnsureViewStateLoads</definition>
+        <argsstring>()</argsstring>
+        <name>EnsureViewStateLoads</name>
+        <reimplements refid="class_ra_1_1_behaviors_1_1_behavior_11987e87eaa66eb1c05928616cf1a48c5">EnsureViewStateLoads</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" line="117" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" bodystart="116" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_behaviors_1_1_behavior_draggable_14e15416a4b65cc4b7b2fecd8787272c4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void IRaControl.</type>
+        <definition>void IRaControl. Ra.Behaviors.BehaviorDraggable.DispatchEvent</definition>
+        <argsstring>(string name)</argsstring>
+        <name>DispatchEvent</name>
+        <reimplements refid="interface_ra_1_1_i_ra_control_1f12273f2bf248d8964b6deac4192cd5a">DispatchEvent</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" line="129" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" bodystart="128" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Adds dragging capabilities to your Ajax controls. Add this to the Control Collection of any of your widget and your widget can be dragged and dropped around on screen. When Widget is dropped the Dropped event will be raised and the widget will have updated left and top style collection values. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="58">
+        <label>Ra.Behaviors.Behavior</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="61">
+        <label>Ra.Widgets.IDisableableBehavior</label>
+        <link refid="interface_ra_1_1_widgets_1_1_i_disableable_behavior"/>
+      </node>
+      <node id="57">
+        <label>Ra.Behaviors.BehaviorDraggable</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_draggable"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="63">
+        <label>Ra.Behaviors.Behavior</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior"/>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="66">
+        <label>Ra.Widgets.IDisableableBehavior</label>
+        <link refid="interface_ra_1_1_widgets_1_1_i_disableable_behavior"/>
+      </node>
+      <node id="62">
+        <label>Ra.Behaviors.BehaviorDraggable</label>
+        <link refid="class_ra_1_1_behaviors_1_1_behavior_draggable"/>
+        <childnode refid="63" relation="public-inheritance">
+        </childnode>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" line="25" bodyfile="C:/Work/ra-ajax/trunk/Ra/Behaviors/BehaviorDraggable.cs" bodystart="24" bodyend="169"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_draggable_13ac3ca1f981964921183eac3da96c30d" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>Bounds</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_draggable_14e15416a4b65cc4b7b2fecd8787272c4" prot="private" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>DispatchEvent</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_draggable_133a261690e57ea6176bc0642d24aa5bf" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>Dropped</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_draggable_1d60742964917baa562fdcdda38dca0a5" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>Enabled</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_draggable_1d5b931f651aa06d856e1090e2964c8df" prot="private" virt="virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>EnsureViewStateLoads</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_draggable_187c5a6c00da93e9be71e12ed768610bd" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_162388804f6511df3221c6a686f286c7f" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ab51177823d8893c51a42ae50df7f37e" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153c660a7d87a3451d11a8b5ee36f2f3a" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_1ffd5dd9f1607d04c87336df350ed6341" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_draggable_16e9bb76a4c80d099a03506dd4b5b2f7f" prot="public" virt="virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>GetRegistrationScript</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_draggable_1c390c7466af8efd360e802071ea3b772" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>Handle</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_1ecc6bad150d79cf31bb1f657e2d51c70" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_1bf8823132f1874b37f32fc9faa1d7199" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual" ambiguityscope="Ra::Widgets::RaControl."><scope>Ra::Behaviors::BehaviorDraggable</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_behaviors_1_1_behavior_draggable_1b3ee6df916987d3afbb34e030cc375f6" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>Snap</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Behaviors::BehaviorDraggable</scope><name>Xtra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

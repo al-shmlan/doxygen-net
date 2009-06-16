@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out" kind="class" prot="private">
+    <compoundname>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</compoundname>
+    <basecompoundref refid="class_ra_1_1_effects_1_1_effect" prot="public" virt="non-virtual">Ra.Effects.Effect</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_12020c49e09bb0ebd3dd68c940741b46c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ra.Extensions.Widgets.SlidingMenuItem.EffectRollOut._reversed</definition>
+        <argsstring></argsstring>
+        <name>_reversed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" line="35" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_147821ad2c2826b2c765e3cb046446981" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ra.Extensions.Widgets.SlidingMenuItem.EffectRollOut._noLevels</definition>
+        <argsstring></argsstring>
+        <name>_noLevels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" line="36" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_1df89f96229f5fa2109877eeedd3dd1a1" prot="private" static="no" mutable="no">
+        <type>ASP.Control</type>
+        <definition>ASP.Control Ra.Extensions.Widgets.SlidingMenuItem.EffectRollOut._bread</definition>
+        <argsstring></argsstring>
+        <name>_bread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" line="37" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_125374e1aa69633982a16891d7adbcb60" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ra.Extensions.Widgets.SlidingMenuItem.EffectRollOut._allTheWay</definition>
+        <argsstring></argsstring>
+        <name>_allTheWay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" line="38" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_125bf20ba5badd402a29a23604e928739" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Extensions.Widgets.SlidingMenuItem.EffectRollOut.EffectRollOut</definition>
+        <argsstring>(ASP.Control control, ASP.Control bread, int milliseconds)</argsstring>
+        <name>EffectRollOut</name>
+        <param>
+          <type>ASP.Control</type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>ASP.Control</type>
+          <declname>bread</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>milliseconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" line="42" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_1ca3a206bf335608d7badee2ad881f005" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Extensions.Widgets.SlidingMenuItem.EffectRollOut.EffectRollOut</definition>
+        <argsstring>(ASP.Control control, ASP.Control bread, int milliseconds, bool reversed)</argsstring>
+        <name>EffectRollOut</name>
+        <param>
+          <type>ASP.Control</type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>ASP.Control</type>
+          <declname>bread</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>milliseconds</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>reversed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" line="49" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" bodystart="44" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_19f130d29d969e6bf37c68603f3934458" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Extensions.Widgets.SlidingMenuItem.EffectRollOut.EffectRollOut</definition>
+        <argsstring>(ASP.Control control, ASP.Control bread, int milliseconds, bool reversed, int noLevels)</argsstring>
+        <name>EffectRollOut</name>
+        <param>
+          <type>ASP.Control</type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>ASP.Control</type>
+          <declname>bread</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>milliseconds</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>reversed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>noLevels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" line="57" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" bodystart="51" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_187dbc8958b30a8a1682a9f07b670b5bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ra.Extensions.Widgets.SlidingMenuItem.EffectRollOut.EffectRollOut</definition>
+        <argsstring>(ASP.Control control, ASP.Control bread, int milliseconds, bool reversed, int noLevels, bool allTheWay)</argsstring>
+        <name>EffectRollOut</name>
+        <param>
+          <type>ASP.Control</type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>ASP.Control</type>
+          <declname>bread</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>milliseconds</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>reversed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>noLevels</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>allTheWay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" line="66" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" bodystart="59" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_14f8f797718de3aeb6bf67afb3c3c4bd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Ra.Extensions.Widgets.SlidingMenuItem.EffectRollOut.RenderParalledOnStart</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" line="80" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" bodystart="79" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_1d940bb9896dff2243add40f0179c17bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Ra.Extensions.Widgets.SlidingMenuItem.EffectRollOut.RenderParalledOnFinished</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnFinished</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" line="132" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" bodystart="131" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_1f26dfe13e851ab40d791650fd042f7f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Ra.Extensions.Widgets.SlidingMenuItem.EffectRollOut.RenderParalledOnRender</definition>
+        <argsstring>()</argsstring>
+        <name>RenderParalledOnRender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" line="165" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" bodystart="164" bodyend="195"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_1df05ffa0e6459d098cc31ede946bcd15" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.SlidingMenuItem.EffectRollOut.UpdateStyleCollection</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateStyleCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" line="74" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" bodystart="73" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="228">
+        <label>Ra.Extensions.Widgets.SlidingMenuItem.EffectRollOut</label>
+        <childnode refid="229" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="229">
+        <label>Ra.Effects.Effect</label>
+        <link refid="class_ra_1_1_effects_1_1_effect"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="230">
+        <label>Ra.Extensions.Widgets.SlidingMenuItem.EffectRollOut</label>
+        <childnode refid="231" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="231">
+        <label>Ra.Effects.Effect</label>
+        <link refid="class_ra_1_1_effects_1_1_effect"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" line="34" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/SlidingMenuItem.cs" bodystart="33" bodyend="196"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_125374e1aa69633982a16891d7adbcb60" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>_allTheWay</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_1df89f96229f5fa2109877eeedd3dd1a1" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>_bread</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_147821ad2c2826b2c765e3cb046446981" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>_noLevels</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_12020c49e09bb0ebd3dd68c940741b46c" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>_reversed</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_13115c920fdc000e6a1f44f6cd63244bd" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>Chained</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1e4df02803f0639f910c73414a58c7adf" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>ChainThese</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_10e48bc7f42299256795b06866ea32f4a" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>Control</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1c86d32632b11c5452d3453e64e1e50dd" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>Effect</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_125bf20ba5badd402a29a23604e928739" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>EffectRollOut</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_1ca3a206bf335608d7badee2ad881f005" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>EffectRollOut</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_19f130d29d969e6bf37c68603f3934458" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>EffectRollOut</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_187dbc8958b30a8a1682a9f07b670b5bd" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>EffectRollOut</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_12defc4249bcf05bede3832099b4039c0" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>Joined</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_12e6be44aa1a8920c51e4400906839a4e" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>JoinThese</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1b413970d24db1a18369915962933e223" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>Milliseconds</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_10631d51b0971a52ff4583dc4a4ba3c2a" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>Render</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_1d940bb9896dff2243add40f0179c17bb" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>RenderParalledOnFinished</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_1f26dfe13e851ab40d791650fd042f7f0" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>RenderParalledOnRender</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_14f8f797718de3aeb6bf67afb3c3c4bd5" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>RenderParalledOnStart</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_18672655e14a3ebb99666c9f8f7fa4923" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>Transition</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_169619c9eab1b999e313a2559e786c75d" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>TransitionType</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_sliding_menu_item_1_1_effect_roll_out_1df05ffa0e6459d098cc31ede946bcd15" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>UpdateStyleCollection</name></member>
+      <member refid="class_ra_1_1_effects_1_1_effect_1041eba6f6e4a57073b2afb7cbbc65fb4" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::SlidingMenuItem::EffectRollOut</scope><name>ValidateEffect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

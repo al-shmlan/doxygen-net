@@ -1,0 +1,815 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar" kind="class" prot="public">
+    <compoundname>Ra::Extensions::Widgets::Calendar</compoundname>
+    <basecompoundref refid="class_ra_1_1_widgets_1_1_panel" prot="public" virt="non-virtual">Ra.Widgets.Panel</basecompoundref>
+    <derivedcompoundref refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker" prot="public" virt="non-virtual">Ra.Extensions.Widgets.DateTimePicker</derivedcompoundref>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_create_footer_controls_event_args" prot="public">Ra::Extensions::Widgets::Calendar::CreateFooterControlsEventArgs</innerclass>
+    <innerclass refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args" prot="public">Ra::Extensions::Widgets::Calendar::RenderDayEventArgs</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1139a931b378606cff0d06af7cccd9262" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Calendar._nw</definition>
+        <argsstring></argsstring>
+        <name>_nw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="95" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_132d3c194aab728bd47633109480b2a9a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Calendar._n</definition>
+        <argsstring></argsstring>
+        <name>_n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="96" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1bb452b3f31861c498bb3523433efac18" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Calendar._ne</definition>
+        <argsstring></argsstring>
+        <name>_ne</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="97" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_19b39e9dfe17ffdeb04c9879a002caf3b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Calendar._w</definition>
+        <argsstring></argsstring>
+        <name>_w</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="98" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1182ceaacdb811d4e60f1805f993d31ad" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Calendar._body</definition>
+        <argsstring></argsstring>
+        <name>_body</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="99" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_101d94d4ccbf2f693ccf19b0df5877e36" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Calendar._content</definition>
+        <argsstring></argsstring>
+        <name>_content</name>
+        <initializer> new <ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="100" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1c7d3937ca8d37275d63b762e61a2af08" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Calendar._e</definition>
+        <argsstring></argsstring>
+        <name>_e</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="101" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1b81b0cb613479b00c464d684353b8c57" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Calendar._sw</definition>
+        <argsstring></argsstring>
+        <name>_sw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="102" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_18491f4cab2bb11061760f6cb76c313eb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Calendar._s</definition>
+        <argsstring></argsstring>
+        <name>_s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="103" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_18fec2474c0a9d696fcb88e000ed960e4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Calendar._se</definition>
+        <argsstring></argsstring>
+        <name>_se</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="104" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1819f172ef9ef76a1d4b734abc547ccc2" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_ra_1_1_widgets_1_1_label" kindref="compound">Label</ref></type>
+        <definition>Label Ra.Extensions.Widgets.Calendar._caption</definition>
+        <argsstring></argsstring>
+        <name>_caption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="105" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_143f822e3c520fa51badc08ce2aea5ba4" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Extensions.Widgets.Calendar.SelectedValueChanged</definition>
+        <argsstring></argsstring>
+        <name>SelectedValueChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when Value is changed by user. Can be raised by changing month and year contrary to the DateClicked event. This is NOT normally supposed to be thought of as the &quot;date chosen by user event&quot; but rather the DateClicked event serves that purpose. The reason to that is that the user might just browse around to find the &quot;correct&quot; month or year etc. Not before the DateClicked event is raised one would normally consider the user to have finished his selection of date. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="115" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_102952f21b8ed73d43e3c412d30a0cc92" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Extensions.Widgets.Calendar.DateClicked</definition>
+        <argsstring></argsstring>
+        <name>DateClicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when a specific date is clicked, this event will not be raised when year or month is changed, only when a specific date is clicked or the &quot;Today&quot; date is clicked. This can be thought of as the &quot;date was selected event&quot;. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="122" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_115f2e6cb3a0f0f224e587b411de7d909" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_create_footer_controls_event_args" kindref="compound">CreateFooterControlsEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;CreateFooterControlsEventArgs&gt; Ra.Extensions.Widgets.Calendar.CreateFooterControls</definition>
+        <argsstring></argsstring>
+        <name>CreateFooterControls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handle this event if you need to create extra controls at the bottom of the calendar for any reasons. Ra-Ajax uses this one internally to create its <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker" kindref="compound">DateTimePicker</ref> control </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="129" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1c797d72e2072de4711f8498e33d491be" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args" kindref="compound">RenderDayEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;RenderDayEventArgs&gt; Ra.Extensions.Widgets.Calendar.RenderDay</definition>
+        <argsstring></argsstring>
+        <name>RenderDay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called once for every date which is rendered within the current month if defined. Use this event to render your own custom content within specific dates. The EventArgs of this event handler is <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1_1_render_day_event_args" kindref="compound">RenderDayEventArgs</ref> which has one property for what date is currently being rendered, and another property called Cell which is the currently rendered HTML table td cell of the control. Inside of this Cell control you can add up your own controls and such. Or modify the CssClass and such to have different colors and such for different dates. Notice though that this event will be raise once for EVERY date within the currently selected month. So be careful with adding too much overhead into your event handlers handling this event. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="142" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_182ce82f1f1564b697703b24b7fe4c8a0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override string</type>
+        <definition>override string Ra.Extensions.Widgets.Calendar.CssClass</definition>
+        <argsstring></argsstring>
+        <name>CssClass</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_16138c4d2623d7a9d0e55ca42d8a24667">CssClass</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overridden to provide a sane default value. The default value of this property is &quot;calendar&quot;. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="165" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_15dc2bc126d803a6c5f2c495bd57d51fe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime Ra.Extensions.Widgets.Calendar.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Selected value of calendar. This is the currently selected DateTime value of the control. You can also set this value which will be reflected back to the client once returned from the Ajax Request. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="188" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_19cf5ee6cfa6f82750e1974d7c6bf9a36" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DayOfWeek</type>
+        <definition>DayOfWeek Ra.Extensions.Widgets.Calendar.StartsOn</definition>
+        <argsstring></argsstring>
+        <name>StartsOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Defines the leftmost weekday of the calendar. In Norway for instance a week starts on Mondays, while in most other countries the week starts on Sunday. Change this property to define which weekday you wish to have to the left on the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar" kindref="compound">Calendar</ref> surface. You can choose any weekday you wish here. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="204" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_16423051af8f5f67744ac64b38cf06555" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Extensions.Widgets.Calendar.Caption</definition>
+        <argsstring></argsstring>
+        <name>Caption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overrides the caption of the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar" kindref="compound">Calendar</ref>. The caption will normally display the &quot;current date&quot; unless this property is set to something else than null. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="220" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1cc66f5fc3004a9b39a5efa2bece9ddcb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.Calendar.OnLoad</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnLoad</name>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="223" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="222" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_11c32ba5b0fbe45ee4c189e5777877db6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.Calendar.CreateChildControls</definition>
+        <argsstring>()</argsstring>
+        <name>CreateChildControls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="235" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="234" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_102afdc003d954acb2555f56328f27cdd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Extensions.Widgets.Calendar.OnPreRender</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnPreRender</name>
+        <reimplementedby refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker_10e808e1fc5047e7ed46bd521727db1a8">OnPreRender</reimplementedby>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="381" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="380" bodyend="389"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_16370e1a6c7348f272894ad6c0995c478" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.Calendar.CreateWindowControls</definition>
+        <argsstring>()</argsstring>
+        <name>CreateWindowControls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="245" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="244" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_17fc54ecbe52e078db6f2a7ece9938e58" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.Calendar.CreateCalendarControls</definition>
+        <argsstring>()</argsstring>
+        <name>CreateCalendarControls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="319" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="318" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_13428bebf3663f220b4aec914821502be" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.Calendar.SetCssClassesAndMore</definition>
+        <argsstring>()</argsstring>
+        <name>SetCssClassesAndMore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="392" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="391" bodyend="408"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_112f3a300229c1a6b2820057e86b55a53" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime Ra.Extensions.Widgets.Calendar.FindStartDate</definition>
+        <argsstring>()</argsstring>
+        <name>FindStartDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="411" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="410" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1464bada980d0ce94922f52446befd57b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.Calendar.CreateTodayButton</definition>
+        <argsstring>(HTML.HtmlTable tbl)</argsstring>
+        <name>CreateTodayButton</name>
+        <param>
+          <type>HTML.HtmlTable</type>
+          <declname>tbl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="421" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="420" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_192fc63117f6f9cef2c5640e230ca3414" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime Ra.Extensions.Widgets.Calendar.CreateOneDayCell</definition>
+        <argsstring>(DateTime idxDate, HTML.HtmlTableRow row)</argsstring>
+        <name>CreateOneDayCell</name>
+        <param>
+          <type>DateTime</type>
+          <declname>idxDate</declname>
+        </param>
+        <param>
+          <type>HTML.HtmlTableRow</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="441" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="440" bodyend="467"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_11d9975a1ee43c2cac00fed2998271f66" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime Ra.Extensions.Widgets.Calendar.CreateWeekNumberCell</definition>
+        <argsstring>(DateTime idxDate, HTML.HtmlTableRow row)</argsstring>
+        <name>CreateWeekNumberCell</name>
+        <param>
+          <type>DateTime</type>
+          <declname>idxDate</declname>
+        </param>
+        <param>
+          <type>HTML.HtmlTableRow</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="470" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="469" bodyend="479"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_104f9b9b95fdf4168deb8304bd513ec71" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ra.Extensions.Widgets.Calendar.GetWeekNumber</definition>
+        <argsstring>(DateTime dt)</argsstring>
+        <name>GetWeekNumber</name>
+        <param>
+          <type>DateTime</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="501" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="500" bodyend="521"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_16440dc616d618999c564678c454c17ba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>DateTime Ra.Extensions.Widgets.Calendar.GetWeekOneDate</definition>
+        <argsstring>(int year)</argsstring>
+        <name>GetWeekOneDate</name>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="524" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="523" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_19546b581e72cce93926fbe05fff69638" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.Calendar.CreateYearMonthPicker</definition>
+        <argsstring>(HTML.HtmlTable tbl)</argsstring>
+        <name>CreateYearMonthPicker</name>
+        <param>
+          <type>HTML.HtmlTable</type>
+          <declname>tbl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="533" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="532" bodyend="552"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_121acf82e9bad6feacb29674e3b64e163" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.Calendar.CreateMonthPicker</definition>
+        <argsstring>(HTML.HtmlTableCell headerCell)</argsstring>
+        <name>CreateMonthPicker</name>
+        <param>
+          <type>HTML.HtmlTableCell</type>
+          <declname>headerCell</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="555" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="554" bodyend="570"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1086c1f58d6adbae7c32b845fab8e7c3e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.Calendar.CreateYearPicker</definition>
+        <argsstring>(HTML.HtmlTableCell headerCell)</argsstring>
+        <name>CreateYearPicker</name>
+        <param>
+          <type>HTML.HtmlTableCell</type>
+          <declname>headerCell</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="573" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="572" bodyend="588"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1fc7659086a09eaa73db8669dec194a5a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.Calendar.today_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>today_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="591" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="590" bodyend="600"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1b774eff7d4696d23470df92cfa2de5ed" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.Calendar.month_SelectedIndexChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>month_SelectedIndexChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="603" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="602" bodyend="616"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_11181573c6a02322234e0570d4ef0e5fb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.Calendar.year_SelectedIndexChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>year_SelectedIndexChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="619" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="618" bodyend="632"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1bb8c78d740083a95681748636375ffdb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ra.Extensions.Widgets.Calendar.btn_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btn_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="635" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="634" bodyend="649"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1c101f279349baf7f0b3f5a869f249286" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DateTime</type>
+        <definition>static DateTime Ra.Extensions.Widgets.Calendar.CreateWeekDaysAtTop</definition>
+        <argsstring>(DateTime idxDate, HTML.HtmlTable tbl)</argsstring>
+        <name>CreateWeekDaysAtTop</name>
+        <param>
+          <type>DateTime</type>
+          <declname>idxDate</declname>
+        </param>
+        <param>
+          <type>HTML.HtmlTable</type>
+          <declname>tbl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="482" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="481" bodyend="498"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar" kindref="compound">Calendar</ref> widget for choosing dates. Basically just a <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker" kindref="compound">DateTimePicker</ref> control without the Time portions which makes it possible to choose dates. Use the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker" kindref="compound">DateTimePicker</ref> widget if you also need Time support. This is a highly flexible control and you can even override the rendering of cells by handling the RenderDay event from which you can even inject your own controls into specific dates and such. Highly versatile Control for date manipulations. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="103">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="101">
+        <label>Ra.Widgets.Panel</label>
+        <link refid="class_ra_1_1_widgets_1_1_panel"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>Ra.Extensions.Widgets.DateTimePicker</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_date_time_picker"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="103" relation="public-inheritance">
+        </childnode>
+        <childnode refid="104" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>Ra.Extensions.Widgets.Calendar</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar"/>
+        <childnode refid="101" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="111">
+        <label>Ra.Widgets.StyleCollection</label>
+        <link refid="class_ra_1_1_widgets_1_1_style_collection"/>
+        <childnode refid="108" relation="usage">
+          <edgelabel>_control</edgelabel>
+        </childnode>
+      </node>
+      <node id="109">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="107">
+        <label>Ra.Widgets.Panel</label>
+        <link refid="class_ra_1_1_widgets_1_1_panel"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="112">
+        <label>Ra.Widgets.Label</label>
+        <link refid="class_ra_1_1_widgets_1_1_label"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="109" relation="public-inheritance">
+        </childnode>
+        <childnode refid="110" relation="public-inheritance">
+        </childnode>
+        <childnode refid="111" relation="usage">
+          <edgelabel>_styles</edgelabel>
+        </childnode>
+      </node>
+      <node id="106">
+        <label>Ra.Extensions.Widgets.Calendar</label>
+        <link refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar"/>
+        <childnode refid="107" relation="public-inheritance">
+        </childnode>
+        <childnode refid="112" relation="usage">
+          <edgelabel>_content</edgelabel>
+          <edgelabel>_ne</edgelabel>
+          <edgelabel>_nw</edgelabel>
+          <edgelabel>_s</edgelabel>
+          <edgelabel>_caption</edgelabel>
+          <edgelabel>_e</edgelabel>
+          <edgelabel>_w</edgelabel>
+          <edgelabel>_body</edgelabel>
+          <edgelabel>_se</edgelabel>
+          <edgelabel>_sw</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="110">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" line="29" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Calendar.cs" bodystart="28" bodyend="650"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1182ceaacdb811d4e60f1805f993d31ad" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>_body</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1819f172ef9ef76a1d4b734abc547ccc2" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>_caption</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_101d94d4ccbf2f693ccf19b0df5877e36" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>_content</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1c7d3937ca8d37275d63b762e61a2af08" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>_e</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_132d3c194aab728bd47633109480b2a9a" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>_n</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1bb452b3f31861c498bb3523433efac18" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>_ne</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1139a931b378606cff0d06af7cccd9262" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>_nw</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_18491f4cab2bb11061760f6cb76c313eb" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>_s</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_18fec2474c0a9d696fcb88e000ed960e4" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>_se</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1b81b0cb613479b00c464d684353b8c57" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>_sw</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_19b39e9dfe17ffdeb04c9879a002caf3b" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>_w</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1bb8c78d740083a95681748636375ffdb" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>btn_Click</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_16423051af8f5f67744ac64b38cf06555" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>Caption</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14dcb41296fe7545bb820a9184c2db962" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>Click</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_17fc54ecbe52e078db6f2a7ece9938e58" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>CreateCalendarControls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_11c32ba5b0fbe45ee4c189e5777877db6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>CreateChildControls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_115f2e6cb3a0f0f224e587b411de7d909" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>CreateFooterControls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_121acf82e9bad6feacb29674e3b64e163" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>CreateMonthPicker</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_192fc63117f6f9cef2c5640e230ca3414" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>CreateOneDayCell</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1464bada980d0ce94922f52446befd57b" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>CreateTodayButton</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1c101f279349baf7f0b3f5a869f249286" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>CreateWeekDaysAtTop</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_11d9975a1ee43c2cac00fed2998271f66" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>CreateWeekNumberCell</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_16370e1a6c7348f272894ad6c0995c478" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>CreateWindowControls</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_19546b581e72cce93926fbe05fff69638" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>CreateYearMonthPicker</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1086c1f58d6adbae7c32b845fab8e7c3e" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>CreateYearPicker</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_182ce82f1f1564b697703b24b7fe4c8a0" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>CssClass</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_102952f21b8ed73d43e3c412d30a0cc92" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>DateClicked</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_19fa1952b1c6b040d43165f5a11606ead" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>DblClick</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1c6430d3868b755f48e9465a84b1bffbc" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>DefaultWidget</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1de60bed8a2264f876fdfbd7232836f7c" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>DispatchEvent</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_112f3a300229c1a6b2820057e86b55a53" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>FindStartDate</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_11b9a672cefa64ca768f84857447a8191" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>GetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1ffd2a1e2f6b7e496a21b53e498095251" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1252ed547fb14958b0f4d7bea1ebfc109" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_104c0e8c541fe0b029d0edcd6b99ee718" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1e4e9525d529e8227b3c1a5db86d030b7" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>GetMouseOutEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_18bbe18d42617850745996cb0d672260c" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>GetMouseOverEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_1e43aee7c85601ef8aa822dc4740210e6" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d8ae2b4ae6bce092e7d558db25b5c02a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>GetWebControlAttributes</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_104f9b9b95fdf4168deb8304bd513ec71" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>GetWeekNumber</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_16440dc616d618999c564678c454c17ba" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>GetWeekOneDate</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bc64e6e9488a31df7ae5ef0e3903b236" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>KeyDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_118b31c98087d7a57f49a42eb1bac2528" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>KeyPress</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1247f291546c64e40bddffb08936da867" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>KeyUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bccc3b360a6ddfe4f2aa2cb3e785ac1e" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>LoadViewState</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1b774eff7d4696d23470df92cfa2de5ed" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>month_SelectedIndexChanged</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c6c9ca13ef1e4e436153d6c3cf017a0c" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>MouseDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_103683f2d6d76237d0c501cde2ebae5ef" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>MouseMove</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_15be672aec4d07efc18f5e33cfeca6c7b" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>MouseOut</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d17aaa8103deb9d5037f8c3f334af1e7" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>MouseOver</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_13c51734abc45a09d5df540d48b88c6da" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>MouseUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_142b4a9a49ba0e6e81389627d4ad34aeb" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>OnClickClientSide</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_140a558cf9617ef2289be7fc7faf5130c" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1cc66f5fc3004a9b39a5efa2bece9ddcb" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>OnLoad</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_102afdc003d954acb2555f56328f27cdd" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>OnPreRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14cad6b9fb27c8c4c27b7bab4e471c445" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>QueueMultipleRequests</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_17d74fee59a34ea1bd5329082e043c531" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>RaWebControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1c797d72e2072de4711f8498e33d491be" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>RenderDay</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_151ad71b3e5b5708fffbc50d3b0d93e4f" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>SaveViewState</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_143f822e3c520fa51badc08ce2aea5ba4" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>SelectedValueChanged</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_126c54189e89a72cdfecdfa5c62a9b97e" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>SetAttribute</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_13428bebf3663f220b4aec914821502be" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>SetCssClassesAndMore</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_19cf5ee6cfa6f82750e1974d7c6bf9a36" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>StartsOn</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_168ccd06bd09c6e05962f0e8838045c80" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>Style</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1255844bd5511b517d5d292f925f20994" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>TabIndex</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_panel_182f02c963154472792679eae72cae436" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>Tag</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_1fc7659086a09eaa73db8669dec194a5a" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>today_Click</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1812b6302ab1f9ddf6e4ce88a5d447f28" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>Tooltip</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c5de8a6390860af479dd41b75bff7584" prot="protected" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>TrackViewState</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_15dc2bc126d803a6c5f2c495bd57d51fe" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>Value</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>Xtra</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_calendar_11181573c6a02322234e0570d4ef0e5fb" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Calendar</scope><name>year_SelectedIndexChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

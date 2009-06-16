@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_widgets_1_1_radio_button" kind="class" prot="public">
+    <compoundname>Ra::Widgets::RadioButton</compoundname>
+    <basecompoundref refid="class_ra_1_1_widgets_1_1_ra_web_control" prot="public" virt="non-virtual">Ra.Widgets.RaWebControl</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_ra_1_1_widgets_1_1_radio_button_1236b4746dc3d710d11797295514c9f09" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Widgets.RadioButton.CheckedChanged</definition>
+        <argsstring></argsstring>
+        <name>CheckedChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when checked state of radiobutton is changed </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" line="29" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_ra_1_1_widgets_1_1_radio_button_10375a7805a93ef18ff70fcb56e80e337" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Widgets.RadioButton.Blur</definition>
+        <argsstring></argsstring>
+        <name>Blur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when radiobutton looses focus, opposite of Focused </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" line="34" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_ra_1_1_widgets_1_1_radio_button_1c4589c623437b605d2fed1befb513a0e" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Ra.Widgets.RadioButton.Focused</definition>
+        <argsstring></argsstring>
+        <name>Focused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raised when radiobutton receives Focus, opposite of Blur </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" line="39" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_radio_button_1145b6fb665eb9ed4dfebdc6dd8151eec" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Widgets.RadioButton.Text</definition>
+        <argsstring></argsstring>
+        <name>Text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The text that is displayed within the radiobutton, default value is string.Empty </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" line="56" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_radio_button_1813606bb9f9e24a00deecf77c08e946a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Widgets.RadioButton.GroupName</definition>
+        <argsstring></argsstring>
+        <name>GroupName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>radiobuttons with the same groupname will toggle eachother when another one is checked </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" line="71" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_radio_button_1a5544712b553d34ac636d06d9cf308ce" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.RadioButton.Checked</definition>
+        <argsstring></argsstring>
+        <name>Checked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If true then the radiobutton is checked, otherwise it is unchecked </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" line="86" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_radio_button_19556e281d51098e7212ab7250c8d67bd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Ra.Widgets.RadioButton.AccessKey</definition>
+        <argsstring></argsstring>
+        <name>AccessKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The keyboard shortcut for changing the checked state. Most browsers implements some type of keyboard shortcut logic like for instance FireFox allows form elements to be triggered by combining the AccessKey value (single character) together with ALT and SHIFT. Meaning if you have e.g. &quot;H&quot; as keyboard shortcut you can change the checked state of this radiobutton by clicking ALT+SHIFT+H on your keyboard. The combinations to effectuate the keyboard shortcuts however vary from browsers to browsers. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" line="107" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ra_1_1_widgets_1_1_radio_button_1e340cf7cfbebeec74bdd9a211a0cdefa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Ra.Widgets.RadioButton.Enabled</definition>
+        <argsstring></argsstring>
+        <name>Enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If false then the radiobutton is disabled, otherwise it is enabled </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" line="122" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_radio_button_12031d228b86e38486d04119bc92e7189" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Widgets.RadioButton.OnInit</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnInit</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_140a558cf9617ef2289be7fc7faf5130c">OnInit</reimplements>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" line="127" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" bodystart="126" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_radio_button_1369ed3ec534c8596eb21a12c89523aaa" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Ra.Widgets.RadioButton.LoadViewState</definition>
+        <argsstring>(object savedState)</argsstring>
+        <name>LoadViewState</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_1bccc3b360a6ddfe4f2aa2cb3e785ac1e">LoadViewState</reimplements>
+        <param>
+          <type>object</type>
+          <declname>savedState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" line="148" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" bodystart="147" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_radio_button_140d004173b7d583316e8336fb0cdeb96" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Widgets.RadioButton.GetClientSideScriptOptions</definition>
+        <argsstring>()</argsstring>
+        <name>GetClientSideScriptOptions</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_1fe73a543a7b273e5c1f0ad2e433f90b5">GetClientSideScriptOptions</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" line="198" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" bodystart="197" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_radio_button_1cfd37436aa2407ece7347618499d7cd0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Widgets.RadioButton.GetMouseOutEventScript</definition>
+        <argsstring>()</argsstring>
+        <name>GetMouseOutEventScript</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_1e4e9525d529e8227b3c1a5db86d030b7">GetMouseOutEventScript</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" line="206" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" bodystart="205" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_radio_button_1ffb53d052b62f2c8984c609a92255a0d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Widgets.RadioButton.GetMouseOverEventScript</definition>
+        <argsstring>()</argsstring>
+        <name>GetMouseOverEventScript</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_18bbe18d42617850745996cb0d672260c">GetMouseOverEventScript</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" line="211" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" bodystart="210" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_radio_button_15e917df25e7b88c4c15033fec6f86495" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Widgets.RadioButton.GetEventsRegisterScript</definition>
+        <argsstring>()</argsstring>
+        <name>GetEventsRegisterScript</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_104c0e8c541fe0b029d0edcd6b99ee718">GetEventsRegisterScript</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" line="216" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" bodystart="215" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_radio_button_1f597b180c38024ef1d40afc364bfac09" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Ra.Widgets.RadioButton.GetOpeningHTML</definition>
+        <argsstring>()</argsstring>
+        <name>GetOpeningHTML</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_control_151e6f8bdb0af1a7a12654bfb329f280c">GetOpeningHTML</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" line="244" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" bodystart="243" bodyend="255"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ra_1_1_widgets_1_1_radio_button_1ac4b3cecae70d6bc2dcf4fc15e11d04c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Ra.Widgets.RadioButton.DispatchEvent</definition>
+        <argsstring>(string name)</argsstring>
+        <name>DispatchEvent</name>
+        <reimplements refid="class_ra_1_1_widgets_1_1_ra_web_control_1de60bed8a2264f876fdfbd7232836f7c">DispatchEvent</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" line="173" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" bodystart="172" bodyend="195"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_ra_1_1_widgets_1_1_radio_button" kindref="compound">RadioButton</ref> control. This is the equivalent of the HTML input type=&quot;radio&quot; element. By grouping several of these together you can create a &quot;single answer, multiple choice&quot; control. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="514">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="512">
+        <label>Ra.Widgets.RadioButton</label>
+        <link refid="class_ra_1_1_widgets_1_1_radio_button"/>
+        <childnode refid="513" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="513">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="514" relation="public-inheritance">
+        </childnode>
+        <childnode refid="515" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="515">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="520">
+        <label>Ra.Widgets.StyleCollection</label>
+        <link refid="class_ra_1_1_widgets_1_1_style_collection"/>
+        <childnode refid="517" relation="usage">
+          <edgelabel>_control</edgelabel>
+        </childnode>
+      </node>
+      <node id="518">
+        <label>Ra.Widgets.RaControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_control"/>
+      </node>
+      <node id="516">
+        <label>Ra.Widgets.RadioButton</label>
+        <link refid="class_ra_1_1_widgets_1_1_radio_button"/>
+        <childnode refid="517" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="517">
+        <label>Ra.Widgets.RaWebControl</label>
+        <link refid="class_ra_1_1_widgets_1_1_ra_web_control"/>
+        <childnode refid="518" relation="public-inheritance">
+        </childnode>
+        <childnode refid="519" relation="public-inheritance">
+        </childnode>
+        <childnode refid="520" relation="usage">
+          <edgelabel>_styles</edgelabel>
+        </childnode>
+      </node>
+      <node id="519">
+        <label>Ra.IRaControl</label>
+        <link refid="interface_ra_1_1_i_ra_control"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" line="25" bodyfile="C:/Work/ra-ajax/trunk/Ra/Widgets/RadioButton.cs" bodystart="24" bodyend="258"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_157fd35f567e64e950f7fd5043bf4aeb6" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>_hasSetFocus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_radio_button_19556e281d51098e7212ab7250c8d67bd" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>AccessKey</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1a73450da6bfd5b03137979c7f473adc9" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>Behaviors</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_radio_button_10375a7805a93ef18ff70fcb56e80e337" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>Blur</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_radio_button_1a5544712b553d34ac636d06d9cf308ce" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>Checked</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_radio_button_1236b4746dc3d710d11797295514c9f09" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>CheckedChanged</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14dcb41296fe7545bb820a9184c2db962" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>Click</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_16138c4d2623d7a9d0e55ca42d8a24667" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>CssClass</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_19fa1952b1c6b040d43165f5a11606ead" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>DblClick</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_radio_button_1ac4b3cecae70d6bc2dcf4fc15e11d04c" prot="public" virt="virtual"><scope>Ra::Widgets::RadioButton</scope><name>DispatchEvent</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_radio_button_1e340cf7cfbebeec74bdd9a211a0cdefa" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>Enabled</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17faeec10437cb8ebc53760dc7aadae5a" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>FirstBehavior&lt; T &gt;</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1e52af9687bd0b516c766c5e5678a5845" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>Focus</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_radio_button_1c4589c623437b605d2fed1befb513a0e" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>Focused</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_11b9a672cefa64ca768f84857447a8191" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>GetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1184c33b88cc4550977dd0dfddef2c3c6" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>GetBehaviorRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1d21a79b164488aa6f42674aa7072f0c1" prot="protected" virt="virtual"><scope>Ra::Widgets::RadioButton</scope><name>GetChildrenClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1dba9cc54e0335b74c848cf42273f9952" prot="protected" virt="virtual"><scope>Ra::Widgets::RadioButton</scope><name>GetClientSideScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_radio_button_140d004173b7d583316e8336fb0cdeb96" prot="protected" virt="virtual"><scope>Ra::Widgets::RadioButton</scope><name>GetClientSideScriptOptions</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_19bc954c1eaaf9d29bc106bf191a1ed35" prot="protected" virt="virtual"><scope>Ra::Widgets::RadioButton</scope><name>GetClientSideScriptType</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ab51177823d8893c51a42ae50df7f37e" prot="protected" virt="virtual"><scope>Ra::Widgets::RadioButton</scope><name>GetClosingHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_radio_button_15e917df25e7b88c4c15033fec6f86495" prot="protected" virt="virtual"><scope>Ra::Widgets::RadioButton</scope><name>GetEventsRegisterScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1aba020af937028c1161a04c36140a6d8" prot="public" virt="virtual"><scope>Ra::Widgets::RadioButton</scope><name>GetInvisibleHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_radio_button_1cfd37436aa2407ece7347618499d7cd0" prot="protected" virt="virtual"><scope>Ra::Widgets::RadioButton</scope><name>GetMouseOutEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_radio_button_1ffb53d052b62f2c8984c609a92255a0d" prot="protected" virt="virtual"><scope>Ra::Widgets::RadioButton</scope><name>GetMouseOverEventScript</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_radio_button_1f597b180c38024ef1d40afc364bfac09" prot="protected" virt="virtual"><scope>Ra::Widgets::RadioButton</scope><name>GetOpeningHTML</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d8ae2b4ae6bce092e7d558db25b5c02a" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>GetWebControlAttributes</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_radio_button_1813606bb9f9e24a00deecf77c08e946a" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>GroupName</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1bc64e6e9488a31df7ae5ef0e3903b236" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>KeyDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_118b31c98087d7a57f49a42eb1bac2528" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>KeyPress</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1247f291546c64e40bddffb08936da867" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>KeyUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_146a11b601f58a94bcc8c75288044341d" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>LoadControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_radio_button_1369ed3ec534c8596eb21a12c89523aaa" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>LoadViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c6c9ca13ef1e4e436153d6c3cf017a0c" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>MouseDown</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_103683f2d6d76237d0c501cde2ebae5ef" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>MouseMove</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_15be672aec4d07efc18f5e33cfeca6c7b" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>MouseOut</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1d17aaa8103deb9d5037f8c3f334af1e7" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>MouseOver</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_13c51734abc45a09d5df540d48b88c6da" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>MouseUp</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_142b4a9a49ba0e6e81389627d4ad34aeb" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>OnClickClientSide</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_radio_button_12031d228b86e38486d04119bc92e7189" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>OnInit</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_14cad6b9fb27c8c4c27b7bab4e471c445" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>QueueMultipleRequests</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_17d74fee59a34ea1bd5329082e043c531" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>RaWebControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1046a459b792eaab4a8069865cba973a6" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>RenderControl</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_155878c4bdbc29a9e3c1c5b28e116cb7f" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>ReRender</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_17cb1571dbb7c10536ffab8cfabc376ea" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>SaveControlState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_151ad71b3e5b5708fffbc50d3b0d93e4f" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>SaveViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1ba4bb49b5a9047e6ec6274cbc3f4ae36" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>SerializeJSON</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1eb4a17bf2199374c0117f4159fc9b4ef" prot="protected" virt="virtual"><scope>Ra::Widgets::RadioButton</scope><name>SerializeJSONValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_126c54189e89a72cdfecdfa5c62a9b97e" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>SetAttribute</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1458592e9bf6ba05f6d680ecf4878d7b0" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>SetJSONGenericValue</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1b5d09fdf8112188b569c6c7b3cdb561a" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>SetJSONValueBool</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_1495aad50295202562f3fa83d4acf8484" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>SetJSONValueObject</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_148b0f54843f69733676e93c8e485fd09" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>SetJSONValueString</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_168ccd06bd09c6e05962f0e8838045c80" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>Style</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1255844bd5511b517d5d292f925f20994" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>TabIndex</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_radio_button_1145b6fb665eb9ed4dfebdc6dd8151eec" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>Text</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1812b6302ab1f9ddf6e4ce88a5d447f28" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>Tooltip</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_web_control_1c5de8a6390860af479dd41b75bff7584" prot="protected" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>TrackViewState</name></member>
+      <member refid="class_ra_1_1_widgets_1_1_ra_control_153ca84a5458802acd83c494c0fbe1549" prot="public" virt="non-virtual"><scope>Ra::Widgets::RadioButton</scope><name>Xtra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

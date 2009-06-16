@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.9">
+  <compounddef id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1_1_comet_event_args" kind="class" prot="public">
+    <compoundname>Ra::Extensions::Widgets::Comet::CometEventArgs</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1_1_comet_event_args_11a111d8b8abf3e2c0183e52a23db7653" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Ra.Extensions.Widgets.Comet.CometEventArgs._id</definition>
+        <argsstring></argsstring>
+        <name>_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="41" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1_1_comet_event_args_10fc823610809a7d6b350f7f640db8243" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Ra.Extensions.Widgets.Comet.CometEventArgs.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>id of event raised </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="54" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1_1_comet_event_args_14883245b43278ce3280c5dcf58ff78d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal</type>
+        <definition>internal Ra.Extensions.Widgets.Comet.CometEventArgs.CometEventArgs</definition>
+        <argsstring>(string id)</argsstring>
+        <name>CometEventArgs</name>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="44" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Passed into the Tick event handler. Just a wrapper around the ID of the <ref refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet" kindref="compound">Comet</ref> Event being raised. </para>    </detaileddescription>
+    <location file="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" line="40" bodyfile="C:/Work/ra-ajax/trunk/Ra.Extensions/Widgets/Comet.cs" bodystart="39" bodyend="55"/>
+    <listofallmembers>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1_1_comet_event_args_11a111d8b8abf3e2c0183e52a23db7653" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet::CometEventArgs</scope><name>_id</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1_1_comet_event_args_14883245b43278ce3280c5dcf58ff78d2" prot="private" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet::CometEventArgs</scope><name>CometEventArgs</name></member>
+      <member refid="class_ra_1_1_extensions_1_1_widgets_1_1_comet_1_1_comet_event_args_10fc823610809a7d6b350f7f640db8243" prot="public" virt="non-virtual"><scope>Ra::Extensions::Widgets::Comet::CometEventArgs</scope><name>Id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
