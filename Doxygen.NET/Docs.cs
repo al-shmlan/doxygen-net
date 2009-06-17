@@ -77,6 +77,19 @@ namespace Doxygen.NET
             return null;
         }
 
+        public List<Class> GetAllClasses()
+        {
+            List<Class> classes = new List<Class>();
+            foreach (Namespace nspace in Namespaces)
+            {
+                foreach (Class c in nspace.Classes)
+                {
+                    classes.Add(c);
+                }
+            }
+            return classes;
+        }
+
         public void LoadNamespaces()
         {
             Namespaces = new List<Namespace>();
@@ -194,6 +207,7 @@ namespace Doxygen.NET
                 m.Kind = kind;
                 m.Description = member["detaileddescription"].InnerXml.Replace("preformatted", "pre");
                 m.AccessModifier = member.Attributes["prot"].Value;
+                m.Parent = t;
                 m.ReturnType = member["type"] != null ?
                     member["type"].InnerText : string.Empty;
                 t.Members.Add(m);

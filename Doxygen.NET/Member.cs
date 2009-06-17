@@ -28,6 +28,7 @@ namespace Doxygen.NET
 
         public string Name { get; protected internal set; }
         public virtual string AccessModifier { get; protected internal set; }
-        public virtual string ReturnType { get; protected internal set; } 
+        public virtual string ReturnType { get; protected internal set; }
+        public Type Parent { get; protected internal set; }
     }
 }
