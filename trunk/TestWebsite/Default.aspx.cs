@@ -37,7 +37,7 @@ public partial class _Default : System.Web.UI.Page
        foreach (Member item in SelectedClass.Members)
        {
            LinkButton memberLink = new LinkButton();
-           memberLink.Text = item.Name;
+           memberLink.Text = item.FullName;
            memberLink.Xtra = item.ID;
            memberLink.Click += memberLink_Click;
            members.Controls.Add(memberLink);
