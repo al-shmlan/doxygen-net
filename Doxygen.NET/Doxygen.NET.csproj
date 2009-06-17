@@ -36,7 +36,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccessModifiers.cs" />
     <Compile Include="Members\Constructor.cs" />
     <Compile Include="Members\MemberDelegate.cs" />
     <Compile Include="Members\Field.cs" />
@@ -54,7 +53,6 @@
     <Compile Include="Namespace.cs" />
     <Compile Include="Types\Struct.cs" />
     <Compile Include="Type.cs" />
-    <Compile Include="Xml\Parser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
