@@ -1,0 +1,2 @@
+Doxygen.NET is licensed under LGPL version 3. 
+Ra-Ajax and the TestWebsite are licensed under GPL version 3.
