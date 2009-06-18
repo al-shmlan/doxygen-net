@@ -28,5 +28,21 @@ namespace Doxygen.NET
         {
             Parameters = new List<Parameter>();
         }
+
+        public string Signature
+        {
+            get 
+            {
+                string parameters = string.Empty;
+                bool first = true;
+                foreach (Parameter param in Parameters)
+	            {
+                    parameters += string.Format("{0}{1}", first ? string.Empty : ", ", param);
+                    first = false;
+	            }
+                return string.Format("{0}{1}{2}({3})", ReturnType, ReturnType.Contains(".") ? string.Empty : " " , Name, parameters);
+            }
+        }
+
     }
 }

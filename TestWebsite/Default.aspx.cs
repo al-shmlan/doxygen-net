@@ -12,7 +12,7 @@ public partial class _Default : System.Web.UI.Page
         foreach (Class c in Docs.GetNamespaceByName("Ra.Behaviors").Classes)
         {
             LinkButton classLink = new LinkButton();
-            classLink.Text = c.Name;
+            classLink.Text = c.FullName;
             classLink.Xtra = c.ID;
             classLink.Click += classLink_Click;
             typesPanel.Controls.Add(classLink);
@@ -37,7 +37,7 @@ public partial class _Default : System.Web.UI.Page
        foreach (Member item in SelectedClass.Members)
        {
            LinkButton memberLink = new LinkButton();
-           memberLink.Text = item.FullName;
+           memberLink.Text = item.Name;
            memberLink.Xtra = item.ID;
            memberLink.Click += memberLink_Click;
            members.Controls.Add(memberLink);
@@ -52,19 +52,16 @@ public partial class _Default : System.Web.UI.Page
             return m.ID == (sender as LinkButton).Xtra;
         });
 
-        string args = string.Empty;
+        string methodSignature = string.Empty;
         if (member is Method)
         {
-            foreach (Parameter p in (member as Method).Parameters)
-	        {
-		        args += string.Format("Param ({1} : {0})<br />", p.Type, p.Name);
-	        }
+		    methodSignature = (member as Method).Signature;
         }
 
         parameters.Controls.Clear();
         parameters.Controls.Add(new System.Web.UI.LiteralControl(
             string.Format("<p>Access: {0}</p><p>Kind: {1}</p><p>{3}</p><p>Return Type: {4}</p><p>Description: {2}</p>", 
-            member.AccessModifier, member.Kind, member.Description, args, member.ReturnType)));
+            member.AccessModifier, member.Kind, member.Description, methodSignature, member.ReturnType)));
         parameters.ReRender();
     }
 
@@ -72,13 +69,13 @@ public partial class _Default : System.Web.UI.Page
     {
         get 
         {
-            if (Session["docs"] == null)
-                Session["docs"] = new Docs(Server.MapPath("~/docs-xml"));
-            return (Docs)Session["docs"];
+            if (Application["docs"] == null)
+                Application["docs"] = new Docs(Server.MapPath("~/docs-xml"));
+            return (Docs)Application["docs"];
         }
         set 
         {
-            Session["docs"] = value;
+            Application["docs"] = value;
         }
     }
 
@@ -86,13 +83,13 @@ public partial class _Default : System.Web.UI.Page
     {
         get
         {
-            if (Session["selected"] != null)
-                return (Class)Session["selected"];
+            if (Application["selected"] != null)
+                return (Class)Application["selected"];
             return null;
         }
         set
         {
-            Session["selected"] = value;
+            Application["selected"] = value;
         }
     }
 }
