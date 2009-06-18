@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<project name="Doxygen.NET" default="all" xmlns="http://nant.sf.net/release/0.86/nant.xsd">
+  
+  <!-- Properties -->
+  <property name="version" value="0.3.0" />
+  <property name="debug" value="false" />
+  <property name="doxygen.net.name" value="Doxygen.NET" />
+  <property name="test.website.name" value="TestWebsite" />
+
+  <property name="code.dir" value="code" />
+  <property name="library.dir" value="binaries" />
+  <property name="references.dir" value="References" />
+  <property name="output.dir" value="build_output/${doxygen.net.name}-${version}" />
+
+  <property name="samples.dir" value="Ra.Samples" />
+  <property name="samples.precompiled.dir" value="Ra.Samples_precompiled" />
+
+  <!-- Targets -->
+  <target name="all" depends="clean,init,compile.doxygen.net,package" />
+
+  <target name="clean" description="Remove Old Build Output Files">
+    <delete dir="${output.dir}" />
+  </target>
+
+  <target name="init" description="Necessary Initializations">
+    <mkdir dir="${output.dir}/${code.dir}" />
+    <mkdir dir="${output.dir}/${library.dir}" />
+  </target>
+
+  <target name="compile.doxygen.net" depends="clean,init" description="Compile Doxygen.NET">
+    <csc verbose="false" target="library" optimize="${not debug}" output="${output.dir}/${library.dir}/${doxygen.net.name}.dll" debug="${debug}">
+      <sources>
+        <include name="${doxygen.net.name}/**/*.cs" />
+        <exclude name="${doxygen.net.name}/obj/**/*.*" />
+      </sources>
+    </csc>
+  </target>
+
+  <target name="package" depends="compile.doxygen.net" description="Create Package">
+    <copy overwrite="true" todir="${output.dir}/${code.dir}">
+      <fileset>
+        <include name="${doxygen.net.name}.sln" />
+        <include name="${doxygen.net.name}.build" />
+        <include name="*.txt" />
+      </fileset>
+    </copy>
+
+    <copy overwrite="true" todir="${output.dir}/${code.dir}/${doxygen.net.name}">
+      <fileset basedir="${doxygen.net.name}">
+        <exclude name="obj/**/*.*" />
+        <include name="**/*.cs" />
+        <include name="**/*.csproj" />
+      </fileset>
+    </copy>
+
+    <copy overwrite="true" todir="${output.dir}/${code.dir}/${test.website.name}">
+      <fileset basedir="${test.website.name}">
+        <exclude name="obj/**/*.*" />
+        <include name="**/*.cs" />
+        <include name="**/*.xml" />
+        <include name="**/*.aspx" />
+        <include name="**/web.config" />
+      </fileset>
+    </copy>
+
+    <copy overwrite="true" todir="${output.dir}/${code.dir}/${test.website.name}/bin">
+      <fileset basedir="${references.dir}">
+        <include name="**/*.dll" />
+      </fileset>
+    </copy>
+
+    <zip zipfile="${output.dir}/${doxygen.net.name}-${version}.zip">
+      <fileset basedir="${output.dir}/${library.dir}" prefix="${library.dir}">
+        <include name="**/*" />
+      </fileset>
+      <fileset basedir="${output.dir}/${code.dir}" prefix="${code.dir}">
+        <include name="${doxygen.net.name}.sln" />
+        <include name="${doxygen.net.name}.build" />
+        <include name="*.txt" />
+      </fileset>
+      <fileset basedir="${output.dir}/${code.dir}/${doxygen.net.name}" prefix="${code.dir}/${doxygen.net.name}">
+        <include name="**/*" />
+      </fileset>
+      <fileset basedir="${output.dir}/${code.dir}/${test.website.name}" prefix="${code.dir}/${test.website.name}">
+        <include name="**/*" />
+      </fileset>
+    </zip>
+
+    <delete>
+      <fileset basedir="${output.dir}">
+        <include name="${code.dir}/**" />
+        <include name="${library.dir}/**" />
+      </fileset>
+    </delete>
+    
+  </target>
+</project>

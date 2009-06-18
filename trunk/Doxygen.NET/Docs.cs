@@ -210,6 +210,8 @@ namespace Doxygen.NET
                 m.Parent = t;
                 m.ReturnType = member["type"] != null ?
                     member["type"].InnerText : string.Empty;
+                if (m.ReturnType.EndsWith("."))
+                    m.ReturnType += m.Name;
                 t.Members.Add(m);
             }
         }

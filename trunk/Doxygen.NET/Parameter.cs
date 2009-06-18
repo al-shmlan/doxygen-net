@@ -19,5 +19,10 @@ namespace Doxygen.NET
     {
         public string Type { get; protected internal set; }
         public string Name { get; protected internal set; }
+
+        public override string ToString()
+        {
+            return string.Format("{0} {1}", Type, Name);
+        }
     }
 }
