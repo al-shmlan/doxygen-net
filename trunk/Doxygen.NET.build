@@ -2,7 +2,7 @@
 <project name="Doxygen.NET" default="all" xmlns="http://nant.sf.net/release/0.86/nant.xsd">
   
   <!-- Properties -->
-  <property name="version" value="0.3.0" />
+  <property name="version" value="0.3.1" />
   <property name="debug" value="false" />
   <property name="doxygen.net.name" value="Doxygen.NET" />
   <property name="test.website.name" value="TestWebsite" />
@@ -14,6 +14,8 @@
 
   <property name="samples.dir" value="Ra.Samples" />
   <property name="samples.precompiled.dir" value="Ra.Samples_precompiled" />
+  
+  <property name="framework.dir" value="${framework::get-framework-directory('net-2.0')}" />
 
   <!-- Targets -->
   <target name="all" depends="clean,init,compile.doxygen.net,package" />
@@ -28,11 +30,15 @@
   </target>
 
   <target name="compile.doxygen.net" depends="clean,init" description="Compile Doxygen.NET">
-    <csc verbose="false" target="library" optimize="${not debug}" output="${output.dir}/${library.dir}/${doxygen.net.name}.dll" debug="${debug}">
+    <csc verbose="false" target="library" optimize="${not debug}" filealign="512" output="${output.dir}/${library.dir}/${doxygen.net.name}.dll" debug="${debug}">
       <sources>
         <include name="${doxygen.net.name}/**/*.cs" />
         <exclude name="${doxygen.net.name}/obj/**/*.*" />
       </sources>
+      <references basedir="${framework.dir}">
+        <include name="System.dll" />
+        <include name="System.Xml.dll" />
+      </references>
     </csc>
   </target>
 
