@@ -21,5 +21,13 @@ namespace Doxygen.NET
         {
             get { return "property"; }
         }
+
+        public string Signature
+        {
+            get
+            {
+                return string.Format("{0}{1}{2}", ReturnType, ReturnType.Contains(".") ? string.Empty : " ", Name);
+            }
+        }
     }
 }
