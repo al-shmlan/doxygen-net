@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<project name="Doxygen.NET" default="all" xmlns="http://nant.sourceforge.net/release/0.86-beta1/nant.xsd">
+<project name="Doxygen.NET" default="all" xmlns="http://nant.sf.net/release/0.86-beta1/nant.xsd">
   
   <!-- Properties -->
   <property name="version" value="0.3.1" />
