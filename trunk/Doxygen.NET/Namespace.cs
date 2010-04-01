@@ -7,10 +7,10 @@
 
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Doxygen.NET
 {
+    [Serializable]
     public class Namespace : IDocItem
     {
         #region IDocItem Members
@@ -54,9 +54,9 @@ namespace Doxygen.NET
             get { return Types.FindAll(FindByKind("delegate")); }
         }
 
-        private Predicate<Type> FindByKind(string kind)
+        private static Predicate<Type> FindByKind(string kind)
         {
-            return delegate(Type type) { return type.Kind == kind; };
+            return type => type.Kind == kind;
         }
 
         public override string ToString()

@@ -7,10 +7,10 @@
 
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Doxygen.NET
 {
+    [Serializable]
     public class Type : IDocItem
     {
         #region IDocItem Members
@@ -22,10 +22,10 @@ namespace Doxygen.NET
 
         #endregion
 
-        public virtual Namespace Namespace { get; protected internal set; }
+        public Namespace Namespace { get; protected internal set; }
         public virtual List<Type> NestedTypes { get; protected internal set; }
-        public virtual List<Member> Members { get; protected internal set; }
-        public virtual List<string> BaseTypes { get; protected internal set; }
+        public List<Member> Members { get; protected internal set; }
+        public List<string> BaseTypes { get; protected internal set; }
 
         public virtual string Name
         {
@@ -68,9 +68,9 @@ namespace Doxygen.NET
             get { return Members.FindAll(FindByKind("memberdelegates")); }
         }
 
-        private Predicate<Member> FindByKind(string kind)
+        private static Predicate<Member> FindByKind(string kind)
         {
-            return delegate(Member member) { return member.Kind == kind; };
+            return member => member.Kind == kind;
         }
 
         public override string ToString()

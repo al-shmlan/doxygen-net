@@ -6,11 +6,10 @@
  */
 
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Doxygen.NET
 {
+    [Serializable]
     public class Member: IDocItem
     {
         #region IDocItem Members

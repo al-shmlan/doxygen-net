@@ -5,10 +5,6 @@
  * 
  */
 
-using System;
-using System.Collections.Generic;
-using System.Text;
-
 namespace Doxygen.NET
 {
     public interface IDocItem
