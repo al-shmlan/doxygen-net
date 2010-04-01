@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{41156A4C-3477-4871-B4E7-BA0CA4A297EA}"
+	ProjectSection(SolutionItems) = preProject
+		Doxygen.NET.build = Doxygen.NET.build
+		license.txt = license.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doxygen.NET.vs2010", "Doxygen.NET\Doxygen.NET.vs2010.csproj", "{FB0E5EE3-C5F8-4291-B320-221A2008AC31}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TestWebsite", "TestWebsite\", "{E87B12D6-4F57-4C69-A610-777E752EA51F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		ProjectReferences = "{FB0E5EE3-C5F8-4291-B320-221A2008AC31}|Doxygen.NET.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/TestWebsite"
+		Debug.AspNetCompiler.PhysicalPath = "TestWebsite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\TestWebsite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/TestWebsite"
+		Release.AspNetCompiler.PhysicalPath = "TestWebsite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\TestWebsite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4883"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB0E5EE3-C5F8-4291-B320-221A2008AC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB0E5EE3-C5F8-4291-B320-221A2008AC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB0E5EE3-C5F8-4291-B320-221A2008AC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB0E5EE3-C5F8-4291-B320-221A2008AC31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E87B12D6-4F57-4C69-A610-777E752EA51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E87B12D6-4F57-4C69-A610-777E752EA51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E87B12D6-4F57-4C69-A610-777E752EA51F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E87B12D6-4F57-4C69-A610-777E752EA51F}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

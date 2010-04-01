@@ -6,11 +6,10 @@
  */
 
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Doxygen.NET
 {
+    [Serializable]
     public class Interface : Class
     {
         public override string Kind

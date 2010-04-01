@@ -6,46 +6,50 @@
  */
 
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.IO;
 using System.Xml;
+using System.Collections.Generic;
 
 namespace Doxygen.NET
 {
+    [Serializable]
     public class Docs
     {
-        private XmlDocument _indexXmlDoc;
+        private readonly XmlDocument _indexXmlDoc;
 
         public List<FileInfo> XmlFiles { get; set; }
         public DirectoryInfo XmlDirectory { get; protected set; }
         public List<Namespace> Namespaces { get; protected set; }
 
-        public bool EagerParsing { get; set; }
+        private bool _eagerParsing;
                 
         public Docs(string doxygenXmlOuputDirectoryPath)
+            : this(doxygenXmlOuputDirectoryPath, true)
+        { }
+
+        public Docs(string doxygenXmlOuputDirectoryPath, bool eagerParsing)
         {
             if (!Directory.Exists(doxygenXmlOuputDirectoryPath))
                 throw new Exception("The specified directory does not exist.");
 
             XmlDirectory = new DirectoryInfo(doxygenXmlOuputDirectoryPath);
 
-           if (!File.Exists(Path.Combine(XmlDirectory.FullName, "index.xml")))
+            if (!File.Exists(Path.Combine(XmlDirectory.FullName, "index.xml")))
                 throw new Exception("The specified directory does not contain an essential file, \"index.xml\".");
 
-           EagerParsing = true;
+            _eagerParsing = eagerParsing;
 
             _indexXmlDoc = new XmlDocument();
             _indexXmlDoc.Load(Path.Combine(XmlDirectory.FullName, "index.xml"));
 
             XmlFiles = new List<FileInfo>(XmlDirectory.GetFiles("*.xml"));
 
-            LoadNamespaces();
+            LoadNamespaces();    
         }
 
         public Namespace GetNamespaceByName(string namespaceName)
         {
-            return Namespaces.Find(delegate(Namespace n) { return n.FullName == namespaceName; });
+            return Namespaces.Find(n => n.FullName == namespaceName);
         }
 
         public Type GetTypeByName(string typeFullName)
@@ -55,7 +59,7 @@ namespace Doxygen.NET
 
             if (nspace != null)
             {
-                Type type = nspace.Types.Find(delegate(Type t) { return t.FullName == typeFullName; });
+                Type type = nspace.Types.Find(t => t.FullName == typeFullName);
                 return type;
             }
 
@@ -66,7 +70,7 @@ namespace Doxygen.NET
         {
             foreach (Namespace nspace in Namespaces)
             {
-                Type type = nspace.Types.Find(delegate(Type t) { return t.ID == id; });
+                Type type = nspace.Types.Find(t => t.ID == id);
                 if (type != null)
                     return type;
             }
@@ -91,18 +95,43 @@ namespace Doxygen.NET
             Namespaces = new List<Namespace>();
             XmlNodeList namespaceXmlNodes = _indexXmlDoc.SelectNodes("/doxygenindex/compound[@kind=\"namespace\"]");
 
+            if (namespaceXmlNodes == null) 
+                return;
+
             foreach (XmlNode namespaceXmlNode in namespaceXmlNodes)
             {
-                Namespace nspace = new Namespace();
-                nspace.ID = namespaceXmlNode.Attributes["refid"].Value;
-                nspace.FullName = namespaceXmlNode["name"].InnerText.Replace("::", ".");
+                Namespace nspace = new Namespace
+                                   {
+                                       ID = namespaceXmlNode.Attributes["refid"].Value,
+                                       FullName = GetElementInnerText(namespaceXmlNode, "name").Replace("::", ".")
+                                   };
 
-                if (EagerParsing)
+                if (_eagerParsing)
                 {
                     LoadTypes(nspace, false);
                 }
                 Namespaces.Add(nspace);
             }
+        }
+
+        private static string GetElementInnerText(XmlNode xmlNode, string elementName)
+        {
+            XmlElement element = xmlNode[elementName];
+            
+            if (element != null) 
+                return element.InnerText ?? string.Empty;
+
+            return string.Empty;
+        }
+
+        private static string GetElementInnerXml(XmlNode xmlNode, string elementName)
+        {
+            XmlElement element = xmlNode[elementName];
+
+            if (element != null)
+                return element.InnerXml ?? string.Empty;
+
+            return string.Empty;
         }
 
         public void LoadTypes(Namespace nspace, bool forceReload)
@@ -115,9 +144,12 @@ namespace Doxygen.NET
             XmlNodeList typesXmlNodes = _indexXmlDoc.SelectNodes(
                 "/doxygenindex/compound[@kind=\"class\" or @kind=\"interface\" or @kind=\"enum\" or @kind=\"struct\" or @kind=\"delegate\"]");
 
+            if (typesXmlNodes == null) 
+                return;
+
             foreach (XmlNode typeXmlNode in typesXmlNodes)
             {
-                string typeName = typeXmlNode["name"].InnerText.Replace("::", ".");
+                string typeName = GetElementInnerText(typeXmlNode, "name").Replace("::", ".");
                 if (typeName.Contains(".") && typeName.Remove(typeName.LastIndexOf(".")) == nspace.FullName)
                 {
                     Type t = CreateNewType(typeXmlNode.Attributes["kind"].Value);
@@ -127,7 +159,7 @@ namespace Doxygen.NET
                     t.FullName = typeName;
                     t.Namespace = nspace;
 
-                    if (EagerParsing)
+                    if (_eagerParsing)
                     {
                         LoadTypesMembers(t, false);
                     }
@@ -141,10 +173,8 @@ namespace Doxygen.NET
             if (!forceReload && t.Members.Count > 0)
                 return;
 
-            FileInfo typeXmlFile = XmlFiles.Find(delegate(FileInfo file) 
-                { 
-                    return file.Name.Remove(file.Name.LastIndexOf(file.Extension)) == t.ID; 
-                });
+            FileInfo typeXmlFile = XmlFiles.Find(
+                file => file.Name.Remove(file.Name.LastIndexOf(file.Extension)) == t.ID);
 
             if (typeXmlFile == null || !typeXmlFile.Exists)
                 return;
@@ -165,26 +195,25 @@ namespace Doxygen.NET
             }
 
             XmlNodeList members = typeDoc.SelectNodes("/doxygen/compounddef/sectiondef/memberdef");
-            
+
+            if (members == null) 
+                return;
+
             foreach (XmlNode member in members)
             {
                 string kind = member.Attributes["kind"].Value;
-                string name = member["name"].InnerText;
-                string args = member["argsstring"] != null ? 
-                    member["argsstring"].InnerText.Replace("(", "").Replace(")", "").Trim() :
-                    string.Empty;
+                string name = GetElementInnerText(member, "name");
+                string args = GetElementInnerText(member, "argsstring").Replace("(", "").Replace(")", "").Trim();
 
                 List<Parameter> parameters = new List<Parameter>();
 
                 if (!string.IsNullOrEmpty(args) && kind == "function")
                 {
-                    string[] argsSplits = args.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+                    string[] argsSplits = args.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
                     foreach (string arg in argsSplits)
                     {
-                        string[] argParts = arg.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-                        Parameter p = new Parameter();
-                        p.Type = argParts[0].Trim();
-                        p.Name = argParts[1].Trim();
+                        string[] argParts = arg.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                        Parameter p = new Parameter { Type = argParts[0].Trim(), Name = argParts[1].Trim() };
                         parameters.Add(p);
                     }
                 }
@@ -194,25 +223,24 @@ namespace Doxygen.NET
 
                 Member m = CreateNewMember(kind);
 
-                if (parameters != null && parameters.Count > 0)
-                    (m as Method).Parameters = parameters;
+                if (parameters.Count > 0)
+                    ((Method) m).Parameters = parameters;
 
                 m.ID = member.Attributes["id"].Value;
                 m.FullName = string.Format("{0}.{1}", t.FullName, name);
                 m.Name = name;
                 m.Kind = kind;
-                m.Description = member["detaileddescription"].InnerXml.Replace("preformatted", "pre");
+                m.Description = GetElementInnerXml(member, "detaileddescription").Replace("preformatted", "pre");
                 m.AccessModifier = member.Attributes["prot"].Value;
                 m.Parent = t;
-                m.ReturnType = member["type"] != null ?
-                    member["type"].InnerText : string.Empty;
+                m.ReturnType = GetElementInnerText(member, "type");
                 if (m.ReturnType.EndsWith("."))
                     m.ReturnType += m.Name;
                 t.Members.Add(m);
             }
         }
 
-        private Type CreateNewType(string kind)
+        private static Type CreateNewType(string kind)
         {
             switch (kind)
             {
@@ -230,7 +258,7 @@ namespace Doxygen.NET
             return new Type();
         }
 
-        private Member CreateNewMember(string kind)
+        private static Member CreateNewMember(string kind)
         {
             switch (kind)
             {

@@ -7,10 +7,10 @@
 
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Doxygen.NET
 {
+    [Serializable]
     public class Delegate : Type
     {
         public override string Kind
